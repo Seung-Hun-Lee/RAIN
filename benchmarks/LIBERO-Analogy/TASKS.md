@@ -1,6 +1,6 @@
 # Task list
 
-Watch the full [LIBERO-Analogy video gallery](https://seung-hun-lee.github.io/projects/RAIN/gallery.html). Each video below shows the corresponding task.
+Watch the full [LIBERO-Analogy video gallery](https://seung-hun-lee.github.io/projects/RAIN/gallery.html). Each video below shows the corresponding task. Tasks are grouped by category and follow `category_order` in [TASK_INDEX.json](TASK_INDEX.json).
 
 | Task | Steps | Initial states | Instruction | Video |
 |---|---:|---:|---|---|
@@ -37,6 +37,13 @@ Watch the full [LIBERO-Analogy video gallery](https://seung-hun-lee.github.io/pr
 | Adapt_011 | 280 | 50 | Pick the orange juice and place it in the basket | [Watch](https://seung-hun-lee.github.io/projects/RAIN/assets/videos/gallery/Adapt_011.mp4) |
 | Adapt_012 | 280 | 50 | Pick the tomato sauce and place it in the basket | [Watch](https://seung-hun-lee.github.io/projects/RAIN/assets/videos/gallery/Adapt_012.mp4) |
 | Adapt_013 | 280 | 50 | Pick the milk and place it in the basket | [Watch](https://seung-hun-lee.github.io/projects/RAIN/assets/videos/gallery/Adapt_013.mp4) |
+| Adapt_014 | 520 | 5 | Put the popcorn on top of the short fridge | [Watch](https://seung-hun-lee.github.io/projects/RAIN/assets/videos/gallery/Adapt_014.mp4) |
+| Adapt_015 | 520 | 5 | Put the yellow book on top of the two-layer wooden shelf | [Watch](https://seung-hun-lee.github.io/projects/RAIN/assets/videos/gallery/Adapt_015.mp4) |
+| Adapt_016 | 520 | 5 | Pick up the black bowl at the table center and place it on the dining-set mat | [Watch](https://seung-hun-lee.github.io/projects/RAIN/assets/videos/gallery/Adapt_016.mp4) |
+| Adapt_017 | 520 | 5 | Pick the alphabet soup and place it in the left compartment of the bowl drainer | [Watch](https://seung-hun-lee.github.io/projects/RAIN/assets/videos/gallery/Adapt_017.mp4) |
+| Adapt_018 | 520 | 5 | Open the top drawer of the wooden cabinet | [Watch](https://seung-hun-lee.github.io/projects/RAIN/assets/videos/gallery/Adapt_018.mp4) |
+| Adapt_019 | 520 | 5 | Pick up the black bowl and place it in the wooden tray | [Watch](https://seung-hun-lee.github.io/projects/RAIN/assets/videos/gallery/Adapt_019.mp4) |
+| Adapt_020 | 520 | 5 | Put the ketchup on the rack | [Watch](https://seung-hun-lee.github.io/projects/RAIN/assets/videos/gallery/Adapt_020.mp4) |
 | Compose_001 | 1600 | 5 | Put the chocolate pudding on the black bowl, then open the middle drawer of the cabinet | [Watch](https://seung-hun-lee.github.io/projects/RAIN/assets/videos/gallery/Compose_001.mp4) |
 | Compose_002 | 1600 | 5 | Put the cream cheese on the stove, then turn on the stove | [Watch](https://seung-hun-lee.github.io/projects/RAIN/assets/videos/gallery/Compose_002.mp4) |
 | Compose_003 | 1600 | 5 | Put the cream cheese on the stove, then push the plate to the front of the stove | [Watch](https://seung-hun-lee.github.io/projects/RAIN/assets/videos/gallery/Compose_003.mp4) |
@@ -50,15 +57,8 @@ Watch the full [LIBERO-Analogy video gallery](https://seung-hun-lee.github.io/pr
 | Compose_011 | 800 | 5 | Put the cream cheese on the black bowl, and then push the plate to the front of the stove | [Watch](https://seung-hun-lee.github.io/projects/RAIN/assets/videos/gallery/Compose_011.mp4) |
 | Compose_012 | 1600 | 5 | Put the tomato sauce in the basket, then put the white mug on the plate | [Watch](https://seung-hun-lee.github.io/projects/RAIN/assets/videos/gallery/Compose_012.mp4) |
 | Compose_013 | 1600 | 5 | Put the alphabet soup in the basket, then put the white mug on the left plate, then put the cream cheese box in the basket | [Watch](https://seung-hun-lee.github.io/projects/RAIN/assets/videos/gallery/Compose_013.mp4) |
-| Adapt_014 | 520 | 5 | Put the popcorn on top of the short fridge | [Watch](https://seung-hun-lee.github.io/projects/RAIN/assets/videos/gallery/Adapt_014.mp4) |
-| Adapt_015 | 520 | 5 | Put the yellow book on top of the two-layer wooden shelf | [Watch](https://seung-hun-lee.github.io/projects/RAIN/assets/videos/gallery/Adapt_015.mp4) |
 | Compose_014 | 1600 | 5 | Put the moka pot on the stove, then close the bottom drawer of the cabinet | [Watch](https://seung-hun-lee.github.io/projects/RAIN/assets/videos/gallery/Compose_014.mp4) |
-| Adapt_016 | 520 | 5 | Pick up the black bowl at the table center and place it on the dining-set mat | [Watch](https://seung-hun-lee.github.io/projects/RAIN/assets/videos/gallery/Adapt_016.mp4) |
-| Adapt_017 | 520 | 5 | Pick the alphabet soup and place it in the left compartment of the bowl drainer | [Watch](https://seung-hun-lee.github.io/projects/RAIN/assets/videos/gallery/Adapt_017.mp4) |
 | Compose_015 | 1040 | 5 | Pick the butter and place it in the right compartment of the bowl drainer, then pick the tomato sauce and place it in the left compartment of the bowl drainer | [Watch](https://seung-hun-lee.github.io/projects/RAIN/assets/videos/gallery/Compose_015.mp4) |
-| Adapt_018 | 520 | 5 | Open the top drawer of the wooden cabinet | [Watch](https://seung-hun-lee.github.io/projects/RAIN/assets/videos/gallery/Adapt_018.mp4) |
-| Adapt_019 | 520 | 5 | Pick up the black bowl and place it in the wooden tray | [Watch](https://seung-hun-lee.github.io/projects/RAIN/assets/videos/gallery/Adapt_019.mp4) |
-| Adapt_020 | 520 | 5 | Put the ketchup on the rack | [Watch](https://seung-hun-lee.github.io/projects/RAIN/assets/videos/gallery/Adapt_020.mp4) |
 | Compose_016 | 1600 | 5 | Put the ramekin in the basket, then put the alphabet soup on the right plate | [Watch](https://seung-hun-lee.github.io/projects/RAIN/assets/videos/gallery/Compose_016.mp4) |
 | Compose_017 | 1800 | 5 | Put the tomato sauce in the basket, and then put the yellow and white mug on the plate | [Watch](https://seung-hun-lee.github.io/projects/RAIN/assets/videos/gallery/Compose_017.mp4) |
 | Compose_018 | 1040 | 5 | Pick the alphabet soup and place it in the left compartment of the bowl drainer, then pick the tomato sauce and place it in the right compartment of the bowl drainer | [Watch](https://seung-hun-lee.github.io/projects/RAIN/assets/videos/gallery/Compose_018.mp4) |
