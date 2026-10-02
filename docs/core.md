@@ -9,7 +9,7 @@ implementation uses third-person and wrist camera observations. See
 
 | Paper component | Actual source | Checkpoint prefix |
 | --- | --- | --- |
-| TCE, Target-adaptive Cross-view Encoder | `rainv2/models/vision_encoder.py` | `dual_view_encoder.` |
+| TCE, Target-adaptive Cross-view Encoder | `rain/models/vision_encoder.py` | `dual_view_encoder.` |
 | TarLN, Target-adaptive Layer Normalization | `TargetAdaptiveLayerNorm` / `TarLN` in the same file | Existing TCE submodule names |
 | PlanDiT | `shared/plan_dit.py` | `dit.` |
 | Transition Head | `rain/transition_head.py`; final model in `rain/model.py` | `fusion_branch.` |
@@ -18,6 +18,8 @@ implementation uses third-person and wrist camera observations. See
 Import the components with
 `from rain import RAIN, TCE, TarLN, PlanDiT, TransitionHead`.
 The checkpoint loader validates tensor names, shapes, dtypes, and head type.
+Model components are in `rain/models/`, with action and Transition Head trainers
+in `rain/training/action.py` and `rain/training/transition.py`.
 
 ## Data and feature preparation
 

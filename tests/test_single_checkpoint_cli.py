@@ -73,7 +73,7 @@ def test_analogy_forwards_one_checkpoint_to_both_loader_slots(monkeypatch):
     with pytest.raises(WorkerIntercepted):
         cli.main()
     assert captured == [(
-        ("model/checkpoint.pt", "model/checkpoint.pt", "rainv2"),
+        ("model/checkpoint.pt", "model/checkpoint.pt", "rain"),
         {"gpu_id": 0, "dino_input_size": 224},
     )]
 

@@ -5,7 +5,7 @@ Loads TCE + PlanDiT weights from Stage 1 checkpoint, freezes them,
 and trains only the progress head (gated fusion).
 
 Usage:
-    torchrun --nproc_per_node=8 -m rain.train_progress \
+    torchrun --nproc_per_node=8 -m rain.train_transition \
         --action-checkpoint outputs/rain_action/checkpoints/checkpoint_final.pt \
         --episodes-json DATA/episodes.json \
         --parquet-dir DATA/parquets \
@@ -38,13 +38,13 @@ from torch.utils.data import DataLoader
 from torch.utils.data.distributed import DistributedSampler
 from tqdm import tqdm
 
-from rainv2.configs.config import (
+from rain.configs.config import (
     ThirdEncoderConfig, WristEncoderConfig, DiTConfig, ProgressConfig,
     DataConfig, TrainingConfig,
 )
 from shared.data.dataset import build_datasets, collate_fn
-from rainv2.models.progress_heads import SingleViewProgressHead
-from rainv2.models.model import RAINModel
+from rain.models.progress_heads import SingleViewProgressHead
+from rain.models.model import RAINModel
 from shared.clip_utils import DEFAULT_CLIP_TEXT_MODEL
 
 logger = logging.getLogger(__name__)

@@ -92,8 +92,8 @@ def test_config_loader_rejects_unknown_fields(tmp_path):
 @pytest.mark.parametrize("stage", ["action", "transition"])
 @pytest.mark.parametrize("ablation", ABLATIONS)
 def test_portable_cli_matches_actual_trainer_config(stage, ablation, tmp_path, monkeypatch):
-    import rainv2.train_action as action_trainer
-    import rainv2.train_progress as transition_trainer
+    import rain.training.action as action_trainer
+    import rain.training.transition as transition_trainer
     import shared.training_config_check as checker
     import rain.train as launcher
     packed = str(tmp_path / "last_scale") if ablation == "no_multistage" else None
@@ -107,7 +107,7 @@ def test_portable_cli_matches_actual_trainer_config(stage, ablation, tmp_path, m
     monkeypatch.setattr(trainer, "setup_distributed", lambda: (0, 1, 0))
     monkeypatch.setattr(trainer, "set_seed", lambda *a: None)
     monkeypatch.setattr(trainer, "setup_experiment_log_tee", lambda p: p / "train.log")
-    module = "rainv2.train_action" if stage == "action" else "rain.train_transition"
+    module = "rain.training.action" if stage == "action" else "rain.train_transition"
     monkeypatch.setattr(sys, "argv", [module] + command[command.index(module) + 1:])
     class Checked(Exception):
         pass

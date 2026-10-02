@@ -5,7 +5,7 @@ Target-adaptive Cross-view Encoder (TCE) + PlanDiT.
 Progress head is created but frozen; only TCE + PlanDiT are trained.
 
 Usage:
-    torchrun --nproc_per_node=8 -m rain.train_action \
+    torchrun --nproc_per_node=8 -m rain.training.action \
         --episodes-json DATA/episodes.json \
         --parquet-dir DATA/parquets \
         --packed-features-dir DATA/packed_224 \
@@ -38,7 +38,7 @@ from torch.utils.data import DataLoader
 from torch.utils.data.distributed import DistributedSampler
 from tqdm import tqdm
 
-from rainv2.configs.config import (
+from rain.configs.config import (
     ThirdEncoderConfig, WristEncoderConfig, DiTConfig, ProgressConfig, DataConfig, TrainingConfig,
 )
 from shared.data.dataset import (
@@ -46,7 +46,7 @@ from shared.data.dataset import (
     build_datasets,
     collate_fn,
 )
-from rainv2.models.model import RAINModel
+from rain.models.model import RAINModel
 from shared.clip_utils import DEFAULT_CLIP_TEXT_MODEL, get_clip_text_feature_dim
 
 logger = logging.getLogger(__name__)

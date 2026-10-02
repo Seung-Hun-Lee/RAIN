@@ -16,7 +16,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-from rainv2.configs.config import ProgressConfig
+from rain.configs.config import ProgressConfig
 from shared.clip_utils import (
     DEFAULT_CLIP_TEXT_MODEL,
     get_clip_text_feature_dim,

@@ -5,7 +5,7 @@ from pathlib import Path
 
 import torch
 
-from rainv2.configs.config import TrainingConfig, ThirdEncoderConfig, WristEncoderConfig, DiTConfig, ProgressConfig, DataConfig
+from rain.configs.config import TrainingConfig, ThirdEncoderConfig, WristEncoderConfig, DiTConfig, ProgressConfig, DataConfig
 from .model import PoolingModel
 
 
@@ -27,8 +27,8 @@ def load_policy(action_checkpoint, transition_checkpoint, config_path, device="c
     config.online_dino = False
     # CLIP features are checkpoint tensors. Suppress only their redundant download
     # while constructing the model, then restore and verify every action tensor.
-    import rainv2.models.model as implementation
-    import rainv2.models.progress_heads as progress
+    import rain.models.model as implementation
+    import rain.models.progress_heads as progress
     old_main, old_progress = implementation._compute_clip_action_type_features, progress._compute_clip_action_type_features
     def checkpoint_placeholder(*args, **kwargs):
         return torch.zeros(7, config.dit.text_dim)

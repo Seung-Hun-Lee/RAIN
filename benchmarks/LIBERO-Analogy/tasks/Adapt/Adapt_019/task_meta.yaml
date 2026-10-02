@@ -116,7 +116,7 @@ source_state_reuse_allowed: false
 fresh_state_seed_base: 1737000
 fresh_initial_state_sha256: d314c9b39062eb5e15db225b2f27b9a75e81cfa541c006855ac47de876e78b47
 rain_five_episode_result:
-  model: RAINv2
+  model: RAIN
   successes: 2
   episodes: 5
   success_rate_percent: 40.0

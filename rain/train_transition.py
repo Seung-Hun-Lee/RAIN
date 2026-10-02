@@ -7,7 +7,7 @@ from torch.amp import autocast
 from torch.nn.parallel import DistributedDataParallel as DDP
 from tqdm import tqdm
 
-import rainv2.train_progress as original
+import rain.training.transition as original
 from .model import PoolingModel
 
 

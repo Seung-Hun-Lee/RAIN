@@ -2044,7 +2044,7 @@
     {
       "source_sha256": "5b162c67b61dc0232efa1f86ac569ff85a6a7f553304cbbce6d311677e75c36c",
       "target": "tasks/Adapt/Adapt_019/task_meta.yaml",
-      "target_sha256": "8a28819679678ef3242aa88da363b6964fadcc3fb0edca86e38fd8363b142b8d",
+      "target_sha256": "cfaa849c9a268efb50cbd69223a1a4e6cc9e9a990d948621f01ed50a938f0509",
       "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged; workflow metadata and approval notes removed; task semantics unchanged"
     },
     {
