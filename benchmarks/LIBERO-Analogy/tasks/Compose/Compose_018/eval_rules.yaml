@@ -1,0 +1,17 @@
+task_id: Compose_018
+category: Composition
+custom_eval_needed: true
+order_sensitive: true
+required_goal_atoms:
+- in(alphabet_soup_1, bowl_drainer_1_right_region)
+- in(tomato_sauce_1, bowl_drainer_1_left_region)
+ordered_event_atoms:
+- in(alphabet_soup_1, bowl_drainer_1_right_region)
+- in(tomato_sauce_1, bowl_drainer_1_left_region)
+continue_after_success: false
+forbidden_goal_atoms: []
+sequence_stages: []
+requires_transition: true
+drainer_completion_mode: released_supported
+support_hold_control_steps: 5
+legacy_task_id: BDRMIN_002

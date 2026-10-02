@@ -1,0 +1,33 @@
+task_id: Decompose_002
+task_name: Put the yellow and white mug on the right plate
+language: Put the yellow and white mug on the right plate
+primary_category: TD
+anchor_suite: libero_10
+source_prior_description: Put the white mug on the left plate and put the yellow and
+  white mug on the right plate
+new_test_task_description: Put the yellow and white mug on the right plate
+scene_family: libero_10_living_room_scene5
+objects_of_interest:
+- white_yellow_mug_1
+- plate_2
+canonical_goal_atoms:
+- on(white_yellow_mug_1, plate_2)
+canonical_task_signature: libero_10_living_room_scene5|frozenset({on(white_yellow_mug_1,
+  plate_2)})
+held_fixed:
+- scene layout
+- fixtures
+- object set
+- init-state family
+varied:
+- goal subset
+why_this_category: Task Decomposition
+instruction_variants:
+- Put the yellow and white mug on the right plate
+source_prior_task_ids:
+- 104
+base_bddl_template: libero://bddl_files/libero_10/LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate.bddl
+base_pruned_init: libero://init_files/libero_10/LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate.pruned_init
+legacy_task_id: TDL10_002
+collection_category: Decompose
+category_order: 2

@@ -1,0 +1,10 @@
+*.py text eol=lf
+*.sh text eol=lf
+*.md text eol=lf
+*.bddl text eol=lf
+*.pruned_init binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+# Frozen benchmark hashes cover source bytes, including line endings.
+benchmarks/LIBERO-Analogy/** -text

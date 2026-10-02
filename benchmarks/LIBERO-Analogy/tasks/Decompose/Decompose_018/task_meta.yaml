@@ -1,0 +1,41 @@
+task_id: Decompose_018
+candidate_index: 4
+task_name: Put the right moka pot on the stove
+language: Put the right moka pot on the stove
+primary_category: TD
+anchor_suite: libero_10
+source_prior_description: Put both moka pots on the stove
+source_prior_task_ids:
+- 105
+new_test_task_description: Put the right moka pot on the stove
+scene_family: libero_10_kitchen_scene8
+objects_of_interest:
+- moka_pot_1
+- flat_stove_1_cook_region
+canonical_goal_atoms:
+- on(moka_pot_1, flat_stove_1_cook_region)
+canonical_task_signature: libero_10_kitchen_scene8|frozenset({on(moka_pot_1, flat_stove_1_cook_region)})
+held_fixed:
+- scene layout
+- fixtures
+- object set
+- init-state family
+varied:
+- requested subtask / goal subset
+why_this_category: Task Decomposition candidate
+decomposition_rule_class: strict_goal_subset_new
+strict_goal_subset_selection_eligible: true
+description_trajectory_selection_eligible: true
+semantic_decomposition_selection_eligible: true
+overlap_with_current_14: false
+legacy_decomposition_overlap: none
+candidate_rationale: New strict subset from the previously unused both-moka LIBERO-10
+  source.
+contextual_atoms_true_at_initialization:
+- turnon(flat_stove_1)
+base_bddl_template: libero://bddl_files/libero_10/KITCHEN_SCENE8_put_both_moka_pots_on_the_stove.bddl
+base_pruned_init: libero://init_files/libero_10/KITCHEN_SCENE8_put_both_moka_pots_on_the_stove.pruned_init
+max_steps: 520
+legacy_task_id: TDC40_004
+collection_category: Decompose
+category_order: 18

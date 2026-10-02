@@ -1,0 +1,16 @@
+name: Compose_007
+language: Push the plate to the front of the stove, and then open the middle drawer
+  of the cabinet
+problem: Libero
+problem_folder: tasks/Compose/Compose_007
+bddl_file: task.bddl
+init_states_file: task.pruned_init
+category: Composition
+anchor_suite: libero_goal
+metadata_file: ../../tasks/Compose/Compose_007/task_meta.yaml
+eval_rules_file: ../../tasks/Compose/Compose_007/eval_rules.yaml
+mask_bindings_file: ../../Compose/Compose_007/mask_bindings.yaml
+action_plan_file: ../../Compose/Compose_007/action_plan.yaml
+canonical_task_signature: composition|3f474b285ddc2e6e7e375309ab9cbd20d9a618ab3520cafd769b89fad2c6a2d1|frozenset({on(plate_1,main_table_stove_front_region),open(wooden_cabinet_1_middle_region)})
+collection_category: Compose
+legacy_task_id: COMP2_032

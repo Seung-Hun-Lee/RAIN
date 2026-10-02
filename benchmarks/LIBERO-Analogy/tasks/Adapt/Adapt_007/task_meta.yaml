@@ -1,0 +1,34 @@
+task_id: Adapt_007
+task_name: Put the plate on the top of the wooden cabinet
+language: Put the plate on the top of the wooden cabinet
+primary_category: Analogy
+analogy_family: G3_goal_object_to_cabinet_top
+anchor_suite: libero_goal
+source_prior_task_ids:
+- 1
+source_prior_task_stem: put_the_wine_bottle_on_top_of_the_cabinet
+source_prior_description: Put the wine bottle on the top of the drawer
+canonical_goal_atoms:
+- on(plate_1, wooden_cabinet_1_top_side)
+canonical_task_signature: analogy|G3_goal_object_to_cabinet_top|goal_relation_g3_goal_object_to_cabinet_top_plate|on(plate_1,
+  wooden_cabinet_1_top_side)
+objects_of_interest:
+- plate_1
+- wooden_cabinet_1_top_side
+held_fixed:
+- Goal scene fixture poses
+- source-scene context
+- single On predicate
+varied:
+- bind plate to the learned Goal relation and target
+single_semantic_goal: true
+physical_group: goal_relation_g3_goal_object_to_cabinet_top_plate
+base_bddl_template: source://put_the_wine_bottle_on_top_of_the_cabinet.bddl
+base_pruned_init: source://put_the_wine_bottle_on_top_of_the_cabinet.pruned_init
+notes:
+- 'Relation evidence: original Goal task 5; the source manipuland pose is preserved.'
+- 'Training evidence: the plate is directly manipulated by the original Goal push
+  task, but not by pick-and-place.'
+legacy_task_id: ANLGX_134
+collection_category: Adapt
+category_order: 7

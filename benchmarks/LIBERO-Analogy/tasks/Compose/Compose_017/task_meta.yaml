@@ -1,0 +1,85 @@
+task_id: Compose_017
+task_name: Put the tomato sauce in the basket, and then put the yellow and white mug
+  on the plate
+language: Put the tomato sauce in the basket, and then put the yellow and white mug
+  on the plate
+primary_category: Composition
+composition_family: object05_target_slot_yellow_proven_basket_first
+anchor_suite: cross_suite_compose
+source_prior_task_ids:
+- '306'
+- '104'
+source_priors:
+- suite: libero_object
+  task_stem: pick_up_the_ketchup_and_place_it_in_the_basket
+  instruction: Pick the ketchup and place it in the basket
+  bddl: source://pick_up_the_ketchup_and_place_it_in_the_basket.bddl
+  init: source://pick_up_the_ketchup_and_place_it_in_the_basket.pruned_init
+  evidence: ''
+- suite: libero_object
+  task_stem: pick_up_the_tomato_sauce_and_place_it_in_the_basket
+  instruction: Pick the tomato sauce and place it in the basket
+  bddl: source://pick_up_the_tomato_sauce_and_place_it_in_the_basket.bddl
+  init: source://pick_up_the_tomato_sauce_and_place_it_in_the_basket.pruned_init
+  evidence: ''
+- suite: libero_10
+  task_stem: LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate
+  instruction: put the white mug on the left plate and put the yellow and white mug
+    on the right plate
+  bddl: source://LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate.bddl
+  init: source://LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate.pruned_init
+  evidence: ''
+component_task_instructions:
+- Put the tomato sauce in the basket
+- Put the yellow and white mug on the plate
+component_evidence:
+- Object identity has its own original LIBERO-Object pick-to-basket trajectory; its
+  pose in the composite scene may differ.
+- The mug-to-plate primitive is from LIBERO-10 Scene 5; both objects occupy freed,
+  previously visited Object-05 slots.
+semantic_subtask_count: 2
+action_plan_step_count: 4
+canonical_goal_atoms:
+- in(tomato_sauce_1, basket_1_contain_region)
+- on(white_yellow_mug_1,plate_1)
+canonical_task_signature: composition|2133624895648883c24663215608e6ac4a1183e9860083f5d7b577689b8785f1|frozenset({in(tomato_sauce_1,basket_1_contain_region),on(white_yellow_mug_1,plate_1)})
+objects_of_interest:
+- tomato_sauce_1
+- basket_1
+- white_yellow_mug_1
+- plate_1
+pure_composition: true
+requires_transition: true
+sequence_stages:
+- - in(tomato_sauce_1, basket_1_contain_region)
+- - in(tomato_sauce_1, basket_1_contain_region)
+  - on(white_yellow_mug_1,plate_1)
+physical_group: object05_target_slot__tomato_sauce_1__yellow_proven
+base_bddl_template: source://pick_up_the_ketchup_and_place_it_in_the_basket.bddl
+base_pruned_init: source://pick_up_the_ketchup_and_place_it_in_the_basket.pruned_init
+max_steps: 1800
+notes:
+- The basket and target pickup use the exact original Object-05 regions.
+- tomato_sauce_1 is the requested identity at the original Object-05 target slot.
+- exact empirically successful UCOMP_012 Layout-B mug/plate regions.
+- Two non-interacting distractors retain original Object-05 slots; no arbitrary XY
+  coordinate is used.
+validation_version: user_inspired_compose_followup63_source_aligned_v1
+runtime_contract_version: strict_ordered_native_final_bddl_no_final_tc_v1
+ordered_event_atoms:
+- in(tomato_sauce_1, basket_1_contain_region)
+- on(white_yellow_mug_1,plate_1)
+strict_event_order: true
+custom_eval_needed: true
+final_success_requires_all_bddl_goals: true
+compose_final_tc_gate: false
+final_tc_gate: false
+environment_ignore_done: true
+downstream_preservation_required: true
+fixture_replay_required: true
+compose_final_termination: ordered_native_goals_without_tc
+physical_screen_report_sha256: 3c8a247a5e391c5c8557dad104c3f453906fcc10b3063766d86aee43e0ee4149
+ordered_task_signature: 59a1da05fa534b68b5c7432a5212751bb4bf66210ef3a392ba522f9964a822d2
+legacy_task_id: UCOMP_040
+collection_category: Compose
+category_order: 17

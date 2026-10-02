@@ -1,0 +1,16 @@
+name: Compose_010
+language: Put the alphabet soup, the butter, and the tomato sauce in the basket one
+  after another
+problem: Libero
+problem_folder: tasks/Compose/Compose_010
+bddl_file: task.bddl
+init_states_file: task.pruned_init
+category: Composition
+anchor_suite: libero_10
+metadata_file: task_meta.yaml
+eval_rules_file: eval_rules.yaml
+mask_bindings_file: mask_bindings.yaml
+action_plan_file: action_plan.yaml
+canonical_task_signature: composition|16d60b6417ebeed74645d67ef8834e2dfb629ef82039d216f1f056fba6095708|frozenset({in(alphabet_soup_1,basket_1_contain_region),in(butter_1,basket_1_contain_region),in(tomato_sauce_1,basket_1_contain_region)})
+legacy_task_id: COMPOSE_155
+collection_category: Compose

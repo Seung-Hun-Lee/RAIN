@@ -1,0 +1,2873 @@
+{
+  "schema_version": 1,
+  "files": [
+    {
+      "source_sha256": "989300431ea434efe0566078afe4666271b66c741b065f03190ee558cb285b59",
+      "target": "tasks/Decompose/Decompose_001/task.bddl",
+      "target_sha256": "989300431ea434efe0566078afe4666271b66c741b065f03190ee558cb285b59",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "b6f20784b381c75d715f4fdaadda1fb460cbe24adcbad76f381a009419b8474e",
+      "target": "tasks/Decompose/Decompose_001/task.pruned_init",
+      "target_sha256": "b6f20784b381c75d715f4fdaadda1fb460cbe24adcbad76f381a009419b8474e",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "ea715b04206746b4858fb091eca506f889808f465f42724130fd5a8c588aee6c",
+      "target": "tasks/Decompose/Decompose_001/eval_rules.yaml",
+      "target_sha256": "ea715b04206746b4858fb091eca506f889808f465f42724130fd5a8c588aee6c",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "5d17a2785cd85fbb54128777d19523f838e3f16a8176a83ba11ecc90e80c0330",
+      "target": "tasks/Decompose/Decompose_001/task_meta.yaml",
+      "target_sha256": "5d17a2785cd85fbb54128777d19523f838e3f16a8176a83ba11ecc90e80c0330",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged"
+    },
+    {
+      "source_sha256": "239cd5118aa4c5da122d6bd98d20c3a5e4dc787445ddfd02180f88e90855bf55",
+      "target": "tasks/Decompose/Decompose_001/registry_entry.yaml",
+      "target_sha256": "175a70f6938bb37243141e6f5282f9dd47d78adc75beaa6b3a88aba7baedcacd",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "8621bd7962f7780b579e580cecb44e914eaec6e87172fdadd59e1b6b863305db",
+      "target": "tasks/Decompose/Decompose_002/task.bddl",
+      "target_sha256": "8621bd7962f7780b579e580cecb44e914eaec6e87172fdadd59e1b6b863305db",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "b6f20784b381c75d715f4fdaadda1fb460cbe24adcbad76f381a009419b8474e",
+      "target": "tasks/Decompose/Decompose_002/task.pruned_init",
+      "target_sha256": "b6f20784b381c75d715f4fdaadda1fb460cbe24adcbad76f381a009419b8474e",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "744a2f0cbd3dc133d6df5bf49bd269655530fab36ea8a8fa3737d087d80f80f2",
+      "target": "tasks/Decompose/Decompose_002/eval_rules.yaml",
+      "target_sha256": "744a2f0cbd3dc133d6df5bf49bd269655530fab36ea8a8fa3737d087d80f80f2",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "02e8c752d60d49f9da17b77164a8c6347af14f1b69a0bb1f8eab40c02b612622",
+      "target": "tasks/Decompose/Decompose_002/task_meta.yaml",
+      "target_sha256": "02e8c752d60d49f9da17b77164a8c6347af14f1b69a0bb1f8eab40c02b612622",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged"
+    },
+    {
+      "source_sha256": "208fc9d7acca984f1db4f1e44fb97fa25bd312e34ab2c24c0f8cfae9248596fa",
+      "target": "tasks/Decompose/Decompose_002/registry_entry.yaml",
+      "target_sha256": "dccbe09511d7a0b2265b45d121f44262e029b4a22c55eb720496ca0108270fa8",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "42b8af6dc2c698a5d9ed2183e2b978d5125ab41d0bfc96eb03983248fb08aa25",
+      "target": "tasks/Decompose/Decompose_003/task.bddl",
+      "target_sha256": "42b8af6dc2c698a5d9ed2183e2b978d5125ab41d0bfc96eb03983248fb08aa25",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "6e811394c4ff9a43ae23515d8512e9b657c04344b94dd5baed121b595490514f",
+      "target": "tasks/Decompose/Decompose_003/task.pruned_init",
+      "target_sha256": "6e811394c4ff9a43ae23515d8512e9b657c04344b94dd5baed121b595490514f",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "cafcc6e8d5e546a684b05f86c237e102e843b64a7a5b53272141c3a00eb4766e",
+      "target": "tasks/Decompose/Decompose_003/eval_rules.yaml",
+      "target_sha256": "cafcc6e8d5e546a684b05f86c237e102e843b64a7a5b53272141c3a00eb4766e",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "edc84d60444c00e0f8f50d0d741de88134838c5d052c59acdc313e84d1d2b300",
+      "target": "tasks/Decompose/Decompose_003/task_meta.yaml",
+      "target_sha256": "edc84d60444c00e0f8f50d0d741de88134838c5d052c59acdc313e84d1d2b300",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged"
+    },
+    {
+      "source_sha256": "53dd6b1fc43769b6f9834e9a80e2c857644e889812d54632105128741b8c2afc",
+      "target": "tasks/Decompose/Decompose_003/registry_entry.yaml",
+      "target_sha256": "0139246fc96f1f5a882104237095583e7c95d95c466094455af437560e47a1a1",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "56a8fa10820ad209a97535182dd2f5ee6b8017dd10a12b5e4fb031528cf823ef",
+      "target": "tasks/Decompose/Decompose_004/task.bddl",
+      "target_sha256": "56a8fa10820ad209a97535182dd2f5ee6b8017dd10a12b5e4fb031528cf823ef",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "6e811394c4ff9a43ae23515d8512e9b657c04344b94dd5baed121b595490514f",
+      "target": "tasks/Decompose/Decompose_004/task.pruned_init",
+      "target_sha256": "6e811394c4ff9a43ae23515d8512e9b657c04344b94dd5baed121b595490514f",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "479b3e7572b0a56b46adfc2da6a38bb24bf5fd7b8e6348b4d2faa16d2fcdf137",
+      "target": "tasks/Decompose/Decompose_004/eval_rules.yaml",
+      "target_sha256": "479b3e7572b0a56b46adfc2da6a38bb24bf5fd7b8e6348b4d2faa16d2fcdf137",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "cb737badcf6e8ec4e0f459a59ad0a0b235ee1c9d2cdf7dcc6e206e0fe75e765f",
+      "target": "tasks/Decompose/Decompose_004/task_meta.yaml",
+      "target_sha256": "cb737badcf6e8ec4e0f459a59ad0a0b235ee1c9d2cdf7dcc6e206e0fe75e765f",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged"
+    },
+    {
+      "source_sha256": "7259f1f0335d59d86c163c0e0dcb1eb43471b665329a87bca7eea46615a7ccc5",
+      "target": "tasks/Decompose/Decompose_004/registry_entry.yaml",
+      "target_sha256": "fa4c2d7b3cafa8bdc2c40262138dce0f2955734355e81796a7560a1b8a851617",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "ba38cd26e9f3b6a001505cc2e2fce4527f12763b262344a83e12504798c66f37",
+      "target": "tasks/Decompose/Decompose_005/task.bddl",
+      "target_sha256": "ba38cd26e9f3b6a001505cc2e2fce4527f12763b262344a83e12504798c66f37",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "6b75c8d4d1e1c40b5d99c78ceea380d99ccffb0a484a4cb2d3153488a0afbbe2",
+      "target": "tasks/Decompose/Decompose_005/task.pruned_init",
+      "target_sha256": "6b75c8d4d1e1c40b5d99c78ceea380d99ccffb0a484a4cb2d3153488a0afbbe2",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "a2eda02b7da0c7c80e8e9a1955599e9202f3de69db20e814b1787051ea6588cb",
+      "target": "tasks/Decompose/Decompose_005/eval_rules.yaml",
+      "target_sha256": "a2eda02b7da0c7c80e8e9a1955599e9202f3de69db20e814b1787051ea6588cb",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "58578f53e7df80cacdb7ba9786df756b8983cab31b16f98ef09a6e8fc76b4e75",
+      "target": "tasks/Decompose/Decompose_005/task_meta.yaml",
+      "target_sha256": "58578f53e7df80cacdb7ba9786df756b8983cab31b16f98ef09a6e8fc76b4e75",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged"
+    },
+    {
+      "source_sha256": "2b0bdf0eb674f4eef323725a94f2527c0b5497bcc0674a7d5d94d001f6448127",
+      "target": "tasks/Decompose/Decompose_005/registry_entry.yaml",
+      "target_sha256": "86c0053ef85d7d09bfe82c90ea1ba8d28ec9aa5cb521539855837c3ef760a731",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "cb4261af691c1ae4483ea8d56b2a7bd7f1206ec59ca2d3b4914cd7b6f9e8aff9",
+      "target": "tasks/Decompose/Decompose_006/task.bddl",
+      "target_sha256": "cb4261af691c1ae4483ea8d56b2a7bd7f1206ec59ca2d3b4914cd7b6f9e8aff9",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "6b75c8d4d1e1c40b5d99c78ceea380d99ccffb0a484a4cb2d3153488a0afbbe2",
+      "target": "tasks/Decompose/Decompose_006/task.pruned_init",
+      "target_sha256": "6b75c8d4d1e1c40b5d99c78ceea380d99ccffb0a484a4cb2d3153488a0afbbe2",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "43c1dce022a68d3664c4d34014091913112d2654ecee9e053a9dd82a73c4f602",
+      "target": "tasks/Decompose/Decompose_006/eval_rules.yaml",
+      "target_sha256": "43c1dce022a68d3664c4d34014091913112d2654ecee9e053a9dd82a73c4f602",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "9155d16e642a684a4384176a93228a574abcf0f747f9d62bf44ea47ff5d9f916",
+      "target": "tasks/Decompose/Decompose_006/task_meta.yaml",
+      "target_sha256": "9155d16e642a684a4384176a93228a574abcf0f747f9d62bf44ea47ff5d9f916",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged"
+    },
+    {
+      "source_sha256": "54e4849fc311ef6bd95b7efbbce607c9b8850ab39e9e8b67c3492437387cce6f",
+      "target": "tasks/Decompose/Decompose_006/registry_entry.yaml",
+      "target_sha256": "507d16a9d615543b19b5e64713440d6eabf45844d1b7fb9661a860b1c57d92f8",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "08ae6d6c7af09d0940158a364440d967328a7cf69808ef88a64f8497837e54df",
+      "target": "tasks/Decompose/Decompose_007/task.bddl",
+      "target_sha256": "08ae6d6c7af09d0940158a364440d967328a7cf69808ef88a64f8497837e54df",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "02a8401f8d59f5447fc8c5a16f4c158dd8c426c3eaed6779927a2a53e9abf3c5",
+      "target": "tasks/Decompose/Decompose_007/task.pruned_init",
+      "target_sha256": "02a8401f8d59f5447fc8c5a16f4c158dd8c426c3eaed6779927a2a53e9abf3c5",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "664c91acf443b50ade456e2c395e2a478089a0abd8e5dd862dfb49fd07b889c7",
+      "target": "tasks/Decompose/Decompose_007/eval_rules.yaml",
+      "target_sha256": "664c91acf443b50ade456e2c395e2a478089a0abd8e5dd862dfb49fd07b889c7",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "f2e6ffa92320eedf2782f5515980657e6978c39697aa44663dc0ef8020d8ca00",
+      "target": "tasks/Decompose/Decompose_007/task_meta.yaml",
+      "target_sha256": "f2e6ffa92320eedf2782f5515980657e6978c39697aa44663dc0ef8020d8ca00",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged"
+    },
+    {
+      "source_sha256": "65f32f9fccfd9616211bb95bf5571f196bb733b91c036b250d4e66b608b15859",
+      "target": "tasks/Decompose/Decompose_007/registry_entry.yaml",
+      "target_sha256": "654c5271cbc16063d93992a8bd48ded2bcd96cda6c9003ce25c121a3c7e954cf",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "f1d0971c9da56a69d1600ff0dab74da9f4483412cdc25cb16742d0ea0f782e45",
+      "target": "tasks/Decompose/Decompose_008/task.bddl",
+      "target_sha256": "f1d0971c9da56a69d1600ff0dab74da9f4483412cdc25cb16742d0ea0f782e45",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "2113ea5923fcbbe1b57b428383934496072f062729d0b72d3021573d55d25abc",
+      "target": "tasks/Decompose/Decompose_008/task.pruned_init",
+      "target_sha256": "2113ea5923fcbbe1b57b428383934496072f062729d0b72d3021573d55d25abc",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "7e80ff86040fc0a31c1b930506bebf79677b085dc5f5f02beb30236ee5f27c45",
+      "target": "tasks/Decompose/Decompose_008/eval_rules.yaml",
+      "target_sha256": "7e80ff86040fc0a31c1b930506bebf79677b085dc5f5f02beb30236ee5f27c45",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "e9c5e846c88e91f679ce1a7b37e725882253ddb0b1888e12c2881f6bdd8bbaee",
+      "target": "tasks/Decompose/Decompose_008/task_meta.yaml",
+      "target_sha256": "e9c5e846c88e91f679ce1a7b37e725882253ddb0b1888e12c2881f6bdd8bbaee",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged"
+    },
+    {
+      "source_sha256": "def32841ecf23b74ef7c3c734102aacdf6631fe452be0a2b15cbebc8f1200e73",
+      "target": "tasks/Decompose/Decompose_008/registry_entry.yaml",
+      "target_sha256": "ec7cf407ea50cf6efc4bfbab62d44e540cf8a00fd0d71b855cfe10a273dcdb6c",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "0a3ffc0ee2734fc40ab90b02b0b2ba9a842bfc5225199248bb873fc0d862f282",
+      "target": "tasks/Decompose/Decompose_009/task.bddl",
+      "target_sha256": "0a3ffc0ee2734fc40ab90b02b0b2ba9a842bfc5225199248bb873fc0d862f282",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "2113ea5923fcbbe1b57b428383934496072f062729d0b72d3021573d55d25abc",
+      "target": "tasks/Decompose/Decompose_009/task.pruned_init",
+      "target_sha256": "2113ea5923fcbbe1b57b428383934496072f062729d0b72d3021573d55d25abc",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "d2676c549641145c4481cb73929be6d993e7bcada2f9b1f4c16318aab7e737ec",
+      "target": "tasks/Decompose/Decompose_009/eval_rules.yaml",
+      "target_sha256": "d2676c549641145c4481cb73929be6d993e7bcada2f9b1f4c16318aab7e737ec",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "926a7bd0c3235623b90588ad3295bb052bdcf0571e9423361efeca0d9f3035eb",
+      "target": "tasks/Decompose/Decompose_009/task_meta.yaml",
+      "target_sha256": "926a7bd0c3235623b90588ad3295bb052bdcf0571e9423361efeca0d9f3035eb",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged"
+    },
+    {
+      "source_sha256": "a16686a1b3d84467f90f549d000b260e271960b110d2b2dc8f596d7716a931f3",
+      "target": "tasks/Decompose/Decompose_009/registry_entry.yaml",
+      "target_sha256": "4faf49077a88dd2ec539493ffafdd3ac262edabfa9c95301c977e2ba07732355",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "51e922102a2fc726ae73fef03c8df1f84a7fd5e10fcbff6390e7860633cc0ad4",
+      "target": "tasks/Decompose/Decompose_010/task.bddl",
+      "target_sha256": "51e922102a2fc726ae73fef03c8df1f84a7fd5e10fcbff6390e7860633cc0ad4",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "1899fe54c51e24a41d5f9e32254730d6777f4894ab68e0e873f1fa7ae2062030",
+      "target": "tasks/Decompose/Decompose_010/task.pruned_init",
+      "target_sha256": "1899fe54c51e24a41d5f9e32254730d6777f4894ab68e0e873f1fa7ae2062030",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "c0ac0be71e6afc536eaae122c3878faf606f2b4a9579a61ac02be06cbed45dbe",
+      "target": "tasks/Decompose/Decompose_010/eval_rules.yaml",
+      "target_sha256": "c0ac0be71e6afc536eaae122c3878faf606f2b4a9579a61ac02be06cbed45dbe",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "358cb93139c8b962a7573cf73c77b0ec077ca299522b13f80b13daad1c5ec24a",
+      "target": "tasks/Decompose/Decompose_010/task_meta.yaml",
+      "target_sha256": "358cb93139c8b962a7573cf73c77b0ec077ca299522b13f80b13daad1c5ec24a",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged"
+    },
+    {
+      "source_sha256": "4b2acc8eb96b739f505421d94eac02a3a697cae8907c8d06822bb43692bddfd5",
+      "target": "tasks/Decompose/Decompose_010/registry_entry.yaml",
+      "target_sha256": "97c71e7114ca29fdb39c0a1dffa73cb8526592f801c4c88bfa2923be3ca49112",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "f54fac285dfd86b492fc830b6785dcd83163a9820c2124ad02b428f92471d4e0",
+      "target": "tasks/Decompose/Decompose_011/task.bddl",
+      "target_sha256": "f54fac285dfd86b492fc830b6785dcd83163a9820c2124ad02b428f92471d4e0",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "1899fe54c51e24a41d5f9e32254730d6777f4894ab68e0e873f1fa7ae2062030",
+      "target": "tasks/Decompose/Decompose_011/task.pruned_init",
+      "target_sha256": "1899fe54c51e24a41d5f9e32254730d6777f4894ab68e0e873f1fa7ae2062030",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "d20d0dd196ac7e331d5fe0448599ba175e640a8f96b4cffff6105134adf15ca0",
+      "target": "tasks/Decompose/Decompose_011/eval_rules.yaml",
+      "target_sha256": "d20d0dd196ac7e331d5fe0448599ba175e640a8f96b4cffff6105134adf15ca0",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "e37975aeb031dde8eead91c5fb21c3f29cfc1d7f6f81da7b67e8d14b0c9a2a2a",
+      "target": "tasks/Decompose/Decompose_011/task_meta.yaml",
+      "target_sha256": "e37975aeb031dde8eead91c5fb21c3f29cfc1d7f6f81da7b67e8d14b0c9a2a2a",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged"
+    },
+    {
+      "source_sha256": "273a53eb84912e729ed6497959e9430fb6c6a153702532797273d3247b965b6e",
+      "target": "tasks/Decompose/Decompose_011/registry_entry.yaml",
+      "target_sha256": "45904e162cfd26aa4a5ecf7a3c07028a658108a56937765fba4bbe4d9d7fb0da",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "996a64b35d1b21be065ff46d5cd4da5ae13fb12dfc6747bc0f83cab645d2588c",
+      "target": "tasks/Decompose/Decompose_012/task.bddl",
+      "target_sha256": "996a64b35d1b21be065ff46d5cd4da5ae13fb12dfc6747bc0f83cab645d2588c",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "f8ac06ea8f43bb328d40cba1e6a9767da2f8f5386fd7ff3f845c64a96bf6d2ce",
+      "target": "tasks/Decompose/Decompose_012/task.pruned_init",
+      "target_sha256": "f8ac06ea8f43bb328d40cba1e6a9767da2f8f5386fd7ff3f845c64a96bf6d2ce",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "25589ef9efc467a1ba06619660b86f93030711e00d8ffea4a497c28dcc711fb3",
+      "target": "tasks/Decompose/Decompose_012/eval_rules.yaml",
+      "target_sha256": "25589ef9efc467a1ba06619660b86f93030711e00d8ffea4a497c28dcc711fb3",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "3e87cde34c22bcf6a4a04aed71145dac432808e8a41ad79a05355132b191d0df",
+      "target": "tasks/Decompose/Decompose_012/task_meta.yaml",
+      "target_sha256": "3e87cde34c22bcf6a4a04aed71145dac432808e8a41ad79a05355132b191d0df",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged"
+    },
+    {
+      "source_sha256": "82363109bf4fdfd3b8b90542cef66fed92c9cad64c25332dc1e4f6cacfa185c7",
+      "target": "tasks/Decompose/Decompose_012/registry_entry.yaml",
+      "target_sha256": "ded8e3717c47921e9729346b2e79aa7177be0caaa073f4a6838a0f7c6ebe0bbe",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "85eb38783b55a18e6804e46eb73ea9aebb40a682944a62bbfaad309b179a7f36",
+      "target": "tasks/Decompose/Decompose_013/task.bddl",
+      "target_sha256": "85eb38783b55a18e6804e46eb73ea9aebb40a682944a62bbfaad309b179a7f36",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "f8ac06ea8f43bb328d40cba1e6a9767da2f8f5386fd7ff3f845c64a96bf6d2ce",
+      "target": "tasks/Decompose/Decompose_013/task.pruned_init",
+      "target_sha256": "f8ac06ea8f43bb328d40cba1e6a9767da2f8f5386fd7ff3f845c64a96bf6d2ce",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "36d31ee74b1cfa61083dfb9c5bec3f0bf7e0cbe47d8c74e13866c957adc70375",
+      "target": "tasks/Decompose/Decompose_013/eval_rules.yaml",
+      "target_sha256": "36d31ee74b1cfa61083dfb9c5bec3f0bf7e0cbe47d8c74e13866c957adc70375",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "c439d45e2ab1d6121ee30288748c414ee0841ea4f35373f8973c7b76b789d01d",
+      "target": "tasks/Decompose/Decompose_013/task_meta.yaml",
+      "target_sha256": "c439d45e2ab1d6121ee30288748c414ee0841ea4f35373f8973c7b76b789d01d",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged"
+    },
+    {
+      "source_sha256": "d96b81563518c7fef8720667af384252e7f18544a42e1777ba623ae3eaff3d1a",
+      "target": "tasks/Decompose/Decompose_013/registry_entry.yaml",
+      "target_sha256": "2515da61cb86907bb0e678cdfa4732ad80b90c072595ef30d2a6e680c79c7808",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "e3dbeead55a5753328ced2215e5c9d146f9f7f8cba48a7c383214938b1cfc6b2",
+      "target": "tasks/Decompose/Decompose_014/task.bddl",
+      "target_sha256": "e3dbeead55a5753328ced2215e5c9d146f9f7f8cba48a7c383214938b1cfc6b2",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "e98ded151f64a036c74c872336dd09b968c379f3c9db7bc333aba37e7c235b86",
+      "target": "tasks/Decompose/Decompose_014/task.pruned_init",
+      "target_sha256": "e98ded151f64a036c74c872336dd09b968c379f3c9db7bc333aba37e7c235b86",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "7532f06d79b2cb5f8755ac30b51a02764175c54d3a51545404d18643cddd792e",
+      "target": "tasks/Decompose/Decompose_014/eval_rules.yaml",
+      "target_sha256": "7532f06d79b2cb5f8755ac30b51a02764175c54d3a51545404d18643cddd792e",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "1a59838389dec15a2ee2b315dd2c07fc4dd73276615819f75101fb599628db0b",
+      "target": "tasks/Decompose/Decompose_014/task_meta.yaml",
+      "target_sha256": "1a59838389dec15a2ee2b315dd2c07fc4dd73276615819f75101fb599628db0b",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged"
+    },
+    {
+      "source_sha256": "e4b8473ecbd13f58e27312afc04fb7b427beea724fa1987ca248c1eec16bef0d",
+      "target": "tasks/Decompose/Decompose_014/registry_entry.yaml",
+      "target_sha256": "552281c45b913e4ddb5333ae171f2fc20cfe1f315553b079017815d607d4b92e",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "981b6fc0d32aca5fefdef1739a674812baad4b64a92597ff736aac00ea18c1de",
+      "target": "tasks/Decompose/Decompose_015/task.bddl",
+      "target_sha256": "981b6fc0d32aca5fefdef1739a674812baad4b64a92597ff736aac00ea18c1de",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "02a8401f8d59f5447fc8c5a16f4c158dd8c426c3eaed6779927a2a53e9abf3c5",
+      "target": "tasks/Decompose/Decompose_015/task.pruned_init",
+      "target_sha256": "02a8401f8d59f5447fc8c5a16f4c158dd8c426c3eaed6779927a2a53e9abf3c5",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "0a37252f7b2211ec9610455131b7a43ce156ac588b60f2d23eb9fad1d2640b8d",
+      "target": "tasks/Decompose/Decompose_015/eval_rules.yaml",
+      "target_sha256": "0a37252f7b2211ec9610455131b7a43ce156ac588b60f2d23eb9fad1d2640b8d",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "0b5d3381ea141816c3527f998290c74e406a2829c70d1c051c33e0de83cc2638",
+      "target": "tasks/Decompose/Decompose_015/task_meta.yaml",
+      "target_sha256": "0b5d3381ea141816c3527f998290c74e406a2829c70d1c051c33e0de83cc2638",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged"
+    },
+    {
+      "source_sha256": "ec146399a10561b05eb8828a4140db34683fb7df628e8ef8dfc8ee2dbbcaa4e4",
+      "target": "tasks/Decompose/Decompose_015/registry_entry.yaml",
+      "target_sha256": "be6c3dcdfea8bfe541148b274d7a8db8ca319f0c719396147ec39498c8f76b61",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "b773e6da32a2b840d7a4186681ee3606f09f154934f7dee0b8f95c8ee04ea828",
+      "target": "tasks/Decompose/Decompose_016/task.bddl",
+      "target_sha256": "b773e6da32a2b840d7a4186681ee3606f09f154934f7dee0b8f95c8ee04ea828",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "e98ded151f64a036c74c872336dd09b968c379f3c9db7bc333aba37e7c235b86",
+      "target": "tasks/Decompose/Decompose_016/task.pruned_init",
+      "target_sha256": "e98ded151f64a036c74c872336dd09b968c379f3c9db7bc333aba37e7c235b86",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "1da4bd2e95cd083cd6f25844585d777ba7040b18c471017460b67e51a624c50a",
+      "target": "tasks/Decompose/Decompose_016/eval_rules.yaml",
+      "target_sha256": "1da4bd2e95cd083cd6f25844585d777ba7040b18c471017460b67e51a624c50a",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "31c4473b9b8ab4c144319a2acf03ce74aef91625838d62d0aefffb91ffb551ef",
+      "target": "tasks/Decompose/Decompose_016/task_meta.yaml",
+      "target_sha256": "31c4473b9b8ab4c144319a2acf03ce74aef91625838d62d0aefffb91ffb551ef",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged"
+    },
+    {
+      "source_sha256": "2683ab46769845d7407ac0852dda96f3cb131cecb08685fc7e16593f98564c18",
+      "target": "tasks/Decompose/Decompose_016/registry_entry.yaml",
+      "target_sha256": "7a465cbbdea3bb7985c9743c1eb12c3c4db380865dcdfa47660202d9d95915d9",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "caf455d98a73990ba4ee0d7dd91fc5bb6fc214abade4f977b76732ef891dc7ae",
+      "target": "tasks/Decompose/Decompose_017/task.bddl",
+      "target_sha256": "caf455d98a73990ba4ee0d7dd91fc5bb6fc214abade4f977b76732ef891dc7ae",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "44f992e911c84a1340589510ecdaf947a4872966f7678c8364d8bb5d13dc4dac",
+      "target": "tasks/Decompose/Decompose_017/task.pruned_init",
+      "target_sha256": "44f992e911c84a1340589510ecdaf947a4872966f7678c8364d8bb5d13dc4dac",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "6922d2e083cc97b746e374b18bb0e39dc0007e0a1b597383ad4a9a0e88e9c04c",
+      "target": "tasks/Decompose/Decompose_017/eval_rules.yaml",
+      "target_sha256": "6922d2e083cc97b746e374b18bb0e39dc0007e0a1b597383ad4a9a0e88e9c04c",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "e58b60811e6335df154f6fbeae5a2d0dd6eec25a2d5eb15bcd11ac9fb556d92f",
+      "target": "tasks/Decompose/Decompose_017/task_meta.yaml",
+      "target_sha256": "e58b60811e6335df154f6fbeae5a2d0dd6eec25a2d5eb15bcd11ac9fb556d92f",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged"
+    },
+    {
+      "source_sha256": "9a768f1aef2db33c63ca32baa0571a01ae2fa663622e53088ef2abdb428e55b4",
+      "target": "tasks/Decompose/Decompose_017/registry_entry.yaml",
+      "target_sha256": "78311901032ef716bdc4e5e5af3e83e2fc5b8469ed7d3f5c42dcab2982a06cea",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "8c1d219c2c94fce6ec0026d4733116453c37adb4c9e8cf24ea39500e76b4b4b5",
+      "target": "tasks/Decompose/Decompose_018/task.bddl",
+      "target_sha256": "8c1d219c2c94fce6ec0026d4733116453c37adb4c9e8cf24ea39500e76b4b4b5",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "44f992e911c84a1340589510ecdaf947a4872966f7678c8364d8bb5d13dc4dac",
+      "target": "tasks/Decompose/Decompose_018/task.pruned_init",
+      "target_sha256": "44f992e911c84a1340589510ecdaf947a4872966f7678c8364d8bb5d13dc4dac",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "54a6913e15854ed01a5c32e465b3043457d64f990a2dbe5232d2bdd7cb6529bf",
+      "target": "tasks/Decompose/Decompose_018/eval_rules.yaml",
+      "target_sha256": "54a6913e15854ed01a5c32e465b3043457d64f990a2dbe5232d2bdd7cb6529bf",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "80ca0cf683df7e66c3c4e77cfed874870fd4c8965470f5a974d7d8e939953b6e",
+      "target": "tasks/Decompose/Decompose_018/task_meta.yaml",
+      "target_sha256": "80ca0cf683df7e66c3c4e77cfed874870fd4c8965470f5a974d7d8e939953b6e",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged"
+    },
+    {
+      "source_sha256": "972b0fd6366cef76bdaadc5a44615b5f026586d9a8bdd232e523f26b86638876",
+      "target": "tasks/Decompose/Decompose_018/registry_entry.yaml",
+      "target_sha256": "5abe18ef9e559e2a97d8d84b16324544271e392b53d149344415fe5222e42979",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "8dc8e61def6220fbcf4348c8ff4541344708cb36438397a8f2be12eb28bf3c50",
+      "target": "tasks/Decompose/Decompose_019/task.bddl",
+      "target_sha256": "8dc8e61def6220fbcf4348c8ff4541344708cb36438397a8f2be12eb28bf3c50",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "1cd5354ade9ab9f323a518515f961df96123b7daeca017df1f62d3e9ff18794f",
+      "target": "tasks/Decompose/Decompose_019/task.pruned_init",
+      "target_sha256": "1cd5354ade9ab9f323a518515f961df96123b7daeca017df1f62d3e9ff18794f",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "ab65370a385d82a4a2931426b623518356d0596382c1da480f18758f0f5ee79b",
+      "target": "tasks/Decompose/Decompose_019/eval_rules.yaml",
+      "target_sha256": "ab65370a385d82a4a2931426b623518356d0596382c1da480f18758f0f5ee79b",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "befa339c829c6613cb60e8ce0d839579f227cf70e3c6c1122339f1f18912eb1f",
+      "target": "tasks/Decompose/Decompose_019/task_meta.yaml",
+      "target_sha256": "befa339c829c6613cb60e8ce0d839579f227cf70e3c6c1122339f1f18912eb1f",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged"
+    },
+    {
+      "source_sha256": "a30471a1a114224afcb1deff2ea7329a7d110690fafe70bf4f2c35860c6dc193",
+      "target": "tasks/Decompose/Decompose_019/registry_entry.yaml",
+      "target_sha256": "8845a8851382bdbd3dc83afb37ee18607765e82304c30851f19fcad536cd96dc",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "af898ce6e665add34bd9edff43ae8b047cfd7b9c852d19aada818c0a7393774f",
+      "target": "tasks/Decompose/Decompose_020/task.bddl",
+      "target_sha256": "af898ce6e665add34bd9edff43ae8b047cfd7b9c852d19aada818c0a7393774f",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "875ffb8b9bafb6652ec2580ade8ae91f955c1447e567c457e763f2d77c185792",
+      "target": "tasks/Decompose/Decompose_020/task.pruned_init",
+      "target_sha256": "875ffb8b9bafb6652ec2580ade8ae91f955c1447e567c457e763f2d77c185792",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "09b7a7bebffa30764f7e21ce13fbe6621d7deae667ddaa009fefabf5339cf477",
+      "target": "tasks/Decompose/Decompose_020/eval_rules.yaml",
+      "target_sha256": "09b7a7bebffa30764f7e21ce13fbe6621d7deae667ddaa009fefabf5339cf477",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "b6d1e6bd1ba1e0e64bc0c0d8d282ef570d3e8d6b809cb7b0ee2e60e8d4324d7d",
+      "target": "tasks/Decompose/Decompose_020/task_meta.yaml",
+      "target_sha256": "b6d1e6bd1ba1e0e64bc0c0d8d282ef570d3e8d6b809cb7b0ee2e60e8d4324d7d",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged"
+    },
+    {
+      "source_sha256": "809c56d84ac0691f650885b751c7e3a28d23dc46f82f1bafc15a2a998ca98653",
+      "target": "tasks/Decompose/Decompose_020/registry_entry.yaml",
+      "target_sha256": "a59b931b825f1c629071d8f397413a6a137a8d758f2754e286825ebcc8215d36",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "59807c6cdb70edb7d0741c953f1e141127435efe284d2c08a9d701388313a592",
+      "target": "tasks/Adapt/Adapt_001/task.bddl",
+      "target_sha256": "59807c6cdb70edb7d0741c953f1e141127435efe284d2c08a9d701388313a592",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "162cd28950cbadb551738dcac704922c6f19c1c5d9e0c66dbfd6af3bdd1df48f",
+      "target": "tasks/Adapt/Adapt_001/task.pruned_init",
+      "target_sha256": "162cd28950cbadb551738dcac704922c6f19c1c5d9e0c66dbfd6af3bdd1df48f",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "f14da4b8a866201c9ff89eb4895462ccb428de3868bca8771f5211c29df8e5f6",
+      "target": "tasks/Adapt/Adapt_001/eval_rules.yaml",
+      "target_sha256": "f14da4b8a866201c9ff89eb4895462ccb428de3868bca8771f5211c29df8e5f6",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "ec7721a728c0b36bd8e5919ee1208ce224ec2ef758705b79e0694777a348a07a",
+      "target": "tasks/Adapt/Adapt_001/action_plan.yaml",
+      "target_sha256": "ec7721a728c0b36bd8e5919ee1208ce224ec2ef758705b79e0694777a348a07a",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "574d0db7caf30d868c6d1d150dc3b725b711431bf2a741a5fe74468f968ca0bf",
+      "target": "tasks/Adapt/Adapt_001/mask_bindings.yaml",
+      "target_sha256": "574d0db7caf30d868c6d1d150dc3b725b711431bf2a741a5fe74468f968ca0bf",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "92d634433009b83b2bc49ed2b70bc91ec2298a08fa080152bbfaf6f149e0cdcb",
+      "target": "tasks/Adapt/Adapt_001/task_meta.yaml",
+      "target_sha256": "4c43b96187d1ff52f06410110d394a9fedd5f3184f105297da50908d2619c00f",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged; workflow metadata and approval notes removed; task semantics unchanged"
+    },
+    {
+      "source_sha256": "82cf28e312be1a0018c7118f0e89bc52da497964df53783372cee369ba97a073",
+      "target": "tasks/Adapt/Adapt_001/registry_entry.yaml",
+      "target_sha256": "cae125313729abe5e7bbcbe72e0aacb6fc5faf11b42dd4951432d014e4e18fce",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "1cd16305f05792725054a0879051ac21459c88152e12f2203991722add4d930a",
+      "target": "tasks/Adapt/Adapt_002/task.bddl",
+      "target_sha256": "1cd16305f05792725054a0879051ac21459c88152e12f2203991722add4d930a",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "021834861c25ccecf82d686d0d88e5c9100116082e4041f04745384e5c753af7",
+      "target": "tasks/Adapt/Adapt_002/task.pruned_init",
+      "target_sha256": "021834861c25ccecf82d686d0d88e5c9100116082e4041f04745384e5c753af7",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "42de146544b84ba56a8110947231a907eb1f664736ee41efe7a875d3405a96b2",
+      "target": "tasks/Adapt/Adapt_002/eval_rules.yaml",
+      "target_sha256": "42de146544b84ba56a8110947231a907eb1f664736ee41efe7a875d3405a96b2",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "a85c07f7f139fb13aae3b8a505cfcea70f2c6633c0c4c56e3ef0e2bc34323291",
+      "target": "tasks/Adapt/Adapt_002/action_plan.yaml",
+      "target_sha256": "a85c07f7f139fb13aae3b8a505cfcea70f2c6633c0c4c56e3ef0e2bc34323291",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "37b60957c8d7d3f8ab0a178a8537417728b3fea390a21f05f0655c508221d860",
+      "target": "tasks/Adapt/Adapt_002/mask_bindings.yaml",
+      "target_sha256": "37b60957c8d7d3f8ab0a178a8537417728b3fea390a21f05f0655c508221d860",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "81dc2bf5ba7c1ec12f83e629790599082dc73307e6e30a4e36d2426475ff0868",
+      "target": "tasks/Adapt/Adapt_002/task_meta.yaml",
+      "target_sha256": "846b5544cae0262f00647a744c9e218e77484ce96c7179ffe0bee975f9d0b354",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged; workflow metadata and approval notes removed; task semantics unchanged"
+    },
+    {
+      "source_sha256": "a2a348da0af84a2e3b30f972d8970f6a6b79c5320bebb204b2a977cfe978f359",
+      "target": "tasks/Adapt/Adapt_002/registry_entry.yaml",
+      "target_sha256": "58adc8ac968cba02bfa9a7e5b3d88ba57c78efe0be74cfdfcb346fef14210bf4",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "a5070d07212648c60b2f8deebc06161ce0198994f42996a51995c56e1cf9bfb8",
+      "target": "tasks/Adapt/Adapt_003/task.bddl",
+      "target_sha256": "a5070d07212648c60b2f8deebc06161ce0198994f42996a51995c56e1cf9bfb8",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "2d43bf9194a33cce04e1929ee0a5cf87603f607c027e55382bcb58fa6040a694",
+      "target": "tasks/Adapt/Adapt_003/task.pruned_init",
+      "target_sha256": "2d43bf9194a33cce04e1929ee0a5cf87603f607c027e55382bcb58fa6040a694",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "8d084e475effd1ccc6ce5cdb36fcea896724e611dfa66790fa528e2297d3aaf0",
+      "target": "tasks/Adapt/Adapt_003/eval_rules.yaml",
+      "target_sha256": "8d084e475effd1ccc6ce5cdb36fcea896724e611dfa66790fa528e2297d3aaf0",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "a1f1ed34d530e73805af2f3757a6bcf6ca3e8e32f335fcd56166dc42d3b82504",
+      "target": "tasks/Adapt/Adapt_003/action_plan.yaml",
+      "target_sha256": "a1f1ed34d530e73805af2f3757a6bcf6ca3e8e32f335fcd56166dc42d3b82504",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "abb443bff6b05ee1aea14a76283058e80a8e705f17e5e7588ee15be9dc895bb3",
+      "target": "tasks/Adapt/Adapt_003/mask_bindings.yaml",
+      "target_sha256": "abb443bff6b05ee1aea14a76283058e80a8e705f17e5e7588ee15be9dc895bb3",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "e8f6a7b7edb618c61f9328c50e6a53c6be1036ac50f1e761dfd234718d27fe94",
+      "target": "tasks/Adapt/Adapt_003/task_meta.yaml",
+      "target_sha256": "50883d804f0bab840e714a6ff90ade9e8a1833131632dfb30e7e691b1e0d4a88",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged; workflow metadata and approval notes removed; task semantics unchanged"
+    },
+    {
+      "source_sha256": "b8488dff015d10b37ee8bc325c7200e9dd30706449c93e16df162155db87800b",
+      "target": "tasks/Adapt/Adapt_003/registry_entry.yaml",
+      "target_sha256": "9b55727506fdb927dee2adf4a70fa27a7b751143acab8cd206dcebbb2a79599e",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "8ec34e3c0e98befe41d441e420148dc3ced93e36acdf4de2c5b0974ce8ea9213",
+      "target": "tasks/Adapt/Adapt_004/task.bddl",
+      "target_sha256": "8ec34e3c0e98befe41d441e420148dc3ced93e36acdf4de2c5b0974ce8ea9213",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "35a5e877bd96ebab26f7aab359ac12ef755ae6f0ab3efa62138096aded806e4a",
+      "target": "tasks/Adapt/Adapt_004/task.pruned_init",
+      "target_sha256": "35a5e877bd96ebab26f7aab359ac12ef755ae6f0ab3efa62138096aded806e4a",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "aa3d8649d3085594a0427c3a1de16ea8bb243ad65751097d57e5711604e67983",
+      "target": "tasks/Adapt/Adapt_004/eval_rules.yaml",
+      "target_sha256": "aa3d8649d3085594a0427c3a1de16ea8bb243ad65751097d57e5711604e67983",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "cc2ac2602e02c34d2ac0c2926bd9a052ae3a940dfda7702dfd454cb3d13625db",
+      "target": "tasks/Adapt/Adapt_004/action_plan.yaml",
+      "target_sha256": "cc2ac2602e02c34d2ac0c2926bd9a052ae3a940dfda7702dfd454cb3d13625db",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "b46614280b00cb5cf5ad4ed63a88e0c29fcdc6ea9e5678bdd4dd6a31387e3859",
+      "target": "tasks/Adapt/Adapt_004/mask_bindings.yaml",
+      "target_sha256": "b46614280b00cb5cf5ad4ed63a88e0c29fcdc6ea9e5678bdd4dd6a31387e3859",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "804b84f40f7d629d9a0800fc6029d5bfcbd0d2fe6e6dbafb68b8e22680442ef9",
+      "target": "tasks/Adapt/Adapt_004/task_meta.yaml",
+      "target_sha256": "aee02f87e0d3f6dbb1c5b3eb5a53e03d2a96a0d145d8fd1cfc2bcdfabc08bf79",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged; workflow metadata and approval notes removed; task semantics unchanged"
+    },
+    {
+      "source_sha256": "778ba052a0bc5f9c2b2883ef53898c8d0f1dd958cbe9044978180b94fa6b1553",
+      "target": "tasks/Adapt/Adapt_004/registry_entry.yaml",
+      "target_sha256": "52e4604da49d1569c384ec98382a9bce489703efba76df76fefd46daf696dc17",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "e5331c324700f73ab628a84294d7430e305400df09fcb98311b4c99d40f617c9",
+      "target": "tasks/Adapt/Adapt_005/task.bddl",
+      "target_sha256": "e5331c324700f73ab628a84294d7430e305400df09fcb98311b4c99d40f617c9",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "b664fd5af67a762c2af9aee157ef1c6a75506000d2fb29d01f24e96bef39b43a",
+      "target": "tasks/Adapt/Adapt_005/task.pruned_init",
+      "target_sha256": "b664fd5af67a762c2af9aee157ef1c6a75506000d2fb29d01f24e96bef39b43a",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "c16a7251ab4a302258c0ef6be7e0724c9ff17cb9e7294837dcea89523e43c2cf",
+      "target": "tasks/Adapt/Adapt_005/eval_rules.yaml",
+      "target_sha256": "c16a7251ab4a302258c0ef6be7e0724c9ff17cb9e7294837dcea89523e43c2cf",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "51bccced0326d6edcfa806af1f7316fce8790768c20ad9629ad46f08065798b9",
+      "target": "tasks/Adapt/Adapt_005/action_plan.yaml",
+      "target_sha256": "51bccced0326d6edcfa806af1f7316fce8790768c20ad9629ad46f08065798b9",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "dfedc9e5001d7ce49f805c717fef2a50bdd6fbf667b504e788a96bd8030acd44",
+      "target": "tasks/Adapt/Adapt_005/mask_bindings.yaml",
+      "target_sha256": "dfedc9e5001d7ce49f805c717fef2a50bdd6fbf667b504e788a96bd8030acd44",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "983f6db4d35de84d6e961ea2d2b929ae5e6b7aa1e1fc32c3deb9ba95cb95d150",
+      "target": "tasks/Adapt/Adapt_005/task_meta.yaml",
+      "target_sha256": "68699a51b7ee1eda1a2c1492facb5aa9351d7f90de11fea3db66c3fe3b2037ef",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged; workflow metadata and approval notes removed; task semantics unchanged"
+    },
+    {
+      "source_sha256": "2652a7277c0dfd5c9133a27b0108a8ef83f4c757a8ef055ea17ec40d7753e26b",
+      "target": "tasks/Adapt/Adapt_005/registry_entry.yaml",
+      "target_sha256": "fcd102abeb0a6e02ca902a7dc390bff9b296e94a431a1efc0570104beeec878f",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "75a417bde50aac84e0bbff58269e272978e68b8d27f47285caa2c1664f0ae338",
+      "target": "tasks/Adapt/Adapt_006/task.bddl",
+      "target_sha256": "75a417bde50aac84e0bbff58269e272978e68b8d27f47285caa2c1664f0ae338",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "a18ae77a00b230e107a3abc6b1ab7e489091fbe919622d9f33115186ffc0a885",
+      "target": "tasks/Adapt/Adapt_006/task.pruned_init",
+      "target_sha256": "a18ae77a00b230e107a3abc6b1ab7e489091fbe919622d9f33115186ffc0a885",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "d90c26f5bf2f610d740272c91189110c58490ef39c52fbeb4ac42bfe2487c28b",
+      "target": "tasks/Adapt/Adapt_006/eval_rules.yaml",
+      "target_sha256": "d90c26f5bf2f610d740272c91189110c58490ef39c52fbeb4ac42bfe2487c28b",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "6adf3d9dcb48b8985d1eccab876278be2e270d96b4fe4fd29d3db8077a01c49d",
+      "target": "tasks/Adapt/Adapt_006/action_plan.yaml",
+      "target_sha256": "6adf3d9dcb48b8985d1eccab876278be2e270d96b4fe4fd29d3db8077a01c49d",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "fde16a1a42e897fb6f081bd46fb920d328a1e74b73aaaaa9959288a2e1914c27",
+      "target": "tasks/Adapt/Adapt_006/mask_bindings.yaml",
+      "target_sha256": "fde16a1a42e897fb6f081bd46fb920d328a1e74b73aaaaa9959288a2e1914c27",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "0c3c18403dbb44e6b52776f88b07bd7035a6af211cebbcd236bccd85c55728d2",
+      "target": "tasks/Adapt/Adapt_006/task_meta.yaml",
+      "target_sha256": "ed325941422520979920ca8a74c6c670a1df0db4b0d0b7066e0b002d099384e1",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged; workflow metadata and approval notes removed; task semantics unchanged"
+    },
+    {
+      "source_sha256": "7f2b8d5da258cb790340b1edef682439b832a7bc1f0001be38b03a46b6e4d74d",
+      "target": "tasks/Adapt/Adapt_006/registry_entry.yaml",
+      "target_sha256": "315cd147e9ddd8e98096f875115bd0c7f5e7002833bce4030b383ef14d7131e3",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "695acf0fc388a0d0a1a16f8a6ed0a9383d652b4dd1181840b22d5fb9ffc87ddf",
+      "target": "tasks/Adapt/Adapt_007/task.bddl",
+      "target_sha256": "695acf0fc388a0d0a1a16f8a6ed0a9383d652b4dd1181840b22d5fb9ffc87ddf",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "cb8598017b69c49cd6b8e8b1e38dfcf8eebc878595c77a821834fe555a2e2d38",
+      "target": "tasks/Adapt/Adapt_007/task.pruned_init",
+      "target_sha256": "cb8598017b69c49cd6b8e8b1e38dfcf8eebc878595c77a821834fe555a2e2d38",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "ab7b58fcab09bcf13a963d3cdac5bf4661dd5de1ec89b2d278f6f467a8e1323f",
+      "target": "tasks/Adapt/Adapt_007/eval_rules.yaml",
+      "target_sha256": "ab7b58fcab09bcf13a963d3cdac5bf4661dd5de1ec89b2d278f6f467a8e1323f",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "9960e9b74e35bad723dd98896da988357890fecb972ab90fe683bca7b282e0c0",
+      "target": "tasks/Adapt/Adapt_007/action_plan.yaml",
+      "target_sha256": "9960e9b74e35bad723dd98896da988357890fecb972ab90fe683bca7b282e0c0",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "27becc3bf8c07a552ca7ca1bdc38958c60cfeed1b5a3df6a9085a0781a9112c8",
+      "target": "tasks/Adapt/Adapt_007/mask_bindings.yaml",
+      "target_sha256": "27becc3bf8c07a552ca7ca1bdc38958c60cfeed1b5a3df6a9085a0781a9112c8",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "01daeb891684f191419bf84ecf5a1dcc0f34d99436eaab9c0a8108fd623e4be3",
+      "target": "tasks/Adapt/Adapt_007/task_meta.yaml",
+      "target_sha256": "cb628a25d46f844d13a75670087e30b53a37613377e6878e74bc9a7bc1c93177",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged; workflow metadata and approval notes removed; task semantics unchanged"
+    },
+    {
+      "source_sha256": "29f3c7aeb06dbc356926d4de0ce16c6c3dd01e41897dec828b8d2046c3121860",
+      "target": "tasks/Adapt/Adapt_007/registry_entry.yaml",
+      "target_sha256": "1ccb309f08120ef9931afb323963aacf9022f1a5f26935d9bfe606864fe60287",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "e49d68408d8084e0aa3bd7ba971e640673a39b8b3b59dbaf1a02281ae9059328",
+      "target": "tasks/Adapt/Adapt_008/task.bddl",
+      "target_sha256": "e49d68408d8084e0aa3bd7ba971e640673a39b8b3b59dbaf1a02281ae9059328",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "33e19ac2471ad22ede141e0c40fce09a2b2659c8bd7b55e704c74dffaa4a38f4",
+      "target": "tasks/Adapt/Adapt_008/task.pruned_init",
+      "target_sha256": "33e19ac2471ad22ede141e0c40fce09a2b2659c8bd7b55e704c74dffaa4a38f4",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "574e7a84c92cf036bd16080cf1e47228acc9b8b24cdbe5e2ff579921eb6f8587",
+      "target": "tasks/Adapt/Adapt_008/eval_rules.yaml",
+      "target_sha256": "574e7a84c92cf036bd16080cf1e47228acc9b8b24cdbe5e2ff579921eb6f8587",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "84a152c5e4353f52858cc9502beacb1c032b339c6efd28571b0c952283798d6e",
+      "target": "tasks/Adapt/Adapt_008/action_plan.yaml",
+      "target_sha256": "84a152c5e4353f52858cc9502beacb1c032b339c6efd28571b0c952283798d6e",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "8f5369739000cbd94219f7991ebc13d152698d24c034238870d1752f3275ec92",
+      "target": "tasks/Adapt/Adapt_008/mask_bindings.yaml",
+      "target_sha256": "8f5369739000cbd94219f7991ebc13d152698d24c034238870d1752f3275ec92",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "d50563d95b63cb70031ef0a3ff14532206d89a3f7b56c6f45f797e5f36f2604a",
+      "target": "tasks/Adapt/Adapt_008/task_meta.yaml",
+      "target_sha256": "cc191e2d7ea834b1b1e04c002ccc4a1541e14ac54273dfb794c3ba4add0c6746",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged; workflow metadata and approval notes removed; task semantics unchanged"
+    },
+    {
+      "source_sha256": "f8d294ca0dd5dbacef09b61bc6fd8b21d1a01c1d1c5f19e751198ad802d5d71c",
+      "target": "tasks/Adapt/Adapt_008/registry_entry.yaml",
+      "target_sha256": "f6295e1c93db6a656ebd6143cab1ce8ba15ff72ae248d05ebc01c03276283e71",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "63f7b58651309ec64f718c3e7da93764bfe1ca74d542b896dfb010fe0bc43e02",
+      "target": "tasks/Adapt/Adapt_009/task.bddl",
+      "target_sha256": "63f7b58651309ec64f718c3e7da93764bfe1ca74d542b896dfb010fe0bc43e02",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "82bb1139070e6b58d77d500d2d5252860cf97ee51503fbd67c736c4135844f92",
+      "target": "tasks/Adapt/Adapt_009/task.pruned_init",
+      "target_sha256": "82bb1139070e6b58d77d500d2d5252860cf97ee51503fbd67c736c4135844f92",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "7103895108671c170ac4388c4704bde9eaea04503e0d2b857814819875bf7b25",
+      "target": "tasks/Adapt/Adapt_009/eval_rules.yaml",
+      "target_sha256": "7103895108671c170ac4388c4704bde9eaea04503e0d2b857814819875bf7b25",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "1d7982d630ac419224e5a3f38642c4d68fed376e0a0d27b4fad85e82e13d6948",
+      "target": "tasks/Adapt/Adapt_009/action_plan.yaml",
+      "target_sha256": "1d7982d630ac419224e5a3f38642c4d68fed376e0a0d27b4fad85e82e13d6948",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "eaae40a15d8dd4e8d56029fe28a19edb165d003798ec98bf83dec1d3d4085d7c",
+      "target": "tasks/Adapt/Adapt_009/mask_bindings.yaml",
+      "target_sha256": "eaae40a15d8dd4e8d56029fe28a19edb165d003798ec98bf83dec1d3d4085d7c",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "e5f0f3314a3ff520420b8a814679aaed40c678731e5c8df38ff0b191a4a49693",
+      "target": "tasks/Adapt/Adapt_009/task_meta.yaml",
+      "target_sha256": "225383a9abd15a3510fb62f5ad0445252090ce6b842daef95cc7bc937604eb95",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged; workflow metadata and approval notes removed; task semantics unchanged"
+    },
+    {
+      "source_sha256": "0dbcaf816b9b751c3cef7cb6da10a82b872e7854205e7cefc4d9582bb9b6f1b9",
+      "target": "tasks/Adapt/Adapt_009/registry_entry.yaml",
+      "target_sha256": "26035bc17627b56bbe0bdb709eeb2e379066b48ade3337f6b377f60394fdd20e",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "6e807fa91f2b99b535785c4fbeea7fff9c466664af56aa6393ec47da60d76047",
+      "target": "tasks/Adapt/Adapt_010/task.bddl",
+      "target_sha256": "6e807fa91f2b99b535785c4fbeea7fff9c466664af56aa6393ec47da60d76047",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "80556a26357f192e6667b71ecfad8057a026866f3d1a167fff66e6feeb23cb16",
+      "target": "tasks/Adapt/Adapt_010/task.pruned_init",
+      "target_sha256": "80556a26357f192e6667b71ecfad8057a026866f3d1a167fff66e6feeb23cb16",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "5b193594b52da4cf54a06cb08492e75dc440012e977e3d41e9cf8147db231f09",
+      "target": "tasks/Adapt/Adapt_010/eval_rules.yaml",
+      "target_sha256": "5b193594b52da4cf54a06cb08492e75dc440012e977e3d41e9cf8147db231f09",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "1c2938d5bc5539ff45abba1927fe88f9af660fe94e614c9bc64e480a66a348f5",
+      "target": "tasks/Adapt/Adapt_010/task_meta.yaml",
+      "target_sha256": "94daa813f90ec62116ebfaec6a527e9ee92ede3508000dd50512c2c2f5931526",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged; workflow metadata and approval notes removed; task semantics unchanged"
+    },
+    {
+      "source_sha256": "08fe479dd67dba16de358077175a22408bef1d588dde805e0d26908624d61071",
+      "target": "tasks/Adapt/Adapt_010/registry_entry.yaml",
+      "target_sha256": "f8056a3f39aa0724975ed1dfb6933393983f04b5fa66641b445295bfdf25059d",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "67711dc82158f5decdbe05f05e8c8739e73498353286a55fda790a8a8be48cd2",
+      "target": "tasks/Adapt/Adapt_011/task.bddl",
+      "target_sha256": "67711dc82158f5decdbe05f05e8c8739e73498353286a55fda790a8a8be48cd2",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "4806ef1c8131a42991fde36124c4a848d98962ba79a79756a830e06fb5460407",
+      "target": "tasks/Adapt/Adapt_011/task.pruned_init",
+      "target_sha256": "4806ef1c8131a42991fde36124c4a848d98962ba79a79756a830e06fb5460407",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "99e7c9f93a1f003fefb2ff5e007c98c81b85eb4673b77f27ff4db585e350fcf9",
+      "target": "tasks/Adapt/Adapt_011/eval_rules.yaml",
+      "target_sha256": "99e7c9f93a1f003fefb2ff5e007c98c81b85eb4673b77f27ff4db585e350fcf9",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "3a75030e9615688f03806aa240799ee2275d2592580c7553ffadf286770675e5",
+      "target": "tasks/Adapt/Adapt_011/task_meta.yaml",
+      "target_sha256": "59de855ec1cb21a2a057538ef212ae9ed68af127c9c6fdccb8d5d50367df5bf2",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged; workflow metadata and approval notes removed; task semantics unchanged"
+    },
+    {
+      "source_sha256": "c39a351a76703a482b6048dd2d13dac000400873068730179b42d641c3bcf8d2",
+      "target": "tasks/Adapt/Adapt_011/registry_entry.yaml",
+      "target_sha256": "867029327628adbc800faee66ad007502877443c235a4be69e00af8c97777c4e",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "ef43ecc00cf5c3e3e9a830478c8e4809ee85e184cec19642c7db0b7438c937f9",
+      "target": "tasks/Adapt/Adapt_012/task.bddl",
+      "target_sha256": "ef43ecc00cf5c3e3e9a830478c8e4809ee85e184cec19642c7db0b7438c937f9",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "f0925a8653c5902c5a4d78a2053365382ad7d05be7f059abe19c2004ffc5dc59",
+      "target": "tasks/Adapt/Adapt_012/task.pruned_init",
+      "target_sha256": "f0925a8653c5902c5a4d78a2053365382ad7d05be7f059abe19c2004ffc5dc59",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "603e824db71f6174ff89de8708dfc91adfe3f1d51bbd5afdd772d791951ff53c",
+      "target": "tasks/Adapt/Adapt_012/eval_rules.yaml",
+      "target_sha256": "603e824db71f6174ff89de8708dfc91adfe3f1d51bbd5afdd772d791951ff53c",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "c66a066c2891c61eb58b4e654530b5334f164de1881c83934f3f76087a8389d1",
+      "target": "tasks/Adapt/Adapt_012/task_meta.yaml",
+      "target_sha256": "399d0d2985589a3f1494a29fae42114f9db08104f2eff330b93e460a90bede9c",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged; workflow metadata and approval notes removed; task semantics unchanged"
+    },
+    {
+      "source_sha256": "72c4dba89b30759e6ba755c51ef33686619fe5ed64fe26acb7fa102fdbfdd3f4",
+      "target": "tasks/Adapt/Adapt_012/registry_entry.yaml",
+      "target_sha256": "a17455249010e6ed2f91d744942dad2a88ea1ca6e185f956f4f2256c9fecdbbd",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "0350fb9d9c5be992a3959b9535a0fee4bb93feb9859321e1d3cd9227fe51df12",
+      "target": "tasks/Adapt/Adapt_013/task.bddl",
+      "target_sha256": "0350fb9d9c5be992a3959b9535a0fee4bb93feb9859321e1d3cd9227fe51df12",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "2326da7ccacd3ebc75d80847f92d2e310b537b8dbbd8a76840a29b13f00f9a65",
+      "target": "tasks/Adapt/Adapt_013/task.pruned_init",
+      "target_sha256": "2326da7ccacd3ebc75d80847f92d2e310b537b8dbbd8a76840a29b13f00f9a65",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "b4c8ab3ae3a3ebeb3e1b825700619f48d23246632dbac7e1e71b2b3a6300ce17",
+      "target": "tasks/Adapt/Adapt_013/eval_rules.yaml",
+      "target_sha256": "b4c8ab3ae3a3ebeb3e1b825700619f48d23246632dbac7e1e71b2b3a6300ce17",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "33f45fa57b13fe513a53bc7ffd87c0e18f48f89e28bfbf268aeb067923d5af5d",
+      "target": "tasks/Adapt/Adapt_013/task_meta.yaml",
+      "target_sha256": "a419a8a2d9c9458bca62e18c0d83ac42f743a47b5d8e6c218cd9932c6e7901d6",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged; workflow metadata and approval notes removed; task semantics unchanged"
+    },
+    {
+      "source_sha256": "bc8f95978119ef8081cb95489bc81e213b6901a1ee32b9dc54c8b9a1d0517f94",
+      "target": "tasks/Adapt/Adapt_013/registry_entry.yaml",
+      "target_sha256": "4e10934ac1b392e3afe70931c80438f8ef511c98b1e55772be7bc656b95cf022",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "2f85d4f52cf27404045ce2c3d9dc5f4b26c89a76a6e52398410259d7ff49fe65",
+      "target": "tasks/Compose/Compose_001/task.bddl",
+      "target_sha256": "2f85d4f52cf27404045ce2c3d9dc5f4b26c89a76a6e52398410259d7ff49fe65",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "613f625c6cc9f8d16c855688f84364908c8b22038eea623a676c5f4ad1f34bd9",
+      "target": "tasks/Compose/Compose_001/task.pruned_init",
+      "target_sha256": "613f625c6cc9f8d16c855688f84364908c8b22038eea623a676c5f4ad1f34bd9",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "c08b29747f6f95ccbcd6fb9ff65e0ccc909dc0d9cf95101f97863026915df895",
+      "target": "tasks/Compose/Compose_001/eval_rules.yaml",
+      "target_sha256": "c08b29747f6f95ccbcd6fb9ff65e0ccc909dc0d9cf95101f97863026915df895",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "a5e6187ef85a896282cbb9b578f1169d302b0ce6e213fc89f720cb68e580549f",
+      "target": "tasks/Compose/Compose_001/action_plan.yaml",
+      "target_sha256": "a5e6187ef85a896282cbb9b578f1169d302b0ce6e213fc89f720cb68e580549f",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "0ba7046534af8fea34643eed2609ebd3bc29733826c3823055148a0c8fe4567a",
+      "target": "tasks/Compose/Compose_001/mask_bindings.yaml",
+      "target_sha256": "0ba7046534af8fea34643eed2609ebd3bc29733826c3823055148a0c8fe4567a",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "adc3aa7cbfe8f72105ec991f7d2ced4affa4086b192c0b2ddaa798fc24f81e84",
+      "target": "tasks/Compose/Compose_001/task_meta.yaml",
+      "target_sha256": "7ba89a52a0b05920aa7d92aed33f614298a573537e6b67d3a55064fba51a5046",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged; workflow metadata and approval notes removed; task semantics unchanged"
+    },
+    {
+      "source_sha256": "9b45250323cc5abe35e02bebff2a3b23550fccbec07416a87d665869f9e2b460",
+      "target": "tasks/Compose/Compose_001/registry_entry.yaml",
+      "target_sha256": "ff2eafb8bc3235537d394aacbc97faf6417102e0d870e93e9af50bf5bdd85dd3",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "aaa471a64b66881d80a19a9bdb2850b9ab3bd1b03521c5bb16413e28b11be907",
+      "target": "tasks/Compose/Compose_001/FIXTURE_REPLAY.json",
+      "target_sha256": "aaa471a64b66881d80a19a9bdb2850b9ab3bd1b03521c5bb16413e28b11be907",
+      "change": "source pointers sanitized; all replay poses/state hashes retained"
+    },
+    {
+      "source_sha256": "79a10204d08eb98d61facc7ac277a7b2b289a3c73c440b8f3194eca5e28fb8e7",
+      "target": "tasks/Compose/Compose_002/task.bddl",
+      "target_sha256": "79a10204d08eb98d61facc7ac277a7b2b289a3c73c440b8f3194eca5e28fb8e7",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "17733028692cc4e6323eb82cb9bba59a885482621c0154e7503cc63a45941e9b",
+      "target": "tasks/Compose/Compose_002/task.pruned_init",
+      "target_sha256": "17733028692cc4e6323eb82cb9bba59a885482621c0154e7503cc63a45941e9b",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "8fa870be77b70f316edd216eb401130a28a2b57f93244cb2512eea9a34c2cb28",
+      "target": "tasks/Compose/Compose_002/eval_rules.yaml",
+      "target_sha256": "8fa870be77b70f316edd216eb401130a28a2b57f93244cb2512eea9a34c2cb28",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "163c44d3cd38a751fafbfd4ef6b78963e93d4ff5a0a76e8380768885c16fa93d",
+      "target": "tasks/Compose/Compose_002/action_plan.yaml",
+      "target_sha256": "163c44d3cd38a751fafbfd4ef6b78963e93d4ff5a0a76e8380768885c16fa93d",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "5b3eae1e9b3418ca89620ee16567532cf515c508d3f57432fb4664f509578622",
+      "target": "tasks/Compose/Compose_002/mask_bindings.yaml",
+      "target_sha256": "5b3eae1e9b3418ca89620ee16567532cf515c508d3f57432fb4664f509578622",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "bd65d42dd19e7b557cc9f43ff93c296763cd59fea70200d238676aa6ffef2815",
+      "target": "tasks/Compose/Compose_002/task_meta.yaml",
+      "target_sha256": "72809fa64fe7411139b840fd42653bda60faf8d8487543e4e6b37ac9993d14aa",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged; workflow metadata and approval notes removed; task semantics unchanged"
+    },
+    {
+      "source_sha256": "f1dbc26cc718c984948b94be238b967937a1d7c091bc53f1a149f4c696b0f980",
+      "target": "tasks/Compose/Compose_002/registry_entry.yaml",
+      "target_sha256": "392b503ba8c4bfea66d4e9f7cdaf68c4fb4d7f0306d034d335f3f0d490cd2c44",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "2c7403a1ae52538f00d75c8a8db9333b6064f427d8d47b4270993eeeb72d95a0",
+      "target": "tasks/Compose/Compose_002/FIXTURE_REPLAY.json",
+      "target_sha256": "2c7403a1ae52538f00d75c8a8db9333b6064f427d8d47b4270993eeeb72d95a0",
+      "change": "source pointers sanitized; all replay poses/state hashes retained"
+    },
+    {
+      "source_sha256": "656b4c7d505684b219eb9f085ad2918977d66e2beaffcf72e0dc29b6997e27ff",
+      "target": "tasks/Compose/Compose_003/task.bddl",
+      "target_sha256": "656b4c7d505684b219eb9f085ad2918977d66e2beaffcf72e0dc29b6997e27ff",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "8460de8efd2452b4c7140f5f428ba95ada59b5d1f5f77d915ce02a876ee843c9",
+      "target": "tasks/Compose/Compose_003/task.pruned_init",
+      "target_sha256": "8460de8efd2452b4c7140f5f428ba95ada59b5d1f5f77d915ce02a876ee843c9",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "4a87600d01d23c7ab4f9ddc4bf20c762d8ccafa64ddb1ed3fb3d28d8faf98cfd",
+      "target": "tasks/Compose/Compose_003/eval_rules.yaml",
+      "target_sha256": "4a87600d01d23c7ab4f9ddc4bf20c762d8ccafa64ddb1ed3fb3d28d8faf98cfd",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "e3a685c58928e855cc43b16b90dfbea42739e5f6722221f021c233d05e407b73",
+      "target": "tasks/Compose/Compose_003/action_plan.yaml",
+      "target_sha256": "e3a685c58928e855cc43b16b90dfbea42739e5f6722221f021c233d05e407b73",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "32ad6fb1cad6aec56df84fd08596a4f25a5f56840d729ae385462457993c003a",
+      "target": "tasks/Compose/Compose_003/mask_bindings.yaml",
+      "target_sha256": "32ad6fb1cad6aec56df84fd08596a4f25a5f56840d729ae385462457993c003a",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "f8f5939246b2a0366ed2e5ffab392d00ab1e2f4188726302b89a54c345540b9f",
+      "target": "tasks/Compose/Compose_003/task_meta.yaml",
+      "target_sha256": "e7fa33dbcaf639dacb2bcf981056140bec982096cb24d08c306cd6fcf3903176",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged; workflow metadata and approval notes removed; task semantics unchanged"
+    },
+    {
+      "source_sha256": "6c0276515f2ba14e6a4214c6f575f46965cfe409aabc6e51bc7258f524adb77c",
+      "target": "tasks/Compose/Compose_003/registry_entry.yaml",
+      "target_sha256": "38d86ef492d4826aa5cccd5a3c45350ec7a99fabf59484bd6429132c73b174a8",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "bb5151bdb99006b5c4ec3d91d3853f9ab214cc879563bfce297df59917f095ba",
+      "target": "tasks/Compose/Compose_003/FIXTURE_REPLAY.json",
+      "target_sha256": "130e3c2a2876de300e527071e984a2731aa4e1658c711b562a868761b514980c",
+      "change": "source pointers sanitized; all replay poses/state hashes retained"
+    },
+    {
+      "source_sha256": "58ed08af1c772205380ca63f224a6e4e74f3df7b36a01ae7745143664f42be11",
+      "target": "tasks/Compose/Compose_004/task.bddl",
+      "target_sha256": "58ed08af1c772205380ca63f224a6e4e74f3df7b36a01ae7745143664f42be11",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "41b1d7bedc7bae383ce331a2b4ff3528939cd19fdbe38d44e88debc70e7e72a0",
+      "target": "tasks/Compose/Compose_004/task.pruned_init",
+      "target_sha256": "41b1d7bedc7bae383ce331a2b4ff3528939cd19fdbe38d44e88debc70e7e72a0",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "eca8694299fa1af8af61f675e488593814ca13c52b8fc5b637ebc3d09a82be8b",
+      "target": "tasks/Compose/Compose_004/eval_rules.yaml",
+      "target_sha256": "c5920029fe2b2b5e3d7d12ec2931886d995327f8d86661750ccfaa26b193955d",
+      "change": "publication-review metadata removed; scoring fields unchanged"
+    },
+    {
+      "source_sha256": "ad9660774e1eaed5a196d6224dbec2e235a33689dd140e12612fad2da804a13f",
+      "target": "tasks/Compose/Compose_004/action_plan.yaml",
+      "target_sha256": "ad9660774e1eaed5a196d6224dbec2e235a33689dd140e12612fad2da804a13f",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "a08e6fa64cefce3fa55b3421bee81b164e4537a6d04dcd9b5bfcc69142a97a7f",
+      "target": "tasks/Compose/Compose_004/mask_bindings.yaml",
+      "target_sha256": "a08e6fa64cefce3fa55b3421bee81b164e4537a6d04dcd9b5bfcc69142a97a7f",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "9851c4535f5c4e1e85e7369280c1001550bb65d1f5854b6a1ed072b490e999fb",
+      "target": "tasks/Compose/Compose_004/task_meta.yaml",
+      "target_sha256": "e67df5b1d54f748e1b78648298a9f626a3b6d041a3fdcd1dba85e3c24b4dc042",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged; workflow metadata and approval notes removed; task semantics unchanged"
+    },
+    {
+      "source_sha256": "60520204bfde2dc7782be4a9175e603dd550e6924391b594fe091b2685c2a37c",
+      "target": "tasks/Compose/Compose_004/registry_entry.yaml",
+      "target_sha256": "218eea52e009de9498ed470bc3a6eb0c703e434003764cf13f78a0bfcc49e2a4",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "2ffd017a63345cd258089ff606fb89f2c7d0a6a07249e26410096f60e948a0dc",
+      "target": "tasks/Compose/Compose_004/FIXTURE_REPLAY.json",
+      "target_sha256": "2ffd017a63345cd258089ff606fb89f2c7d0a6a07249e26410096f60e948a0dc",
+      "change": "source pointers sanitized; all replay poses/state hashes retained"
+    },
+    {
+      "source_sha256": "df87d609188c7c9b898ce665d17aca5b3657395a822b98e5ecb16f0a951fea89",
+      "target": "tasks/Compose/Compose_005/task.bddl",
+      "target_sha256": "df87d609188c7c9b898ce665d17aca5b3657395a822b98e5ecb16f0a951fea89",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "67a429d28b833a5d1d30d15af1320785ead4606bde31858ecd735c8721507c3d",
+      "target": "tasks/Compose/Compose_005/task.pruned_init",
+      "target_sha256": "67a429d28b833a5d1d30d15af1320785ead4606bde31858ecd735c8721507c3d",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "d646b9842fb03c22c908522d9d1c080a9788658c7e84918e2ee876aab6f11ec1",
+      "target": "tasks/Compose/Compose_005/eval_rules.yaml",
+      "target_sha256": "d646b9842fb03c22c908522d9d1c080a9788658c7e84918e2ee876aab6f11ec1",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "c3a33fecf29c97eee14b983fa32624ff1fabe3c6f7f8d73db9428958ff23637b",
+      "target": "tasks/Compose/Compose_005/action_plan.yaml",
+      "target_sha256": "c3a33fecf29c97eee14b983fa32624ff1fabe3c6f7f8d73db9428958ff23637b",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "de069af2a73e0f8c00a96c7487e3c5edb20ae1029fae90d38048302835af0fa1",
+      "target": "tasks/Compose/Compose_005/mask_bindings.yaml",
+      "target_sha256": "de069af2a73e0f8c00a96c7487e3c5edb20ae1029fae90d38048302835af0fa1",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "ea4aec2ab2eb0ce5fc6afe8d35cba6793915ef34d66079790429f0bf6ea2c79d",
+      "target": "tasks/Compose/Compose_005/task_meta.yaml",
+      "target_sha256": "f363b774d9dd814da96359711a13bad2f9a337c870d9a6030305a0b6cabf50e9",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged; workflow metadata and approval notes removed; task semantics unchanged"
+    },
+    {
+      "source_sha256": "1647e60bcb5f120c9e380513f21eee552d87f325ef708455803aaa46b9611c26",
+      "target": "tasks/Compose/Compose_005/registry_entry.yaml",
+      "target_sha256": "0fe1a2aa1c75d50573cf422accaad5e06f087199c1e2d1cd25728b33871f530c",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "2f2fb1de2fbc0134d2fb9803d4159fd7e0499f97179c27ddd76435e1b4b8940e",
+      "target": "tasks/Compose/Compose_005/FIXTURE_REPLAY.json",
+      "target_sha256": "2f2fb1de2fbc0134d2fb9803d4159fd7e0499f97179c27ddd76435e1b4b8940e",
+      "change": "source pointers sanitized; all replay poses/state hashes retained"
+    },
+    {
+      "source_sha256": "57529c6c4f5280d7e6f81a92700a225fd0a935bde5f02546c72fd3c107d1f039",
+      "target": "tasks/Compose/Compose_005/MICROWAVE_SWEEP_EVIDENCE.json",
+      "target_sha256": "d1e9e3fe61dfe43c56df2405b80eb5adfd369d3734d1a73d40479672bc2585ce",
+      "change": "exact runtime sweep fields retained; screen/provenance details excluded; package replay digest updated"
+    },
+    {
+      "source_sha256": "3a4b08ae0d1ad8c2644329c6f988171ad086d7aa331c47025f167cfefd3b486f",
+      "target": "tasks/Compose/Compose_005/VCN21_V3_SUPPLEMENTAL_PROVENANCE_MANIFEST.json",
+      "target_sha256": "c4824f725c6b450a52e77196805994a26be08b2f8a6195895d2ee68024fc2a6c",
+      "change": "runtime-only manifest; evaluation results excluded"
+    },
+    {
+      "source_sha256": "1010c50c96537971a62ce28091c75dda563e5470d25ad12156ab996e517fc155",
+      "target": "tasks/Compose/Compose_006/task.bddl",
+      "target_sha256": "1010c50c96537971a62ce28091c75dda563e5470d25ad12156ab996e517fc155",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "85e5d202135ee4fc420deff2c18b4f76811af14222e0921338f8757194e73083",
+      "target": "tasks/Compose/Compose_006/task.pruned_init",
+      "target_sha256": "85e5d202135ee4fc420deff2c18b4f76811af14222e0921338f8757194e73083",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "b3b2dc2b6a480c5a790633e317af73fe3a4e7ff57ec2ef5a3196fe5b1ddd5b7a",
+      "target": "tasks/Compose/Compose_006/eval_rules.yaml",
+      "target_sha256": "b3b2dc2b6a480c5a790633e317af73fe3a4e7ff57ec2ef5a3196fe5b1ddd5b7a",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "85727b5ff6bdfe8c133a32d12985eefaa9dfea9c97c4b7bc044ea11938316053",
+      "target": "tasks/Compose/Compose_006/action_plan.yaml",
+      "target_sha256": "85727b5ff6bdfe8c133a32d12985eefaa9dfea9c97c4b7bc044ea11938316053",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "0d893331eb7eb221702b92792ccc66270f6771f95ee709d0ce70c1f65f8ac155",
+      "target": "tasks/Compose/Compose_006/mask_bindings.yaml",
+      "target_sha256": "0d893331eb7eb221702b92792ccc66270f6771f95ee709d0ce70c1f65f8ac155",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "03544cfdb69c18c90ac635879c978587d52e0c9bc4eeca9c7ac664a3cd9a5f14",
+      "target": "tasks/Compose/Compose_006/task_meta.yaml",
+      "target_sha256": "378c615cdcd219a297702b672c56705cdf889cedea4880a84d9e568574ec679b",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged; workflow metadata and approval notes removed; task semantics unchanged"
+    },
+    {
+      "source_sha256": "07afd3d0b0c012579b260ad466754d14cfd5bcbe39213833a229a0b612a7007e",
+      "target": "tasks/Compose/Compose_006/registry_entry.yaml",
+      "target_sha256": "3303e1b27855698cc5a91bc568e903df922a0120933803620f1fc7ecbf007e28",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "9f35a9b54013aca6a81ff01ad3a07ed95b821d714a8fb6d5a9cb187ec4e2ba3e",
+      "target": "tasks/Compose/Compose_007/task.bddl",
+      "target_sha256": "9f35a9b54013aca6a81ff01ad3a07ed95b821d714a8fb6d5a9cb187ec4e2ba3e",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "9ca72150058bc6994d913250e4c4dfaffe6b82979ce3cb58f2e1cbd92017d40f",
+      "target": "tasks/Compose/Compose_007/task.pruned_init",
+      "target_sha256": "9ca72150058bc6994d913250e4c4dfaffe6b82979ce3cb58f2e1cbd92017d40f",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "7a3c19219aa618bc2fe3c140957250f5198646cc5c9e0819c623cf50ed6204e2",
+      "target": "tasks/Compose/Compose_007/eval_rules.yaml",
+      "target_sha256": "7a3c19219aa618bc2fe3c140957250f5198646cc5c9e0819c623cf50ed6204e2",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "556ae6a22dd899f223fa25b94064550adfea450304d36b680c49eeafc65308af",
+      "target": "tasks/Compose/Compose_007/action_plan.yaml",
+      "target_sha256": "556ae6a22dd899f223fa25b94064550adfea450304d36b680c49eeafc65308af",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "7629c6af8164786c96c3a35c6db98f476a93c018b5ebd776523f63d70e615fc5",
+      "target": "tasks/Compose/Compose_007/mask_bindings.yaml",
+      "target_sha256": "7629c6af8164786c96c3a35c6db98f476a93c018b5ebd776523f63d70e615fc5",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "99e4164edb9ae1f89fb1728a29c4d81a6342c46a69185c999bf675555e381c5a",
+      "target": "tasks/Compose/Compose_007/task_meta.yaml",
+      "target_sha256": "5a2877782f9e9743d8d595376b3ffca485b500423c4cae616fa3b7d6164c6248",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged; workflow metadata and approval notes removed; task semantics unchanged"
+    },
+    {
+      "source_sha256": "058843354df0111ab5060f8d9c6e8a8f7687469681cef839c912c291f66c7f69",
+      "target": "tasks/Compose/Compose_007/registry_entry.yaml",
+      "target_sha256": "a5ff5de299380c307cde597f38bc69f97fdd73876d3684b6077cca6f43e3ce16",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "3f100c3201c8795a41ae60d65d73e3f041e65a89a13a2f3e535b34c5197d2c24",
+      "target": "tasks/Compose/Compose_008/task.bddl",
+      "target_sha256": "3f100c3201c8795a41ae60d65d73e3f041e65a89a13a2f3e535b34c5197d2c24",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "09a984ba56be7b0cdb76471bc1607db20cd7addc73913ba79c48ad9438e120be",
+      "target": "tasks/Compose/Compose_008/task.pruned_init",
+      "target_sha256": "09a984ba56be7b0cdb76471bc1607db20cd7addc73913ba79c48ad9438e120be",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "6d96a3dcbc8e01511c2539bd1f752c6236fca168846264fd704163cb1516529a",
+      "target": "tasks/Compose/Compose_008/eval_rules.yaml",
+      "target_sha256": "6d96a3dcbc8e01511c2539bd1f752c6236fca168846264fd704163cb1516529a",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "e54d848ddd3a5fa25c609af79b19592ff322572a15ddb857101263ad2c02b05f",
+      "target": "tasks/Compose/Compose_008/action_plan.yaml",
+      "target_sha256": "e54d848ddd3a5fa25c609af79b19592ff322572a15ddb857101263ad2c02b05f",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "5f75f99cb42d28f1022aaa9be4cb4793fcea0a3c4a4e2ffe96e022a8ff9df949",
+      "target": "tasks/Compose/Compose_008/mask_bindings.yaml",
+      "target_sha256": "5f75f99cb42d28f1022aaa9be4cb4793fcea0a3c4a4e2ffe96e022a8ff9df949",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "feb15ea1384727ef41d5d610063e0257433ed7003ef0c3d6b9eefb55605d3b84",
+      "target": "tasks/Compose/Compose_008/task_meta.yaml",
+      "target_sha256": "0593b3ca9c01875c1b2591275950e61315b8ff7c33991fe811b88fcaa052103a",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged; workflow metadata and approval notes removed; task semantics unchanged"
+    },
+    {
+      "source_sha256": "02885f49777585681d478404b2ba5648bc0716d2ab961f601b728a91d011b1cf",
+      "target": "tasks/Compose/Compose_008/registry_entry.yaml",
+      "target_sha256": "59c69af41d4703f27c2d239fb1ad1ed704c9396f5c5455b6e858bbae9c842cc2",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "dfdd101d5faa28fe32bdf8090ec47583588cc8aaae13f1af00d4280fe4318971",
+      "target": "tasks/Compose/Compose_009/task.bddl",
+      "target_sha256": "dfdd101d5faa28fe32bdf8090ec47583588cc8aaae13f1af00d4280fe4318971",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "564e5bb4c7c3d93bd39091fd952b57f235c35e4a0b26adaf006b73c9c8ee3b74",
+      "target": "tasks/Compose/Compose_009/task.pruned_init",
+      "target_sha256": "564e5bb4c7c3d93bd39091fd952b57f235c35e4a0b26adaf006b73c9c8ee3b74",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "84e46093970d0411378e67d67b56a54d4115d6d3f20a22fc1ed2cd3271eee0a7",
+      "target": "tasks/Compose/Compose_009/eval_rules.yaml",
+      "target_sha256": "84e46093970d0411378e67d67b56a54d4115d6d3f20a22fc1ed2cd3271eee0a7",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "be15df0e6f2f59c9c6b5222e801cea15e338f97ebcc3b655614c6235a52ff097",
+      "target": "tasks/Compose/Compose_009/action_plan.yaml",
+      "target_sha256": "be15df0e6f2f59c9c6b5222e801cea15e338f97ebcc3b655614c6235a52ff097",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "c9ab962aed66a6e566eccdd7404d38853b43b816046823eeac843d1662eb3904",
+      "target": "tasks/Compose/Compose_009/mask_bindings.yaml",
+      "target_sha256": "c9ab962aed66a6e566eccdd7404d38853b43b816046823eeac843d1662eb3904",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "d8b599cf8c88af17dfccd34e043e283b4fc80c71eb0949c1de01f09c1765cf41",
+      "target": "tasks/Compose/Compose_009/task_meta.yaml",
+      "target_sha256": "345df95b35a665b2f5749de28d544540c15a294dfebdf90d7579c1ae11a858ae",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged; workflow metadata and approval notes removed; task semantics unchanged"
+    },
+    {
+      "source_sha256": "b7ef1037ad7e1310d18f8e4beff609fda4953f0e7a5622f936092e2ced574ced",
+      "target": "tasks/Compose/Compose_009/registry_entry.yaml",
+      "target_sha256": "9986167f5c64820d6346abfdc77403cbeba7fac2c34f602a3c387529b95b0cf1",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "75348f01ba1b220af2009575c1632864381cbad6f089eda21ee96984d9ab1dd9",
+      "target": "tasks/Compose/Compose_010/task.bddl",
+      "target_sha256": "75348f01ba1b220af2009575c1632864381cbad6f089eda21ee96984d9ab1dd9",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "f0305223c30e5fcead41dccd53938dad5dfc64c1985fee7858615fa53bfe34af",
+      "target": "tasks/Compose/Compose_010/task.pruned_init",
+      "target_sha256": "f0305223c30e5fcead41dccd53938dad5dfc64c1985fee7858615fa53bfe34af",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "7bcfa7db592ef0bfa1f583532648741c6a47aa18d59d52f1500792abbf925887",
+      "target": "tasks/Compose/Compose_010/eval_rules.yaml",
+      "target_sha256": "7bcfa7db592ef0bfa1f583532648741c6a47aa18d59d52f1500792abbf925887",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "f92ae895d7b7fd8024450e849c32c1b759ddb67131b329fd80ef55b8205f7c2c",
+      "target": "tasks/Compose/Compose_010/action_plan.yaml",
+      "target_sha256": "f92ae895d7b7fd8024450e849c32c1b759ddb67131b329fd80ef55b8205f7c2c",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "1ae8da7faed81fa9fffc8b0852f9e7a7e0aef1f9b1fa45d7f6f57584d8c1f725",
+      "target": "tasks/Compose/Compose_010/mask_bindings.yaml",
+      "target_sha256": "1ae8da7faed81fa9fffc8b0852f9e7a7e0aef1f9b1fa45d7f6f57584d8c1f725",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "89a9ca52772860e6fb294d8e559edba9c1621dbad0068dbaa8a8b3e818c31ac4",
+      "target": "tasks/Compose/Compose_010/task_meta.yaml",
+      "target_sha256": "11b4d9f0c107ccff669136dda5491a802fe9e77d8a4a629a53f224fa6877e846",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged; workflow metadata and approval notes removed; task semantics unchanged"
+    },
+    {
+      "source_sha256": "1de4f2949b8b76534d1e57b958fbff60cca5cd2962a88addecb904ceb1e16ef9",
+      "target": "tasks/Compose/Compose_010/registry_entry.yaml",
+      "target_sha256": "baebd4c15e1f9801f9525e31858e8783cc11ed9c583d7bd23d663f144e59cfff",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "e23cca04f4ce8f4af19eabc02a6772c3f24a9c3ebf4c9013d04d9256f60bd7d5",
+      "target": "tasks/Compose/Compose_011/task.bddl",
+      "target_sha256": "e23cca04f4ce8f4af19eabc02a6772c3f24a9c3ebf4c9013d04d9256f60bd7d5",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "9ca72150058bc6994d913250e4c4dfaffe6b82979ce3cb58f2e1cbd92017d40f",
+      "target": "tasks/Compose/Compose_011/task.pruned_init",
+      "target_sha256": "9ca72150058bc6994d913250e4c4dfaffe6b82979ce3cb58f2e1cbd92017d40f",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "9f9bb19cd183c02f6c07660a26d530a7da23c55927c3a30b5c2f5d3ceafc039d",
+      "target": "tasks/Compose/Compose_011/eval_rules.yaml",
+      "target_sha256": "9f9bb19cd183c02f6c07660a26d530a7da23c55927c3a30b5c2f5d3ceafc039d",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "713b542717b22326313404635bf09c215a413d57ac03fa505b0a30e86169f313",
+      "target": "tasks/Compose/Compose_011/action_plan.yaml",
+      "target_sha256": "713b542717b22326313404635bf09c215a413d57ac03fa505b0a30e86169f313",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "8b32436a7750abdbadef5a6109854ef243d3b5a8a43af8e13891cd104cf224ff",
+      "target": "tasks/Compose/Compose_011/mask_bindings.yaml",
+      "target_sha256": "8b32436a7750abdbadef5a6109854ef243d3b5a8a43af8e13891cd104cf224ff",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "06a80636e8a2a2a3531730c854f278f68aede87fc94c9fdf8746bcabf11da93c",
+      "target": "tasks/Compose/Compose_011/task_meta.yaml",
+      "target_sha256": "d9ba60f08d8232e3b4104c972427b0cbec2c4038ba67711d80b5d412766c9101",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged; workflow metadata and approval notes removed; task semantics unchanged"
+    },
+    {
+      "source_sha256": "de05f9e7992979a7a43357406bb6b4aa36ac10cc7df312687183c0b05f70c716",
+      "target": "tasks/Compose/Compose_011/registry_entry.yaml",
+      "target_sha256": "499e993382373abe076e5108caac454e5069f733c4e3554fcc27099144132472",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "1a27d644440e6a7f2700057a93fcc86d8d35d5e8fcb5f8c9c5081328cd443260",
+      "target": "tasks/Compose/Compose_012/task.bddl",
+      "target_sha256": "1a27d644440e6a7f2700057a93fcc86d8d35d5e8fcb5f8c9c5081328cd443260",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "ac28dde4b63ec0886be500d98785b2b880a24c3afd8a642d666f7276c59df55f",
+      "target": "tasks/Compose/Compose_012/task.pruned_init",
+      "target_sha256": "ac28dde4b63ec0886be500d98785b2b880a24c3afd8a642d666f7276c59df55f",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "b64032aee873e452a1e54f15cd33622a623493fa73f6f99b3c269d9c9548c7e6",
+      "target": "tasks/Compose/Compose_012/eval_rules.yaml",
+      "target_sha256": "b64032aee873e452a1e54f15cd33622a623493fa73f6f99b3c269d9c9548c7e6",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "e11884bbe6b7e45974f58177a728df1d3268204bec395b113905bb165aefa44b",
+      "target": "tasks/Compose/Compose_012/action_plan.yaml",
+      "target_sha256": "e11884bbe6b7e45974f58177a728df1d3268204bec395b113905bb165aefa44b",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "d773b04edad2b11e0ec7fb9707b3d0c83d71a8458209cbcad58e27c45af462e4",
+      "target": "tasks/Compose/Compose_012/mask_bindings.yaml",
+      "target_sha256": "d773b04edad2b11e0ec7fb9707b3d0c83d71a8458209cbcad58e27c45af462e4",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "8e4cff7b4ae1c802e803ba58b9ce152952ca1963f62457db631c1ff6a7d2faa7",
+      "target": "tasks/Compose/Compose_012/task_meta.yaml",
+      "target_sha256": "864c1f537e386b570995ce3ff17747b33e1098ed5b8e47ef069431a00a20bc6a",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged; workflow metadata and approval notes removed; task semantics unchanged"
+    },
+    {
+      "source_sha256": "87561c9de4f100584e14aa63ae9e065143a3f10ea0fa6a600517ee1a55cf66df",
+      "target": "tasks/Compose/Compose_012/registry_entry.yaml",
+      "target_sha256": "e62af093a4f81cfadc7bcd7e8abb02dfa481b4e1b00d2146e593a779a3db2b5b",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "1f6aa0de7b56c0968f4cd8c0f34bdef57ad02e278afe2e381c1fef5e16761232",
+      "target": "tasks/Compose/Compose_012/FIXTURE_REPLAY.json",
+      "target_sha256": "1f6aa0de7b56c0968f4cd8c0f34bdef57ad02e278afe2e381c1fef5e16761232",
+      "change": "source pointers sanitized; all replay poses/state hashes retained"
+    },
+    {
+      "source_sha256": "fc01c8146fd515d2d69f456408510bb7500d5358651ab6d0127f9a3c2607fa8c",
+      "target": "tasks/Compose/Compose_013/task.bddl",
+      "target_sha256": "fc01c8146fd515d2d69f456408510bb7500d5358651ab6d0127f9a3c2607fa8c",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "65402caf23ed1cb54e14523757e46cbafa415e28da838314c00b2aacb3ec00be",
+      "target": "tasks/Compose/Compose_013/task.pruned_init",
+      "target_sha256": "65402caf23ed1cb54e14523757e46cbafa415e28da838314c00b2aacb3ec00be",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "702ffc9670edb29556f1a2a66c515029779809b6b1e3905ad4df626779a7c1f3",
+      "target": "tasks/Compose/Compose_013/eval_rules.yaml",
+      "target_sha256": "702ffc9670edb29556f1a2a66c515029779809b6b1e3905ad4df626779a7c1f3",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "be289ea008b3ea48c2f57d92d2eaa2994705c96c8968fd415f920c38a94a7d68",
+      "target": "tasks/Compose/Compose_013/action_plan.yaml",
+      "target_sha256": "be289ea008b3ea48c2f57d92d2eaa2994705c96c8968fd415f920c38a94a7d68",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "7cacf4f8a72a4f35a0b390370927e0bfe5062c7bb1416cc9f818042dd3082daa",
+      "target": "tasks/Compose/Compose_013/mask_bindings.yaml",
+      "target_sha256": "7cacf4f8a72a4f35a0b390370927e0bfe5062c7bb1416cc9f818042dd3082daa",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "58d32435dd7a472354a5434786798a415bdda18a93dddbcdab66f4c8a5f4834f",
+      "target": "tasks/Compose/Compose_013/task_meta.yaml",
+      "target_sha256": "b83f97f5e6b42079c2de65c2e7052c798d4164d75cbf9060d83f025c5822bdfd",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged; workflow metadata and approval notes removed; task semantics unchanged"
+    },
+    {
+      "source_sha256": "31c139293e4f2b87e0f27d63440437988db1b868103973c703584a6277b3a575",
+      "target": "tasks/Compose/Compose_013/registry_entry.yaml",
+      "target_sha256": "23eb3cd8121ae47a9b15958d471e33d402de4227bcb3f87d07e849955da14141",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "657e61aca6fb5ef2acd98774f0e7e18012058a2ce6fb66c300e2384ff9e8dcd2",
+      "target": "tasks/Compose/Compose_013/FIXTURE_REPLAY.json",
+      "target_sha256": "657e61aca6fb5ef2acd98774f0e7e18012058a2ce6fb66c300e2384ff9e8dcd2",
+      "change": "source pointers sanitized; all replay poses/state hashes retained"
+    },
+    {
+      "source_sha256": "d0f405b3d5a20a29eade620e4e3826815a96f7e3227d90a0e367bc9d98bfd8a0",
+      "target": "tasks/Adapt/Adapt_014/task.bddl",
+      "target_sha256": "d0f405b3d5a20a29eade620e4e3826815a96f7e3227d90a0e367bc9d98bfd8a0",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "346d9d3de14f3dab97071676cd491f785b86afb2846b7c067800c7e50cf8b79d",
+      "target": "tasks/Adapt/Adapt_014/task.pruned_init",
+      "target_sha256": "346d9d3de14f3dab97071676cd491f785b86afb2846b7c067800c7e50cf8b79d",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "9958aebb07cd8c64a5288ea7c40e529e3d3ecd3852ad7902b47d17442962270e",
+      "target": "tasks/Adapt/Adapt_014/eval_rules.yaml",
+      "target_sha256": "9958aebb07cd8c64a5288ea7c40e529e3d3ecd3852ad7902b47d17442962270e",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "5f013987968637e33dd514a69ddfb3bb73911a496a73a52076f83a48f8d503cd",
+      "target": "tasks/Adapt/Adapt_014/action_plan.yaml",
+      "target_sha256": "5f013987968637e33dd514a69ddfb3bb73911a496a73a52076f83a48f8d503cd",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "18d91124624eb9924edd85903936c0b76b92c859f303eeb8a35cd772d4042871",
+      "target": "tasks/Adapt/Adapt_014/mask_bindings.yaml",
+      "target_sha256": "18d91124624eb9924edd85903936c0b76b92c859f303eeb8a35cd772d4042871",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "828b67b8159c60d96a466d029c99d2702f0ce0ade3e970b3c4550cd12f11bb1f",
+      "target": "tasks/Adapt/Adapt_014/task_meta.yaml",
+      "target_sha256": "d8e59851acac633103dac9df41b15c825c300505632804837f2a1f5eff1a670e",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged; workflow metadata and approval notes removed; task semantics unchanged"
+    },
+    {
+      "source_sha256": "a93082a3e676c928c6cc71b109c6ca3e7b137f066713cace16cde9eaab4313b9",
+      "target": "tasks/Adapt/Adapt_014/registry_entry.yaml",
+      "target_sha256": "9a8c7e10e13ee02eb6581d9898dd8b281605b3171b0d23a5c4b9c0d65d57b114",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "92e53018f606759e8ba44cac0f8190666a084b331b1d58e44793c7439b101182",
+      "target": "tasks/Adapt/Adapt_015/task.bddl",
+      "target_sha256": "92e53018f606759e8ba44cac0f8190666a084b331b1d58e44793c7439b101182",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "47fc71976440a63685909409b6ced7dda3ca4cbfbf44e43a882e573d314a0b58",
+      "target": "tasks/Adapt/Adapt_015/task.pruned_init",
+      "target_sha256": "47fc71976440a63685909409b6ced7dda3ca4cbfbf44e43a882e573d314a0b58",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "9549d0e0488197e6d93f36388eeaedd20b185ff2ff663606b79a20e15204d77a",
+      "target": "tasks/Adapt/Adapt_015/eval_rules.yaml",
+      "target_sha256": "9549d0e0488197e6d93f36388eeaedd20b185ff2ff663606b79a20e15204d77a",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "7ed72b71f6cfdbb8634f307bc07dbdd0e44039a7947a8fc5a6a63c79111b5a51",
+      "target": "tasks/Adapt/Adapt_015/action_plan.yaml",
+      "target_sha256": "7ed72b71f6cfdbb8634f307bc07dbdd0e44039a7947a8fc5a6a63c79111b5a51",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "b043abf7afce8bc05ab1a3b8595beeda4343b865e8af7083986c1ff0dca1f788",
+      "target": "tasks/Adapt/Adapt_015/mask_bindings.yaml",
+      "target_sha256": "b043abf7afce8bc05ab1a3b8595beeda4343b865e8af7083986c1ff0dca1f788",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "03a68afb112a3c8b7d94c7fcfe34c179e69fe57d7d5b38870b62c4590b7859fb",
+      "target": "tasks/Adapt/Adapt_015/task_meta.yaml",
+      "target_sha256": "95e46baed2a001f104e3fd28b0822457321bda9856529c1b840c8c320a397884",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged; workflow metadata and approval notes removed; task semantics unchanged"
+    },
+    {
+      "source_sha256": "b1fd533ba66a5c476ee1033105bb733a0913f4c0562741dbab306402c0591c15",
+      "target": "tasks/Adapt/Adapt_015/registry_entry.yaml",
+      "target_sha256": "76026ff985907fb86563464a50bef0b7bd81f6d324616251c5eb72e77d697795",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "ad2fb9c514df68b1ccb5f22d2a661139f46a24bcb54e6ad17aabe84935747b0b",
+      "target": "tasks/Compose/Compose_014/task.bddl",
+      "target_sha256": "ad2fb9c514df68b1ccb5f22d2a661139f46a24bcb54e6ad17aabe84935747b0b",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "85f0a803d8e6cb7eb855afae31015fcd47a812a7a3885e29af4733a1b3af1248",
+      "target": "tasks/Compose/Compose_014/task.pruned_init",
+      "target_sha256": "85f0a803d8e6cb7eb855afae31015fcd47a812a7a3885e29af4733a1b3af1248",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "5733b700cc16c36a4f95f4ba96022225aef472b8445982824d162ba10f0d4188",
+      "target": "tasks/Compose/Compose_014/eval_rules.yaml",
+      "target_sha256": "5733b700cc16c36a4f95f4ba96022225aef472b8445982824d162ba10f0d4188",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "c2c3401253d59b2cfb6241cee63c2a204383ad7a1f92366bacbf721c08283ac2",
+      "target": "tasks/Compose/Compose_014/action_plan.yaml",
+      "target_sha256": "c2c3401253d59b2cfb6241cee63c2a204383ad7a1f92366bacbf721c08283ac2",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "64c1655aaa70cc79d6af7310b7dd8974609064a184d19b33be185814731e89c5",
+      "target": "tasks/Compose/Compose_014/mask_bindings.yaml",
+      "target_sha256": "64c1655aaa70cc79d6af7310b7dd8974609064a184d19b33be185814731e89c5",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "47c41050b4597d8fc407fc98c703beefcf17a6cac0e7da4aa203235e8aece841",
+      "target": "tasks/Compose/Compose_014/task_meta.yaml",
+      "target_sha256": "46332e24b5490ddeb9bade35979f098a3622d2a8c4d3211ebe625375fe3748b1",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged; workflow metadata and approval notes removed; task semantics unchanged"
+    },
+    {
+      "source_sha256": "0a5ef0c671dc1f2250c6ad374803ea5ab01250caa91a964defe56b3e1850fb36",
+      "target": "tasks/Compose/Compose_014/registry_entry.yaml",
+      "target_sha256": "2ef8192e04d9286b5ee07cfa6c79c14e4e7db868658f44bf3a9dec1566055e08",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "e3cd3b6bef2b314d03a84fe5a2d85a66c3514d9626adfaea3020461675faa44a",
+      "target": "tasks/Compose/Compose_014/FIXTURE_REPLAY.json",
+      "target_sha256": "e3cd3b6bef2b314d03a84fe5a2d85a66c3514d9626adfaea3020461675faa44a",
+      "change": "source pointers sanitized; all replay poses/state hashes retained"
+    },
+    {
+      "source_sha256": "6acf2fe0eba99028bf1d9b49b1e31f94f14b6e930d9653a0875b199787fada01",
+      "target": "tasks/Adapt/Adapt_016/task.bddl",
+      "target_sha256": "6acf2fe0eba99028bf1d9b49b1e31f94f14b6e930d9653a0875b199787fada01",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "011e82c77863ca9ac9ccef01eafa4a848a5dc617fd21da51f5a8731559a2758d",
+      "target": "tasks/Adapt/Adapt_016/task.pruned_init",
+      "target_sha256": "011e82c77863ca9ac9ccef01eafa4a848a5dc617fd21da51f5a8731559a2758d",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "10405c593de0dadbfa72d7de90213f8489d09f142063c9930798bea8f171ce8b",
+      "target": "tasks/Adapt/Adapt_016/eval_rules.yaml",
+      "target_sha256": "10405c593de0dadbfa72d7de90213f8489d09f142063c9930798bea8f171ce8b",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "6e4faf7a47c2792c7a76abd90bfd4fc5bab4c95b3d157a12d002fd0ac56b7ed9",
+      "target": "tasks/Adapt/Adapt_016/action_plan.yaml",
+      "target_sha256": "6e4faf7a47c2792c7a76abd90bfd4fc5bab4c95b3d157a12d002fd0ac56b7ed9",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "94373054badb0ce8f2766b076c7d28ef326d99afbfc70b819a7a095b635808b7",
+      "target": "tasks/Adapt/Adapt_016/mask_bindings.yaml",
+      "target_sha256": "94373054badb0ce8f2766b076c7d28ef326d99afbfc70b819a7a095b635808b7",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "a8a1417545721f869b59c515f9bfbdedc6897095eafbc503377d41adc8848aaf",
+      "target": "tasks/Adapt/Adapt_016/task_meta.yaml",
+      "target_sha256": "3e644cb7fb0d43f419061b843747137107c5d579a82de75f05b22c3ba034d781",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged; workflow metadata and approval notes removed; task semantics unchanged"
+    },
+    {
+      "source_sha256": "ffe3fb92d91a0905a30567f0e66237c827b6d80167e3ea9b33bce3512279797f",
+      "target": "tasks/Adapt/Adapt_016/registry_entry.yaml",
+      "target_sha256": "79db5c9b4b81a479bec2283462c2a7796ec0ecd790cd79e56ecc3ec57e70a758",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "cef8ce5a5fc55dffa2a769ad206d2f5800f032abdca74b32a49360515278e67b",
+      "target": "tasks/Adapt/Adapt_017/task.bddl",
+      "target_sha256": "cef8ce5a5fc55dffa2a769ad206d2f5800f032abdca74b32a49360515278e67b",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "ec2cc986fa887cf17f71b8855f5663479231715f1e10a27df12cc451b2db4c83",
+      "target": "tasks/Adapt/Adapt_017/task.pruned_init",
+      "target_sha256": "ec2cc986fa887cf17f71b8855f5663479231715f1e10a27df12cc451b2db4c83",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "3c7ffbf6cb2d05d464a1446f4f028a75a2ee82c1f5dc66ddc355c3dd0f8d7f97",
+      "target": "tasks/Adapt/Adapt_017/eval_rules.yaml",
+      "target_sha256": "3c7ffbf6cb2d05d464a1446f4f028a75a2ee82c1f5dc66ddc355c3dd0f8d7f97",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "c8e34ef0a92c197b56440834afa7ca7b0fb1566a748cc16743df9bcf68d254b7",
+      "target": "tasks/Adapt/Adapt_017/action_plan.yaml",
+      "target_sha256": "c8e34ef0a92c197b56440834afa7ca7b0fb1566a748cc16743df9bcf68d254b7",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "5952c757b94bcddc92b5a929d6ef1d521560711965b892e020b271936f720358",
+      "target": "tasks/Adapt/Adapt_017/mask_bindings.yaml",
+      "target_sha256": "5952c757b94bcddc92b5a929d6ef1d521560711965b892e020b271936f720358",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "4ad4fd3e21c24b1f55e103db545de2830121cd0d6c86ca4a1161a75dabb14700",
+      "target": "tasks/Adapt/Adapt_017/task_meta.yaml",
+      "target_sha256": "dd38661ed7065e5aaae3b4de85aceed63e0821627760ef256dbd3e0d59235130",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged; workflow metadata and approval notes removed; task semantics unchanged"
+    },
+    {
+      "source_sha256": "be3bee030c2747fea3b03dadbd533c3d956f065231bc3c60367cc649aba268c5",
+      "target": "tasks/Adapt/Adapt_017/registry_entry.yaml",
+      "target_sha256": "8067484369c8efd95ce9006c1812522c8a7cd9d691a07662c007bd6c406df1b6",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "50f5f445ad1906d9f11493686e5243708285f44adb2abc77b91249bc7100db72",
+      "target": "tasks/Compose/Compose_015/task.bddl",
+      "target_sha256": "50f5f445ad1906d9f11493686e5243708285f44adb2abc77b91249bc7100db72",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "b3bf0f5bf3f7ac0e939a750bce9e7c8838054e5b31a96bc6f01e2b30ba1b0d77",
+      "target": "tasks/Compose/Compose_015/task.pruned_init",
+      "target_sha256": "b3bf0f5bf3f7ac0e939a750bce9e7c8838054e5b31a96bc6f01e2b30ba1b0d77",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "ad235ed881acd5d5db57d63bf892923fb463411f700c27d01b75a2d8210b00df",
+      "target": "tasks/Compose/Compose_015/eval_rules.yaml",
+      "target_sha256": "cdd15101ba49bef3108130eabcdd0a370a92bdd3945bb1a10f740e2d0dec25cc",
+      "change": "publication-review metadata removed; scoring fields unchanged"
+    },
+    {
+      "source_sha256": "874acc5264feaf0f32e55ae528a2416bf5cf4316a7565d65ff68a3095f985bd9",
+      "target": "tasks/Compose/Compose_015/action_plan.yaml",
+      "target_sha256": "874acc5264feaf0f32e55ae528a2416bf5cf4316a7565d65ff68a3095f985bd9",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "3a5de40f5d71dcd12f73d780e2aa53291aa0442a433bbbe59d004b0c024f837d",
+      "target": "tasks/Compose/Compose_015/mask_bindings.yaml",
+      "target_sha256": "3a5de40f5d71dcd12f73d780e2aa53291aa0442a433bbbe59d004b0c024f837d",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "3499b226556a9c7b25e2d38f1271b8c2427e1fa686b9f94f789883022f2ca667",
+      "target": "tasks/Compose/Compose_015/task_meta.yaml",
+      "target_sha256": "7a8b4333d66ad22cdc524495ccfa254d936eb299a73549e26c66149cfa55c7e1",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged; workflow metadata and approval notes removed; task semantics unchanged"
+    },
+    {
+      "source_sha256": "c8b87d2103ab13be68028985ab7730d2dca8cae055c48c49e08d2af9ad0900d4",
+      "target": "tasks/Compose/Compose_015/registry_entry.yaml",
+      "target_sha256": "b18716599c0d711072a2f80b606de1466327e3ff98485460f56a21a98e7f78a5",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "f765db1a2d9f755a661206274172f68c08a25fd9c51ccd72061c9cbb194d4685",
+      "target": "tasks/Compose/Compose_015/FIXTURE_REPLAY.json",
+      "target_sha256": "f765db1a2d9f755a661206274172f68c08a25fd9c51ccd72061c9cbb194d4685",
+      "change": "source pointers sanitized; all replay poses/state hashes retained"
+    },
+    {
+      "source_sha256": "174eacea1f94f717f7f974917409da83beb828ce593f442d99be49c48ceb7ac3",
+      "target": "tasks/Adapt/Adapt_018/task.bddl",
+      "target_sha256": "174eacea1f94f717f7f974917409da83beb828ce593f442d99be49c48ceb7ac3",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "41b1d7bedc7bae383ce331a2b4ff3528939cd19fdbe38d44e88debc70e7e72a0",
+      "target": "tasks/Adapt/Adapt_018/task.pruned_init",
+      "target_sha256": "41b1d7bedc7bae383ce331a2b4ff3528939cd19fdbe38d44e88debc70e7e72a0",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "a310a2b2b8fa989da9023d5e590e851452885c0afc3953703dd918954d0e20a0",
+      "target": "tasks/Adapt/Adapt_018/eval_rules.yaml",
+      "target_sha256": "a310a2b2b8fa989da9023d5e590e851452885c0afc3953703dd918954d0e20a0",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "36ad5d935e3e36599d34643fd9ca829606240a289dc8ae492f2c0a922a939712",
+      "target": "tasks/Adapt/Adapt_018/action_plan.yaml",
+      "target_sha256": "36ad5d935e3e36599d34643fd9ca829606240a289dc8ae492f2c0a922a939712",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "b4c688ba4a4fa7a844ad13ef0970b59fac51b132531fd3a07d6b0eb56b674fde",
+      "target": "tasks/Adapt/Adapt_018/mask_bindings.yaml",
+      "target_sha256": "b4c688ba4a4fa7a844ad13ef0970b59fac51b132531fd3a07d6b0eb56b674fde",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "cb9240f099ad3864359f3c67237493793b095aaa07beb382c9ef059f5627ce34",
+      "target": "tasks/Adapt/Adapt_018/task_meta.yaml",
+      "target_sha256": "47491a4023af87fc9dc9b13a5d0d50cef1107b52b9b26907808634754bffb425",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged; workflow metadata and approval notes removed; task semantics unchanged"
+    },
+    {
+      "source_sha256": "e44bc8e1a4993bd855590012fbb8c09ffa7478b2b61f9fa8627b139b78c4799d",
+      "target": "tasks/Adapt/Adapt_018/registry_entry.yaml",
+      "target_sha256": "144910a5f60d078718bd04efae3b14e4186d82f2daeec69a94b74bd3d0623ef8",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "6c23476b197f280c578e69c9be60b6f7a720f991c69ccffb6779b26f4df6d790",
+      "target": "tasks/Adapt/Adapt_018/FIXTURE_REPLAY.json",
+      "target_sha256": "6c23476b197f280c578e69c9be60b6f7a720f991c69ccffb6779b26f4df6d790",
+      "change": "source pointers sanitized; all replay poses/state hashes retained"
+    },
+    {
+      "source_sha256": "3d0460e2bce211165e9b0c38bc57b10de51008c27b408c9d44e38636b82881f1",
+      "target": "tasks/Adapt/Adapt_019/task.bddl",
+      "target_sha256": "3d0460e2bce211165e9b0c38bc57b10de51008c27b408c9d44e38636b82881f1",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "d314c9b39062eb5e15db225b2f27b9a75e81cfa541c006855ac47de876e78b47",
+      "target": "tasks/Adapt/Adapt_019/task.pruned_init",
+      "target_sha256": "d314c9b39062eb5e15db225b2f27b9a75e81cfa541c006855ac47de876e78b47",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "df0b278ddd93174fdef6933e3c4d93ad1eccc4deaf17e8a8ea96e657dc2b8b0d",
+      "target": "tasks/Adapt/Adapt_019/eval_rules.yaml",
+      "target_sha256": "df0b278ddd93174fdef6933e3c4d93ad1eccc4deaf17e8a8ea96e657dc2b8b0d",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "b3b242e31ffab42bbd102eb88b585445f990c45e7236c43c1fd897b74af34216",
+      "target": "tasks/Adapt/Adapt_019/action_plan.yaml",
+      "target_sha256": "b3b242e31ffab42bbd102eb88b585445f990c45e7236c43c1fd897b74af34216",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "c5c5d48dbf023cc567c1689b6073f4db9bcac0fcb02c7c605f2ec08e26a8edf7",
+      "target": "tasks/Adapt/Adapt_019/mask_bindings.yaml",
+      "target_sha256": "c5c5d48dbf023cc567c1689b6073f4db9bcac0fcb02c7c605f2ec08e26a8edf7",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "5b162c67b61dc0232efa1f86ac569ff85a6a7f553304cbbce6d311677e75c36c",
+      "target": "tasks/Adapt/Adapt_019/task_meta.yaml",
+      "target_sha256": "8a28819679678ef3242aa88da363b6964fadcc3fb0edca86e38fd8363b142b8d",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged; workflow metadata and approval notes removed; task semantics unchanged"
+    },
+    {
+      "source_sha256": "b594720ea8b01eee00b1eb24adc9cca33bc64334b92adc9f8a52aff5b13f44e3",
+      "target": "tasks/Adapt/Adapt_019/registry_entry.yaml",
+      "target_sha256": "7d6fd8fa0596d130a848731d2f612de048a00202b0dff10fd92fcb2b469296d1",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "c2d7e687c1432644c6b8ac75d47137be0ea651bc04b0ad36f8be895e965c3902",
+      "target": "tasks/Adapt/Adapt_020/task.bddl",
+      "target_sha256": "c2d7e687c1432644c6b8ac75d47137be0ea651bc04b0ad36f8be895e965c3902",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "9d8d49baa1efd5a48c78e3e8907f56ac2c9521a7a997911b782bff55357eca6a",
+      "target": "tasks/Adapt/Adapt_020/task.pruned_init",
+      "target_sha256": "9d8d49baa1efd5a48c78e3e8907f56ac2c9521a7a997911b782bff55357eca6a",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "ea9c9c3452a441158fb0ae613607c6a3a15bd63d761433822b6795d6e227d6f5",
+      "target": "tasks/Adapt/Adapt_020/eval_rules.yaml",
+      "target_sha256": "ea9c9c3452a441158fb0ae613607c6a3a15bd63d761433822b6795d6e227d6f5",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "538787a467a070fd5cb31a872849ca5de762901f1773b6d333fd502eb9f57b3e",
+      "target": "tasks/Adapt/Adapt_020/action_plan.yaml",
+      "target_sha256": "538787a467a070fd5cb31a872849ca5de762901f1773b6d333fd502eb9f57b3e",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "9fa33f8c75a48051853ac307c0301eddc29296100eed748c0cb4859d0bf0c82b",
+      "target": "tasks/Adapt/Adapt_020/mask_bindings.yaml",
+      "target_sha256": "9fa33f8c75a48051853ac307c0301eddc29296100eed748c0cb4859d0bf0c82b",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "1e8dde96d8769685fab4b0a5a2200021e839ba0f381fc2cf57006629d594ce0b",
+      "target": "tasks/Adapt/Adapt_020/task_meta.yaml",
+      "target_sha256": "7299c590670ac48fa51e8bd3b3f9f81cc04664a2607b28cf2f0cebbdce30787c",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged; workflow metadata and approval notes removed; task semantics unchanged"
+    },
+    {
+      "source_sha256": "02c38c380b964e5757b70a39ad6451efbaf432bab7059291eb7dfc1b27a7e69f",
+      "target": "tasks/Adapt/Adapt_020/registry_entry.yaml",
+      "target_sha256": "4344acd8516b430234294329924773864fe25ed6bfbbd44027d737e1a2d149fb",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "899dda825f8818d211c635346d73025cbe956ca380076845652336f0fea67311",
+      "target": "tasks/Adapt/Adapt_020/FIXTURE_REPLAY.json",
+      "target_sha256": "899dda825f8818d211c635346d73025cbe956ca380076845652336f0fea67311",
+      "change": "source pointers sanitized; all replay poses/state hashes retained"
+    },
+    {
+      "source_sha256": "6f8ee6ff246f0928f49e23f154a55cb7e0fef62329ae5198049aaedbe6249ff0",
+      "target": "tasks/Compose/Compose_016/task.bddl",
+      "target_sha256": "6f8ee6ff246f0928f49e23f154a55cb7e0fef62329ae5198049aaedbe6249ff0",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "173360d853e9304da43b3ae4a6a858820c90bfe33f868a1188203865eee36e7c",
+      "target": "tasks/Compose/Compose_016/task.pruned_init",
+      "target_sha256": "173360d853e9304da43b3ae4a6a858820c90bfe33f868a1188203865eee36e7c",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "e143b345b0dbb28d5ecff0e84e6ba4f48ec0560e9841616f32509358b8db6f53",
+      "target": "tasks/Compose/Compose_016/eval_rules.yaml",
+      "target_sha256": "c29359551d53a0fad8d0c806cffbb81cd16b8ea094aef153dbdac3b383fd5479",
+      "change": "publication-review metadata removed; scoring fields unchanged"
+    },
+    {
+      "source_sha256": "bb783bd0a85926bf970cf8e3f49ab7515be488c7050c9d30d2b38e4ce60077bf",
+      "target": "tasks/Compose/Compose_016/action_plan.yaml",
+      "target_sha256": "bb783bd0a85926bf970cf8e3f49ab7515be488c7050c9d30d2b38e4ce60077bf",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "274b72c394c67c489e4dabca7fe7cb6186addb70c2adb1ba80dc044a19950010",
+      "target": "tasks/Compose/Compose_016/mask_bindings.yaml",
+      "target_sha256": "274b72c394c67c489e4dabca7fe7cb6186addb70c2adb1ba80dc044a19950010",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "facbf6d10ac430072dc21cd559f9523bb6b6d1a72b7ed61358932f2137e12394",
+      "target": "tasks/Compose/Compose_016/task_meta.yaml",
+      "target_sha256": "c160680ae56d98adf43e6f0640c6881fcf3719c9cef2fe4474c864b2a426572f",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged; workflow metadata and approval notes removed; task semantics unchanged"
+    },
+    {
+      "source_sha256": "52ed10851e57368c5698c4b65e887c869a248a7724256ed9727c5dd09d8eb183",
+      "target": "tasks/Compose/Compose_016/registry_entry.yaml",
+      "target_sha256": "739732fcfc327bba960de777f5a6d7320231a05b631a9f5ff3f744bb28b66ec8",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "0fe8f3aa60d17942282794bd9c49f1deb264821eb80dc71998c301f53561bdc2",
+      "target": "tasks/Compose/Compose_016/FIXTURE_REPLAY.json",
+      "target_sha256": "0fe8f3aa60d17942282794bd9c49f1deb264821eb80dc71998c301f53561bdc2",
+      "change": "source pointers sanitized; all replay poses/state hashes retained"
+    },
+    {
+      "source_sha256": "694b9c21a0c63cbbb40e636a9ca32d1069b230b3533b0f44f82c1d36d19b35a0",
+      "target": "tasks/Compose/Compose_017/task.bddl",
+      "target_sha256": "694b9c21a0c63cbbb40e636a9ca32d1069b230b3533b0f44f82c1d36d19b35a0",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "c21153de5bf5619c622e0766aee31f5a1a7ac7a01af7acc1c0eef55a35201699",
+      "target": "tasks/Compose/Compose_017/task.pruned_init",
+      "target_sha256": "c21153de5bf5619c622e0766aee31f5a1a7ac7a01af7acc1c0eef55a35201699",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "60bf30b9fe07165ada34f6fdf327ac43cbf77aaabec39a9b960e6527be8b4433",
+      "target": "tasks/Compose/Compose_017/eval_rules.yaml",
+      "target_sha256": "b33c70f347ad00bf5d9d7abf6cad58bede3e0fe7745a8a3705f64218047b5e5c",
+      "change": "publication-review metadata removed; scoring fields unchanged"
+    },
+    {
+      "source_sha256": "853decf881becf1d79b25e274f723411707ed0b0aaf14142d0c00c805d3dd5b8",
+      "target": "tasks/Compose/Compose_017/action_plan.yaml",
+      "target_sha256": "853decf881becf1d79b25e274f723411707ed0b0aaf14142d0c00c805d3dd5b8",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "de1de63174766522155cb6794bb527cc8c2e550bd5ab2a315bfd5d5dc38c9c25",
+      "target": "tasks/Compose/Compose_017/mask_bindings.yaml",
+      "target_sha256": "de1de63174766522155cb6794bb527cc8c2e550bd5ab2a315bfd5d5dc38c9c25",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "11e565c53c2a95dd7089c97b06d43eb0c626bbb1c6f4903f7c15bfea22ac9442",
+      "target": "tasks/Compose/Compose_017/task_meta.yaml",
+      "target_sha256": "746cf309c473f10b8a7de86d0d5ae5a49e2cacd79ae6424fca3512e128398923",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged; workflow metadata and approval notes removed; task semantics unchanged"
+    },
+    {
+      "source_sha256": "6b395fd561b516da3ea2c23addfd47bead1a02947451ee36ed01752fe1695da0",
+      "target": "tasks/Compose/Compose_017/registry_entry.yaml",
+      "target_sha256": "61f78758541ed11a49a505f2714e092e8f47b39b9f4435286705ea13d9a532bf",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "74f5f57d844fbb3192c44fecff2b3dbbb82d0e1839db41ce6a0c0688635326d3",
+      "target": "tasks/Compose/Compose_017/FIXTURE_REPLAY.json",
+      "target_sha256": "74f5f57d844fbb3192c44fecff2b3dbbb82d0e1839db41ce6a0c0688635326d3",
+      "change": "source pointers sanitized; all replay poses/state hashes retained"
+    },
+    {
+      "source_sha256": "51c82d96a263c4c2843b9f74c151d6380a6416eac0f1174388ee1598fcd537a0",
+      "target": "tasks/Compose/Compose_018/task.bddl",
+      "target_sha256": "51c82d96a263c4c2843b9f74c151d6380a6416eac0f1174388ee1598fcd537a0",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "56ebae9e130be63c3e188d3198230d5043e3d33ccb1a2b3e9ee19f74ef82c27c",
+      "target": "tasks/Compose/Compose_018/task.pruned_init",
+      "target_sha256": "56ebae9e130be63c3e188d3198230d5043e3d33ccb1a2b3e9ee19f74ef82c27c",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "d329bed2b5614a65f6c2f498b941a52ea2afee64672a38b9a42e04a50ab39dcf",
+      "target": "tasks/Compose/Compose_018/eval_rules.yaml",
+      "target_sha256": "d329bed2b5614a65f6c2f498b941a52ea2afee64672a38b9a42e04a50ab39dcf",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "06f804dcec10b19ed637b720d9553a116f790ef415285ca3c1a38dbaaeb71fec",
+      "target": "tasks/Compose/Compose_018/action_plan.yaml",
+      "target_sha256": "06f804dcec10b19ed637b720d9553a116f790ef415285ca3c1a38dbaaeb71fec",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "a40faaee849f3f00a702479c18f8147bf4cd908eca3a974820fd39029fa91539",
+      "target": "tasks/Compose/Compose_018/mask_bindings.yaml",
+      "target_sha256": "a40faaee849f3f00a702479c18f8147bf4cd908eca3a974820fd39029fa91539",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "4abaa753a7b456ffc43d31c0df0a1f86a4c60bf9c4a4f64a1e18f6d084479352",
+      "target": "tasks/Compose/Compose_018/task_meta.yaml",
+      "target_sha256": "d6adbbda083531778c33235e4d8f163ab1009b76bc2b2a968a2d3c3c8da7dfb8",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged; workflow metadata and approval notes removed; task semantics unchanged"
+    },
+    {
+      "source_sha256": "75f248a64d79dbdad171e4eca184bfced5274f61397d896743601bb6617ad762",
+      "target": "tasks/Compose/Compose_018/registry_entry.yaml",
+      "target_sha256": "9fc8dcce5527121e2e9a509a4c306b299b81fd03f2e209320a3d849adbd28839",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "6437b6ed1d05c08291041293b767e6a123302e8e508c4f5dc755718c5a7e1072",
+      "target": "tasks/Compose/Compose_019/task.bddl",
+      "target_sha256": "6437b6ed1d05c08291041293b767e6a123302e8e508c4f5dc755718c5a7e1072",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "1b7e18e36592104abad43cf8980c2ce5d35641f5982e6f2e8deb8015d5912a1f",
+      "target": "tasks/Compose/Compose_019/task.pruned_init",
+      "target_sha256": "1b7e18e36592104abad43cf8980c2ce5d35641f5982e6f2e8deb8015d5912a1f",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "4e08146c1b063adbf741704db437c9567fc1e629567b9ef43a13fa398fa474b8",
+      "target": "tasks/Compose/Compose_019/eval_rules.yaml",
+      "target_sha256": "269813c752e6b44c200da44751345451928e2a2006b34c892b52d2f33d74e316",
+      "change": "publication-review metadata removed; scoring fields unchanged"
+    },
+    {
+      "source_sha256": "c8c56c3adc38ca43624f05feb1536bff68518017fee11819ec0d241f53186f6d",
+      "target": "tasks/Compose/Compose_019/action_plan.yaml",
+      "target_sha256": "c8c56c3adc38ca43624f05feb1536bff68518017fee11819ec0d241f53186f6d",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "588a618e1c7ce90b0aa81dcc1cb455f87f8298e8783cbafec7fcebe473234b77",
+      "target": "tasks/Compose/Compose_019/mask_bindings.yaml",
+      "target_sha256": "588a618e1c7ce90b0aa81dcc1cb455f87f8298e8783cbafec7fcebe473234b77",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "94a39e4fb32d6194a85148b305ef4f79dd5fbb921cac1ff9e23d3afc5af1ce64",
+      "target": "tasks/Compose/Compose_019/task_meta.yaml",
+      "target_sha256": "9de6d441fe51797c57fc12b3043ebcb3916d07af68526c56fe702f83700db8e8",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged; workflow metadata and approval notes removed; task semantics unchanged"
+    },
+    {
+      "source_sha256": "a3920441b0080ec0004305dc8be35265d70cd5ff96899aa71e3092075db9cda4",
+      "target": "tasks/Compose/Compose_019/registry_entry.yaml",
+      "target_sha256": "52ecaa1876b70a2893099d53e2ac4c10bd3b20e01ad3a963e0b3b61e8e449c11",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "2b06d01924b020bcc5150b460f7b559283071a37050dd9ac09d84f19eff1ecf8",
+      "target": "tasks/Compose/Compose_019/FIXTURE_REPLAY.json",
+      "target_sha256": "2b06d01924b020bcc5150b460f7b559283071a37050dd9ac09d84f19eff1ecf8",
+      "change": "source pointers sanitized; all replay poses/state hashes retained"
+    },
+    {
+      "source_sha256": "17df62a05f502e7760d2bee4bf8bdf5f54f3cfa86a52721ebf39c255ed99ae7b",
+      "target": "tasks/Compose/Compose_020/task.bddl",
+      "target_sha256": "17df62a05f502e7760d2bee4bf8bdf5f54f3cfa86a52721ebf39c255ed99ae7b",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "7d3adc16f30ba07eabc212414b9182c95a1c8758a8450e7e9d8c866db95099dd",
+      "target": "tasks/Compose/Compose_020/task.pruned_init",
+      "target_sha256": "7d3adc16f30ba07eabc212414b9182c95a1c8758a8450e7e9d8c866db95099dd",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "713663cd4009468c88e52e816ec8a9e72dc42528b33fc182396aca76aa0a8c02",
+      "target": "tasks/Compose/Compose_020/eval_rules.yaml",
+      "target_sha256": "59e29f851bb2c5f623aa4e2e249dacdcda52be9091b8a1f0038f7946a6ac3b8e",
+      "change": "publication-review metadata removed; scoring fields unchanged"
+    },
+    {
+      "source_sha256": "753bf44e756a38452f41b681bf1f409af2a14815c48bf84b78b87496fac59bfc",
+      "target": "tasks/Compose/Compose_020/action_plan.yaml",
+      "target_sha256": "753bf44e756a38452f41b681bf1f409af2a14815c48bf84b78b87496fac59bfc",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "7298e7fb1a938d9cc2545a22cafb49b519ced5d30a72116077f81757615f9e00",
+      "target": "tasks/Compose/Compose_020/mask_bindings.yaml",
+      "target_sha256": "7298e7fb1a938d9cc2545a22cafb49b519ced5d30a72116077f81757615f9e00",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "6cc4c9b38d67953eb80c5ea8e822146967c95c69844ec244ecfeede348719cd2",
+      "target": "tasks/Compose/Compose_020/task_meta.yaml",
+      "target_sha256": "9cf4e850e0df5f884780955dec9bfffcbf86af48f8107adc6b73a4b4ef0b3558",
+      "change": "absolute source pointers replaced by portable source:// labels; semantic values unchanged; workflow metadata and approval notes removed; task semantics unchanged"
+    },
+    {
+      "source_sha256": "d0f23550c3561de670cfeaab7394511982e4f354606999db9f04d8475b828d78",
+      "target": "tasks/Compose/Compose_020/registry_entry.yaml",
+      "target_sha256": "0c18296e36550ebece53edf14882ca90a21ca0c2bdecbf7f06548b24c26904f4",
+      "change": "relative public bundle path"
+    },
+    {
+      "source_sha256": "70114d620f128668b4d7394adc4143b7f8bd16fd5d6280d8d76bdb36163530ff",
+      "target": "tasks/Compose/Compose_020/FIXTURE_REPLAY.json",
+      "target_sha256": "70114d620f128668b4d7394adc4143b7f8bd16fd5d6280d8d76bdb36163530ff",
+      "change": "source pointers sanitized; all replay poses/state hashes retained"
+    },
+    {
+      "source_sha256": "b41123e908fbf3edec0b3559dd5a0c652cbd8400f31eff2d7934486200aa7f75",
+      "target": "TASK_INDEX.json",
+      "target_sha256": "e693222a4d9d6850fa0adbf329edd040ae05d0824cc56a21fc28b9341e806e6d",
+      "change": "runtime-only portable index"
+    },
+    {
+      "source_sha256": "2db160d1d7d9843a433762c5cd440cb4e5749f1dd5c1e279042e20ef3b17b3f8",
+      "target": "benchmark_support/action_plan_registry.yaml",
+      "target_sha256": "2db160d1d7d9843a433762c5cd440cb4e5749f1dd5c1e279042e20ef3b17b3f8",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "8c346e127a22a7469c1e60cef477d6bfb9e45fdb360354f3176d0333e00a0847",
+      "target": "benchmark_support/benchmark_registry_candidates.yaml",
+      "target_sha256": "8c346e127a22a7469c1e60cef477d6bfb9e45fdb360354f3176d0333e00a0847",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "fe7cc35c66740f974aeb26b2de9716711d2be3356538b6f463d875a2f8282b94",
+      "target": "benchmark_support/registries/Adapt_001.yaml",
+      "target_sha256": "3dc5997aeeb080e337770f246f1706e846d5cdb1c12630819ca7aeed8aa44c86",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "7a9be8643390d4800c4aa3fb7399928cf7d955392150efa6446f87e8c1ce76e7",
+      "target": "benchmark_support/registries/Adapt_002.yaml",
+      "target_sha256": "380080bab12aeb93acf077a5ba1cd81fb3cf8d6592c292e6bde0e26ad338cf3e",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "f7523db68a9a3f9eda19960788a3ebc7f0d15e247cf3874bb521e4b8b755bee7",
+      "target": "benchmark_support/registries/Adapt_003.yaml",
+      "target_sha256": "e82e0411b94168a7f864870b08bf08457d080d7755d809af19f0172ea623adfa",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "4b7859a97e64bde10c196a17da87b4f8e30e6883f46643e86fddbc59db07314c",
+      "target": "benchmark_support/registries/Adapt_004.yaml",
+      "target_sha256": "fcda35e5294e0a37c53dfe77b443c599044ade615abd6da413fc2575e6366bec",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "925e0144523ab8d3706333615d00c923f8a712ec0fc26979d6f7ecb2cfbbeb74",
+      "target": "benchmark_support/registries/Adapt_005.yaml",
+      "target_sha256": "abf3e67c9bf59d4df92c6329914499e27d1cf07b87648bc9b850151419cdad30",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "66b5c082bc3a0ece367e513e1eedf1b3284094b03eb081cfb77843d68345278f",
+      "target": "benchmark_support/registries/Adapt_006.yaml",
+      "target_sha256": "1574071ab8a1c5583c4adcd724f07ced91727cabb6722a6100e13eed18a80839",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "28ae2e91f2962d26c774b48d2f96c2e9939539046550fe44ac4f5b80c6963b28",
+      "target": "benchmark_support/registries/Adapt_007.yaml",
+      "target_sha256": "62c6da1119f7abeea9b3a9cf0570b49da537f82f217203d76b1916f055bba89e",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "705a2c72784b6e22d2c009e9f5f0763ee3fc1f0b6327208e97c05b5c0026b1e7",
+      "target": "benchmark_support/registries/Adapt_008.yaml",
+      "target_sha256": "17362b472e3cfeecf2b77eace620883e8f2890338076fe6ee5eabdd8c5cf5eea",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "cd28834aa3b149901340d8eba07f64b1822e3e6e4e57dd4235d884e624ec92cb",
+      "target": "benchmark_support/registries/Adapt_009.yaml",
+      "target_sha256": "9a1f7630feeb4a3fe55e10fd174175011ef5e266286108f31fef40c0aa3aaacf",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "268a2594dc458bcabf19127fa3a6225a048bac18064bd60d8cff6804f4d63909",
+      "target": "benchmark_support/registries/Adapt_010.yaml",
+      "target_sha256": "fe7cda2460700c7d04ce1ea0a302bc3ef9d4c38a5e00a34fd27b9941e8127f16",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "73a629f213592d248694486f157a6e4d583dcdc6c6c33b0bc1619d00d0975f21",
+      "target": "benchmark_support/registries/Adapt_011.yaml",
+      "target_sha256": "b98fdbaee2fe183bac1dcfa5c1baf9c8120f2fb112539543df92ffdd66c4046d",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "71cb294f6c85751213ee61dadcdbca0d412cbcf499a5103b95333ccc7c129d48",
+      "target": "benchmark_support/registries/Adapt_012.yaml",
+      "target_sha256": "527c49b45bc363446a6c5ed04066b16fd234ba54ba4dee3cfe6b4e694a481686",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "f46cfcbc4aad5aa5668aaee422106ea38c939db5031972b9bcc808aebbe55236",
+      "target": "benchmark_support/registries/Adapt_013.yaml",
+      "target_sha256": "8081842787afc61983211efe3399190f29bedfbedc117abc1fdd06439e93e588",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "00e79ff06fa399daac7f38768a7e8cdb58594819709b4b8edb1896bba057ba1a",
+      "target": "benchmark_support/registries/Adapt_014.yaml",
+      "target_sha256": "18f2b4e62a86193b0f512fe410220fa37b64bf879dd968fa255a77f0c81d3cea",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "695d9f622edcaef07a3b40b2b6472470fdc32b5fbd0b9c25fb5ded842d59ad44",
+      "target": "benchmark_support/registries/Adapt_015.yaml",
+      "target_sha256": "de4cb91c64fdb144f79d25992030e354923c0f901a6559b1d9d3ed16551463ac",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "b33cf10f5149f154453bd7bede318d2006ec022813d609a19953972728a35fe8",
+      "target": "benchmark_support/registries/Adapt_016.yaml",
+      "target_sha256": "6a7b790a03509e42a0f6f676a6eda96206dcff41e66234a9e405d671e08dd3a5",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "c42fe317fd370720a1c13eee14416878fd92de5390d2859447952dbc12bc2e1b",
+      "target": "benchmark_support/registries/Adapt_017.yaml",
+      "target_sha256": "7535291bfaa9f7c0c61ea6a125186d3d13f9917cf0f19c235009ffcdc8b06a05",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "0b537e82cc3b6faf23002de8d6ab39305caf8ca0a6e8652c73c729cb5148e0c4",
+      "target": "benchmark_support/registries/Adapt_018.yaml",
+      "target_sha256": "d75946c0e4d39d6a9950535ca28b6fe1298db800162ddbb2e33e116b671a4730",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "141b2b3d4b4bff3f7851e0e943eff0032513fc6e201bc65eff6286dcccf4e809",
+      "target": "benchmark_support/registries/Adapt_019.yaml",
+      "target_sha256": "728908c0e28706d0494facf5d7547dbb7ae12490d539d3e7a03958369a690648",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "368b05a3e4847250ed9684c1e041f9eb8299c47e0a4bc39825d51bfdf2fefcf7",
+      "target": "benchmark_support/registries/Adapt_020.yaml",
+      "target_sha256": "40261a84ecd2f1520e3014a3901378dad349a42de66182a8f290d9caaee49dc2",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "42e059d2c7d7ef95f8fcb68e9994c24296c07bcfd1f31ace800fea59972a7ced",
+      "target": "benchmark_support/registries/Compose_001.yaml",
+      "target_sha256": "8463e7be9be02e25da21613aa9a99d5f166c64fe78779addaf37d1d55d6535e4",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "2b7837060c16402552178f9711034e49f6318b1e471cf691fa96cba56a04e6a7",
+      "target": "benchmark_support/registries/Compose_002.yaml",
+      "target_sha256": "236ffb41dbf2669f9ddeaf09927ef291958c5e734718b2e103227406bc0109a1",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "9621f081073bc6acd3e9104739dbf127d97757b6ce57def81ae792e6aac52c69",
+      "target": "benchmark_support/registries/Compose_003.yaml",
+      "target_sha256": "32544c2601ea47313f387dec163dee0a000771511d043f3f12b6b85cd4509274",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "969f92c2f726912a0bb6698d47a5c51067378a27079f19734cf2b1556fa19654",
+      "target": "benchmark_support/registries/Compose_004.yaml",
+      "target_sha256": "be4f265c3065c399e8ecae3b3f1a8c2c842c56fda4b57a6665fcc970d155004b",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "c62ff021870e6a67abd78be23841c2841c7d611b29074885c9b7cefaacec3dfe",
+      "target": "benchmark_support/registries/Compose_005.yaml",
+      "target_sha256": "4e1e997e20480d3518f42891cec0f143ae0db3a1380172cc1882cabfd07ab7ad",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "09d3bffbcd7cd0ef117d312a704dd650057751d6054f58a84c65068c5a3b615c",
+      "target": "benchmark_support/registries/Compose_006.yaml",
+      "target_sha256": "746d9a131d855ae2d3be9fa0d9c8bfe1fe1950e8d2374740a569b97aaa55998e",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "4040b65c566e4352110f8e22317ca435ae64020a7a027d25ff132d5220a7c1aa",
+      "target": "benchmark_support/registries/Compose_007.yaml",
+      "target_sha256": "9dd31bd8ab7bd6563ff8654c80ee4c9a430d95d07721992599d38c30e0e2da9d",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "9281e3324b8df1880fb118fdb5d4bb471ed8a9721ae9bdfb8bf4a2032ab86a44",
+      "target": "benchmark_support/registries/Compose_008.yaml",
+      "target_sha256": "65acc28f5c54618e69fcf5e2458d88ae97e6ee6150cea4e54db6b64f974574a8",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "183bc07cbae7fbc2a75bfcec3d52dda8ba542fea41dcb7252f2c6ad8ee6b622e",
+      "target": "benchmark_support/registries/Compose_009.yaml",
+      "target_sha256": "e3097eb4d6dbe4d4e1a096b4919925b33106c1f3a62d794d1d2c49eb5909bc6c",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "7a20b135074a069cf8b9e2d035605b0fa618cc7c6d72f4142ad7d1123cb00f0b",
+      "target": "benchmark_support/registries/Compose_010.yaml",
+      "target_sha256": "4a05453a475b77d01ee077ddec5eeb45904db0f756140798a1d381dacbf5ad45",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "027cf2a3edcf4f07e0daca7c5c70c0f8620f3fd35dd3f172a9ccbd97499e9524",
+      "target": "benchmark_support/registries/Compose_011.yaml",
+      "target_sha256": "e3779ff65713c0962080329abffcb87276f0a0d790685ec7f8c8141fa5410c9d",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "bf44a7a4d998288011c29f64d3d6a7b830b1c425af51aff4a1527c3f7dd5d855",
+      "target": "benchmark_support/registries/Compose_012.yaml",
+      "target_sha256": "58fc1dc79d7ca1972d5ae347d48ef126e54c57604afefaf8ebb54ea222cb9054",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "da743b57a040a2a1eedbad41325c65144fe8553dfc20323bcd5f056f2208d39e",
+      "target": "benchmark_support/registries/Compose_013.yaml",
+      "target_sha256": "24fa551cc94ec77acaf5410d9195087a188a461fd2a1f49b456f3da96de22c63",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "ebc40a7556f4ca43e1bf623e559ab3430085482febd76207b417f096b1202520",
+      "target": "benchmark_support/registries/Compose_014.yaml",
+      "target_sha256": "f1bd6f2b0c8e3ddd62461b9c1962e5767bbd057b5a796233aad4775aa92cf861",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "ee7b549dc06ffa568ae3f8b7647c3bb47fd3e2f848f06d307802f2789b9c25d4",
+      "target": "benchmark_support/registries/Compose_015.yaml",
+      "target_sha256": "0ab673ad618c8040d12b88ff14a6637cd252aec45a13d3fcad9ae727bc29dc4d",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "2d813e38982f2548775cd96bdff005bff25e7f93dcb22ab1549ab66c78376c9a",
+      "target": "benchmark_support/registries/Compose_016.yaml",
+      "target_sha256": "2560fed6cf670a46fa52496c3eda1029e4c345b1182612918fb22261123862e2",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "5eb8de751dcae997c4e7ca466ecaf34ca39799cfbfd57b62d12ce678872f0e60",
+      "target": "benchmark_support/registries/Compose_017.yaml",
+      "target_sha256": "608e9efb1723ed23496f1d8173f814854362291802ce98b87f10a9bedbbe756f",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "d5c4894bbd79bfe399cbf29be93276cd0c4ccbeedfda7016a67cb54dcade8f44",
+      "target": "benchmark_support/registries/Compose_018.yaml",
+      "target_sha256": "022212a8ad83ed2610722435d8b2b7461895b81c707b6aba30e835ac01d70a94",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "b888e682b072a2a62753a38aaa6069b17d071465e029c5fb5a8300aee4e3ac9c",
+      "target": "benchmark_support/registries/Compose_019.yaml",
+      "target_sha256": "0be13fbe69d7717d7443047851694819c9e432a86f1fcf31e990973d553f4cf0",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "3c9e62e55d2bf0f688118f91bf5ccd4cf75ebcaa819b0feb07ff747ce4b37410",
+      "target": "benchmark_support/registries/Compose_020.yaml",
+      "target_sha256": "1a1ca127439206baadd512a3131bed96dba362858bc71968355170a5fc7bc579",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "8998a2430314c29ecea3f5970a92f6b76f10eaef771946d909128f2c0fc26a1f",
+      "target": "benchmark_support/registries/Decompose_001.yaml",
+      "target_sha256": "9574a9f3031dd7821231931baad08d81622747f4656a0ca7bdbd148d7ef34f40",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "e001371376772fb853f731bcc9918b80babe4ea998d4f037cf8d1f5fcc3b016e",
+      "target": "benchmark_support/registries/Decompose_002.yaml",
+      "target_sha256": "8b02120f547236246ad1edb596e5acfd1abd9f9f9c278dd60ec063d3d1cf590b",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "7e835227854cb3c896c6dd0d4e8268e0cea3f6bce2cb362896ef744c66dd1e8e",
+      "target": "benchmark_support/registries/Decompose_003.yaml",
+      "target_sha256": "303b5e241143b884eee93d136731be7f51a5519ab3f93b36c569b703d1164b66",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "2f205ad7b1e015806f1e200a39bc9fa044923bfbe4746b28485f40e9363d2476",
+      "target": "benchmark_support/registries/Decompose_004.yaml",
+      "target_sha256": "82bfb965a5b53394d49bdaf650b83e47b9866ef70d0ea9af733a57be587a07de",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "c140c56f972c5c71fdcd1f8f674c68253417e45f46b2ebf3e04c16344a3a915a",
+      "target": "benchmark_support/registries/Decompose_005.yaml",
+      "target_sha256": "90e6784d0d01c69e0e29d56188b2bc3754265ccbf2d953384e99ed257e2c3b64",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "c78c8926f5d5504698925042f08994f11f91e3cfe7a78962bf8352b4ec9841a3",
+      "target": "benchmark_support/registries/Decompose_006.yaml",
+      "target_sha256": "ed88b566ed6708df8486d3168b700132b16d8a48211ff83b39808632e1e89e51",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "1087a45da351c5a474304a4d457fc5583b95644acacd7a426d5d67fda551d355",
+      "target": "benchmark_support/registries/Decompose_007.yaml",
+      "target_sha256": "8ba5673d2eecfaacaf7360f0abfa20c6b3d2848610b3fe4a8e4fb15ba0ed2fc9",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "08bf9c791a794ad5408ecb62612028d672fbb42fcc74ad3b0e18db4993390051",
+      "target": "benchmark_support/registries/Decompose_008.yaml",
+      "target_sha256": "10aa08ba1eff389b1dc77ad878a1f02be05e9847d4b096e2c603a9d7213b8c00",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "2b7d1ff6a53c193d2461f74251e8c1d2bf0019e6c280124ef90a30507fa82dcc",
+      "target": "benchmark_support/registries/Decompose_009.yaml",
+      "target_sha256": "284f43e29a880817ef7fc9470323b9f4e2844570d5868db63854c8e3ce72c984",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "eba4dc6be839339d8586263d04c7d8c65eec90ad84a5cbb1c9eb1cecd30ab80e",
+      "target": "benchmark_support/registries/Decompose_010.yaml",
+      "target_sha256": "345b1f47db348b0316fff86881ba56444e40c5fb5ea8bb9c5b6c6df957c7a0f6",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "59b687b1b86f0750bc193a021312bb3aa61bece80afb81ca62d8d7b9e8b66631",
+      "target": "benchmark_support/registries/Decompose_011.yaml",
+      "target_sha256": "d260c369794be1693dd84f7403c0c5cbd00bed6028744ca9d76bb1ff04c85596",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "8b4fcb62789ba00bee623cd1e436453dcfebe7da3105330874e08557ae5425e3",
+      "target": "benchmark_support/registries/Decompose_012.yaml",
+      "target_sha256": "a7102c4fe3cabbd123b06eed481afadab0e45f13305b7ec6763a7f0d41eb540c",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "3cbf80dbcec67cc487b4c9af4c38040ad07712223870844cc033860ec16d9e61",
+      "target": "benchmark_support/registries/Decompose_013.yaml",
+      "target_sha256": "d56fd988dbcf16e9ac05e1849d94117a83e2ce38a926458fc0250cb7fb962c42",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "63e936ec1adb33c42e8e3b792834fc1dbbff21a9715f29aac444d1dd15757986",
+      "target": "benchmark_support/registries/Decompose_014.yaml",
+      "target_sha256": "def35f8f113d34897014fb5e8c89992829fbb01731625048f18dd550ae1fbc37",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "74e59880e5dc9750f3e2d04441f73cc92322b06952b5801202ae7de327d37c58",
+      "target": "benchmark_support/registries/Decompose_015.yaml",
+      "target_sha256": "a6675b20d8d3a9439be057378265947d92adeaf5c315d2b7322ab684a744e83d",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "7ab999dc3ec48d9a3738ae79afcad0c9a66cafcbbda7944db1b5d20ccdc101d2",
+      "target": "benchmark_support/registries/Decompose_016.yaml",
+      "target_sha256": "edae9d35db48fcd0fe7f09c51e7d2d23c7c5a0ab74144c850d9f9fd8d80135f6",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "e365a6c2f24051d5bff31101fcd64bf12eceff9698dd2aa85683a6fb9bca342a",
+      "target": "benchmark_support/registries/Decompose_017.yaml",
+      "target_sha256": "99af721844641a9b8c66ce479f6337938ccc08679448062b54b05f44bfebffef",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "2b8938b23e0503ba1c8e1aa78ed611b6afa5c44c23fed193e1bb09ff5b19930e",
+      "target": "benchmark_support/registries/Decompose_018.yaml",
+      "target_sha256": "56c00fd5202a6d41a5eb658e71dde3f8d0aa7d0ad35db760a1c41014db8b46f1",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "8680aa7b136834aac76728419a64e907ed8bc8507eb89eb56232f7c3bba2a02d",
+      "target": "benchmark_support/registries/Decompose_019.yaml",
+      "target_sha256": "c4b67db60b9de833bfd3524b2827a2cdb7aff9fb90d7f787578fbaae6db9b412",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "7c052f3f44b293fbb8b6936ab6ddb4bf46b82001552d27e5e0273d5b8b1c864f",
+      "target": "benchmark_support/registries/Decompose_020.yaml",
+      "target_sha256": "6a0dd1c086d4e1eb60c9c7e9a2b34e87f24380faaeca4e368e12bae6fbaa9427",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "0c0f79cc3fd8cba18a5392d5203bebd8d2b9536427e5241800acabbc460e996d",
+      "target": "benchmark_support/registry_adapt.yaml",
+      "target_sha256": "0c0f79cc3fd8cba18a5392d5203bebd8d2b9536427e5241800acabbc460e996d",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "423e275ef45f16e2985d23ce91eecdbc5d9c9644b18e7900a144aed67dad8cf2",
+      "target": "benchmark_support/registry_compose.yaml",
+      "target_sha256": "423e275ef45f16e2985d23ce91eecdbc5d9c9644b18e7900a144aed67dad8cf2",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "36ebb7a78387a5169d88ebcfa2c9b9444a17a8106c7ab5ea1e977cbf876af598",
+      "target": "benchmark_support/registry_decompose.yaml",
+      "target_sha256": "36ebb7a78387a5169d88ebcfa2c9b9444a17a8106c7ab5ea1e977cbf876af598",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "36ebb7a78387a5169d88ebcfa2c9b9444a17a8106c7ab5ea1e977cbf876af598",
+      "target": "benchmark_support/registry_decomposition.yaml",
+      "target_sha256": "36ebb7a78387a5169d88ebcfa2c9b9444a17a8106c7ab5ea1e977cbf876af598",
+      "change": "portable public bundle/source-reference paths; action/object semantics preserved"
+    },
+    {
+      "source_sha256": "5dc023ce687ab277c38085cc599cdca31de9cbc73cb7718d0179aa113a2f4f95",
+      "target": "revisions/ADAPT017_LEFT_INSTRUCTION_UPDATE.json",
+      "target_sha256": "2bfe8c5dfd033ac31d9332570d476157b8773b723f17409f44b6395367864acf",
+      "change": "backup path omitted"
+    },
+    {
+      "source_sha256": "7fa777a78765369ca5a2c76cbfaa39ebba6c7d8e04f33589178e8b65442d1a5f",
+      "target": "src/libero_analogy/_support/composition_batch_order.py",
+      "target_sha256": "7fa777a78765369ca5a2c76cbfaa39ebba6c7d8e04f33589178e8b65442d1a5f",
+      "change": "package-relative imports, asset_root lookup; canonical IDs mapped to existing legacy scorer keys"
+    },
+    {
+      "source_sha256": "53212929662bc8b74611068bf05e9dad0a2026dd0da7aafedd0203fe712f0233",
+      "target": "src/libero_analogy/_support/cream_cheese_bowl_layout.py",
+      "target_sha256": "5286024947814c6257bd79c16d81dcaebd5b96494cc4c4cb3220757e80ac65f8",
+      "change": "package-relative imports, asset_root lookup; canonical IDs mapped to existing legacy scorer keys; comments/docstrings edited; executable logic unchanged"
+    },
+    {
+      "source_sha256": "a283a180811a0ab6ed47d2436d47d52af6ecfedd820231045b91101aa1f2d874",
+      "target": "src/libero_analogy/_support/novel_feedback_fixture_geometry.py",
+      "target_sha256": "2382f742e124f65248b5efb9cbd6274469ca8134eac63b2b29fc01945908faa7",
+      "change": "package-relative imports, asset_root lookup; canonical IDs mapped to existing legacy scorer keys; comments/docstrings and error wording edited; control flow unchanged"
+    },
+    {
+      "source_sha256": "03991c04d9d927f7f7b6b72de234b17c367d1edd52f397dfe4f514a5c892c144",
+      "target": "src/libero_analogy/_support/bowl_drainer_sections_geometry.py",
+      "target_sha256": "77cb3b0f4beda2289dc5879e67e6f53a0c63ca5ca59ff8de4ae60ed8231a5bb4",
+      "change": "package-relative imports, asset_root lookup; canonical IDs mapped to existing legacy scorer keys; comments/docstrings edited; executable logic unchanged"
+    },
+    {
+      "source_sha256": "a11e181a0b6a1c13a27df7d8eeb54b6472cda7628f81b653f2d459ee2f1ae15b",
+      "target": "src/libero_analogy/_support/wooden_tray_object_choices_support.py",
+      "target_sha256": "94462d80c0d85b11e6143e635b2a949d1e63d4e49e4bc9fdaaa4c81bac5b15d9",
+      "change": "package-relative imports, asset_root lookup; canonical IDs mapped to existing legacy scorer keys; comments/docstrings edited; executable logic unchanged"
+    },
+    {
+      "source_sha256": "589f5ca100502edb87ae8d96a7df0a0be77a81958b7adc3a34b5e40bb7bd9569",
+      "target": "src/libero_analogy/_support/wine_rack_object_support.py",
+      "target_sha256": "a0a45771ec65beb0ddc0a0fd6ee00a969a7c4760941c8b48f968306754b70500",
+      "change": "package-relative imports, asset_root lookup; canonical IDs mapped to existing legacy scorer keys; comments/docstrings edited; executable logic unchanged"
+    },
+    {
+      "source_sha256": "599995e94641d631c3e8e8ed16a1ae5d0214e97c58e2b71d124a3d587e6d8329",
+      "target": "src/libero_analogy/_support/basket_released_support_observer.py",
+      "target_sha256": "599995e94641d631c3e8e8ed16a1ae5d0214e97c58e2b71d124a3d587e6d8329",
+      "change": "package-relative imports, asset_root lookup; canonical IDs mapped to existing legacy scorer keys"
+    },
+    {
+      "source_sha256": "85f59c910a6a5fec5ae14ddf43f40509cb9a3325820123286d5a4f376c748f36",
+      "target": "src/libero_analogy/_support/bowl_drainer_ordered_placement_observer.py",
+      "target_sha256": "40be053826e3d936df7c75d4d32695a59838073446d909ee79bbb3f568e095dc",
+      "change": "package-relative imports, asset_root lookup; canonical IDs mapped to existing legacy scorer keys; comments/docstrings edited; executable logic unchanged"
+    },
+    {
+      "source_sha256": "ec77a4324e61d939e573cf7902eb031dc119e902c26576801df17263488c44be",
+      "target": "src/libero_analogy/_support/wooden_tray_strict_placement_observer.py",
+      "target_sha256": "6e6e754edd35c685d1a3575434c294ca8249e4dbb5de0d03482b2c7c8f837e0b",
+      "change": "package-relative imports, asset_root lookup; canonical IDs mapped to existing legacy scorer keys"
+    },
+    {
+      "source_sha256": "786b4e7cddd7d9ee33d2c5e7afd9d8cf5e6e36cd28bb6b948f910d19f2e5d1f3",
+      "target": "src/libero_analogy/_support/selected_compose_pi05_scoring.py",
+      "target_sha256": "9c78a06efd519a64d5c757494a67b1b3152f8eb68f54487fcde0b34b66bcba61",
+      "change": "package-relative imports, asset_root lookup; canonical IDs mapped to existing legacy scorer keys; comments/docstrings and error wording edited; control flow unchanged; publication-review output fields removed; scoring unchanged"
+    },
+    {
+      "source_sha256": "9b2f6b37d1d2f6208528a42f015750a48d6d87265f74e266b8aa460b8fccb4bc",
+      "target": "src/libero_analogy/_support/novel_feedback_object_bindings.py",
+      "target_sha256": "20c0895e516f57b6863f303627fbc124d1df488083eaa9842299fcd73034a087",
+      "change": "package-relative imports, asset_root lookup; canonical IDs mapped to existing legacy scorer keys; comments/docstrings edited; executable logic unchanged"
+    },
+    {
+      "source_sha256": "6f967d491ac80b31099acd3f61e0f730b0d92d15f878946fe7f41743a3079f73",
+      "target": "src/libero_analogy/_support/custom_eval.py",
+      "target_sha256": "6f967d491ac80b31099acd3f61e0f730b0d92d15f878946fe7f41743a3079f73",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "b83475454296fc4457959b99a25de9e2d9ad49968b584bb517334c051644cb64",
+      "target": "src/libero_analogy/_support/run_moka_microwave_compose_evaluator_entry.py",
+      "target_sha256": "9985105b3fec9a18cb7c8337083cdd11a1d842b9b794a44db085f4f61ca250a6",
+      "change": "pure function-source extraction without evaluator side effects"
+    },
+    {
+      "source_sha256": "8a3aa3c5333078e8e2f1c84c692a4799d4b0ac78cea435e109663b6dffe394f1",
+      "target": "src/libero_analogy/_support/build_composition_layout_revision.py",
+      "target_sha256": "a131733884c1c60e4e7268cd1613924417b15c5c0e147ee8863cef633cb9ed5f",
+      "change": "pure function-source extraction without evaluator side effects"
+    },
+    {
+      "source_sha256": "a18cbf484420ff2e07a33592562ef87e0c06b8eb1dc6aeeab3fceee478e07964",
+      "target": "src/libero_analogy/scoring.py",
+      "target_sha256": "95d648679359f947cd7ed92224d398f049148ed5aa426beb98cb7df3369c1472",
+      "change": "Scoring and prepared_env bodies preserved, package-relative imports and direct public bundle reference"
+    },
+    {
+      "source_sha256": "e5d9be4b6849b8e51d8d3eee33f9644c61eea73dc6d84bbe80fde59f78700cc4",
+      "target": "src/libero_analogy/observations.py",
+      "target_sha256": "bcda4a2de0f4d99f29512e2a77ce34e8db458361c39114e7f19cf536e0b3a489",
+      "change": "exact helper-source extraction; vendored official image_tools import; comments/docstrings edited; executable logic unchanged"
+    },
+    {
+      "source_sha256": "c04568948fcee52b691e3be4b6cffb759f7e79ad67530fcd5d23095a0d13c057",
+      "target": "src/libero_analogy/_vendor/openpi/msgpack_numpy.py",
+      "target_sha256": "c04568948fcee52b691e3be4b6cffb759f7e79ad67530fcd5d23095a0d13c057",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "d48b4bd7f44e79fe6db8a8e07c9161144fa250be686e1245014a8b47e6171977",
+      "target": "src/libero_analogy/_vendor/openpi/image_tools.py",
+      "target_sha256": "d48b4bd7f44e79fe6db8a8e07c9161144fa250be686e1245014a8b47e6171977",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1",
+      "target": "licenses/OpenPI-Apache-2.0.txt",
+      "target_sha256": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1",
+      "change": "byte-identical"
+    },
+    {
+      "source_sha256": "509aa7af19ae2b5b1681b22b969627ee9e1fd15ff7ea5bf9f6e301fc44d5a6c2",
+      "target": "licenses/msgpack-numpy-BSD-3-Clause.md",
+      "target_sha256": "509aa7af19ae2b5b1681b22b969627ee9e1fd15ff7ea5bf9f6e301fc44d5a6c2",
+      "change": "byte-identical upstream adapted-code license notice"
+    },
+    {
+      "source_sha256": "e2885fd30a08381b799c4a33385522b23d637b4051b8f9a7f9f2519944b68ff6",
+      "target": "licenses/LIBERO-MIT.txt",
+      "target_sha256": "e2885fd30a08381b799c4a33385522b23d637b4051b8f9a7f9f2519944b68ff6",
+      "change": "byte-identical"
+    }
+  ]
+}

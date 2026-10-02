@@ -1,0 +1,87 @@
+task_id: Compose_006
+task_name: Put the butter in the basket, and then put the tomato sauce in the basket
+language: Put the butter in the basket, and then put the tomato sauce in the basket
+primary_category: Composition
+composition_family: C2_ALL_object_layout_basket_pairs
+anchor_suite: libero_object
+source_prior_task_ids:
+- '307'
+- '306'
+source_priors:
+- suite: libero_object
+  task_stem: pick_up_the_butter_and_place_it_in_the_basket
+  instruction: Pick the butter and place it in the basket
+  bddl: source://pick_up_the_butter_and_place_it_in_the_basket.bddl
+  init: source://pick_up_the_butter_and_place_it_in_the_basket.pruned_init
+  evidence: ''
+- suite: libero_object
+  task_stem: pick_up_the_tomato_sauce_and_place_it_in_the_basket
+  instruction: Pick the tomato sauce and place it in the basket
+  bddl: source://pick_up_the_tomato_sauce_and_place_it_in_the_basket.bddl
+  init: source://pick_up_the_tomato_sauce_and_place_it_in_the_basket.pruned_init
+  evidence: ''
+component_task_instructions:
+- Put the butter in the basket
+- Put the tomato sauce in the basket
+component_evidence:
+- Object identity has its own original LIBERO-Object pick-to-basket trajectory; its
+  pose in the composite scene may differ.
+- Object identity has its own original LIBERO-Object pick-to-basket trajectory; its
+  pose in the composite scene may differ.
+semantic_subtask_count: 2
+action_plan_step_count: 4
+canonical_goal_atoms:
+- in(butter_1, basket_1_contain_region)
+- in(tomato_sauce_1, basket_1_contain_region)
+canonical_task_signature: composition|f4c797cd430f50cbdbfc85d7b847eead4a10a9c0be7847f9c032dbc9dad9d52d|frozenset({in(butter_1,basket_1_contain_region),in(tomato_sauce_1,basket_1_contain_region)})
+objects_of_interest:
+- butter_1
+- basket_1
+- tomato_sauce_1
+pure_composition: true
+requires_transition: false
+sequence_stages: []
+physical_group: two_step_f4c797cd430f50cbdbfc
+base_bddl_template: source://LIBERO_EX_ICRA27/LiberoComposition/tasks/comp_283__put_the_butter_the_tomato_sauce_and_the_ketchup_in_the_basket_one_after_another/task.bddl
+base_pruned_init: source://LIBERO_EX_ICRA27/LiberoComposition/tasks/comp_283__put_the_butter_the_tomato_sauce_and_the_ketchup_in_the_basket_one_after_another/task.pruned_init
+max_steps: 800
+notes:
+- Enumerated from every two-component subset of the LIBERO-40-based 439-task Composition
+  pool.
+- Identity is physical scene plus unordered semantic goal pair; alternate parent triples
+  and wording orders are collapsed.
+- 'Identity status: novel_identity.'
+- 'All source parent occurrences: COMP_280[1,2], COMP_281[1,2], COMP_282[1,2], COMP_283[1,2].'
+- 'Simulator-confirmed prior two-goal evidence: COMP_283/ep000/ordered instruction
+  prefix/step367/110 (or stronger) | COMP_280/ep000/ordered instruction prefix/step372/110
+  (or stronger) | COMP_282/ep000/ordered instruction prefix/step386/110 (or stronger)
+  | COMP_281/ep001/ordered instruction prefix/step388/110 (or stronger).'
+identity_status: novel_identity
+source_parent_task: COMP_283
+source_parent_component_indices:
+- 1
+- 2
+prior_partial_evidence:
+- parent_task_id: COMP_283
+  episode_idx: 0
+  kind: ordered instruction prefix
+  simulator_step: 367
+  combination: 110 (or stronger)
+- parent_task_id: COMP_280
+  episode_idx: 0
+  kind: ordered instruction prefix
+  simulator_step: 372
+  combination: 110 (or stronger)
+- parent_task_id: COMP_282
+  episode_idx: 0
+  kind: ordered instruction prefix
+  simulator_step: 386
+  combination: 110 (or stronger)
+- parent_task_id: COMP_281
+  episode_idx: 1
+  kind: ordered instruction prefix
+  simulator_step: 388
+  combination: 110 (or stronger)
+legacy_task_id: COMP2_012
+collection_category: Compose
+category_order: 6

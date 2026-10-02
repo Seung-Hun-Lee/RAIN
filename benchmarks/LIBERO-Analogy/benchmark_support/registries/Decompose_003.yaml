@@ -1,0 +1,16 @@
+name: Decompose_003
+language: Put the white mug on the plate
+problem: Libero
+problem_folder: tasks/Decompose/Decompose_003
+bddl_file: task.bddl
+init_states_file: task.pruned_init
+category: TD
+anchor_suite: libero_10
+metadata_file: ../../tasks/Decompose/Decompose_003/task_meta.yaml
+eval_rules_file: ../../tasks/Decompose/Decompose_003/eval_rules.yaml
+canonical_task_signature: libero_10_living_room_scene6|frozenset({on(porcelain_mug_1,
+  plate_1)})
+eval_category: Task
+source_benchmark: TaskDecomposition
+collection_category: Decompose
+legacy_task_id: TDL10_003

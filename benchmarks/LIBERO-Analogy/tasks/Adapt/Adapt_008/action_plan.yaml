@@ -1,0 +1,13 @@
+task_id: Adapt_008
+steps:
+- action_type: grasp
+  primary_object_id: cream_cheese_1
+  target_object_id: cream_cheese_1
+  source_task_id: 4
+  source_task_description: Put the cream cheese in the top drawer of the wooden cabinet.
+- action_type: release
+  primary_object_id: cream_cheese_1
+  target_object_id: wooden_cabinet_1_top_region
+  source_task_id: 4
+  source_task_description: Put the cream cheese in the top drawer of the wooden cabinet.
+legacy_task_id: ANLGX_147

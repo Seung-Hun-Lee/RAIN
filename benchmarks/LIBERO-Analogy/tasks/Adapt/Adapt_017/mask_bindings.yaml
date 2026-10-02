@@ -1,0 +1,19 @@
+task_id: Adapt_017
+policy: exact_instance_no_union
+bindings:
+- role: manipulated_object
+  kind: body_prefix
+  value: alphabet_soup_1_main
+  color: green
+  exact_instance: true
+- role: goal_target
+  kind: table_region
+  value: bowl_drainer_1_right_region
+  color: yellow
+  exact_instance: true
+runtime_requirements:
+  resolve_by_current_sim_model: true
+  allow_source_episode_json_fallback: false
+  new_instance_support: false
+  region_projection_from_current_bddl: true
+legacy_task_id: BDRSWAP_001

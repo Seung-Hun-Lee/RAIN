@@ -1,0 +1,29 @@
+task_id: Compose_016
+policy: exact_instance_no_union
+bindings:
+- role: step_1_round_object
+  kind: body_prefix
+  value: glazed_rim_porcelain_ramekin_1
+  color: green
+  exact_instance: true
+- role: step_1_basket_target
+  kind: body_prefix
+  value: basket_1
+  color: yellow
+  exact_instance: true
+- role: step_2_cylinder_object
+  kind: body_prefix
+  value: alphabet_soup_1
+  color: green
+  exact_instance: true
+- role: step_2_plate_target
+  kind: body_prefix
+  value: plate_2
+  color: yellow
+  exact_instance: true
+runtime_requirements:
+  resolve_by_current_sim_model: true
+  allow_source_episode_json_fallback: false
+  new_instance_support: false
+  region_projection_from_current_bddl: false
+legacy_task_id: VCN35_004

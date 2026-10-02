@@ -1,0 +1,15 @@
+task_id: Adapt_016
+steps:
+- action_type: grasp
+  primary_object_id: akita_black_bowl_1
+  target_object_id: akita_black_bowl_1
+  source_task_id: 3
+  source_task_description: Pick up the black bowl at the table center and place it
+    on the dining-set mat.
+- action_type: release
+  primary_object_id: akita_black_bowl_1
+  target_object_id: dining_set_group_1_plate_support_region
+  source_task_id: 3
+  source_task_description: Pick up the black bowl at the table center and place it
+    on the dining-set mat.
+legacy_task_id: DSET_001

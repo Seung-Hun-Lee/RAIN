@@ -1,0 +1,39 @@
+task_id: Decompose_019
+candidate_index: 5
+task_name: Open the top drawer of the cabinet
+language: Open the top drawer of the cabinet
+primary_category: TD
+anchor_suite: libero_goal
+source_prior_description: Open the top layer of the drawer and put the bowl inside
+source_prior_task_ids:
+- 3
+new_test_task_description: Open the top drawer of the cabinet
+scene_family: libero_goal_shared_tabletop
+objects_of_interest:
+- wooden_cabinet_1_top_region
+canonical_goal_atoms:
+- open(wooden_cabinet_1_top_region)
+canonical_task_signature: libero_goal_shared_tabletop|frozenset({open(wooden_cabinet_1_top_region)})
+held_fixed:
+- scene layout
+- fixtures
+- object set
+- init-state family
+varied:
+- requested subtask / goal subset
+why_this_category: Task Decomposition candidate
+decomposition_rule_class: trajectory_description_decomposition
+strict_goal_subset_selection_eligible: false
+description_trajectory_selection_eligible: true
+semantic_decomposition_selection_eligible: true
+overlap_with_current_14: false
+legacy_decomposition_overlap: none
+candidate_rationale: Meaningful first clause of the source instruction, but Open is
+  a trajectory prerequisite rather than a source final-goal atom.
+contextual_atoms_true_at_initialization: []
+base_bddl_template: libero://bddl_files/libero_goal/open_the_top_drawer_and_put_the_bowl_inside.bddl
+base_pruned_init: libero://init_files/libero_goal/open_the_top_drawer_and_put_the_bowl_inside.pruned_init
+max_steps: 520
+legacy_task_id: TDC40_005
+collection_category: Decompose
+category_order: 19

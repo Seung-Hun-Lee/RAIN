@@ -1,0 +1,39 @@
+task_id: Compose_019
+steps:
+- action_type: grasp
+  primary_object_id: alphabet_soup_1
+  target_object_id: alphabet_soup_1
+  source_task_id: 301
+  source_task_description: Pick the alphabet soup and place it in the basket
+  source_subtask_index: 1
+- action_type: release
+  primary_object_id: alphabet_soup_1
+  target_object_id: basket_1_contain_region
+  source_task_id: 301
+  source_task_description: Pick the alphabet soup and place it in the basket
+  source_subtask_index: 2
+- action_type: grasp
+  primary_object_id: butter_1
+  target_object_id: butter_1
+  source_task_id: 307
+  source_task_description: Pick the butter and place it in the basket
+  source_subtask_index: 1
+- action_type: release
+  primary_object_id: butter_1
+  target_object_id: basket_1_contain_region
+  source_task_id: 307
+  source_task_description: Pick the butter and place it in the basket
+  source_subtask_index: 2
+- action_type: grasp
+  primary_object_id: cream_cheese_1
+  target_object_id: cream_cheese_1
+  source_task_id: 302
+  source_task_description: Pick the cream cheese and place it in the basket
+  source_subtask_index: 1
+- action_type: release
+  primary_object_id: cream_cheese_1
+  target_object_id: basket_1_contain_region
+  source_task_id: 302
+  source_task_description: Pick the cream cheese and place it in the basket
+  source_subtask_index: 2
+legacy_task_id: CTR_176

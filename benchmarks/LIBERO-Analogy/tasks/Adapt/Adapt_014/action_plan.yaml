@@ -1,0 +1,13 @@
+task_id: Adapt_014
+steps:
+- action_type: grasp
+  primary_object_id: popcorn_1
+  target_object_id: popcorn_1
+  source_task_id: null
+  source_task_description: Put the popcorn on top of the short fridge.
+- action_type: release
+  primary_object_id: popcorn_1
+  target_object_id: short_fridge_1_feedback_top_region
+  source_task_id: null
+  source_task_description: Put the popcorn on top of the short fridge.
+legacy_task_id: NAFR3_001

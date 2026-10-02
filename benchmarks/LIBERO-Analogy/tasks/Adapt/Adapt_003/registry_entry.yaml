@@ -1,0 +1,16 @@
+name: Adapt_003
+language: Put the black bowl in the middle drawer of the white cabinet
+problem: Libero
+problem_folder: tasks/Adapt/Adapt_003
+bddl_file: task.bddl
+init_states_file: task.pruned_init
+category: Analogy
+anchor_suite: libero_10
+metadata_file: task_meta.yaml
+eval_rules_file: eval_rules.yaml
+mask_bindings_file: mask_bindings.yaml
+action_plan_file: action_plan.yaml
+canonical_task_signature: analogy|E2_sibling_part_or_compartment|white_insert_middle|in(akita_black_bowl_1,
+  white_cabinet_1_middle_region)
+legacy_task_id: ANLGX_017
+collection_category: Adapt

@@ -1,0 +1,13 @@
+task_id: Decompose_005
+category: TD
+required_goal_atoms:
+- in(white_yellow_mug_1, microwave_1_heating_region)
+forbidden_goal_atoms:
+- close(microwave_1)
+overshoot_policy: fail_on_forbidden_ever
+order_sensitive: false
+continue_after_success: true
+post_success_steps: 0
+requires_transition: false
+custom_eval_needed: true
+legacy_task_id: TDL10_005

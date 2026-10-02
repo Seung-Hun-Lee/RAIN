@@ -1,0 +1,20 @@
+task_id: Adapt_020
+policy: exact_instance_no_union
+bindings:
+- role: manipulated_object
+  kind: body_prefix
+  value: ketchup_1_main
+  color: green
+  exact_instance: true
+- role: goal_target
+  kind: body_prefix
+  value: wine_rack_1_main
+  color: yellow
+  exact_instance: true
+runtime_requirements:
+  resolve_by_current_sim_model: true
+  allow_source_episode_json_fallback: false
+  matches_original_goal10_action_objects: true
+  destination_mask_scope: whole wine_rack_1_main body
+  fixture_overlay_required: wine_rack_object_support.install_rack_adapt_geometry
+legacy_task_id: GRACK_002

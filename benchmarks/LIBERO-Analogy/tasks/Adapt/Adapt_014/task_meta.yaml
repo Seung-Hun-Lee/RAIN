@@ -1,0 +1,83 @@
+task_id: Adapt_014
+task_name: Put the popcorn on top of the short fridge
+language: Put the popcorn on top of the short fridge
+primary_category: Adapt
+anchor_suite: novel_feedback_revision
+source_prior_task_ids: []
+source_prior_task_stem: task
+source_prior_description: Put the popcorn on top of the short fridge.
+canonical_goal_atoms:
+- on(popcorn_1, short_fridge_1_feedback_top_region)
+canonical_task_signature: bacb5effd5a5a32919dd0512a11dc5541059e73ab69d599b5d56c4349cff516a
+objects_of_interest:
+- popcorn_1
+- short_fridge_1_feedback_top_region
+held_fixed:
+- all four existing package identities
+- fridge root pose
+- single popcorn-to-fridge On goal
+varied:
+- Move the popcorn 4 cm back and arrange all four packages in a compact 2-by-2 cluster
+  with clear grasping gaps; tomato sauce stays on popcorn's robot-left.
+single_semantic_goal: true
+physical_group: naf017_compact_package_cluster_v3
+base_bddl_template: source://LIBERO_EX_ICRA27/LiberoNovelAdaptFeedback/tasks/naf_017__put_the_popcorn_on_top_of_the_short_fridge/task.bddl
+base_pruned_init: source://LIBERO_EX_ICRA27/LiberoNovelAdaptFeedback/tasks/naf_017__put_the_popcorn_on_top_of_the_short_fridge/task.pruned_init
+notes:
+- Feedback parent NAF_017; third revision of NAFR_001.
+- Move the popcorn 4 cm back and arrange all four packages in a compact 2-by-2 cluster
+  with clear grasping gaps; tomato sauce stays on popcorn's robot-left.
+- Robot faces +X; +Y is robot-left. Existing distractors remain butter, cream cheese
+  and tomato sauce (not alphabet/tomato soup).
+- 'Package centers in meters: popcorn (-.09,.15), tomato sauce (-.09,.29), butter
+  (-.23,.15), cream cheese (-.23,.29).'
+- All pickups use +/-4 mm XY variation. The 14 cm grid pitch is selected using actual
+  native collision footprints, not only object roots.
+- Native TableRegionSampler shrinks BDDL ranges by object.horizontal_radius. Declare
+  half-range radius+4mm (not 4mm alone) to avoid inverted sampling intervals. No sampler
+  or runtime patch is used.
+- 'Per-object sampler geometry: {"butter_1": {"declared_bddl_half_range_m": 0.024,
+  "effective_root_half_range_m": 0.004, "native_ensure_object_boundary_in_range":
+  true, "native_horizontal_radius_m": 0.02, "source_asset_xml": "source://butter.xml"},
+  "cream_cheese_1": {"declared_bddl_half_range_m": 0.034, "effective_root_half_range_m":
+  0.004, "native_ensure_object_boundary_in_range": true, "native_horizontal_radius_m":
+  0.03, "source_asset_xml": "source://cream_cheese.xml"}, "popcorn_1": {"declared_bddl_half_range_m":
+  0.029, "effective_root_half_range_m": 0.004, "native_ensure_object_boundary_in_range":
+  true, "native_horizontal_radius_m": 0.025, "source_asset_xml": "source://popcorn.xml"},
+  "tomato_sauce_1": {"declared_bddl_half_range_m": 0.029, "effective_root_half_range_m":
+  0.004, "native_ensure_object_boundary_in_range": true, "native_horizontal_radius_m":
+  0.025, "source_asset_xml": "source://tomato_sauce.xml"}}'
+- Popcorn is now 4 cm closer to the robot than NAF_017 and shares a nearby regular
+  cluster instead of sitting detached in front of a distant distractor row.
+- Only popcorn and the short-fridge roof are action masks; the distractors are unmasked.
+  The direct path from popcorn toward the fridge (-Y) is clear.
+adapt_family: R1_naf017_compact_package_cluster_v3
+adapt_scope: novel_scene_feedback_revision_v3
+transfer_summary: Move the popcorn 4 cm back and arrange all four packages in a compact
+  2-by-2 cluster with clear grasping gaps; tomato sauce stays on popcorn's robot-left.
+provenance_evidence:
+- task_id: LIBERO_GOAL_05
+  role: SCENE ANCHOR
+  reason: supplies the learned cabinet-anchor workspace
+- task_id: LIBERO_OBJECT_09
+  role: PACKAGE SKILL SOURCE
+  reason: supplies package grasp experience
+critical_objects:
+- popcorn_1
+- butter_1
+- cream_cheese_1
+- tomato_sauce_1
+required_init_predicates:
+- - not
+  - - 'on'
+    - popcorn_1
+    - short_fridge_1_feedback_top_region
+revision_version: 3
+previous_revision_id: NAFR_001
+previous_revision_version: 2
+feedback_parent_task: NAF_017
+semantic_subtask_count: 1
+max_steps: 520
+legacy_task_id: NAFR3_001
+collection_category: Adapt
+category_order: 14

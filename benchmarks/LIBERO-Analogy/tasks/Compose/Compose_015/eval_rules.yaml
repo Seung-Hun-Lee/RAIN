@@ -1,0 +1,23 @@
+task_id: Compose_015
+category: Composition
+required_goal_atoms:
+- in(butter_1, bowl_drainer_1_left_region)
+- in(tomato_sauce_1, bowl_drainer_1_right_region)
+forbidden_goal_atoms: []
+order_sensitive: true
+continue_after_success: false
+requires_transition: true
+custom_eval_needed: true
+ordered_event_atoms:
+- in(butter_1, bowl_drainer_1_left_region)
+- in(tomato_sauce_1, bowl_drainer_1_right_region)
+sequence_stages: []
+drainer_completion_mode: released_supported
+support_hold_control_steps: 5
+strict_event_order: true
+final_success_requires_all_bddl_goals: true
+final_tc_gate: false
+compose_final_tc_gate: false
+environment_ignore_done: true
+downstream_preservation_required: true
+legacy_task_id: CTR_103

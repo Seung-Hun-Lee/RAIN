@@ -1,0 +1,100 @@
+{
+  "fixture_replay_sha256": "2f2fb1de2fbc0134d2fb9803d4159fd7e0499f97179c27ddd76435e1b4b8940e",
+  "states": [
+    {
+      "init_state_index": 0,
+      "state_sha256": "b6a7f602ef7633d9e0cd7052043a4f7a405e8cdd60dab2f719aa46eda207a9c6",
+      "passes": true,
+      "moving_door_body": "microwave_1_microdoorroot",
+      "swept_moving_subtree_aabb": [
+        [
+          -0.22985717033732075,
+          -0.00770571815873522,
+          0.9235
+        ],
+        [
+          0.09512412039378049,
+          0.2527067396418742,
+          1.1085
+        ]
+      ],
+      "fixture_replay_sha256": "2f2fb1de2fbc0134d2fb9803d4159fd7e0499f97179c27ddd76435e1b4b8940e"
+    },
+    {
+      "init_state_index": 1,
+      "state_sha256": "f85b296acc80b0bfd9ca77570c0566247f6127dfd765e894fb1caf7539645f31",
+      "passes": true,
+      "moving_door_body": "microwave_1_microdoorroot",
+      "swept_moving_subtree_aabb": [
+        [
+          -0.28776434545312507,
+          -0.005644884004267076,
+          0.9235
+        ],
+        [
+          0.09615741093106867,
+          0.26117255330481975,
+          1.1085
+        ]
+      ],
+      "fixture_replay_sha256": "2f2fb1de2fbc0134d2fb9803d4159fd7e0499f97179c27ddd76435e1b4b8940e"
+    },
+    {
+      "init_state_index": 2,
+      "state_sha256": "f91dae088f014aa607d0b2f743641afeb3e81922675c51c4da02825bc5659b9c",
+      "passes": true,
+      "moving_door_body": "microwave_1_microdoorroot",
+      "swept_moving_subtree_aabb": [
+        [
+          -0.26358087976420025,
+          0.005855875444564146,
+          0.9235
+        ],
+        [
+          0.0874567556609297,
+          0.2690407389013657,
+          1.1085
+        ]
+      ],
+      "fixture_replay_sha256": "2f2fb1de2fbc0134d2fb9803d4159fd7e0499f97179c27ddd76435e1b4b8940e"
+    },
+    {
+      "init_state_index": 3,
+      "state_sha256": "0d7c75dad595b9fc48b2141dda737874c7f238051057dbccfe2ceff02e5359b6",
+      "passes": true,
+      "moving_door_body": "microwave_1_microdoorroot",
+      "swept_moving_subtree_aabb": [
+        [
+          -0.19968472594589104,
+          0.0008665725158732429,
+          0.9235
+        ],
+        [
+          0.08998267230132695,
+          0.2606984963973247,
+          1.1085
+        ]
+      ],
+      "fixture_replay_sha256": "2f2fb1de2fbc0134d2fb9803d4159fd7e0499f97179c27ddd76435e1b4b8940e"
+    },
+    {
+      "init_state_index": 4,
+      "state_sha256": "4d6cd0aac2ffd7fc0b8cfe29b18d766e375444c8366ba74515007e6412a4e255",
+      "passes": true,
+      "moving_door_body": "microwave_1_microdoorroot",
+      "swept_moving_subtree_aabb": [
+        [
+          -0.3304234706243012,
+          -0.006419865706785377,
+          0.9235
+        ],
+        [
+          0.07873322463989318,
+          0.263174119702858,
+          1.1085
+        ]
+      ],
+      "fixture_replay_sha256": "2f2fb1de2fbc0134d2fb9803d4159fd7e0499f97179c27ddd76435e1b4b8940e"
+    }
+  ]
+}

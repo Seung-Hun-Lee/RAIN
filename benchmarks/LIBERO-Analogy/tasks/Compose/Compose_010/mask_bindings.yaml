@@ -1,0 +1,29 @@
+task_id: Compose_010
+policy: exact_instance_no_union
+bindings:
+- role: manipulated_object_1
+  kind: body_prefix
+  value: alphabet_soup_1
+  color: green
+  exact_instance: true
+- role: goal_target
+  kind: body_prefix
+  value: basket_1
+  color: yellow
+  exact_instance: true
+- role: manipulated_object_3
+  kind: body_prefix
+  value: butter_1
+  color: green
+  exact_instance: true
+- role: manipulated_object_4
+  kind: body_prefix
+  value: tomato_sauce_1
+  color: green
+  exact_instance: true
+runtime_requirements:
+  resolve_by_current_sim_model: true
+  allow_source_episode_json_fallback: false
+  new_instance_support: false
+  region_projection_from_current_bddl: false
+legacy_task_id: COMPOSE_155

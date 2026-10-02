@@ -1,0 +1,65 @@
+task_id: Compose_011
+task_name: Put the cream cheese on the black bowl, and then push the plate to the
+  front of the stove
+language: Put the cream cheese on the black bowl, and then push the plate to the front
+  of the stove
+primary_category: Composition
+composition_family: C2_ALL_goal_compatible_pairs
+anchor_suite: libero_goal
+source_prior_task_ids:
+- '4'
+- '6'
+source_priors:
+- suite: libero_goal
+  task_stem: put_the_cream_cheese_in_the_bowl
+  instruction: Put the cream cheese on the bowl
+  bddl: source://put_the_cream_cheese_in_the_bowl.bddl
+  init: source://put_the_cream_cheese_in_the_bowl.pruned_init
+  evidence: ''
+- suite: libero_goal
+  task_stem: push_the_plate_to_the_front_of_the_stove
+  instruction: Push the plate to the front of the stove
+  bddl: source://push_the_plate_to_the_front_of_the_stove.bddl
+  init: source://push_the_plate_to_the_front_of_the_stove.pruned_init
+  evidence: ''
+component_task_instructions:
+- Put the cream cheese on the black bowl
+- Push the plate to the front of the stove
+component_evidence: []
+semantic_subtask_count: 2
+action_plan_step_count: 4
+canonical_goal_atoms:
+- on(cream_cheese_1, akita_black_bowl_1)
+- on(plate_1, main_table_stove_front_region)
+canonical_task_signature: composition|3f474b285ddc2e6e7e375309ab9cbd20d9a618ab3520cafd769b89fad2c6a2d1|frozenset({on(cream_cheese_1,akita_black_bowl_1),on(plate_1,main_table_stove_front_region)})
+objects_of_interest:
+- cream_cheese_1
+- akita_black_bowl_1
+- plate_1
+- main_table_stove_front_region
+pure_composition: true
+requires_transition: false
+sequence_stages: []
+physical_group: two_step_3f474b285ddc2e6e7e37
+base_bddl_template: source://LIBERO_EX_ICRA27/LiberoComposition/tasks/comp_006__put_the_cream_cheese_on_the_black_bowl_then_put_the_black_bowl_on_the_plate_and_finally_push_the_plate_to_the_front_of_the_stove/task.bddl
+base_pruned_init: source://LIBERO_EX_ICRA27/LiberoComposition/tasks/comp_006__put_the_cream_cheese_on_the_black_bowl_then_put_the_black_bowl_on_the_plate_and_finally_push_the_plate_to_the_front_of_the_stove/task.pruned_init
+max_steps: 800
+notes:
+- Enumerated from every two-component subset of the LIBERO-40-based 439-task Composition
+  pool.
+- Identity is physical scene plus unordered semantic goal pair; alternate parent triples
+  and wording orders are collapsed.
+- 'Identity status: existing_libero_ex_identity.'
+- 'All source parent occurrences: COMP_006[1,3], COMP_019[1,3], COMP_034[1,2], COMP_043[1,3],
+  COMP_047[1,2], COMP_048[1,2], COMP_049[1,2], COMP_050[1,2].'
+- 'Equivalent audited LIBERO-EX path(s): source://task.bddl | source://task.bddl |
+  source://LIBERO_EX_ICRA27/LiberoExReFinal/Task/put_the_cream_cheese_in_the_bowl_and_then_push_the_plate_to_the_front_of_the_stove/task.bddl'
+identity_status: existing_libero_ex_identity
+source_parent_task: COMP_006
+source_parent_component_indices:
+- 1
+- 3
+prior_partial_evidence: []
+legacy_task_id: COMP2_027
+collection_category: Compose
+category_order: 11

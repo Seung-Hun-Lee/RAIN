@@ -1,0 +1,15 @@
+name: Decompose_019
+language: Open the top drawer of the cabinet
+problem: Libero
+problem_folder: tasks/Decompose/Decompose_019
+bddl_file: task.bddl
+init_states_file: task.pruned_init
+category: TD
+anchor_suite: libero_goal
+metadata_file: ../../tasks/Decompose/Decompose_019/task_meta.yaml
+eval_rules_file: ../../tasks/Decompose/Decompose_019/eval_rules.yaml
+canonical_task_signature: libero_goal_shared_tabletop|frozenset({open(wooden_cabinet_1_top_region)})
+eval_category: Decomposition
+source_benchmark: LIBERO40DecompositionScreen
+collection_category: Decompose
+legacy_task_id: TDC40_005

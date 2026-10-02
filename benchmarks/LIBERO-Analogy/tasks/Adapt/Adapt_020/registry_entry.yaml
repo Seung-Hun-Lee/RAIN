@@ -1,0 +1,14 @@
+name: Adapt_020
+language: Put the ketchup on the rack
+problem: Libero
+problem_folder: tasks/Adapt/Adapt_020
+bddl_file: task.bddl
+init_states_file: task.pruned_init
+category: Adapt
+anchor_suite: libero_goal
+metadata_file: task_meta.yaml
+action_plan_file: action_plan.yaml
+mask_bindings_file: mask_bindings.yaml
+eval_rules_file: eval_rules.yaml
+legacy_task_id: GRACK_002
+collection_category: Adapt

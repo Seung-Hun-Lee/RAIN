@@ -1,0 +1,56 @@
+task_id: Compose_004
+task_name: Open the top drawer of the wooden cabinet, then put the ramekin on the
+  plate
+language: Open the top drawer of the wooden cabinet, then put the ramekin on the plate
+primary_category: Composition
+composition_family: drawer_open_then_ramekin_plate
+anchor_suite: libero_spatial
+source_prior_task_ids:
+- '10'
+source_priors: []
+component_task_instructions:
+- Open the top drawer of the wooden cabinet
+- Put the ramekin on the plate
+component_evidence:
+- Source-backed atomic relation/control; trajectory is a soft prior.
+- Source-backed atomic relation/control; trajectory is a soft prior.
+semantic_subtask_count: 2
+action_plan_step_count: 3
+canonical_goal_atoms:
+- open(wooden_cabinet_1_top_region)
+- on(glazed_rim_porcelain_ramekin_1, plate_1)
+canonical_task_signature: composition|e0c225daf2f3563f6c1a3c0c9f2097b8e5470a561aa4fceb3f0b24481854aaeb|frozenset({on(glazed_rim_porcelain_ramekin_1,plate_1),open(wooden_cabinet_1_top_region)})
+objects_of_interest:
+- wooden_cabinet_1_top_region
+- glazed_rim_porcelain_ramekin_1
+- plate_1
+pure_composition: true
+requires_transition: true
+sequence_stages:
+- - open(wooden_cabinet_1_top_region)
+- - open(wooden_cabinet_1_top_region)
+  - on(glazed_rim_porcelain_ramekin_1, plate_1)
+physical_group: exact_anlgx_092__pick_up_the_ramekin_on_the_cookies_box_and_place_it_on_the_plate
+base_bddl_template: source://LIBERO_EX_ICRA27/LiberoAnalogyExpanded/tasks/anlgx_092__pick_up_the_ramekin_on_the_cookies_box_and_place_it_on_the_plate/task.bddl
+base_pruned_init: source://LIBERO_EX_ICRA27/LiberoAnalogyExpanded/tasks/anlgx_092__pick_up_the_ramekin_on_the_cookies_box_and_place_it_on_the_plate/task.pruned_init
+max_steps: 1600
+notes:
+- 'Reverse-order control: top-drawer interaction then the exact source-aligned ramekin-on-cookies-to-plate
+  placement in one unchanged physical scene.'
+- All final native predicates must be false after evaluator warm-up.
+- Strict ordered native rising events plus every final BDDL predicate determine nominal
+  success; final TC is disabled.
+ordered_event_atoms:
+- open(wooden_cabinet_1_top_region)
+- on(glazed_rim_porcelain_ramekin_1, plate_1)
+fixture_replay_required: true
+validation_version: batch19_feedback_contract_v1
+compose_final_termination: strict_ordered_native_goals_without_final_tc
+compose_final_tc_gate: false
+loaded_relation_required_at_termination: null
+intentional_close_design_audit: not_applicable_no_close_goal
+close_contact_window_steps: 2
+drawer_close_sweep_certificates: {}
+legacy_task_id: VCN19_020
+collection_category: Compose
+category_order: 4

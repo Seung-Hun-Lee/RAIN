@@ -1,0 +1,34 @@
+task_id: Adapt_009
+task_name: Put the yellow and white mug in the right compartment of the caddy
+language: Put the yellow and white mug in the right compartment of the caddy
+primary_category: Analogy
+analogy_family: L3_libero10_caddy_object_compartment
+anchor_suite: libero_10
+source_prior_task_ids:
+- 104
+source_prior_task_stem: STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy
+source_prior_description: pick up the book and place it in the back compartment of
+  the caddy
+canonical_goal_atoms:
+- in(white_yellow_mug_1, desk_caddy_1_left_contain_region)
+canonical_task_signature: analogy|L3_libero10_caddy_object_compartment|libero10_study1_mug_caddy_context|in(white_yellow_mug_1,
+  desk_caddy_1_left_contain_region)
+objects_of_interest:
+- white_yellow_mug_1
+- desk_caddy_1_left_contain_region
+held_fixed:
+- caddy pose
+- source scene context
+- single In predicate
+varied:
+- replace the book with a learned mug grasp
+- select the left sibling compartment
+single_semantic_goal: true
+physical_group: libero10_study1_mug_caddy_context
+base_bddl_template: source://STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy.bddl
+base_pruned_init: source://STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy.pruned_init
+notes:
+- 'Training evidence: direct mug grasp in original LIBERO-10 tasks.'
+legacy_task_id: ANLGX_178
+collection_category: Adapt
+category_order: 9

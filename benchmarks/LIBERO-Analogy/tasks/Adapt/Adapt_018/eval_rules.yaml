@@ -1,0 +1,15 @@
+task_id: Adapt_018
+category: Adapt
+required_goal_atoms:
+- open(wooden_cabinet_1_top_region)
+forbidden_goal_atoms: []
+overshoot_policy: none
+order_sensitive: false
+continue_after_success: false
+requires_transition: false
+sequence_stages: []
+custom_eval_needed: false
+single_semantic_goal: true
+initial_goal_must_be_false: true
+success_metric: native LIBERO Open(top drawer), after initially false Open
+legacy_task_id: ADVCN19_001

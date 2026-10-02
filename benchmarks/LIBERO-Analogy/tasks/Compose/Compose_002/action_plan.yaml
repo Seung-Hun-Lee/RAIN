@@ -1,0 +1,19 @@
+task_id: Compose_002
+steps:
+- action_type: grasp
+  primary_object_id: cream_cheese_1
+  target_object_id: cream_cheese_1
+  source_task_id: 4
+  source_task_description: Put the cream cheese on the stove.
+- action_type: release
+  primary_object_id: cream_cheese_1
+  target_object_id: flat_stove_1_cook_region
+  source_task_id: 4
+  source_task_description: Put the cream cheese on the stove.
+- action_type: turn_on
+  primary_object_id: flat_stove_1
+  target_object_id: flat_stove_1
+  source_task_id: 7
+  source_task_description: Turn on the stove
+  source_subtask_index: 1
+legacy_task_id: VCN9_010

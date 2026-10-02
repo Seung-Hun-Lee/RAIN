@@ -1,0 +1,31 @@
+task_id: Decompose_014
+task_name: Close the bottom drawer of the cabinet
+language: Close the bottom drawer of the cabinet
+primary_category: TD
+anchor_suite: libero_10
+source_prior_description: Put the black bowl in the bottom drawer of the cabinet and
+  close it
+new_test_task_description: Close the bottom drawer of the cabinet
+scene_family: libero_10_kitchen_scene4
+objects_of_interest:
+- white_cabinet_1_bottom_region
+canonical_goal_atoms:
+- close(white_cabinet_1_bottom_region)
+canonical_task_signature: libero_10_kitchen_scene4|frozenset({close(white_cabinet_1_bottom_region)})
+held_fixed:
+- scene layout
+- fixtures
+- object set
+- init-state family
+varied:
+- goal subset
+why_this_category: Task Decomposition
+instruction_variants:
+- Close the bottom drawer of the cabinet
+source_prior_task_ids:
+- 103
+base_bddl_template: libero://bddl_files/libero_10/KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it.bddl
+base_pruned_init: libero://init_files/libero_10/KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it.pruned_init
+legacy_task_id: TDL10_016
+collection_category: Decompose
+category_order: 14

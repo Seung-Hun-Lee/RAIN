@@ -1,0 +1,2937 @@
+{
+  "upstream_repo": "jadechoghari/libero-assets",
+  "repo_type": "model",
+  "revision": "90001343cb134b7e26e18fde0fa2416f3ed6e6a3",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "a268d3035c338e41c6e5ff24c8fd50c623529b65e8e1f2240f1b0e099f767195",
+      "bytes": 14752
+    },
+    {
+      "path": "articulated_objects/basin_faucet/basin_faucet_base/basin_faucet_base.mtl",
+      "sha256": "53020319c87baacb345a243c6daeb13b40d901ea44eb430412ea05cfef1663d2",
+      "bytes": 455
+    },
+    {
+      "path": "articulated_objects/basin_faucet/basin_faucet_base/basin_faucet_base.obj",
+      "sha256": "350f37c1a575a0976fb9f8a1ca9671ef26ab6d00f9bbc6248dbbd23bb5a6474c",
+      "bytes": 84367
+    },
+    {
+      "path": "articulated_objects/basin_faucet/basin_faucet_base/basin_faucet_base.xml",
+      "sha256": "222415a2bf02d69c5983c29fb4d6bf4ecd0b73da46318cdf0115ba00740b713a",
+      "bytes": 1678
+    },
+    {
+      "path": "articulated_objects/basin_faucet/basin_faucet_base/basin_faucet_base_col.obj",
+      "sha256": "ca46d7dea98c2b622b176cf17dafeea9b83129705d85785a8062186abf52678a",
+      "bytes": 2867
+    },
+    {
+      "path": "articulated_objects/basin_faucet/basin_faucet_base/visual/basin_faucet_base_vis.msh",
+      "sha256": "198108aef8aa6509a7777a91e561e5631c12481582f6b624cecfb97c3139754e",
+      "bytes": 108664
+    },
+    {
+      "path": "articulated_objects/basin_faucet/basin_faucet_movable/basin_faucet_movable.mtl",
+      "sha256": "b1d150257d3ef78cfa8a73ecd679df0c5ba8fb61452d76199dad5cc863a40445",
+      "bytes": 259
+    },
+    {
+      "path": "articulated_objects/basin_faucet/basin_faucet_movable/basin_faucet_movable.obj",
+      "sha256": "d9a6a0d44fc2c86b77f05ab3405948bccfebaca09bd5c4fd69eb85212200b9d5",
+      "bytes": 34282
+    },
+    {
+      "path": "articulated_objects/basin_faucet/basin_faucet_movable/basin_faucet_movable.xml",
+      "sha256": "69b216384753495ba02f15fdb0eb41ef773277847027013c4cf2426c86151de9",
+      "bytes": 1468
+    },
+    {
+      "path": "articulated_objects/basin_faucet/basin_faucet_movable/basin_faucet_movable_col.obj",
+      "sha256": "a68b25a39099798efdf719e2e936a7908d4dfc5c786132d0e05098bae7c8b6ed",
+      "bytes": 1914
+    },
+    {
+      "path": "articulated_objects/basin_faucet/basin_faucet_movable/visual/basin_faucet_movable_vis.msh",
+      "sha256": "f628041c22962681bf6fb26af03a67bb1b58d08bfb67bc35caff4c8599c6d643",
+      "bytes": 46672
+    },
+    {
+      "path": "articulated_objects/basin_faucet/ceramic.png",
+      "sha256": "beef464a2aa9143ba6a25a44adcbfd1f1aff16c5969edbf08019b61025388402",
+      "bytes": 1442030
+    },
+    {
+      "path": "articulated_objects/basin_faucet.xml",
+      "sha256": "94daf6b7cd27981af911d8364a4278586e3e1e5e945adcf8faa880c497e8f8ae",
+      "bytes": 3442
+    },
+    {
+      "path": "articulated_objects/faucet.xml",
+      "sha256": "d4d9a435db7fdc4278fa6c0c75eff17feabb48ccadf3b877dd1fb6376f0275d0",
+      "bytes": 3128
+    },
+    {
+      "path": "articulated_objects/flat_stove/button_dark_texture.png",
+      "sha256": "c4c9f069e1e5f976879466de9c2e158ed338f3d1fbf2a37c837abe8d432783a1",
+      "bytes": 156406
+    },
+    {
+      "path": "articulated_objects/flat_stove/metal.png",
+      "sha256": "93784216a66b52be9c8ccc3732e50f511815291e32f34f97bd139ed7229061fa",
+      "bytes": 196878
+    },
+    {
+      "path": "articulated_objects/flat_stove/steel-scratched.png",
+      "sha256": "7e22a111d516cc84addde9b2b18353d8a6ec521b9b79ec5e9c169e2d9000d3fe",
+      "bytes": 391216
+    },
+    {
+      "path": "articulated_objects/flat_stove/stove_burner/burnerplate.stl",
+      "sha256": "93526fc3f2585e828c115f0f20d5ff43129ce7dc46c9fcc8216c4015c717bd00",
+      "bytes": 35284
+    },
+    {
+      "path": "articulated_objects/flat_stove/stove_knob_base/steel-scratched.png",
+      "sha256": "7e22a111d516cc84addde9b2b18353d8a6ec521b9b79ec5e9c169e2d9000d3fe",
+      "bytes": 391216
+    },
+    {
+      "path": "articulated_objects/flat_stove/stove_knob_base/stove_knob_base.mtl",
+      "sha256": "17acbcdc52bbdda65d99ad2a6cea7e02fe3b08b3c7ebf60ca601d4d31a4ba6cb",
+      "bytes": 251
+    },
+    {
+      "path": "articulated_objects/flat_stove/stove_knob_base/stove_knob_base.obj",
+      "sha256": "99d1c64c341affafd125b9e5a4aa9af97767e508b29e5052a60e7b25c1bebf75",
+      "bytes": 7395
+    },
+    {
+      "path": "articulated_objects/flat_stove/stove_knob_base/stove_knob_base.xml",
+      "sha256": "ff762270a8befbe7186a43463ade9e5ee3fe96a0fa3088c9794be16cf7ad66f7",
+      "bytes": 4197
+    },
+    {
+      "path": "articulated_objects/flat_stove/stove_knob_base/stove_knob_base_col.obj",
+      "sha256": "2f7c5d703e13af5e31e01512de8a54b409f1be14ea2bf8585c3c338acee74347",
+      "bytes": 13281
+    },
+    {
+      "path": "articulated_objects/flat_stove/stove_knob_base/visual/stove_knob_base_vis.msh",
+      "sha256": "d65ed847f007e5f3e1a01edb45c63ccb9f881f92479ec516028fb654f4077ddc",
+      "bytes": 13408
+    },
+    {
+      "path": "articulated_objects/flat_stove/stove_knob_button/button_dark_texture.png",
+      "sha256": "c4c9f069e1e5f976879466de9c2e158ed338f3d1fbf2a37c837abe8d432783a1",
+      "bytes": 156406
+    },
+    {
+      "path": "articulated_objects/flat_stove/stove_knob_button/steel-scratched.png",
+      "sha256": "7e22a111d516cc84addde9b2b18353d8a6ec521b9b79ec5e9c169e2d9000d3fe",
+      "bytes": 391216
+    },
+    {
+      "path": "articulated_objects/flat_stove/stove_knob_button/stove_knob_button.mtl",
+      "sha256": "f8a35f9db3d21472a9edfed0e93a93274dbfe7790673ea62e7d7c11b4ed56bce",
+      "bytes": 257
+    },
+    {
+      "path": "articulated_objects/flat_stove/stove_knob_button/stove_knob_button.obj",
+      "sha256": "317e8b897829d92287f27668d32b612a8c24e4ff731aa6597c329ea0058a1640",
+      "bytes": 36265
+    },
+    {
+      "path": "articulated_objects/flat_stove/stove_knob_button/stove_knob_button.xml",
+      "sha256": "51f6fd5bc9356e035e85e95e7aba54705b20c17e9ba756fb3c2fa78d389003fa",
+      "bytes": 5154
+    },
+    {
+      "path": "articulated_objects/flat_stove/stove_knob_button/stove_knob_button_col.obj",
+      "sha256": "ba922135bb321396a45ab37ebbbd53785bdffb86ebf0f095c55c0b7638a88e94",
+      "bytes": 17251
+    },
+    {
+      "path": "articulated_objects/flat_stove/stove_knob_button/visual/stove_knob_button_vis.msh",
+      "sha256": "b7cff7b5899505d5abcfed347a86fe7ef837203560838b9d9453196a91f8a743",
+      "bytes": 34792
+    },
+    {
+      "path": "articulated_objects/flat_stove.xml",
+      "sha256": "046748f5543cdfc1500d74f8ca60a992ad6633717396a2d4f505eb79aa102cb1",
+      "bytes": 7180
+    },
+    {
+      "path": "articulated_objects/meshes/faucet/faucetbase.stl",
+      "sha256": "cccf433788270ab5ed81db42101977ad4a4300e24f7b1a2996e82310807e32a4",
+      "bytes": 28884
+    },
+    {
+      "path": "articulated_objects/meshes/faucet/faucethandle1.stl",
+      "sha256": "d65a3d25b4e79eaa6c3e64429c06576f3a2ef9b668dbcaf11c00198532e7cc85",
+      "bytes": 6484
+    },
+    {
+      "path": "articulated_objects/meshes/faucet/faucethead.stl",
+      "sha256": "427946e8dab7b913d804a40ed0af98a6be381e6f963a15cd8132d5400ed67acb",
+      "bytes": 12884
+    },
+    {
+      "path": "articulated_objects/meshes/microwave/micro.stl",
+      "sha256": "0825383a47b711561328d1db63ee9aa15c2c182f362298c315ee2cb2cd0fba1d",
+      "bytes": 14484
+    },
+    {
+      "path": "articulated_objects/meshes/microwave/microbutton.stl",
+      "sha256": "d932505444c465f2a73aebbb4f2bf220f4b0978ebafd1e49f2e1c0a23f9f27b7",
+      "bytes": 5484
+    },
+    {
+      "path": "articulated_objects/meshes/microwave/microdoor.stl",
+      "sha256": "e65499c915972f081c969636022ffe8a31a884ea9f0fa8aa9252993644575976",
+      "bytes": 6484
+    },
+    {
+      "path": "articulated_objects/meshes/microwave/microefeet.stl",
+      "sha256": "2c8e6a5ba351a154d95d1d58fdea98f3c640a5836ba76de3e0fa7a23ed43df8e",
+      "bytes": 7284
+    },
+    {
+      "path": "articulated_objects/meshes/microwave/microfeet.stl",
+      "sha256": "07dc873d4e1f9a2fc5dc6e376729e5b4f5b8ed11a54e10d0bc7a22c6c7bd6bec",
+      "bytes": 7284
+    },
+    {
+      "path": "articulated_objects/meshes/microwave/microhandle.stl",
+      "sha256": "b0610f828666b21e38d63c78b1e561ad28bb0914633f8af46a1dc64396b9aeab",
+      "bytes": 8284
+    },
+    {
+      "path": "articulated_objects/meshes/microwave/microwindow.stl",
+      "sha256": "9f9638d4dbded50ee3ee25e6b77aa8f8abda3b17ce801528fb5c8e85d1adc7ae",
+      "bytes": 684
+    },
+    {
+      "path": "articulated_objects/meshes/window/window_base.stl",
+      "sha256": "710a07781ad107d0d34ac84461ddcbaf2011177b47e45088cff6f9383aab79f1",
+      "bytes": 2284
+    },
+    {
+      "path": "articulated_objects/meshes/window/window_frame.stl",
+      "sha256": "e895814914e70a5e5acab5aaab8d519bb1882487f48285c4b696a198a38810e8",
+      "bytes": 6484
+    },
+    {
+      "path": "articulated_objects/meshes/window/window_h_base.stl",
+      "sha256": "88f7cf4f7fcc54106e07572da71d4f92c8248f21d00bdcc52df2834e76ef5bd1",
+      "bytes": 2284
+    },
+    {
+      "path": "articulated_objects/meshes/window/window_h_frame.stl",
+      "sha256": "38f13ea160357b04c128cd5e1d6569743daceedde74766579ea368522d69784e",
+      "bytes": 6484
+    },
+    {
+      "path": "articulated_objects/meshes/window/windowa_frame.stl",
+      "sha256": "d27c58927e1ee58b9fdafbb550b5351d7c85f1d75e663d8c36f2786d536bd001",
+      "bytes": 7684
+    },
+    {
+      "path": "articulated_objects/meshes/window/windowa_glass.stl",
+      "sha256": "9a45b186cf24db33025d394a6944f3a4de0bc148ab39ab9a4482eeb11a3d93fd",
+      "bytes": 684
+    },
+    {
+      "path": "articulated_objects/meshes/window/windowa_h_frame.stl",
+      "sha256": "fa7ebc69793a2937c59be02f0431dd3d1f6cb3ca634c8a46fd72195973c7a0c4",
+      "bytes": 7684
+    },
+    {
+      "path": "articulated_objects/meshes/window/windowa_h_glass.stl",
+      "sha256": "c4de54e996abf80e9b77e108a168936e389f906c8000275cb2dc9949985dc0d2",
+      "bytes": 684
+    },
+    {
+      "path": "articulated_objects/meshes/window/windowb_frame.stl",
+      "sha256": "386c218c5fa3ee2b433e4debf6933ab697ba3ec88de4a3745ed34907a89c0aea",
+      "bytes": 8284
+    },
+    {
+      "path": "articulated_objects/meshes/window/windowb_glass.stl",
+      "sha256": "40dbe651264556eb4c85f0616351fc94308bf4a44f5c52e88896f855dcd5bf66",
+      "bytes": 684
+    },
+    {
+      "path": "articulated_objects/meshes/window/windowb_h_frame.stl",
+      "sha256": "d8af150ba902822f5d7dd6403df9b5bdbd3cda4a8500a93754e62f40aa1b3c6a",
+      "bytes": 8284
+    },
+    {
+      "path": "articulated_objects/meshes/window/windowb_h_glass.stl",
+      "sha256": "eb4d078f4102767450801631f1285755992946b714b2b70caa7c272a17e2ef97",
+      "bytes": 684
+    },
+    {
+      "path": "articulated_objects/microwave/micro.stl",
+      "sha256": "0825383a47b711561328d1db63ee9aa15c2c182f362298c315ee2cb2cd0fba1d",
+      "bytes": 14484
+    },
+    {
+      "path": "articulated_objects/microwave/microbutton.stl",
+      "sha256": "d932505444c465f2a73aebbb4f2bf220f4b0978ebafd1e49f2e1c0a23f9f27b7",
+      "bytes": 5484
+    },
+    {
+      "path": "articulated_objects/microwave/microdoor.stl",
+      "sha256": "e65499c915972f081c969636022ffe8a31a884ea9f0fa8aa9252993644575976",
+      "bytes": 6484
+    },
+    {
+      "path": "articulated_objects/microwave/microefeet.stl",
+      "sha256": "2c8e6a5ba351a154d95d1d58fdea98f3c640a5836ba76de3e0fa7a23ed43df8e",
+      "bytes": 7284
+    },
+    {
+      "path": "articulated_objects/microwave/microfeet.stl",
+      "sha256": "07dc873d4e1f9a2fc5dc6e376729e5b4f5b8ed11a54e10d0bc7a22c6c7bd6bec",
+      "bytes": 7284
+    },
+    {
+      "path": "articulated_objects/microwave/microhandle.stl",
+      "sha256": "b0610f828666b21e38d63c78b1e561ad28bb0914633f8af46a1dc64396b9aeab",
+      "bytes": 8284
+    },
+    {
+      "path": "articulated_objects/microwave/microwindow.stl",
+      "sha256": "9f9638d4dbded50ee3ee25e6b77aa8f8abda3b17ce801528fb5c8e85d1adc7ae",
+      "bytes": 684
+    },
+    {
+      "path": "articulated_objects/microwave.xml",
+      "sha256": "d06c1e44acb830c529a843e566deedfc5693a6e11f68a3d1d59d49021890fbdf",
+      "bytes": 4442
+    },
+    {
+      "path": "articulated_objects/short_cabinet/base/base.xml",
+      "sha256": "cf009448b3383bff2e24d7c66b7a75223aea42aa11f9e2aa13d69f7083572cef",
+      "bytes": 2236
+    },
+    {
+      "path": "articulated_objects/short_cabinet/base/base_col.obj",
+      "sha256": "17b085e0df62005cfc83452c3fd98f73e12b7c5e7f346b1febdd22bc7907cd9b",
+      "bytes": 5648
+    },
+    {
+      "path": "articulated_objects/short_cabinet/base/base_vis.mtl",
+      "sha256": "02380cf97cfb5f74031ea8d0d8aa3b89e865b220f26b6aba654441e32a8afdea",
+      "bytes": 231
+    },
+    {
+      "path": "articulated_objects/short_cabinet/base/base_vis.obj",
+      "sha256": "78dfdb1b88463da756dae0aa257676ebd446b643c233acd22309989193521cc4",
+      "bytes": 8639
+    },
+    {
+      "path": "articulated_objects/short_cabinet/base/base_vis.xml",
+      "sha256": "ea55e822c1c013c713934f18512801a8f1cc7f8c33c24e7138cb79ae919f4403",
+      "bytes": 2246
+    },
+    {
+      "path": "articulated_objects/short_cabinet/base/dark-wood.png",
+      "sha256": "5da8dbf7af06ecd251840aceec25fedcfa98267041cea289b2829c982e008dc3",
+      "bytes": 239227
+    },
+    {
+      "path": "articulated_objects/short_cabinet/base/visual/base_vis_vis.msh",
+      "sha256": "fc20087229d0d1d03fbae7dcf62c26568fc75a9b2cab9c43c23dc242eb935c42",
+      "bytes": 10384
+    },
+    {
+      "path": "articulated_objects/short_cabinet/drawer_high/drawer_high.mtl",
+      "sha256": "254d2ff43f6ebb35e635a6f7c669d560a54ce6542c85004db4fcf2142e8d2451",
+      "bytes": 418
+    },
+    {
+      "path": "articulated_objects/short_cabinet/drawer_high/drawer_high.obj",
+      "sha256": "6bdc274d232c3de1619d8f3c54b78e510cd9030cad740024be38265429c74d88",
+      "bytes": 95383
+    },
+    {
+      "path": "articulated_objects/short_cabinet/drawer_high/drawer_high.xml",
+      "sha256": "028cdef9fa7824998d676cf389ebbeb669412e8a064b4c0cdd4d69a3334c0a44",
+      "bytes": 3206
+    },
+    {
+      "path": "articulated_objects/short_cabinet/drawer_high/drawer_high_col.obj",
+      "sha256": "5b452d8011d5f15ef76116dc3c3f61dfcea995997003dd544724511a264277b5",
+      "bytes": 9516
+    },
+    {
+      "path": "articulated_objects/short_cabinet/drawer_high/visual/drawer_high_vis.msh",
+      "sha256": "d8b0b9c069a6ceab249afdecd63a5f79d45af72c1cf80a4e0685fe7e638f96c1",
+      "bytes": 155104
+    },
+    {
+      "path": "articulated_objects/short_cabinet/drawer_low/drawer_low.mtl",
+      "sha256": "b45c2fac8a9f64767116b8bb97cd379a139b47de82f1b5a6a2928a8a363b27c7",
+      "bytes": 417
+    },
+    {
+      "path": "articulated_objects/short_cabinet/drawer_low/drawer_low.obj",
+      "sha256": "8eb8b84790796765b89a4371ac25754731e0a52e3f1b6f2b8e8698156de1940a",
+      "bytes": 96112
+    },
+    {
+      "path": "articulated_objects/short_cabinet/drawer_low/drawer_low.xml",
+      "sha256": "932beea17232a5377bd97cefaf946906245804878316d55fc160535fd5044b49",
+      "bytes": 3208
+    },
+    {
+      "path": "articulated_objects/short_cabinet/drawer_low/drawer_low_col.obj",
+      "sha256": "99da9e5a25cdbe82d2fa3175bf5a12442c3558c6c45d7517a8ccdb8fc74572d9",
+      "bytes": 9593
+    },
+    {
+      "path": "articulated_objects/short_cabinet/drawer_low/visual/drawer_low_vis.msh",
+      "sha256": "5bc6f541d59cfc15a58d7c5ed37a7d66dcc1c7145efb6997d3cffdb3bd68ecc4",
+      "bytes": 155104
+    },
+    {
+      "path": "articulated_objects/short_cabinet/drawer_middle/drawer_middle.mtl",
+      "sha256": "a8b5fbdeb4e18f98655b88101b84a4731bb1edd1e7d58803846776222f47d570",
+      "bytes": 420
+    },
+    {
+      "path": "articulated_objects/short_cabinet/drawer_middle/drawer_middle.obj",
+      "sha256": "4710ef507ff2a89d257ccd32ca2584dbf9bac7598f20f512f8c10a7ff96fa146",
+      "bytes": 95595
+    },
+    {
+      "path": "articulated_objects/short_cabinet/drawer_middle/drawer_middle.xml",
+      "sha256": "03145eb45141b68a8266d48e8806f3a7e715beebbca4b793aacba1644aed4f16",
+      "bytes": 3226
+    },
+    {
+      "path": "articulated_objects/short_cabinet/drawer_middle/drawer_middle_col.obj",
+      "sha256": "22920efa5529a2b3ba9a659a0b9cb8948671a2c68e6fdf401ad4268f32b1c700",
+      "bytes": 9578
+    },
+    {
+      "path": "articulated_objects/short_cabinet/drawer_middle/visual/drawer_middle_vis.msh",
+      "sha256": "57c71536261b759a2260de5ee0c9b22d393574f3024542e6913632ad86c87865",
+      "bytes": 155104
+    },
+    {
+      "path": "articulated_objects/short_cabinet.xml",
+      "sha256": "410a5854aed734e046a092dbb54ad620abaad6c47ece3081e71afe0d11dc8f93",
+      "bytes": 11895
+    },
+    {
+      "path": "articulated_objects/short_fridge/base/base.mtl",
+      "sha256": "83fb273efd6187b4b7d03730d8bef4f02a1520e66e2ad70d622146f0602370a3",
+      "bytes": 968
+    },
+    {
+      "path": "articulated_objects/short_fridge/base/base.obj",
+      "sha256": "688eef6e03b6eb7a40774a07678c32cb86d93c1e91dbfbc0b63e6ebfa12da2fb",
+      "bytes": 265129
+    },
+    {
+      "path": "articulated_objects/short_fridge/base/base.xml",
+      "sha256": "3a8593e4f6ffa4a1e3f8dde3ad07f2be19650496b9a5b2789f104562173ba95b",
+      "bytes": 3628
+    },
+    {
+      "path": "articulated_objects/short_fridge/base/base_col.obj",
+      "sha256": "7f386d0fe17a83195369ff53eafdb61620ef39de0705fafd47fb0d6837885294",
+      "bytes": 11530
+    },
+    {
+      "path": "articulated_objects/short_fridge/base/visual/base_layers_vis.msh",
+      "sha256": "093ab3dca3ba5b40072c20d0e056a69f358714451f7574088ef47ad5f9335fd8",
+      "bytes": 13624
+    },
+    {
+      "path": "articulated_objects/short_fridge/base/visual/base_vis.msh",
+      "sha256": "1909bc959ccd4547b036b3722d62e4b6286b1494e08f337438006ed8d95e3285",
+      "bytes": 410848
+    },
+    {
+      "path": "articulated_objects/short_fridge/door/door.mtl",
+      "sha256": "5eca2c4ea106ea001544589ab5426220f2ebe093c1611d570ad07fa47e7f5add",
+      "bytes": 606
+    },
+    {
+      "path": "articulated_objects/short_fridge/door/door.obj",
+      "sha256": "d53f61cbbfce038036cbf644b01f342445f7e28753a0049937498b8f22cf700d",
+      "bytes": 7249
+    },
+    {
+      "path": "articulated_objects/short_fridge/door/door.xml",
+      "sha256": "ef1f05aafed78d6a41e21d878719d0a21b95c01668102aebefca7a0774211085",
+      "bytes": 2204
+    },
+    {
+      "path": "articulated_objects/short_fridge/door/door_col.obj",
+      "sha256": "6482edba714e46cb7d3448a553c34b119d1e0d85884c8f880caad9028282dced",
+      "bytes": 5671
+    },
+    {
+      "path": "articulated_objects/short_fridge/door/visual/door_vis.msh",
+      "sha256": "92c07a06c45e9352cda2209b5ee4549d89bd9bb7a4a548648dc396e5300dd717",
+      "bytes": 14704
+    },
+    {
+      "path": "articulated_objects/short_fridge/metal.png",
+      "sha256": "93784216a66b52be9c8ccc3732e50f511815291e32f34f97bd139ed7229061fa",
+      "bytes": 196878
+    },
+    {
+      "path": "articulated_objects/short_fridge.xml",
+      "sha256": "4f928ee9c0dee7d14f2e95aef425a4f713c10c41a590a4407f501f0d5dc3376a",
+      "bytes": 6713
+    },
+    {
+      "path": "articulated_objects/slide_cabinet.xml",
+      "sha256": "6b311ceba0cebb94777c92111b5cc977b65fbf2cbe7169867d29579261a16b8b",
+      "bytes": 3738
+    },
+    {
+      "path": "articulated_objects/textures/metal1.png",
+      "sha256": "0d25fa8affbb0f579220f0cdad6ee74f875495822ee79bb5afd23d73671f6363",
+      "bytes": 289552
+    },
+    {
+      "path": "articulated_objects/textures/metal2.png",
+      "sha256": "70bf8f1c02841b802bcdabd734c8190f39e45cb3b4f916ddcad22335a26d5c12",
+      "bytes": 228486
+    },
+    {
+      "path": "articulated_objects/white_cabinet/metal.png",
+      "sha256": "93784216a66b52be9c8ccc3732e50f511815291e32f34f97bd139ed7229061fa",
+      "bytes": 196878
+    },
+    {
+      "path": "articulated_objects/white_cabinet/white_cabinet_base/visual/white_cabinet_base_vis.msh",
+      "sha256": "8bcf371361562de9ac8ac2fe06db6b6b695dde3cbe50e86de5a6e272d21e1f9c",
+      "bytes": 21400
+    },
+    {
+      "path": "articulated_objects/white_cabinet/white_cabinet_bottom/visual/white_cabinet_bottom_vis.msh",
+      "sha256": "23181bdeb6ce44e3634318e6c946fa00f568eb25256b8546558775eda691700c",
+      "bytes": 9088
+    },
+    {
+      "path": "articulated_objects/white_cabinet/white_cabinet_bottom_handle/visual/white_cabinet_bottom_handle_vis.msh",
+      "sha256": "a61587cbcebb8a8ad5dc0d8c60e6db4747a5a118397485a0a5eb5e171c2d397e",
+      "bytes": 40192
+    },
+    {
+      "path": "articulated_objects/white_cabinet/white_cabinet_middle/visual/white_cabinet_middle_vis.msh",
+      "sha256": "580eead06792affbd91c1b5c17e3d1c94082fcb247eb4812d1a8ac4c120253c5",
+      "bytes": 9088
+    },
+    {
+      "path": "articulated_objects/white_cabinet/white_cabinet_middle_handle/visual/white_cabinet_middle_handle_vis.msh",
+      "sha256": "1688f375dde79450d9e5cfcb5dc17a16c27018c9dbf74513577588d54e62e0a8",
+      "bytes": 40192
+    },
+    {
+      "path": "articulated_objects/white_cabinet/white_cabinet_top/visual/white_cabinet_top_vis.msh",
+      "sha256": "2b7c08ad3740ad45965eaedd9cf07f64ea12dd4044cac7e71fa5b601b4cbb481",
+      "bytes": 9088
+    },
+    {
+      "path": "articulated_objects/white_cabinet/white_cabinet_top_handle/visual/white_cabinet_top_handle_vis.msh",
+      "sha256": "58924271007a30a14eda7111e7eefd7be3f8b04a1d31bbf4964d7da419282df6",
+      "bytes": 40192
+    },
+    {
+      "path": "articulated_objects/white_cabinet/white_wood.png",
+      "sha256": "43524d6bca8df5042d5b45d0b0e458f34ea7f2d6445d026c5b204ee32acd8bea",
+      "bytes": 2209978
+    },
+    {
+      "path": "articulated_objects/white_cabinet.xml",
+      "sha256": "b8ebf670ad0d5533d9fedbfdd7909d263792fc6725d4ca5d4df987660cee264a",
+      "bytes": 14365
+    },
+    {
+      "path": "articulated_objects/window.xml",
+      "sha256": "9f3b37fd0c834b0ac5f7004b7a9672f76fba19bf80af523776e18eb11d9a338f",
+      "bytes": 6773
+    },
+    {
+      "path": "articulated_objects/wooden_cabinet/dark_fine_wood.png",
+      "sha256": "9aaa94ef4cd61592b566569bba3569276a38ea5ff22ed4b978b77b038b38a11f",
+      "bytes": 42358
+    },
+    {
+      "path": "articulated_objects/wooden_cabinet/metal.png",
+      "sha256": "93784216a66b52be9c8ccc3732e50f511815291e32f34f97bd139ed7229061fa",
+      "bytes": 196878
+    },
+    {
+      "path": "articulated_objects/wooden_cabinet/wooden_cabinet_base/dark_fine_wood.png",
+      "sha256": "9aaa94ef4cd61592b566569bba3569276a38ea5ff22ed4b978b77b038b38a11f",
+      "bytes": 42358
+    },
+    {
+      "path": "articulated_objects/wooden_cabinet/wooden_cabinet_base/visual/wooden_cabinet_base_vis.msh",
+      "sha256": "8bcf371361562de9ac8ac2fe06db6b6b695dde3cbe50e86de5a6e272d21e1f9c",
+      "bytes": 21400
+    },
+    {
+      "path": "articulated_objects/wooden_cabinet/wooden_cabinet_base/wooden_cabinet_base.mtl",
+      "sha256": "d27518e28b7acd8ee6ee87b7346be3dfcb26fa8738655ced2fd31511649e95db",
+      "bytes": 493
+    },
+    {
+      "path": "articulated_objects/wooden_cabinet/wooden_cabinet_base/wooden_cabinet_base.obj",
+      "sha256": "078566aa8c6f2d35e07298396076b4b77bd9426919503eb84eb71ddb1d608549",
+      "bytes": 14231
+    },
+    {
+      "path": "articulated_objects/wooden_cabinet/wooden_cabinet_base/wooden_cabinet_base.xml",
+      "sha256": "3bf642de516e408bec7d8aa4cfbb9252d7f3a53ad17a79114a7037a90bbd3171",
+      "bytes": 3037
+    },
+    {
+      "path": "articulated_objects/wooden_cabinet/wooden_cabinet_base/wooden_cabinet_base_col.obj",
+      "sha256": "1e44c01a525ceb50e190bbf5f6bf42ca932859c298da30febeb5250f6ae15722",
+      "bytes": 11202
+    },
+    {
+      "path": "articulated_objects/wooden_cabinet/wooden_cabinet_bottom/dark_fine_wood.png",
+      "sha256": "9aaa94ef4cd61592b566569bba3569276a38ea5ff22ed4b978b77b038b38a11f",
+      "bytes": 42358
+    },
+    {
+      "path": "articulated_objects/wooden_cabinet/wooden_cabinet_bottom/visual/wooden_cabinet_bottom_vis.msh",
+      "sha256": "23181bdeb6ce44e3634318e6c946fa00f568eb25256b8546558775eda691700c",
+      "bytes": 9088
+    },
+    {
+      "path": "articulated_objects/wooden_cabinet/wooden_cabinet_bottom/wooden_cabinet_bottom.mtl",
+      "sha256": "9713106daaf2d8ce68086c8dfe4bfd6fffc419cdd1594a0e5bf71a25abb6773e",
+      "bytes": 252
+    },
+    {
+      "path": "articulated_objects/wooden_cabinet/wooden_cabinet_bottom/wooden_cabinet_bottom.obj",
+      "sha256": "175eb7d8e351ca648b229687826eb21f3eea1ae868f29639f6236cb31c9c0562",
+      "bytes": 5341
+    },
+    {
+      "path": "articulated_objects/wooden_cabinet/wooden_cabinet_bottom/wooden_cabinet_bottom.xml",
+      "sha256": "a466dbada22f6766802daae274594a1cd274a2783a44961eee68798daa85fc13",
+      "bytes": 2350
+    },
+    {
+      "path": "articulated_objects/wooden_cabinet/wooden_cabinet_bottom/wooden_cabinet_bottom_col.obj",
+      "sha256": "7da66a6916224c9bcd868bf287d54b9b39901df4abab1b04a9a60cc5b0ada415",
+      "bytes": 5609
+    },
+    {
+      "path": "articulated_objects/wooden_cabinet/wooden_cabinet_bottom_handle/dark_fine_wood.png",
+      "sha256": "9aaa94ef4cd61592b566569bba3569276a38ea5ff22ed4b978b77b038b38a11f",
+      "bytes": 42358
+    },
+    {
+      "path": "articulated_objects/wooden_cabinet/wooden_cabinet_bottom_handle/visual/wooden_cabinet_bottom_handle_vis.msh",
+      "sha256": "a61587cbcebb8a8ad5dc0d8c60e6db4747a5a118397485a0a5eb5e171c2d397e",
+      "bytes": 40192
+    },
+    {
+      "path": "articulated_objects/wooden_cabinet/wooden_cabinet_bottom_handle/wooden_cabinet_bottom_handle.mtl",
+      "sha256": "5743e439d6a8d8c45401b16f5eeca80093c4fb0857ba54fc421853ff083140da",
+      "bytes": 437
+    },
+    {
+      "path": "articulated_objects/wooden_cabinet/wooden_cabinet_bottom_handle/wooden_cabinet_bottom_handle.obj",
+      "sha256": "bafafa9ea5cc2cd140d1a56064f9ce24d3769112e2b5147347a6325262443ac2",
+      "bytes": 22912
+    },
+    {
+      "path": "articulated_objects/wooden_cabinet/wooden_cabinet_bottom_handle/wooden_cabinet_bottom_handle.xml",
+      "sha256": "166ec7fd884e9119f2f13ae5f232ce0273b017770c16ad726b81e87e5b6fa7ca",
+      "bytes": 1704
+    },
+    {
+      "path": "articulated_objects/wooden_cabinet/wooden_cabinet_bottom_handle/wooden_cabinet_bottom_handle_col.obj",
+      "sha256": "b0a2f56c4d2996e06965639b84f963af43bcea72ce21f96de090e1a2326109f5",
+      "bytes": 2820
+    },
+    {
+      "path": "articulated_objects/wooden_cabinet/wooden_cabinet_middle/dark_fine_wood.png",
+      "sha256": "9aaa94ef4cd61592b566569bba3569276a38ea5ff22ed4b978b77b038b38a11f",
+      "bytes": 42358
+    },
+    {
+      "path": "articulated_objects/wooden_cabinet/wooden_cabinet_middle/visual/wooden_cabinet_middle_vis.msh",
+      "sha256": "580eead06792affbd91c1b5c17e3d1c94082fcb247eb4812d1a8ac4c120253c5",
+      "bytes": 9088
+    },
+    {
+      "path": "articulated_objects/wooden_cabinet/wooden_cabinet_middle/wooden_cabinet_middle.mtl",
+      "sha256": "b24b7d41e88e3c078b3c5cc9f5bbb75af0b801219c9a588f4c580e34af02da8c",
+      "bytes": 252
+    },
+    {
+      "path": "articulated_objects/wooden_cabinet/wooden_cabinet_middle/wooden_cabinet_middle.obj",
+      "sha256": "06e38b9682eeecd5ec04588d43485a85ea964fb9b75f95b7613f48d74b88b7a7",
+      "bytes": 5332
+    },
+    {
+      "path": "articulated_objects/wooden_cabinet/wooden_cabinet_middle/wooden_cabinet_middle.xml",
+      "sha256": "793356bcfba7fcaf76789d103887682bfe3ffe045aa45b085b41aefff8583b12",
+      "bytes": 2350
+    },
+    {
+      "path": "articulated_objects/wooden_cabinet/wooden_cabinet_middle/wooden_cabinet_middle_col.obj",
+      "sha256": "379aa9b1a94f19b24bbcd5d8884dddfb2e4c08d79fcc7040a995e07335b6f16c",
+      "bytes": 5609
+    },
+    {
+      "path": "articulated_objects/wooden_cabinet/wooden_cabinet_middle_handle/metal.png",
+      "sha256": "93784216a66b52be9c8ccc3732e50f511815291e32f34f97bd139ed7229061fa",
+      "bytes": 196878
+    },
+    {
+      "path": "articulated_objects/wooden_cabinet/wooden_cabinet_middle_handle/visual/wooden_cabinet_middle_handle_vis.msh",
+      "sha256": "1688f375dde79450d9e5cfcb5dc17a16c27018c9dbf74513577588d54e62e0a8",
+      "bytes": 40192
+    },
+    {
+      "path": "articulated_objects/wooden_cabinet/wooden_cabinet_middle_handle/wooden_cabinet_middle_handle.mtl",
+      "sha256": "5c2352078b630e50a5d614f49e0aac2c50f7b816e2616539e5269c8fce77a99c",
+      "bytes": 437
+    },
+    {
+      "path": "articulated_objects/wooden_cabinet/wooden_cabinet_middle_handle/wooden_cabinet_middle_handle.obj",
+      "sha256": "87564ff8aa2a426a0b8028f899a8289fc71da73675f347ae34bbd9ef3f184399",
+      "bytes": 22912
+    },
+    {
+      "path": "articulated_objects/wooden_cabinet/wooden_cabinet_middle_handle/wooden_cabinet_middle_handle.xml",
+      "sha256": "aa06707477c7cb27bf66a2576079f46f8af6124a5e88a2f6b25c09f248227387",
+      "bytes": 1695
+    },
+    {
+      "path": "articulated_objects/wooden_cabinet/wooden_cabinet_middle_handle/wooden_cabinet_middle_handle_col.obj",
+      "sha256": "37777567eaa147df8e98caa5e4cdac7459b46ec908a4063e7b05b21aedabc363",
+      "bytes": 2820
+    },
+    {
+      "path": "articulated_objects/wooden_cabinet/wooden_cabinet_top/dark_fine_wood.png",
+      "sha256": "9aaa94ef4cd61592b566569bba3569276a38ea5ff22ed4b978b77b038b38a11f",
+      "bytes": 42358
+    },
+    {
+      "path": "articulated_objects/wooden_cabinet/wooden_cabinet_top/visual/wooden_cabinet_top_vis.msh",
+      "sha256": "2b7c08ad3740ad45965eaedd9cf07f64ea12dd4044cac7e71fa5b601b4cbb481",
+      "bytes": 9088
+    },
+    {
+      "path": "articulated_objects/wooden_cabinet/wooden_cabinet_top/wooden_cabinet_top.mtl",
+      "sha256": "292058e4d6ed4288f511b9690646f852cfa3dd92422120571b5840491193845d",
+      "bytes": 253
+    },
+    {
+      "path": "articulated_objects/wooden_cabinet/wooden_cabinet_top/wooden_cabinet_top.obj",
+      "sha256": "1c53811ea4d2df3e0fcfaa6e9d657ebfcaa2d9392f24646a1627a36661a8ee28",
+      "bytes": 5342
+    },
+    {
+      "path": "articulated_objects/wooden_cabinet/wooden_cabinet_top/wooden_cabinet_top.xml",
+      "sha256": "34068772ecb0a277fd367203c8b34dc5dc587705b4e340bd2c845516cca41375",
+      "bytes": 2326
+    },
+    {
+      "path": "articulated_objects/wooden_cabinet/wooden_cabinet_top/wooden_cabinet_top_col.obj",
+      "sha256": "7b8d28d0e0630892b6b60ba6acd8c0276ad6368d74db8dc6b73c8ad6778b8621",
+      "bytes": 5606
+    },
+    {
+      "path": "articulated_objects/wooden_cabinet/wooden_cabinet_top_handle/metal.png",
+      "sha256": "93784216a66b52be9c8ccc3732e50f511815291e32f34f97bd139ed7229061fa",
+      "bytes": 196878
+    },
+    {
+      "path": "articulated_objects/wooden_cabinet/wooden_cabinet_top_handle/visual/wooden_cabinet_top_handle_vis.msh",
+      "sha256": "58924271007a30a14eda7111e7eefd7be3f8b04a1d31bbf4964d7da419282df6",
+      "bytes": 40192
+    },
+    {
+      "path": "articulated_objects/wooden_cabinet/wooden_cabinet_top_handle/wooden_cabinet_top_handle.mtl",
+      "sha256": "37a437fc60a1dcec13e2e73b7dd46b27402b56e14ee0220406c59598636eeb85",
+      "bytes": 434
+    },
+    {
+      "path": "articulated_objects/wooden_cabinet/wooden_cabinet_top_handle/wooden_cabinet_top_handle.obj",
+      "sha256": "bafde2d9e79540aed7a4afaff122c0495534652343b558debd861e5b412e39b0",
+      "bytes": 22909
+    },
+    {
+      "path": "articulated_objects/wooden_cabinet/wooden_cabinet_top_handle/wooden_cabinet_top_handle.xml",
+      "sha256": "eb7e584cfa8cafadaa9aeb86d0a33e9de1cfdd0f221b2f9cae3540e5acc14ed5",
+      "bytes": 1671
+    },
+    {
+      "path": "articulated_objects/wooden_cabinet/wooden_cabinet_top_handle/wooden_cabinet_top_handle_col.obj",
+      "sha256": "214ed5978d473d9de08a0a91bfb8d834cab8b18d6c8605b2e51eda9dc6b67f68",
+      "bytes": 2817
+    },
+    {
+      "path": "articulated_objects/wooden_cabinet.xml",
+      "sha256": "eca251258c7ff6a05fa181a316c767508801812f4ea870921f3ce28fd82ea7af",
+      "bytes": 14435
+    },
+    {
+      "path": "scenes/black_book/black_book.mtl",
+      "sha256": "48a3690643d78b1db5770a3747f0e3da18f391e066d8a954578cc2ff255c4b97",
+      "bytes": 657
+    },
+    {
+      "path": "scenes/black_book/black_book.obj",
+      "sha256": "affcdf1de967906914c37d819def2b16f00b8ca4c63002e6fdc32a636cf77e25",
+      "bytes": 512689
+    },
+    {
+      "path": "scenes/black_book/black_book.xml",
+      "sha256": "545baee0e196261da00e96270b055bb91658988e25dc8a859e20750d17fcdfa5",
+      "bytes": 1094
+    },
+    {
+      "path": "scenes/black_book/black_book_texture.png",
+      "sha256": "b743b0e878a10e579371707f3d135c6e7a80a8c307fffabfe1fea6a784830ec2",
+      "bytes": 186624
+    },
+    {
+      "path": "scenes/black_book/collision/black_book_ch.stl",
+      "sha256": "90567f718d3b2fcc4ce7722c95b5bff891b9e0920d2b2ec389e149e26e655f52",
+      "bytes": 3884
+    },
+    {
+      "path": "scenes/black_book/visual/black_book_vis.msh",
+      "sha256": "ca4a7f95bad5dee37a99c0374df132eadf5f8304770e5830f3286d730c844049",
+      "bytes": 773296
+    },
+    {
+      "path": "scenes/coffee_table_seats/FabricLeatherBuffaloRustic001_COL_VAR1_4K.png",
+      "sha256": "6fabe46d134c4e0c7058795535df2e84a34bd5e2af83f881037a398f20629d57",
+      "bytes": 12825082
+    },
+    {
+      "path": "scenes/coffee_table_seats/coffee_table_seats.mtl",
+      "sha256": "56cf5412654c21a39b31e7a4820cd3f363b7c921588640ea6a5252c15dacdfee",
+      "bytes": 293
+    },
+    {
+      "path": "scenes/coffee_table_seats/coffee_table_seats.obj",
+      "sha256": "69c4d8590bb31d773c1263fbe0b50bd07e7f62a8be522398b47733a41122cf92",
+      "bytes": 1633914
+    },
+    {
+      "path": "scenes/coffee_table_seats/coffee_table_seats.xml",
+      "sha256": "a054e2190c18635a58193e8a49af140dc7f9fe7c570f30c3114216fff94ea624",
+      "bytes": 1205
+    },
+    {
+      "path": "scenes/coffee_table_seats/collision/coffee_table_seats_ch.stl",
+      "sha256": "9017472a107c5e56c5222ca5212163b3156d19d10c773a717a835046d3cd81c3",
+      "bytes": 103284
+    },
+    {
+      "path": "scenes/coffee_table_seats/visual/coffee_table_seats_vis.msh",
+      "sha256": "a206214be7f9ebb9d1a0358fffe07efbdae513e822371803480da67d4b7ae0fd",
+      "bytes": 2073616
+    },
+    {
+      "path": "scenes/desk/desk.mtl",
+      "sha256": "15468f6c5158879f62e3d6e6390e997e78b71f7ce801f5874aac7b76c9c87568",
+      "bytes": 657
+    },
+    {
+      "path": "scenes/desk/desk.obj",
+      "sha256": "e3d72e58b3154b963a6bfd94ca298f4a3e45ab35461dc4aeb14001574fd337a6",
+      "bytes": 380512
+    },
+    {
+      "path": "scenes/desk/desk.xml",
+      "sha256": "2d2e9d4bcab289fdad9b35958634c9ffb6faba9ef3103f53dfe98222556b8834",
+      "bytes": 2453
+    },
+    {
+      "path": "scenes/desk/desk_col.obj",
+      "sha256": "9e2da6ad271c02fdeb3d01e2b32d60d6911c30a3ec8345d0bae5ea9397fd3303",
+      "bytes": 6524
+    },
+    {
+      "path": "scenes/desk/desk_texture.png",
+      "sha256": "f1f228aca1dab2c88833d00d10983d3df62e64569bb61ad66865490cbd08a5c3",
+      "bytes": 489350
+    },
+    {
+      "path": "scenes/desk/visual/desk_vis.msh",
+      "sha256": "b883c91335372a5f7be2af0b83b95d2db429a5010110c8ca9739aef03d15f8f3",
+      "bytes": 742624
+    },
+    {
+      "path": "scenes/floor_lamp/collision/floor_lamp_ch.stl",
+      "sha256": "47f1aa661fb6f911b3ace8b56dc2ea048a2a62b1e65a197252a2076561723191",
+      "bytes": 149584
+    },
+    {
+      "path": "scenes/floor_lamp/floor_lamp.mtl",
+      "sha256": "7dee3862d3a05ce58f0184efe96374d0a31f913c70053e89907b2862e1bdf504",
+      "bytes": 2447
+    },
+    {
+      "path": "scenes/floor_lamp/floor_lamp.obj",
+      "sha256": "350b693a756f59e86a58900f7125681db5fddc2664a712177473f83578acb70f",
+      "bytes": 5687626
+    },
+    {
+      "path": "scenes/floor_lamp/floor_lamp.xml",
+      "sha256": "e159e83b0d6db2cb79634c3c67e290cbf87f87012c6acf0f57669d6ca6d70141",
+      "bytes": 1088
+    },
+    {
+      "path": "scenes/floor_lamp/lamp_texture.png",
+      "sha256": "a9735321ebc866113449bc4debb0c078752389d2b50541313ae7788f0fcde80d",
+      "bytes": 24160
+    },
+    {
+      "path": "scenes/floor_lamp/visual/floor_lamp_vis.msh",
+      "sha256": "6de4776381809fdc2f7a6eae997a8269fb40fe09ef977e05a3e4fa1949a4e949",
+      "bytes": 7983160
+    },
+    {
+      "path": "scenes/fridge/collision/fridge_ch.stl",
+      "sha256": "24021f65a7de77d8a5ca40cc628881125a19c7b46ae163814459a21eab0fb458",
+      "bytes": 43284
+    },
+    {
+      "path": "scenes/fridge/fridge.mtl",
+      "sha256": "fc75ca1e3572dcaf01bd695663726a0b0e3ea92ba326b2853e16ac9783097c3c",
+      "bytes": 265
+    },
+    {
+      "path": "scenes/fridge/fridge.obj",
+      "sha256": "e30e81dbca9c09d5fe53759bb5ecad545586b9c898b9e712e55c58d6ec9107fe",
+      "bytes": 878298
+    },
+    {
+      "path": "scenes/fridge/fridge.xml",
+      "sha256": "1693356b04eb8a03e9a1e04a2707a052be72b2583088dc1e24489fb00bfcff58",
+      "bytes": 1057
+    },
+    {
+      "path": "scenes/fridge/kitchen_fridge_background.png",
+      "sha256": "f29dcf2c6135094db9dc5800756fa41806d0d9f299d9bf897bc464ab6c2cc163",
+      "bytes": 26145
+    },
+    {
+      "path": "scenes/fridge/metal.png",
+      "sha256": "93784216a66b52be9c8ccc3732e50f511815291e32f34f97bd139ed7229061fa",
+      "bytes": 196878
+    },
+    {
+      "path": "scenes/fridge/steel-scratched.png",
+      "sha256": "7e22a111d516cc84addde9b2b18353d8a6ec521b9b79ec5e9c169e2d9000d3fe",
+      "bytes": 391216
+    },
+    {
+      "path": "scenes/fridge/visual/fridge_vis.msh",
+      "sha256": "41edbedd182c3c27ffe8bc2c2808f61bc575c80bc37d717a17af71d10a04a208",
+      "bytes": 1395808
+    },
+    {
+      "path": "scenes/kitchen_background/collision/kitchen_background_ch.stl",
+      "sha256": "1bdfe6d57957507209c52c1c1e417e0046095318c9a5eb5dabd7a7e5e58bda9b",
+      "bytes": 5284
+    },
+    {
+      "path": "scenes/kitchen_background/kitchen_background.mtl",
+      "sha256": "4689a75145a7cb9a7ab2890ee77a3c41e9b1d35b0105caf78ae9b23c6f440179",
+      "bytes": 2509
+    },
+    {
+      "path": "scenes/kitchen_background/kitchen_background.obj",
+      "sha256": "bbbe1c1bcc350199686cef73309188d5cf20a0790195df2d3196ca7ec8e41665",
+      "bytes": 4942104
+    },
+    {
+      "path": "scenes/kitchen_background/kitchen_background.png",
+      "sha256": "cb9379766b531eb8e6f44a1fa3df92430e0c73c6c3856a88521510e689bca15a",
+      "bytes": 172490
+    },
+    {
+      "path": "scenes/kitchen_background/kitchen_background.xml",
+      "sha256": "75b39ca51105f7f20753acc398d7d336c61b3ca801b9af9b38085c77fa39c4f9",
+      "bytes": 1194
+    },
+    {
+      "path": "scenes/kitchen_background/visual/kitchen_background_vis.msh",
+      "sha256": "6b2487166e07650ba787129919fb3c4f77bfd912fdd4e265f5bf68992175417a",
+      "bytes": 7534528
+    },
+    {
+      "path": "scenes/kitchen_background_hot_pot/collision/kitchen_background_hot_pot_ch.stl",
+      "sha256": "89fce5022a9c4651182adb331eb27b10aef2ba9cc3229f36d82c843f780885ef",
+      "bytes": 52284
+    },
+    {
+      "path": "scenes/kitchen_background_hot_pot/kitchen_background_hot_pot.mtl",
+      "sha256": "2c1f20c1ea418dc76580ae3bea4b490bbc0c4748882f0f28d5b5b334288270ce",
+      "bytes": 376
+    },
+    {
+      "path": "scenes/kitchen_background_hot_pot/kitchen_background_hot_pot.obj",
+      "sha256": "2be420109a73493e40f14b0c7ffc327b4d208f972a6296ebf313330cbdc557ed",
+      "bytes": 536306
+    },
+    {
+      "path": "scenes/kitchen_background_hot_pot/kitchen_background_hot_pot.xml",
+      "sha256": "f9c219f2aa7712ccbf57a8b552b364c3e256d2a03f8574a57eacb2266b8a47d4",
+      "bytes": 1278
+    },
+    {
+      "path": "scenes/kitchen_background_hot_pot/visual/kitchen_background_hot_pot_vis.msh",
+      "sha256": "05c173fb9ae96f7ed2fdccbeb14abb38e8db601f7802e9b78db04d9a5e2b0ce2",
+      "bytes": 845440
+    },
+    {
+      "path": "scenes/kitchen_background_pot/collision/kitchen_background_pot_ch.stl",
+      "sha256": "91f3a0265ed7173debf1a4fd12216f0c2edf696967d84a21ac5f36a0875df996",
+      "bytes": 183784
+    },
+    {
+      "path": "scenes/kitchen_background_pot/kitchen_background_pot.mtl",
+      "sha256": "8c56bb556574611511e276edd04c5b1b6591c1afb1cebbc7ee40caf2c9247b14",
+      "bytes": 1197
+    },
+    {
+      "path": "scenes/kitchen_background_pot/kitchen_background_pot.obj",
+      "sha256": "40396518a0149e7d2fb2310828c62baec65122db8ace5c6b611b61f5b3541a33",
+      "bytes": 3828839
+    },
+    {
+      "path": "scenes/kitchen_background_pot/kitchen_background_pot.png",
+      "sha256": "d953b50c28c2e7c42e5a31bee757984ea398ce464917edb4d02cb188dfc9b44f",
+      "bytes": 19103
+    },
+    {
+      "path": "scenes/kitchen_background_pot/kitchen_background_pot.xml",
+      "sha256": "66707641ae01fd0754cf7c0e1a5131297bb914abde1219b2f3a3ffaa9aa74fce",
+      "bytes": 1242
+    },
+    {
+      "path": "scenes/kitchen_background_pot/visual/kitchen_background_pot_vis.msh",
+      "sha256": "f3348ee8738bcaf84b6f9df6cae65d764bbc159410aea32d5d40c09dc58b69ec",
+      "bytes": 4344316
+    },
+    {
+      "path": "scenes/kitchen_background_stove/collision/kitchen_background_stove_ch.stl",
+      "sha256": "3d67469f09eb72441b8a4aedd6ad4067beae53e295d5813897c0fb7e14e42ecb",
+      "bytes": 17584
+    },
+    {
+      "path": "scenes/kitchen_background_stove/kitchen_background_stove.mtl",
+      "sha256": "93567e4194b28fe7d652ad5e332a56071b358d1d085893700f850a29a3825177",
+      "bytes": 861
+    },
+    {
+      "path": "scenes/kitchen_background_stove/kitchen_background_stove.obj",
+      "sha256": "d0ee253d9b09e3138f55a92d3b04ac17cf35b1f0d740d340cdcf17127327455f",
+      "bytes": 5189498
+    },
+    {
+      "path": "scenes/kitchen_background_stove/kitchen_background_stove.png",
+      "sha256": "05be4ff65b6f9f4e89332b97628e9b9f1a176562afca6e14f5d325bd41f36e72",
+      "bytes": 38611
+    },
+    {
+      "path": "scenes/kitchen_background_stove/kitchen_background_stove.xml",
+      "sha256": "7e837d229d8b1e297c9698f332691871afebdaa0381d0a661266c22c05796787",
+      "bytes": 1260
+    },
+    {
+      "path": "scenes/kitchen_background_stove/visual/kitchen_background_stove_vis.msh",
+      "sha256": "0efe7517df5bb76730dd0b951dcf40644e7c494005a89421229b422217998702",
+      "bytes": 6212608
+    },
+    {
+      "path": "scenes/libero_coffee_table_base_style.xml",
+      "sha256": "7fe7417a4eb449670d0b7a2cf3f770435b0e476e1aaf0dd34c91d4845805ffd7",
+      "bytes": 5888
+    },
+    {
+      "path": "scenes/libero_coffee_table_blue_style.xml",
+      "sha256": "9cff2ac1b9cfe30134223361487999a32aab5c3026c97e5a1892e3b6b6df9809",
+      "bytes": 4855
+    },
+    {
+      "path": "scenes/libero_coffee_table_warm_style.xml",
+      "sha256": "65b43df25770d396594c531e2ee1368c436a9886f4c93c621e0d9d10032873a3",
+      "bytes": 5410
+    },
+    {
+      "path": "scenes/libero_floor_base_style.xml",
+      "sha256": "df092a7d8ac7a5c4d1ce48e9a6dacf2f7ebaa362580e20de46d9644f3d5d1039",
+      "bytes": 4216
+    },
+    {
+      "path": "scenes/libero_floor_blue_style.xml",
+      "sha256": "c8568aaba852cb1c1baee619f9bd990ce5c36990491bd26ce3b5015c129511a5",
+      "bytes": 3890
+    },
+    {
+      "path": "scenes/libero_floor_coffee_style.xml",
+      "sha256": "127ec02b0a0d40181094a9474ff8f4c4f71f25cc92675e2774a26ebbd14de36a",
+      "bytes": 4122
+    },
+    {
+      "path": "scenes/libero_floor_warm_style.xml",
+      "sha256": "546cefa5d9ec0b368261214747b4e9372fab4b6b6fef26774034d48651cee0cd",
+      "bytes": 3910
+    },
+    {
+      "path": "scenes/libero_kitchen_tabletop_base_style.xml",
+      "sha256": "f867e7cb59e8ef27aea10edb7c341eca5d3230da8c354aff2a072cc557fd2977",
+      "bytes": 7214
+    },
+    {
+      "path": "scenes/libero_living_room_tabletop_base_style.xml",
+      "sha256": "e22de70abac444dc7602546c46931580a3f06753ce941d0921f4f145e8eec70c",
+      "bytes": 6745
+    },
+    {
+      "path": "scenes/libero_study_base_style.xml",
+      "sha256": "dbc88d0ada642f99762ddd25b778981721fd1c010ad9c0cd114dade7c5b8f909",
+      "bytes": 9420
+    },
+    {
+      "path": "scenes/libero_tabletop_base_style.xml",
+      "sha256": "bb118118e3e02a0f23295c072d77c5a7c6b44cc773032dc79c17070b4e133f86",
+      "bytes": 4857
+    },
+    {
+      "path": "scenes/libero_tabletop_blue_style.xml",
+      "sha256": "4a1421361fa661f33e864bf77036b6dff65cd27eba8a64d2319b6fb18e46541a",
+      "bytes": 4924
+    },
+    {
+      "path": "scenes/libero_tabletop_warm_style.xml",
+      "sha256": "4ff0e2e91f884c42c0f956c1ff7f6687a502c100a8e4e71b10a3cc32b69352ec",
+      "bytes": 4655
+    },
+    {
+      "path": "scenes/living_room/collision/living_room_ch.stl",
+      "sha256": "76fb1072aa0c59348b226e7918b792befc81481749e73f254d5dc9a627d2206a",
+      "bytes": 29784
+    },
+    {
+      "path": "scenes/living_room/living_room.mtl",
+      "sha256": "4efddafb9136f32e0a6c2d5dde7c041233c81eba28e4c93d417d178c1a2935ed",
+      "bytes": 1557
+    },
+    {
+      "path": "scenes/living_room/living_room.obj",
+      "sha256": "0a70956c57f794e8b777342b30d82d4cbea4effa33c0d3fe56dd8c81c45262ee",
+      "bytes": 4207621
+    },
+    {
+      "path": "scenes/living_room/living_room.xml",
+      "sha256": "b5ee3ca16c2c57fefb4118c8470367f2856479a50b88e2cc4aaefa090c8d6558",
+      "bytes": 1108
+    },
+    {
+      "path": "scenes/living_room/living_room_wall_unit.png",
+      "sha256": "7e6f264015ca84d29a2850a7854517d0017ed53902ae3d851ae76441f5644730",
+      "bytes": 65012
+    },
+    {
+      "path": "scenes/living_room/visual/living_room_vis.msh",
+      "sha256": "326c50b18dfce7d338473ab8d99edce64c752cfef0203495faa2471dcafd4f8b",
+      "bytes": 6514576
+    },
+    {
+      "path": "scenes/living_room_table/collision/living_room_table_ch.stl",
+      "sha256": "deae447cb884f4d692e934a62a3b8ec7a30cf6746f7cd5cbb6a943d57a16dbd2",
+      "bytes": 232084
+    },
+    {
+      "path": "scenes/living_room_table/living_room_table.mtl",
+      "sha256": "c09113aa7cc34606d5527ff2434522654d466ae9430db97cf1394ce5b0e2ed93",
+      "bytes": 312
+    },
+    {
+      "path": "scenes/living_room_table/living_room_table.obj",
+      "sha256": "b4b51693da6e25bb57673593b02a79f5716b3db3603a1d8448893f65ba499fbe",
+      "bytes": 1079843
+    },
+    {
+      "path": "scenes/living_room_table/living_room_table.xml",
+      "sha256": "ea29b7ed138bd120d36a407c46bf7175ce551da94adf89852ec139813c4a892e",
+      "bytes": 2331
+    },
+    {
+      "path": "scenes/living_room_table/living_room_table_col.obj",
+      "sha256": "345910a269da99c11d8dd31f9fddb5aa550ca2eed94052d427e6487aa57453b2",
+      "bytes": 5609
+    },
+    {
+      "path": "scenes/living_room_table/living_room_table_texture.png",
+      "sha256": "38f401fdbbdeae06bf4c674f2488ab4bda8b89519a1d58976c7265b1f7c8c1e7",
+      "bytes": 1331834
+    },
+    {
+      "path": "scenes/living_room_table/visual/living_room_table_vis.msh",
+      "sha256": "9877f90c22971b98840ca6f8611fec6e0a8bec85f0e5f0a78e9e08bb57a8e2ec",
+      "bytes": 1699504
+    },
+    {
+      "path": "scenes/office_book_shelf/ceramic.png",
+      "sha256": "beef464a2aa9143ba6a25a44adcbfd1f1aff16c5969edbf08019b61025388402",
+      "bytes": 1442030
+    },
+    {
+      "path": "scenes/office_book_shelf/collision/office_book_shelf_ch.stl",
+      "sha256": "2e72ff7ca450fc64b8132b7ce882066fc433dd25376adc2efade58a8da8eab85",
+      "bytes": 1084
+    },
+    {
+      "path": "scenes/office_book_shelf/office_book_shelf.mtl",
+      "sha256": "5ffafaefcd4708ae85cbe22f01c79e30c372c75c5f82aa3f399e9d4c1e986875",
+      "bytes": 263
+    },
+    {
+      "path": "scenes/office_book_shelf/office_book_shelf.obj",
+      "sha256": "4abe774a4326ca5182f215aeb218dcde57669e427703d49d7f30db440c0e846b",
+      "bytes": 20800
+    },
+    {
+      "path": "scenes/office_book_shelf/office_book_shelf.xml",
+      "sha256": "9384d6dcef48737224697b7eebc7d7f9fac383185afe1fa17264311c974d87a0",
+      "bytes": 1160
+    },
+    {
+      "path": "scenes/office_book_shelf/visual/office_book_shelf_vis.msh",
+      "sha256": "6386615fc43e41bd8df6544cdf95acf18fc0becf6e36266bfb5c66b7410472a5",
+      "bytes": 45160
+    },
+    {
+      "path": "scenes/plant/collision/plant_ch.stl",
+      "sha256": "89d8e7c2dc9f4810250b1cbc27a85d4fbda48d01d0fb8c413c39c0cd99632954",
+      "bytes": 11584
+    },
+    {
+      "path": "scenes/plant/plant.mtl",
+      "sha256": "7c7885de4b335d8415c87d5b90275eb5dc3576da8679827cc248951fb43cc3b5",
+      "bytes": 240
+    },
+    {
+      "path": "scenes/plant/plant.obj",
+      "sha256": "b2d1399a5fea865d719711ea036812f3ffa8fa21bd6e1eb6784aa6950c2191b9",
+      "bytes": 574967
+    },
+    {
+      "path": "scenes/plant/plant.xml",
+      "sha256": "d53aa60b8544e01fb39da706d93af5abebd1b035d7522641b79c02e502bd13e6",
+      "bytes": 1034
+    },
+    {
+      "path": "scenes/plant/plant_texture.png",
+      "sha256": "216886be0ecd4a765b5f00fe664dd27f25d7af19caef1c2012c4cca429d66349",
+      "bytes": 1583401
+    },
+    {
+      "path": "scenes/plant/visual/plant_vis.msh",
+      "sha256": "648fed3592f88784f1dfde93387ca744b1b428ffed5d6a3a7317108b3cae45c5",
+      "bytes": 732472
+    },
+    {
+      "path": "scenes/short_coffee_table/Marble062_COL_4K.png",
+      "sha256": "6cc288b8006e1931f1904ae50741539e4c44c1ed67686822386c96aad013864c",
+      "bytes": 9625750
+    },
+    {
+      "path": "scenes/short_coffee_table/collision/short_coffee_table_ch.stl",
+      "sha256": "95af4b4fd392d9baa4ebdc068bf8492b6d8690acaf3525869e03e7aae0ef1cec",
+      "bytes": 15084
+    },
+    {
+      "path": "scenes/short_coffee_table/short_coffee_table.mtl",
+      "sha256": "6e3feed0aa8d87394f329240cacc125ec3d580fd4fe3d57459712c4074a78f14",
+      "bytes": 285
+    },
+    {
+      "path": "scenes/short_coffee_table/short_coffee_table.obj",
+      "sha256": "dbfd6d4262300a810d0318290d47b4171f885a7626b95f8e1e4fe2d8dc438a8d",
+      "bytes": 58190
+    },
+    {
+      "path": "scenes/short_coffee_table/short_coffee_table.xml",
+      "sha256": "0789382cbd8c0964990161ecdc3763676397058e140e9021839ed2d0c5afc8bf",
+      "bytes": 1180
+    },
+    {
+      "path": "scenes/short_coffee_table/visual/short_coffee_table_vis.msh",
+      "sha256": "e7f47b07696dce2187e9517ee02d62e02095ac80b7dfdf232861e41c8e3d1d05",
+      "bytes": 73888
+    },
+    {
+      "path": "scenes/study_background/collision/study_background_ch.stl",
+      "sha256": "f1a1627ff3d55278d614cd9274470bc7588c587d8413c1db16990928883053dd",
+      "bytes": 5584
+    },
+    {
+      "path": "scenes/study_background/study_background.mtl",
+      "sha256": "6970c2753063d9f48354499174adcc34b96b209a12e114ca9f0ac5c3f348a1c1",
+      "bytes": 242
+    },
+    {
+      "path": "scenes/study_background/study_background.obj",
+      "sha256": "69d7501354daf5e1a947e66cae538be10b65424eda45df9e267375b3ae7ab078",
+      "bytes": 602332
+    },
+    {
+      "path": "scenes/study_background/study_background.png",
+      "sha256": "7a8ed45bfbe8aebc689cc72a1c3fba0bfd6f0847ba8a830bb1c0eac595e19252",
+      "bytes": 1184577
+    },
+    {
+      "path": "scenes/study_background/study_background.xml",
+      "sha256": "84e751686a7bb6d1a69602b44aa1817f075ef0e2518af34e1fc1bc497dd11414",
+      "bytes": 1158
+    },
+    {
+      "path": "scenes/study_background/visual/study_background_vis.msh",
+      "sha256": "15f667adb66f79ad7c6fe472a51d27b33d8a2f5a9457c91488aca26e02424811",
+      "bytes": 777616
+    },
+    {
+      "path": "scenes/study_wall_painting/collision/study_wall_painting_ch.stl",
+      "sha256": "d57d02c12b00e43d39e3e7e13437f5a341542f1930a3cd8b82293c4f55a85670",
+      "bytes": 1984
+    },
+    {
+      "path": "scenes/study_wall_painting/study_wall_painting.mtl",
+      "sha256": "32be6cc8db04754eabdcc60c53757ce3e90ec47737dff8f15f58962293b49aa4",
+      "bytes": 272
+    },
+    {
+      "path": "scenes/study_wall_painting/study_wall_painting.obj",
+      "sha256": "43f8609112979f744209c49089218e5df6effbd8c93ac5a1f0518a4ba87a2bfa",
+      "bytes": 47958
+    },
+    {
+      "path": "scenes/study_wall_painting/study_wall_painting.png",
+      "sha256": "fa1bf8b6658d03b9b20ff6ea0276fed8b68d50894579d43caca2a94fd246063a",
+      "bytes": 432815
+    },
+    {
+      "path": "scenes/study_wall_painting/study_wall_painting.xml",
+      "sha256": "54befd605ead9fa01ea29cac461c121bc95feba2d2b92d8b0b7617cd9d80d0a5",
+      "bytes": 1194
+    },
+    {
+      "path": "scenes/study_wall_painting/visual/study_wall_painting_vis.msh",
+      "sha256": "ba42ab1796e320228178614b43b837531620c91503ba12b3b4b59f062e431821",
+      "bytes": 98080
+    },
+    {
+      "path": "scenes/wall_decoration/visual/wall_decoration_vis.msh",
+      "sha256": "30c873f6e13e19a721672219d0b964a3de9ddacc6b44906888c9bf366254e1bb",
+      "bytes": 1312
+    },
+    {
+      "path": "scenes/wall_decoration/wall_decoration.mtl",
+      "sha256": "784f16ffe5e144a3242e87a2ff029133e0f734b821a2d93d254c65bf7a10e754",
+      "bytes": 254
+    },
+    {
+      "path": "scenes/wall_decoration/wall_decoration.obj",
+      "sha256": "ad6e1499c17eabae6605e4b79d4ce2238c2e2d2130dd0e0415b06dc8fb890827",
+      "bytes": 1117
+    },
+    {
+      "path": "scenes/wall_decoration/wall_decoration_texture.jpg",
+      "sha256": "fd6d3721066054b772ebe4829cfcbec9816690df89f83349dd262029a3ecb457",
+      "bytes": 1924813
+    },
+    {
+      "path": "scenes/wall_decoration/wall_decoration_texture.png",
+      "sha256": "b30b2b6f7499d05a4c502e3699027e14e9646023f4035b14b56f1fb55703bc3e",
+      "bytes": 4492846
+    },
+    {
+      "path": "serving_region.xml",
+      "sha256": "d0dd1d7611b9c535883a8bee9bc475a85014d2d235f9c894ef57f13c6bd64335",
+      "bytes": 616
+    },
+    {
+      "path": "stable_hope_objects/alphabet_soup/alphabet_soup.xml",
+      "sha256": "09a230f3cc5cbb437190adb9d2212ad20edfb5904bda8094a5db7acb2595afc3",
+      "bytes": 5812
+    },
+    {
+      "path": "stable_hope_objects/alphabet_soup/alphabet_soup_col.obj",
+      "sha256": "ae613fdf139d501fea93e72165be074fbd513631b2e06832ce812e022d35eecd",
+      "bytes": 20622
+    },
+    {
+      "path": "stable_hope_objects/alphabet_soup/texture_map.png",
+      "sha256": "cd47556b3b2916ae138e8fd370d4f5192a2fe100369eec254c3c173409f48674",
+      "bytes": 1138366
+    },
+    {
+      "path": "stable_hope_objects/alphabet_soup/textured.mtl",
+      "sha256": "ff20af8773aad284ea9020ef6271bb26b256d2e0c0cc830112cff8ccc16bcd29",
+      "bytes": 48
+    },
+    {
+      "path": "stable_hope_objects/alphabet_soup/textured.obj",
+      "sha256": "9f83394a8b6d243b2133be244b3de83e9318401e53a5768063031795bc6919a0",
+      "bytes": 2360661
+    },
+    {
+      "path": "stable_hope_objects/alphabet_soup/visual/textured_vis.msh",
+      "sha256": "a9f36a95f4ad97cb141f134251114d46cc4f3950229d76ac815e751cc0cf121e",
+      "bytes": 1496788
+    },
+    {
+      "path": "stable_hope_objects/bbq_sauce/bbq_sauce.mtl",
+      "sha256": "0adacd422e1e18e861e049ba83d67129eb0286e0fd2704f294f0a49c814de99d",
+      "bytes": 259
+    },
+    {
+      "path": "stable_hope_objects/bbq_sauce/bbq_sauce.obj",
+      "sha256": "69030e437ba6d8970e925f1b5344b80d2a67511658c2625dfbeb508f53e34417",
+      "bytes": 1750112
+    },
+    {
+      "path": "stable_hope_objects/bbq_sauce/bbq_sauce.xml",
+      "sha256": "2ec3d7d89ce3dbbe600dd5714a568efcd326104a8f786fdf0a6d1def19ae56e0",
+      "bytes": 1680
+    },
+    {
+      "path": "stable_hope_objects/bbq_sauce/hope_bbq_coll.obj",
+      "sha256": "b353dbf332fafeefa55d09cb432e43d9f3a1e822da817949ca35c6fa34d118bd",
+      "bytes": 9280
+    },
+    {
+      "path": "stable_hope_objects/bbq_sauce/texture_map.png",
+      "sha256": "be21c2549bc0da64ec29665e3d064fcdb1d42a9f93f89eb38eecc4b08b4a3d39",
+      "bytes": 2089204
+    },
+    {
+      "path": "stable_hope_objects/bbq_sauce/visual/bbq_sauce_vis.msh",
+      "sha256": "8c2c8c6238e5b78c50fa7986a6de52f3c437a0e85cc1048760ed1f5fa868480c",
+      "bytes": 1737736
+    },
+    {
+      "path": "stable_hope_objects/butter/butter.mtl",
+      "sha256": "ff20af8773aad284ea9020ef6271bb26b256d2e0c0cc830112cff8ccc16bcd29",
+      "bytes": 48
+    },
+    {
+      "path": "stable_hope_objects/butter/butter.obj",
+      "sha256": "4d32a23384f059ee79cc6c9d4d18d2d12c171c13bd89aaa4829a332123a1bd4a",
+      "bytes": 2446598
+    },
+    {
+      "path": "stable_hope_objects/butter/butter.xml",
+      "sha256": "2d0d3ffd627243007e8bd8106140f9b5abbf6115a30a59c21405e8c26ffb8aa9",
+      "bytes": 1053
+    },
+    {
+      "path": "stable_hope_objects/butter/hope_butter_coll.obj",
+      "sha256": "94387d912d7336b192dd553d426652d1ab7b5a49c3f326d7a2e2e785ae45efaa",
+      "bytes": 956
+    },
+    {
+      "path": "stable_hope_objects/butter/texture_map.png",
+      "sha256": "e344d473644d71b919484f6b93d52707ea4821fe05c14514d7cd6cc24f2486c2",
+      "bytes": 3158511
+    },
+    {
+      "path": "stable_hope_objects/butter/visual/butter_vis.msh",
+      "sha256": "88b3916e53c813c7e06c856d7e0563e636c07247d95982c2cd05abc0ebd0cc68",
+      "bytes": 1554676
+    },
+    {
+      "path": "stable_hope_objects/chocolate_pudding/chocolate_pudding.xml",
+      "sha256": "f2ec3318aeed8feb6b16d234149ce52127050e81c65f7d43aaa6384cdd26ecf2",
+      "bytes": 1065
+    },
+    {
+      "path": "stable_hope_objects/chocolate_pudding/chocolate_pudding_col.obj",
+      "sha256": "4d68961c5cd27fcf7a2f258d3c8e602189ebb5464ff6eb133993aaac30aa9b0b",
+      "bytes": 984
+    },
+    {
+      "path": "stable_hope_objects/chocolate_pudding/texture_map.png",
+      "sha256": "4d2db3872437523fd5fc5611728c154d475d05642c0d2a64ce60065e3c6ffc48",
+      "bytes": 3334239
+    },
+    {
+      "path": "stable_hope_objects/chocolate_pudding/textured.mtl",
+      "sha256": "ff20af8773aad284ea9020ef6271bb26b256d2e0c0cc830112cff8ccc16bcd29",
+      "bytes": 48
+    },
+    {
+      "path": "stable_hope_objects/chocolate_pudding/textured.obj",
+      "sha256": "08ea9b9106f9595db3b8544f0c1c4b55e3b62303191f2cf8a75aa677abc8b237",
+      "bytes": 3069329
+    },
+    {
+      "path": "stable_hope_objects/chocolate_pudding/visual/textured_vis.msh",
+      "sha256": "34c7f14b29daa9f99daafe962866e0b4ea59d38863d04e3da1d4a7ed4e6244fd",
+      "bytes": 1949848
+    },
+    {
+      "path": "stable_hope_objects/cookies/cookies.mtl",
+      "sha256": "ff20af8773aad284ea9020ef6271bb26b256d2e0c0cc830112cff8ccc16bcd29",
+      "bytes": 48
+    },
+    {
+      "path": "stable_hope_objects/cookies/cookies.xml",
+      "sha256": "f79f4e6274a286b10ea8f8799690c56c7ddbb2ca2c63703c06c92febb966bf70",
+      "bytes": 1063
+    },
+    {
+      "path": "stable_hope_objects/cookies/texture_map.png",
+      "sha256": "e1c4be04c8a9d60ba33ef100354c451a4b02f1bdc2fc7607708b2ff4ff82d783",
+      "bytes": 3248302
+    },
+    {
+      "path": "stable_hope_objects/cookies/visual/cookies_vis.msh",
+      "sha256": "bd2f87872eb6ac780525ec5bd710d690d520f7d6725b10625f8ee403115308df",
+      "bytes": 1928248
+    },
+    {
+      "path": "stable_hope_objects/cream_cheese/cream_cheese.mtl",
+      "sha256": "0adacd422e1e18e861e049ba83d67129eb0286e0fd2704f294f0a49c814de99d",
+      "bytes": 259
+    },
+    {
+      "path": "stable_hope_objects/cream_cheese/cream_cheese.obj",
+      "sha256": "79ca603fd960a95643cf7532b702343c1b389af5cd86b84dfeb931a2cc23a4b3",
+      "bytes": 1593380
+    },
+    {
+      "path": "stable_hope_objects/cream_cheese/cream_cheese.xml",
+      "sha256": "a1bbeb0321d9d20d723aca62baa54f6012bf74c0af5d4f767a58ca0cdde50d95",
+      "bytes": 1550
+    },
+    {
+      "path": "stable_hope_objects/cream_cheese/hope_cream_cheese_coll.obj",
+      "sha256": "e007e436589d03b923096b3b99cd478c27b935b047e755e2b0b65b64a36de658",
+      "bytes": 962
+    },
+    {
+      "path": "stable_hope_objects/cream_cheese/texture_map.png",
+      "sha256": "6ef390c92c83f6f27da79df09130e48bda6785f98181942d2ec2548ab2afa814",
+      "bytes": 3071899
+    },
+    {
+      "path": "stable_hope_objects/cream_cheese/visual/cream_cheese_vis.msh",
+      "sha256": "0110fcd0351384174e70956ae83c4b30a677bc5673aa8107213b73334efbdf3b",
+      "bytes": 1753612
+    },
+    {
+      "path": "stable_hope_objects/ketchup/ketchup.xml",
+      "sha256": "9007c9658863067a55dcea588d2000c9779e9edb1ba9d816312a840cb190064b",
+      "bytes": 3656
+    },
+    {
+      "path": "stable_hope_objects/ketchup/ketchup_col.obj",
+      "sha256": "86e54655e3617005328df46bd201c0c7dcd213b482e48474a74624307d20b3a8",
+      "bytes": 11493
+    },
+    {
+      "path": "stable_hope_objects/ketchup/texture_map.png",
+      "sha256": "01edda2f924589b0a23aac084c1270a4a39afde79131a1bec73f7a23ad592bfe",
+      "bytes": 1898296
+    },
+    {
+      "path": "stable_hope_objects/ketchup/textured.mtl",
+      "sha256": "ff20af8773aad284ea9020ef6271bb26b256d2e0c0cc830112cff8ccc16bcd29",
+      "bytes": 48
+    },
+    {
+      "path": "stable_hope_objects/ketchup/textured.obj",
+      "sha256": "dd07788b2fc0ece118cd97d544cea0fa6e87f56440f69d9bc13b876143490414",
+      "bytes": 2628402
+    },
+    {
+      "path": "stable_hope_objects/ketchup/visual/textured_vis.msh",
+      "sha256": "52a6903d11261ef819b707241f058de28dced28746f9bbb142649a18f1d48321",
+      "bytes": 1677796
+    },
+    {
+      "path": "stable_hope_objects/macaroni_and_cheese/macaroni_and_cheese.xml",
+      "sha256": "53d12d072c167ffc26a072bca10f89ab5ca7c6b05b1038dc41d5428122e72440",
+      "bytes": 1070
+    },
+    {
+      "path": "stable_hope_objects/macaroni_and_cheese/macaroni_and_cheese_col.obj",
+      "sha256": "6c7382ceeda8b0b9707e27bfd05523fb4aafed4e14a73780fb12c2bc370d395c",
+      "bytes": 991
+    },
+    {
+      "path": "stable_hope_objects/macaroni_and_cheese/texture_map.png",
+      "sha256": "e3328a2d757dfeb93383340f8cee37de3d1caffebabae53f909345dd94b66b29",
+      "bytes": 3069741
+    },
+    {
+      "path": "stable_hope_objects/macaroni_and_cheese/textured.mtl",
+      "sha256": "ff20af8773aad284ea9020ef6271bb26b256d2e0c0cc830112cff8ccc16bcd29",
+      "bytes": 48
+    },
+    {
+      "path": "stable_hope_objects/macaroni_and_cheese/textured.obj",
+      "sha256": "e6465b0611c7fb364c3bc83a961ae35c928e73e64ae1f27f0fb88b87b5e99e74",
+      "bytes": 3433961
+    },
+    {
+      "path": "stable_hope_objects/macaroni_and_cheese/visual/textured_vis.msh",
+      "sha256": "9c40762b4af7ec0a14789da2757a0452756c35f1bfa7e3ab7cc280312d06a6c8",
+      "bytes": 2179240
+    },
+    {
+      "path": "stable_hope_objects/milk/collision/textured_ch.stl",
+      "sha256": "c4f52904f4253929fc90760326ac8a9a9ac9f849c361089a877de3150425440f",
+      "bytes": 64684
+    },
+    {
+      "path": "stable_hope_objects/milk/milk.xml",
+      "sha256": "41febcc4121fae47a42f2e667a6b18f722b3feb863241b4533613672c36ad160",
+      "bytes": 1778
+    },
+    {
+      "path": "stable_hope_objects/milk/milk_col.obj",
+      "sha256": "5afd82f27eca51b080b822f6d2096022428d78b2f3f6c844b58efc75981b0787",
+      "bytes": 3791
+    },
+    {
+      "path": "stable_hope_objects/milk/texture_map.png",
+      "sha256": "0e6130ec7a6a611a2574bba4f3d77bfaecd8ff6ed0fd449e34fe8479f4585ec3",
+      "bytes": 3384036
+    },
+    {
+      "path": "stable_hope_objects/milk/textured.mtl",
+      "sha256": "ff20af8773aad284ea9020ef6271bb26b256d2e0c0cc830112cff8ccc16bcd29",
+      "bytes": 48
+    },
+    {
+      "path": "stable_hope_objects/milk/textured.obj",
+      "sha256": "caff7624f6aa1183166344350f3491587c53ed42ca7a57058b6e52796cf42e1f",
+      "bytes": 2485070
+    },
+    {
+      "path": "stable_hope_objects/milk/visual/textured_vis.msh",
+      "sha256": "540a0eedb3d483e96dda195f06ce531f9991c9f07fece482f569131ab69a8036",
+      "bytes": 1578328
+    },
+    {
+      "path": "stable_hope_objects/new_salad_dressing/new_salad_dressing.xml",
+      "sha256": "daa4f363607329fcc4d4c0edccce9f9584db074d00eef2f14291803b0accfeb3",
+      "bytes": 4441
+    },
+    {
+      "path": "stable_hope_objects/new_salad_dressing/salad_dressing_col.obj",
+      "sha256": "cf5f273e8b809cd41cc5ba36f47c4bfadf5199e600c621af182ae422293414e0",
+      "bytes": 14516
+    },
+    {
+      "path": "stable_hope_objects/new_salad_dressing/texture_map.png",
+      "sha256": "17ac6d99eebf065eaa2243ebc578da65e7d5f112bbff75f083e451578efaae22",
+      "bytes": 2721594
+    },
+    {
+      "path": "stable_hope_objects/new_salad_dressing/textured.mtl",
+      "sha256": "ff20af8773aad284ea9020ef6271bb26b256d2e0c0cc830112cff8ccc16bcd29",
+      "bytes": 48
+    },
+    {
+      "path": "stable_hope_objects/new_salad_dressing/textured.obj",
+      "sha256": "0045f55b86068e26888bcff4ea8a0eaebe2f3ec791349cae0d593066d68b9ba7",
+      "bytes": 3329104
+    },
+    {
+      "path": "stable_hope_objects/new_salad_dressing/visual/textured_vis.msh",
+      "sha256": "11e210c93786626e66c832f1d5a0178eddf88e79775cc8e59cc060b52fc0abab",
+      "bytes": 2117896
+    },
+    {
+      "path": "stable_hope_objects/orange_juice/collision/textured_ch.stl",
+      "sha256": "c4f52904f4253929fc90760326ac8a9a9ac9f849c361089a877de3150425440f",
+      "bytes": 64684
+    },
+    {
+      "path": "stable_hope_objects/orange_juice/orange_juice.xml",
+      "sha256": "c0c9ac0596d8978fe3aceec05dde0fab3e9f5eda4fedbda6ceb5d5276806618e",
+      "bytes": 1786
+    },
+    {
+      "path": "stable_hope_objects/orange_juice/orange_juice_col.obj",
+      "sha256": "c1a4fecaaf96baafc0e9c385e602971306e9debb5fad7f9596d917f2826dea92",
+      "bytes": 3801
+    },
+    {
+      "path": "stable_hope_objects/orange_juice/texture_map.png",
+      "sha256": "2488e5d72c7848db195be1d5a08d45a00b04122fff7ddcc107014d177d6d08c9",
+      "bytes": 3637784
+    },
+    {
+      "path": "stable_hope_objects/orange_juice/textured.mtl",
+      "sha256": "ff20af8773aad284ea9020ef6271bb26b256d2e0c0cc830112cff8ccc16bcd29",
+      "bytes": 48
+    },
+    {
+      "path": "stable_hope_objects/orange_juice/textured.obj",
+      "sha256": "8f2296913bd1a82160fa1291ddb72f4eeb3703437513481c8b840d1933c460f1",
+      "bytes": 3398580
+    },
+    {
+      "path": "stable_hope_objects/orange_juice/visual/textured_vis.msh",
+      "sha256": "9ebfebfe88f469abd9015bea348f242ee36a93829f75975535dcb44a5c3d876d",
+      "bytes": 2152672
+    },
+    {
+      "path": "stable_hope_objects/popcorn/popcorn.mtl",
+      "sha256": "ff20af8773aad284ea9020ef6271bb26b256d2e0c0cc830112cff8ccc16bcd29",
+      "bytes": 48
+    },
+    {
+      "path": "stable_hope_objects/popcorn/popcorn.obj",
+      "sha256": "8e20b0da3bacf999ef1aac8ad9f6f1358496e1ea5f1f2bf343a555444cb3af73",
+      "bytes": 3055007
+    },
+    {
+      "path": "stable_hope_objects/popcorn/popcorn.xml",
+      "sha256": "79b3a7f8d48b6ce592228789b934bf37fffb5991412b66d376f0aff8b0f57f43",
+      "bytes": 1077
+    },
+    {
+      "path": "stable_hope_objects/popcorn/popcorn_coll.obj",
+      "sha256": "5d08f1e13a8b546e9652ff3ed65016c283c038f24e57ad4cab094e225a982400",
+      "bytes": 965
+    },
+    {
+      "path": "stable_hope_objects/popcorn/texture_map.png",
+      "sha256": "4d2469127fcf474e20cb66d803e95f1df0cd2183cdb88815f863562f00ad8078",
+      "bytes": 3231298
+    },
+    {
+      "path": "stable_hope_objects/popcorn/visual/popcorn_vis.msh",
+      "sha256": "06ad7d7cec8ae493650438eecb66193e891ce36532516bf645ba7d5dd5944b2c",
+      "bytes": 1942072
+    },
+    {
+      "path": "stable_hope_objects/salad_dressing/salad_dressing.xml",
+      "sha256": "dfc46d9f59fce1f814a80d1bd476d93216e8b16489e1761e8f5506e5f30980c8",
+      "bytes": 4379
+    },
+    {
+      "path": "stable_hope_objects/salad_dressing/salad_dressing_col.obj",
+      "sha256": "cf5f273e8b809cd41cc5ba36f47c4bfadf5199e600c621af182ae422293414e0",
+      "bytes": 14516
+    },
+    {
+      "path": "stable_hope_objects/salad_dressing/texture_map.png",
+      "sha256": "17ac6d99eebf065eaa2243ebc578da65e7d5f112bbff75f083e451578efaae22",
+      "bytes": 2721594
+    },
+    {
+      "path": "stable_hope_objects/salad_dressing/textured.mtl",
+      "sha256": "ff20af8773aad284ea9020ef6271bb26b256d2e0c0cc830112cff8ccc16bcd29",
+      "bytes": 48
+    },
+    {
+      "path": "stable_hope_objects/salad_dressing/textured.obj",
+      "sha256": "0045f55b86068e26888bcff4ea8a0eaebe2f3ec791349cae0d593066d68b9ba7",
+      "bytes": 3329104
+    },
+    {
+      "path": "stable_hope_objects/salad_dressing/visual/textured_vis.msh",
+      "sha256": "11e210c93786626e66c832f1d5a0178eddf88e79775cc8e59cc060b52fc0abab",
+      "bytes": 2117896
+    },
+    {
+      "path": "stable_hope_objects/tomato_sauce/texture_map.png",
+      "sha256": "9372cff38688004b69e7a1fc60ffa2576d6cf31a884de279d0d67bdd4a35c631",
+      "bytes": 2451651
+    },
+    {
+      "path": "stable_hope_objects/tomato_sauce/textured.mtl",
+      "sha256": "05f5f754df97f52f7a7f2055229ee9a9a9172ddcedf720cf86e17fd84cc29e63",
+      "bytes": 50
+    },
+    {
+      "path": "stable_hope_objects/tomato_sauce/textured.obj",
+      "sha256": "b75cd4063af13da2c3c95f4ed6cc2fbdc00f51730b49b704feb6f1ef362204bf",
+      "bytes": 4935386
+    },
+    {
+      "path": "stable_hope_objects/tomato_sauce/tomato_sauce.xml",
+      "sha256": "b13d88bc065d04481150832581812bd0cbc9e4c0efcabccda2dc8d58654ee32b",
+      "bytes": 6520
+    },
+    {
+      "path": "stable_hope_objects/tomato_sauce/tomato_sauce_col.obj",
+      "sha256": "fb46ade7d53f2c825dbcb686cd376bb8c6e996e5264de0113933d04c810eed2c",
+      "bytes": 23679
+    },
+    {
+      "path": "stable_hope_objects/tomato_sauce/visual/textured_vis.msh",
+      "sha256": "eeb9ee401b204db5ca5b98cf8d52274695b5562ee31f0affaca58a25a07cc2e4",
+      "bytes": 3087520
+    },
+    {
+      "path": "stable_scanned_objects/akita_black_bowl/akita_black_bowl.mtl",
+      "sha256": "00c6007476fbec0bf87390e24ab9e029369a5d8a3dfa8caf4fa1c8b17aa66367",
+      "bytes": 244
+    },
+    {
+      "path": "stable_scanned_objects/akita_black_bowl/akita_black_bowl.obj",
+      "sha256": "026d7a302a831a595cf011580ff8fbe6f4c0234c478af96d6f42344822bc18a5",
+      "bytes": 4232879
+    },
+    {
+      "path": "stable_scanned_objects/akita_black_bowl/akita_black_bowl.xml",
+      "sha256": "18c1074cfa09baea739bb75928f9bd2bd80e22ac18655f6a27f005dbf77ccfda",
+      "bytes": 10343
+    },
+    {
+      "path": "stable_scanned_objects/akita_black_bowl/akita_black_bowl_col.obj",
+      "sha256": "ac0a7aff7543aa32c65cf64d39191ca5127763a39b3ab25329b9fa828224cc39",
+      "bytes": 40089
+    },
+    {
+      "path": "stable_scanned_objects/akita_black_bowl/texture.png",
+      "sha256": "8a646d98b084b7400dd91beed9c83e10b4a4dca572896b3974356b7937a4bd85",
+      "bytes": 12751242
+    },
+    {
+      "path": "stable_scanned_objects/akita_black_bowl/visual/akita_black_bowl_vis.msh",
+      "sha256": "6474d536a740e995c3a2eaeb74c61e14da94131b0b222c250b61b30b13d11229",
+      "bytes": 4592392
+    },
+    {
+      "path": "stable_scanned_objects/basin_faucet_base/basin_faucet_base.mtl",
+      "sha256": "53020319c87baacb345a243c6daeb13b40d901ea44eb430412ea05cfef1663d2",
+      "bytes": 455
+    },
+    {
+      "path": "stable_scanned_objects/basin_faucet_base/basin_faucet_base.obj",
+      "sha256": "350f37c1a575a0976fb9f8a1ca9671ef26ab6d00f9bbc6248dbbd23bb5a6474c",
+      "bytes": 84367
+    },
+    {
+      "path": "stable_scanned_objects/basin_faucet_base/basin_faucet_base.xml",
+      "sha256": "222415a2bf02d69c5983c29fb4d6bf4ecd0b73da46318cdf0115ba00740b713a",
+      "bytes": 1678
+    },
+    {
+      "path": "stable_scanned_objects/basin_faucet_base/basin_faucet_base_col.obj",
+      "sha256": "ca46d7dea98c2b622b176cf17dafeea9b83129705d85785a8062186abf52678a",
+      "bytes": 2867
+    },
+    {
+      "path": "stable_scanned_objects/basin_faucet_base/visual/basin_faucet_base_vis.msh",
+      "sha256": "198108aef8aa6509a7777a91e561e5631c12481582f6b624cecfb97c3139754e",
+      "bytes": 108664
+    },
+    {
+      "path": "stable_scanned_objects/basin_faucet_movable/basin_faucet_movable.mtl",
+      "sha256": "b1d150257d3ef78cfa8a73ecd679df0c5ba8fb61452d76199dad5cc863a40445",
+      "bytes": 259
+    },
+    {
+      "path": "stable_scanned_objects/basin_faucet_movable/basin_faucet_movable.obj",
+      "sha256": "d9a6a0d44fc2c86b77f05ab3405948bccfebaca09bd5c4fd69eb85212200b9d5",
+      "bytes": 34282
+    },
+    {
+      "path": "stable_scanned_objects/basin_faucet_movable/basin_faucet_movable.xml",
+      "sha256": "69b216384753495ba02f15fdb0eb41ef773277847027013c4cf2426c86151de9",
+      "bytes": 1468
+    },
+    {
+      "path": "stable_scanned_objects/basin_faucet_movable/basin_faucet_movable_col.obj",
+      "sha256": "a68b25a39099798efdf719e2e936a7908d4dfc5c786132d0e05098bae7c8b6ed",
+      "bytes": 1914
+    },
+    {
+      "path": "stable_scanned_objects/basin_faucet_movable/visual/basin_faucet_movable_vis.msh",
+      "sha256": "f628041c22962681bf6fb26af03a67bb1b58d08bfb67bc35caff4c8599c6d643",
+      "bytes": 46672
+    },
+    {
+      "path": "stable_scanned_objects/basket/basket.mtl",
+      "sha256": "082f0815ab36e86a01940a8892acc7f8ecf36e70bedeeb9e3714633fd91fea76",
+      "bytes": 235
+    },
+    {
+      "path": "stable_scanned_objects/basket/basket.obj",
+      "sha256": "54a789babe3d15e9ac55b837e0cc2dafb9413ae035be6af6d5847f4b14b3d144",
+      "bytes": 7049522
+    },
+    {
+      "path": "stable_scanned_objects/basket/basket.xml",
+      "sha256": "9c1a8263944d17f5265de9cb5aec3cee934979dee19361d21f15e2128f22d253",
+      "bytes": 2167
+    },
+    {
+      "path": "stable_scanned_objects/basket/basket_col.obj",
+      "sha256": "7d1c1ecad06d16be9bae8178debb12d9d6509e0f166aed115eb7485f1d7deaac",
+      "bytes": 4642
+    },
+    {
+      "path": "stable_scanned_objects/basket/texture.png",
+      "sha256": "89c2107a39ce27d7dffc383153153e021958408cd6fffd8bf8f318a0bb2c302b",
+      "bytes": 11112400
+    },
+    {
+      "path": "stable_scanned_objects/basket/visual/basket_vis.msh",
+      "sha256": "51ca04e71fbca8a4fdd5fa86362867d414e401923e1cb9b0daed488513b46734",
+      "bytes": 7170136
+    },
+    {
+      "path": "stable_scanned_objects/bowl.zip",
+      "sha256": "cdbf7590b1010e7a30760c8344ec95d922b655132fb67025d6042a3681873d26",
+      "bytes": 4614115
+    },
+    {
+      "path": "stable_scanned_objects/chefmate_8_frypan/chefmate_8_frypan.mtl",
+      "sha256": "561fc6bf48a51f7dd8057f10454f57fa25702b67b9039d8ffba50681c60b6e16",
+      "bytes": 266
+    },
+    {
+      "path": "stable_scanned_objects/chefmate_8_frypan/chefmate_8_frypan.obj",
+      "sha256": "a6eb0516cdba45471ee325ccc88d92685063431941ff386f124a195d8369726e",
+      "bytes": 918767
+    },
+    {
+      "path": "stable_scanned_objects/chefmate_8_frypan/chefmate_8_frypan.xml",
+      "sha256": "8ba227a630dfb2f25f4b4285659460f5eddb59d8b7c90013a0c5ea0812da2376",
+      "bytes": 6791
+    },
+    {
+      "path": "stable_scanned_objects/chefmate_8_frypan/chefmate_8_frypan_col.obj",
+      "sha256": "a19b6546ca3e2f67669f10996b929330b4f0e3017431b50c3da5a5a79b600e75",
+      "bytes": 24673
+    },
+    {
+      "path": "stable_scanned_objects/chefmate_8_frypan/texture.png",
+      "sha256": "7b6adc65fc2f18030a1aa0c3dde2c1719e7b74431e0e5279bea9b6416af7deb6",
+      "bytes": 752681
+    },
+    {
+      "path": "stable_scanned_objects/chefmate_8_frypan/visual/chefmate_8_frypan_vis.msh",
+      "sha256": "65e0483c19250107aef692fa80a8d597ef89bcf7ea28e6e9c2a4adcfa775acd2",
+      "bytes": 1006576
+    },
+    {
+      "path": "stable_scanned_objects/glazed_rim_porcelain_ramekin/glazed_rim_porcelain_ramekin.mtl",
+      "sha256": "f74b78748dffa7f8c37f9a9976afc64ab5f501474617f202a855777c0ad8c43b",
+      "bytes": 279
+    },
+    {
+      "path": "stable_scanned_objects/glazed_rim_porcelain_ramekin/glazed_rim_porcelain_ramekin.obj",
+      "sha256": "d85490ca8132d4ff403ca974814f966ea9a81a824914683adafa4d3130f88be2",
+      "bytes": 1602426
+    },
+    {
+      "path": "stable_scanned_objects/glazed_rim_porcelain_ramekin/glazed_rim_porcelain_ramekin.xml",
+      "sha256": "61cf1b665e52faf68a98b044da3fc2b42f2303485b6445743741fbf99d3f9bcf",
+      "bytes": 6886
+    },
+    {
+      "path": "stable_scanned_objects/glazed_rim_porcelain_ramekin/glazed_rim_porcelain_ramekin_col.obj",
+      "sha256": "6e9a21e5f552d4e45ebe515fe6deaf7993de06e578e31255aac9acc75ad2077a",
+      "bytes": 24771
+    },
+    {
+      "path": "stable_scanned_objects/glazed_rim_porcelain_ramekin/texture.png",
+      "sha256": "7323b1d08b6242dd9127f853e23bb5b2651c8665dcb3c78ed00a632aef567750",
+      "bytes": 311263
+    },
+    {
+      "path": "stable_scanned_objects/glazed_rim_porcelain_ramekin/visual/glazed_rim_porcelain_ramekin_vis.msh",
+      "sha256": "9ef1877c027112d27fca3e8b16e7c226fb02f52345750b8d8c8217ad0c41c5eb",
+      "bytes": 1757608
+    },
+    {
+      "path": "stable_scanned_objects/plate/model.mtl",
+      "sha256": "857543aabcc8a25b1c200b087d6bbe7395cd865666930960fa0f0aec421ea6aa",
+      "bytes": 410
+    },
+    {
+      "path": "stable_scanned_objects/plate/model.obj",
+      "sha256": "5ec42f48b0b6805d3803860b932cb8013e069fda208117c17d7f09aaeb6790d4",
+      "bytes": 297757
+    },
+    {
+      "path": "stable_scanned_objects/plate/plate.xml",
+      "sha256": "72b4de23b2daa3169843b784998c0c3c30a6559c6c85917c6b86e3d39fa241e6",
+      "bytes": 3158
+    },
+    {
+      "path": "stable_scanned_objects/plate/plate_col.obj",
+      "sha256": "5bc6426530e03d18c3ccafc231cf3660867b39167ab7eaf520efa439dc50bd94",
+      "bytes": 9608
+    },
+    {
+      "path": "stable_scanned_objects/plate/texture.png",
+      "sha256": "6b742142bf0e29a90d76c4b0254a4481e9eff4807eff3ac6c4ac67a5888fb005",
+      "bytes": 8660937
+    },
+    {
+      "path": "stable_scanned_objects/plate/visual/model_vis.msh",
+      "sha256": "7d3278b1cefb2ed496094cad18f0c66004ee65ab933122ec8d5efdc78daa96b4",
+      "bytes": 374128
+    },
+    {
+      "path": "stable_scanned_objects/red_bowl/ceramic_bowl_col.obj",
+      "sha256": "c8bc909f8a149112a5af0dd26edd116e9310a0e8b826f42df2a82364a78d8c53",
+      "bytes": 36010
+    },
+    {
+      "path": "stable_scanned_objects/red_bowl/model.mtl",
+      "sha256": "857543aabcc8a25b1c200b087d6bbe7395cd865666930960fa0f0aec421ea6aa",
+      "bytes": 410
+    },
+    {
+      "path": "stable_scanned_objects/red_bowl/model.obj",
+      "sha256": "c85568f9daa9fed2cf196f1f7d8be52feb79250ead240cf09b488b065c0b0293",
+      "bytes": 1224919
+    },
+    {
+      "path": "stable_scanned_objects/red_bowl/red_bowl.xml",
+      "sha256": "98962cec001321da77b1def7cf89c35862b7398231c0a63eda00a6df3f23b309",
+      "bytes": 9294
+    },
+    {
+      "path": "stable_scanned_objects/red_bowl/texture.png",
+      "sha256": "a850aaf925421f49a7399f6fc80444a1ab5de7b1110f4294598c5dc2231ea3fd",
+      "bytes": 7982813
+    },
+    {
+      "path": "stable_scanned_objects/red_bowl/visual/model_vis.msh",
+      "sha256": "260756fe40301b42f948d644f072eccf57b1ba57d20d3d26e5261383bdace350",
+      "bytes": 1515256
+    },
+    {
+      "path": "stable_scanned_objects/simple_rack/simple_rack.mtl",
+      "sha256": "08d4356084b54f84e4eb2dc6ecae487fccc5752f2eff27995002bcc84df7a71e",
+      "bytes": 137
+    },
+    {
+      "path": "stable_scanned_objects/simple_rack/simple_rack.obj",
+      "sha256": "a4d4e3a51f716d299e478ff8aa192dcf2771682a5e65c50c6b984a65ad711e2b",
+      "bytes": 111916
+    },
+    {
+      "path": "stable_scanned_objects/simple_rack/simple_rack.xml",
+      "sha256": "b983fb05d2d777d5042a732ac8c0ecb5d02b64cb6a8aefdc4d3ea00c5f783542",
+      "bytes": 4287
+    },
+    {
+      "path": "stable_scanned_objects/simple_rack/simple_rack_col.obj",
+      "sha256": "b9f351cd75a754c2c55b647a4d8e4c70e2050f6c85058017a86b722146b21ded",
+      "bytes": 14472
+    },
+    {
+      "path": "stable_scanned_objects/simple_rack/visual/simple_rack_vis.msh",
+      "sha256": "3a4d5bcf3ce3718cecc51dea9e2edac068b80d4d6f58a27124f31eb408ca177f",
+      "bytes": 188800
+    },
+    {
+      "path": "stable_scanned_objects/white_bowl/ceramic_bowl_col.obj",
+      "sha256": "c8bc909f8a149112a5af0dd26edd116e9310a0e8b826f42df2a82364a78d8c53",
+      "bytes": 36010
+    },
+    {
+      "path": "stable_scanned_objects/white_bowl/model.mtl",
+      "sha256": "857543aabcc8a25b1c200b087d6bbe7395cd865666930960fa0f0aec421ea6aa",
+      "bytes": 410
+    },
+    {
+      "path": "stable_scanned_objects/white_bowl/model.obj",
+      "sha256": "c85568f9daa9fed2cf196f1f7d8be52feb79250ead240cf09b488b065c0b0293",
+      "bytes": 1224919
+    },
+    {
+      "path": "stable_scanned_objects/white_bowl/texture.png",
+      "sha256": "a850aaf925421f49a7399f6fc80444a1ab5de7b1110f4294598c5dc2231ea3fd",
+      "bytes": 7982813
+    },
+    {
+      "path": "stable_scanned_objects/white_bowl/visual/model_vis.msh",
+      "sha256": "260756fe40301b42f948d644f072eccf57b1ba57d20d3d26e5261383bdace350",
+      "bytes": 1515256
+    },
+    {
+      "path": "stable_scanned_objects/white_bowl/white_bowl.xml",
+      "sha256": "70d21ae151c9f67461ac6819c794b1539605418a3aca0f8f4345673dc7cd450b",
+      "bytes": 9307
+    },
+    {
+      "path": "textures/brown_ceramic_tile.png",
+      "sha256": "76f19ce9c0a307a447d9c65edcf0757e405358e6d22e2a52cfa2cd6dc5c63224",
+      "bytes": 1192761
+    },
+    {
+      "path": "textures/canvas_sky_blue.png",
+      "sha256": "19201f8c7f35ff0668ebde2145f40163c3955b7885b4dd14ca7e430bdc58a621",
+      "bytes": 1748434
+    },
+    {
+      "path": "textures/capriccio_sky.png",
+      "sha256": "39fc56c01dc26c840e1a20d1f695796caa130b70dd6ee3159da22a70e0421fd5",
+      "bytes": 939041
+    },
+    {
+      "path": "textures/ceramic.png",
+      "sha256": "beef464a2aa9143ba6a25a44adcbfd1f1aff16c5969edbf08019b61025388402",
+      "bytes": 1442030
+    },
+    {
+      "path": "textures/cream-plaster.png",
+      "sha256": "5f989033f089158b2c8f0f1f7881f6922b018a5b154558b2edcc9f41a21ab983",
+      "bytes": 696397
+    },
+    {
+      "path": "textures/dapper_gray_floor.png",
+      "sha256": "99f641e7f34f43896155816c265b7206972ebd3997e83ab98f3be210222deec0",
+      "bytes": 176753
+    },
+    {
+      "path": "textures/dark_blue_wall.png",
+      "sha256": "ecb999e23c85dfef374feeea938c6864f8fc14ba22b8a4c1b37785812d0923c5",
+      "bytes": 1216412
+    },
+    {
+      "path": "textures/dark_floor_texture.png",
+      "sha256": "182b1d927029d6284b5cbe3e317b111cbc5b147b692fd0f19e4181a02d08f647",
+      "bytes": 432717
+    },
+    {
+      "path": "textures/dark_gray_plaster.png",
+      "sha256": "122ac950498a1e157ddbe54df9a585344059018e36328341d2dd4eef72f5337c",
+      "bytes": 172397
+    },
+    {
+      "path": "textures/dark_green_plaster_wall.png",
+      "sha256": "a2a9531fc002626a79a7ac3aaaee26a15bb5fee03253ab80f6b3004f3c9d1878",
+      "bytes": 6873572
+    },
+    {
+      "path": "textures/gray_ceramic_tile.png",
+      "sha256": "93a1c2b647f31aded62b4125439e17aa1a55c8f4e77820909d9a1c235f6c7315",
+      "bytes": 435890
+    },
+    {
+      "path": "textures/gray_floor.png",
+      "sha256": "8c806924415a06b5fa49d852ad14a0b1bb07afc225153eb832f3369bcefabc60",
+      "bytes": 1289546
+    },
+    {
+      "path": "textures/gray_plaster.png",
+      "sha256": "5c3f8353cdebc86273b8619205f3bb1bc2be252d3db41d77848a32d9eda0d965",
+      "bytes": 700270
+    },
+    {
+      "path": "textures/gray_wall.png",
+      "sha256": "c90b41e7f3f0b32635804f47811bc8deba14cf561b1af40ec62972fb6039cef9",
+      "bytes": 7088154
+    },
+    {
+      "path": "textures/grigia_caldera_porcelain_floor.png",
+      "sha256": "1382cde9e4674cd7c251c5c79f0035d863c4c2e2fb49c01baee316f4401025ea",
+      "bytes": 87431
+    },
+    {
+      "path": "textures/kona_gotham.png",
+      "sha256": "e5c809ed713d65fcfbb560456c1ad412ce8777ecd5abe76ade04ca1c2bb411c8",
+      "bytes": 17680
+    },
+    {
+      "path": "textures/light-gray-floor-tile.png",
+      "sha256": "a2aae4ba3b38c3ab9851eca9ad6e76cef9357ef75b3e9a4b280f694ca30acbc5",
+      "bytes": 73373
+    },
+    {
+      "path": "textures/light-gray-plaster.png",
+      "sha256": "d0bdaf13b44ab6ef3122451f6b3853e40bdf20bb9be7662649683ba525dfe191",
+      "bytes": 516639
+    },
+    {
+      "path": "textures/light_blue_wall.png",
+      "sha256": "0e53979a16a1464ba0ba693e38cf71fb541875a5529e00853ed9b3c739687df2",
+      "bytes": 180284
+    },
+    {
+      "path": "textures/light_floor.png",
+      "sha256": "f6e69937f87ef7d956e4434535ab2ff99939216cc03c842cd9b4ba16023b32e6",
+      "bytes": 868219
+    },
+    {
+      "path": "textures/light_gray_plaster.png",
+      "sha256": "d590eae1c249dd8644a698ab1776aa1380262630cf79556a1cb2f9a726729844",
+      "bytes": 1309377
+    },
+    {
+      "path": "textures/light_grey_plaster.png",
+      "sha256": "c7fc746d496fcaed1c716ad5fc5f8237095613e09dd80eae3e969f599cee9c06",
+      "bytes": 392158
+    },
+    {
+      "path": "textures/marble_floor.png",
+      "sha256": "097ed503a7e6280549a8f249d92f6813f491a3e20b7b8d9a29d5f03b6e4c973c",
+      "bytes": 158880
+    },
+    {
+      "path": "textures/martin_novak_wood_table.png",
+      "sha256": "9d714fbf44d4d44f279761c0ddd0b2fd7271446cdbb85fcbef8677fe5f929850",
+      "bytes": 940180
+    },
+    {
+      "path": "textures/meeka-beige-plaster.png",
+      "sha256": "a24b1b67ef66a52358dfe7382e955cc9eca699ae846072d9745f78000e41b10c",
+      "bytes": 657870
+    },
+    {
+      "path": "textures/new_light_gray_plaster.png",
+      "sha256": "5a51d3ac1fc9991c1530eefdf7922aefdbd18f4cb1fd08ca0ee81e74b586defd",
+      "bytes": 1457824
+    },
+    {
+      "path": "textures/rustic_floor.png",
+      "sha256": "915563b7009b30fe63c69b0107f36cc40448ab3e9b83ce8a67f5ebbb2f94c7fe",
+      "bytes": 350989
+    },
+    {
+      "path": "textures/seamless_wood_planks_floor.png",
+      "sha256": "c7a70ef3fad0cafc1d196e49f9ff1b483d0a5e62ed457b108a9c9b2c9ed1dd13",
+      "bytes": 3174441
+    },
+    {
+      "path": "textures/smooth_light_gray_plaster.png",
+      "sha256": "d0bdaf13b44ab6ef3122451f6b3853e40bdf20bb9be7662649683ba525dfe191",
+      "bytes": 516639
+    },
+    {
+      "path": "textures/stucco_wall.png",
+      "sha256": "b4c2cc15cf253c3c2e7e88930cae7d5b699552f9397673ba5df874f871c6c84d",
+      "bytes": 282099
+    },
+    {
+      "path": "textures/table_light_wood.png",
+      "sha256": "c260c4543647d53da9379078a788d183a334734103739a42dce1a004a2eb0e33",
+      "bytes": 202250
+    },
+    {
+      "path": "textures/tile_grigia_caldera_porcelain_floor.png",
+      "sha256": "a2aae4ba3b38c3ab9851eca9ad6e76cef9357ef75b3e9a4b280f694ca30acbc5",
+      "bytes": 73373
+    },
+    {
+      "path": "textures/white_marble_floor.png",
+      "sha256": "d79fb61f545669659a6bbdfd68c750fe4fd2830e448465f223fe4c224b8d17ca",
+      "bytes": 652993
+    },
+    {
+      "path": "textures/white_wall.png",
+      "sha256": "c02f6ad8cbd0e217da8d0068eca3dcff5752611c46999666ad7d4835de05bf12",
+      "bytes": 15793
+    },
+    {
+      "path": "textures/yellow_linen_wall_texture.png",
+      "sha256": "292d1bb3a8536b2faf73c91b9d6b11ac90c58136cbaade2af0d7b941f70904aa",
+      "bytes": 607573
+    },
+    {
+      "path": "turbosquid_objects/black_book/black_book.mtl",
+      "sha256": "48a3690643d78b1db5770a3747f0e3da18f391e066d8a954578cc2ff255c4b97",
+      "bytes": 657
+    },
+    {
+      "path": "turbosquid_objects/black_book/black_book.obj",
+      "sha256": "affcdf1de967906914c37d819def2b16f00b8ca4c63002e6fdc32a636cf77e25",
+      "bytes": 512689
+    },
+    {
+      "path": "turbosquid_objects/black_book/black_book.xml",
+      "sha256": "dd50260bf3fe93abd3d4694403082b4025409ab0ee1590d8a73bd00c8a804b83",
+      "bytes": 1086
+    },
+    {
+      "path": "turbosquid_objects/black_book/black_book_col.obj",
+      "sha256": "922869d615cb75e8c843ea1b271df58f0c3460423205d4818633e69c12097136",
+      "bytes": 933
+    },
+    {
+      "path": "turbosquid_objects/black_book/black_book_texture.png",
+      "sha256": "b743b0e878a10e579371707f3d135c6e7a80a8c307fffabfe1fea6a784830ec2",
+      "bytes": 186624
+    },
+    {
+      "path": "turbosquid_objects/black_book/visual/black_book_vis.msh",
+      "sha256": "ca4a7f95bad5dee37a99c0374df132eadf5f8304770e5830f3286d730c844049",
+      "bytes": 773296
+    },
+    {
+      "path": "turbosquid_objects/bowl_drainer/bowl_drainer.mtl",
+      "sha256": "cb1b1aff1298cb5d33fa89dec94fe1baae519d23a458ab4f22710d33bfe0124c",
+      "bytes": 240
+    },
+    {
+      "path": "turbosquid_objects/bowl_drainer/bowl_drainer.obj",
+      "sha256": "268352df18388a1daa4f3f4b072b4ad3843fa02ad891ce3484349b85b056d0c2",
+      "bytes": 1103826
+    },
+    {
+      "path": "turbosquid_objects/bowl_drainer/bowl_drainer.xml",
+      "sha256": "b73fea1507c47cd797b4f5a133a7efca7542f1776fc8632fb7a636de20335e9a",
+      "bytes": 2844
+    },
+    {
+      "path": "turbosquid_objects/bowl_drainer/bowl_drainer_col.obj",
+      "sha256": "73afdf48c87b71f211cc1e4a98db47665f746f94adf6acc41cfbc2ca75e3d459",
+      "bytes": 5689
+    },
+    {
+      "path": "turbosquid_objects/bowl_drainer/ceramic.png",
+      "sha256": "beef464a2aa9143ba6a25a44adcbfd1f1aff16c5969edbf08019b61025388402",
+      "bytes": 1442030
+    },
+    {
+      "path": "turbosquid_objects/bowl_drainer/visual/bowl_drainer_vis.msh",
+      "sha256": "05e0e419d1ba1642caf17b708091090b3acbba73964725fdde702f7f12b21146",
+      "bytes": 1597984
+    },
+    {
+      "path": "turbosquid_objects/desk_caddy/desk_caddy.mtl",
+      "sha256": "444249e18df14a2e31c1ebc729fca24cb3dcf6fef68ec657ffc497b7230ddebe",
+      "bytes": 245
+    },
+    {
+      "path": "turbosquid_objects/desk_caddy/desk_caddy.obj",
+      "sha256": "cb126aac17b6dcfa5e494f5ae4d5251cf9ae1acd080a6d29311edcabf7cd49ba",
+      "bytes": 2413068
+    },
+    {
+      "path": "turbosquid_objects/desk_caddy/desk_caddy.xml",
+      "sha256": "267de04e2191517700fced70d9f434958ba88d5e8d449e9def43aeaedd82dd85",
+      "bytes": 5572
+    },
+    {
+      "path": "turbosquid_objects/desk_caddy/desk_caddy_col.obj",
+      "sha256": "739d35f26f16da952670770eaff698b3192db9f4dac08322c80069ab38643040",
+      "bytes": 16196
+    },
+    {
+      "path": "turbosquid_objects/desk_caddy/desk_caddy_site.obj",
+      "sha256": "b0c0a8a6742fe8a91c53f741dbb8189fb8c0f7de572309bf8c77a037c26fe1d8",
+      "bytes": 3797
+    },
+    {
+      "path": "turbosquid_objects/desk_caddy/desk_caddy_site.xml",
+      "sha256": "275ca7cd2a80b882963b8219acc4115eef268c99776f2c07387e75f2dfd00a2c",
+      "bytes": 1415
+    },
+    {
+      "path": "turbosquid_objects/desk_caddy/desk_caddy_texture.png",
+      "sha256": "ea07fb85ab5ef7167040e459ae4442827d114d778aaf4f6a8229bc3898406238",
+      "bytes": 11230178
+    },
+    {
+      "path": "turbosquid_objects/desk_caddy/visual/desk_caddy_vis.msh",
+      "sha256": "c2a31df6411aa382d91553a594faa2cb9577908c3881b9022616f9d6604333a4",
+      "bytes": 2696776
+    },
+    {
+      "path": "turbosquid_objects/dining_set_group/dining_set_group.xml",
+      "sha256": "a80770ab226c5dcaeb2c9b436e13f646fcfe4d8e3e3d38dc1c117ddc89203e92",
+      "bytes": 2706
+    },
+    {
+      "path": "turbosquid_objects/dining_set_group/dining_set_utensils.mtl",
+      "sha256": "12142ec49b40abbc35791b5a6746039507c0e614b7bc0500e3c426c5c544b188",
+      "bytes": 256
+    },
+    {
+      "path": "turbosquid_objects/dining_set_group/dining_set_utensils.obj",
+      "sha256": "55cba4149375097a7a0a832f5d48e842820c79158890d6e33d01fbe6a1646364",
+      "bytes": 160007
+    },
+    {
+      "path": "turbosquid_objects/dining_set_group/metal.png",
+      "sha256": "93784216a66b52be9c8ccc3732e50f511815291e32f34f97bd139ed7229061fa",
+      "bytes": 196878
+    },
+    {
+      "path": "turbosquid_objects/dining_set_group/visual/dining_set_utensils_vis.msh",
+      "sha256": "a3d3d44c836e908a25784e54e28c2083f4c01a45dcfa0ec69e72109356798d25",
+      "bytes": 262240
+    },
+    {
+      "path": "turbosquid_objects/dining_set_group/white_linen_texture.png",
+      "sha256": "0ee137d6efc1dbac08db147f3b2c9cde59e204f429ac552267a8ca9e54917ccd",
+      "bytes": 465048
+    },
+    {
+      "path": "turbosquid_objects/moka_pot/metal_diff.png",
+      "sha256": "4b59ae89c09579b8edcf29df79fc17090f9d9fd1ac8275a7bd3b5cabf376ffaa",
+      "bytes": 1036822
+    },
+    {
+      "path": "turbosquid_objects/moka_pot/moka_pot.xml",
+      "sha256": "b42223663280e10a755a65b395f3d6ef4f2e2ac476024a50c1e66cff9bfe5215",
+      "bytes": 4917
+    },
+    {
+      "path": "turbosquid_objects/moka_pot/moka_pot_body.mtl",
+      "sha256": "7d561577db03f077b42c9a2e50fd188e74dabcd9f8e9bb37d54ccf7cd95c5ac4",
+      "bytes": 244
+    },
+    {
+      "path": "turbosquid_objects/moka_pot/moka_pot_body.obj",
+      "sha256": "13b6afb8e53da8163cd75d3736b1361542eb098896ef08502a2040a19aeac4eb",
+      "bytes": 109476
+    },
+    {
+      "path": "turbosquid_objects/moka_pot/moka_pot_col.obj",
+      "sha256": "21e290bf3aba3788e8b5a0c8ff91e41cc16da65b861f9837c8ce75d5977756b0",
+      "bytes": 14278
+    },
+    {
+      "path": "turbosquid_objects/moka_pot/moka_pot_handle.mtl",
+      "sha256": "5ec464b41d6916ad2a12bbfe89c9550088539326f8c394155d435e1befb41145",
+      "bytes": 248
+    },
+    {
+      "path": "turbosquid_objects/moka_pot/moka_pot_handle.obj",
+      "sha256": "e0dea1b737eef50b56442aaad69579a97ffa6a4c8ddf84018e355e418608bd2b",
+      "bytes": 49121
+    },
+    {
+      "path": "turbosquid_objects/moka_pot/moka_pot_handle.xml",
+      "sha256": "048bf233852c38f8d5f52204ffc77169b3286bf0639ce070c9de04d439127970",
+      "bytes": 4430
+    },
+    {
+      "path": "turbosquid_objects/moka_pot/rubber_black.png",
+      "sha256": "8147f34af7c3e5c6b7c8496e34f848662a91d10cb55aae5bab8150eb7ff02e81",
+      "bytes": 492169
+    },
+    {
+      "path": "turbosquid_objects/moka_pot/visual/moka_pot_body_vis.msh",
+      "sha256": "5b3009030d48d383572e7a3930ef0bbb55e16b59e9f2451a798c904dfdc227ca",
+      "bytes": 155212
+    },
+    {
+      "path": "turbosquid_objects/moka_pot/visual/moka_pot_handle_vis.msh",
+      "sha256": "a9eb6b68faa6bb883cfa4c3d308935d4b777041a750e52ddebb048d387dc95b8",
+      "bytes": 81772
+    },
+    {
+      "path": "turbosquid_objects/porcelain_mug/porcelain_mug.mtl",
+      "sha256": "f56f793e08879cd5cf19b06f13e03ae2c756cefe8d262da96a2eba41e9808a06",
+      "bytes": 251
+    },
+    {
+      "path": "turbosquid_objects/porcelain_mug/porcelain_mug.obj",
+      "sha256": "d89266fb988c320dce57a411a4ba68682e9d86a6785fa0cc1c5b2b4461167cf5",
+      "bytes": 1558046
+    },
+    {
+      "path": "turbosquid_objects/porcelain_mug/porcelain_mug.xml",
+      "sha256": "cd72828fc40d20ccd8d3fb08ae37fbc87cb9957309eb4e3d04244554491f753e",
+      "bytes": 6073
+    },
+    {
+      "path": "turbosquid_objects/porcelain_mug/porcelain_mug_col.obj",
+      "sha256": "b8de36f067acf1f26dc2a830bf9354ad2dbc725432fa1a8b185b577427a804e3",
+      "bytes": 21253
+    },
+    {
+      "path": "turbosquid_objects/porcelain_mug/porcelain_mug_texture.png",
+      "sha256": "bab4363b4e86e3352718ef1c3849a632fa06f83528bb408f4b533ceb01b3bc25",
+      "bytes": 7293802
+    },
+    {
+      "path": "turbosquid_objects/porcelain_mug/visual/porcelain_mug_vis.msh",
+      "sha256": "e0dc3f0a0585d172c6ff22e49173774e37bc8a4a8e74d8c583ecb7eb314ffc13",
+      "bytes": 1797568
+    },
+    {
+      "path": "turbosquid_objects/red_coffee_mug/red_coffee_mug.mtl",
+      "sha256": "b7f6f1c25d4a700454119c8204319e04b4b5847ad820f668083809ec98bc68e9",
+      "bytes": 253
+    },
+    {
+      "path": "turbosquid_objects/red_coffee_mug/red_coffee_mug.obj",
+      "sha256": "085067c96929154028d61356e5bd985cc47c5c7a15c46aea2c20608564f5f4fd",
+      "bytes": 1035116
+    },
+    {
+      "path": "turbosquid_objects/red_coffee_mug/red_coffee_mug.xml",
+      "sha256": "53ea9985fcbcb6ead587056a801e795967ac2bd5329ceedc2aed006467dc5f80",
+      "bytes": 3485
+    },
+    {
+      "path": "turbosquid_objects/red_coffee_mug/red_coffee_mug_col.obj",
+      "sha256": "2f0d04528792b77d8c572fe3dd27e3b2727d5d3c6660f7b7282a54290947db30",
+      "bytes": 10365
+    },
+    {
+      "path": "turbosquid_objects/red_coffee_mug/red_coffee_mug_texture.png",
+      "sha256": "056fe075297343bd294678be0f8df694a4f4e0563f42033bb167ce6b5bd0b3a9",
+      "bytes": 9780486
+    },
+    {
+      "path": "turbosquid_objects/red_coffee_mug/visual/red_coffee_mug_vis.msh",
+      "sha256": "c4f694d1ea953d86ce29a085cf3613363a193a6e99446c190d88c47016d94fb6",
+      "bytes": 1212208
+    },
+    {
+      "path": "turbosquid_objects/white_storage_box/ceramic.png",
+      "sha256": "beef464a2aa9143ba6a25a44adcbfd1f1aff16c5969edbf08019b61025388402",
+      "bytes": 1442030
+    },
+    {
+      "path": "turbosquid_objects/white_storage_box/visual/white_storage_box_vis.msh",
+      "sha256": "f9488b5f8a0286ab6c1008dbceea7d5550bd1ec0cebcd48db82721060ac0809c",
+      "bytes": 48400
+    },
+    {
+      "path": "turbosquid_objects/white_storage_box/white_storage_box.mtl",
+      "sha256": "868d65e131fcf7879dbc191b537c8e70798c2fe67ccd552526714880ff1c3a06",
+      "bytes": 244
+    },
+    {
+      "path": "turbosquid_objects/white_storage_box/white_storage_box.obj",
+      "sha256": "cc706200ae053a7fcd0ef71923f7ab1c42a3eb68c9ee8ed93b867030084277c7",
+      "bytes": 30847
+    },
+    {
+      "path": "turbosquid_objects/white_storage_box/white_storage_box.xml",
+      "sha256": "db7b4ef7ef60d3a28bac7e6311601d33c42bc96a02da41e408188be8fc0ff544",
+      "bytes": 2491
+    },
+    {
+      "path": "turbosquid_objects/white_storage_box/white_storage_box_col.obj",
+      "sha256": "e4c072d6a64cdfdf24c5044a8467ef150c8d10dbc05dc88fa3410d2eb9c69913",
+      "bytes": 3745
+    },
+    {
+      "path": "turbosquid_objects/white_yellow_mug/visual/white_yellow_mug_vis.msh",
+      "sha256": "aeabcc3a57b84549568a1d6907542ef9e65ea126c101f6f3985deb8b55d3aa79",
+      "bytes": 913048
+    },
+    {
+      "path": "turbosquid_objects/white_yellow_mug/white_yellow_mug.mtl",
+      "sha256": "7bab3dca8afc9b349b4ecc667d200cd36de863ee3e62dad8541fdacddaee6fa8",
+      "bytes": 257
+    },
+    {
+      "path": "turbosquid_objects/white_yellow_mug/white_yellow_mug.obj",
+      "sha256": "3eacf25a70e2496af09b35b3f813b3a245cd49c6cf1b35f28cb0f79becc68467",
+      "bytes": 774409
+    },
+    {
+      "path": "turbosquid_objects/white_yellow_mug/white_yellow_mug.xml",
+      "sha256": "134bfdb2e605b60609b63c4bae60d833ad027902973dfb6b912768e0870b435e",
+      "bytes": 10121
+    },
+    {
+      "path": "turbosquid_objects/white_yellow_mug/white_yellow_mug_col.obj",
+      "sha256": "f91a9058f4a6e781b902f326037525831d18c488437389e2aa1cf43f0bacf89d",
+      "bytes": 38330
+    },
+    {
+      "path": "turbosquid_objects/white_yellow_mug/white_yellow_mug_texture.png",
+      "sha256": "152a4b711c33e8cb6956233043580331bd0f54d5b3dbc13a9bc870201b295890",
+      "bytes": 8119611
+    },
+    {
+      "path": "turbosquid_objects/wine_bottle/Cork_Texture_by_faycop.jpg",
+      "sha256": "a59f0b4204a858367bb7d41c94b2d4b5f27b2b30859637a6c8d072d3122a53d9",
+      "bytes": 277008
+    },
+    {
+      "path": "turbosquid_objects/wine_bottle/cork_texture.png",
+      "sha256": "93a9c1d22c7256e423a1473b2bf9107b4e120cd249423f7e01289f9c6fd63feb",
+      "bytes": 1322298
+    },
+    {
+      "path": "turbosquid_objects/wine_bottle/label_wine.png",
+      "sha256": "a8caed4b3414dcf4b72558e339ce1cad1b90b4f159d0d293f06ed04a1f473241",
+      "bytes": 158360
+    },
+    {
+      "path": "turbosquid_objects/wine_bottle/visual/wine_bottle_red_cork_vis.msh",
+      "sha256": "2b993448e727c8abf8c25a5ed28699e4594dc692e3eaad76a957627f0afcc474",
+      "bytes": 96352
+    },
+    {
+      "path": "turbosquid_objects/wine_bottle/visual/wine_bottle_red_logo_vis.msh",
+      "sha256": "99e4f2bec9c76a5277dc40efe774f47e9f079ced13b4197f0ac79bb36bc54e47",
+      "bytes": 3472
+    },
+    {
+      "path": "turbosquid_objects/wine_bottle/visual/wine_bottle_red_main_vis.msh",
+      "sha256": "92a7a897bdac34f47161cb418fbe6f7fc9056d2f0e93647beb8139cffeed270a",
+      "bytes": 487096
+    },
+    {
+      "path": "turbosquid_objects/wine_bottle/wine_bottle.xml",
+      "sha256": "9bdae6cb59f9260544cb802d4babe32c23b9dd66e0a5fb2bdb4662b468ce1a17",
+      "bytes": 6827
+    },
+    {
+      "path": "turbosquid_objects/wine_bottle/wine_bottle_red_cork.mtl",
+      "sha256": "41f70e38e3baaa87ccf3355baace8c5cad3ba5c56d3ecf2761e959adf562a067",
+      "bytes": 263
+    },
+    {
+      "path": "turbosquid_objects/wine_bottle/wine_bottle_red_cork.obj",
+      "sha256": "15bee8cd7d34ac18c24ed4463e167120a5cea18d85977539645d22839394ca0c",
+      "bytes": 59786
+    },
+    {
+      "path": "turbosquid_objects/wine_bottle/wine_bottle_red_logo.mtl",
+      "sha256": "840f57e0ed5a46824e63be68e0bf8b6ee997f5c46dd7960839fe5478bd7e1c47",
+      "bytes": 251
+    },
+    {
+      "path": "turbosquid_objects/wine_bottle/wine_bottle_red_logo.obj",
+      "sha256": "52637c8f1247ab63414a5d8238f3f160dccab55d4890f5fa54177a4bd106a2aa",
+      "bytes": 2768
+    },
+    {
+      "path": "turbosquid_objects/wine_bottle/wine_bottle_red_main.mtl",
+      "sha256": "a0757c429b887630a1380b61a85fa01aaaba31a8f489c512883c26eb510df024",
+      "bytes": 606
+    },
+    {
+      "path": "turbosquid_objects/wine_bottle/wine_bottle_red_main.obj",
+      "sha256": "2bf2c1ff42873ccf923c8eeacff782839ca2383d4b866f486f51ee28d4a6fdc6",
+      "bytes": 304055
+    },
+    {
+      "path": "turbosquid_objects/wine_bottle/wine_bottle_red_main.xml",
+      "sha256": "460636a34ffe0ececda20fa00f27591b6999861c8f4cdf3d410f605ca2320bda",
+      "bytes": 5875
+    },
+    {
+      "path": "turbosquid_objects/wine_bottle/wine_bottle_red_main_col.obj",
+      "sha256": "07b00931aa9bf469db23062a556c5608786ce4bdfc1b9028017fc8fff37e2049",
+      "bytes": 20286
+    },
+    {
+      "path": "turbosquid_objects/wine_rack/light-wood.png",
+      "sha256": "967be64bdb170d36283bc43c2ae5d525ec88f78bc837dc7d0efc9a28d68caad1",
+      "bytes": 801173
+    },
+    {
+      "path": "turbosquid_objects/wine_rack/light_yellow_metal.png",
+      "sha256": "b8d8abf32b1940b938c097e6955ef7c5e0b84ab97296e53aa65315efbf1f1359",
+      "bytes": 1729294
+    },
+    {
+      "path": "turbosquid_objects/wine_rack/mahogany.png",
+      "sha256": "702a734fef1bf0df4e446f98f571628f81e423caba64b5fcfd683bae42135c3b",
+      "bytes": 66375
+    },
+    {
+      "path": "turbosquid_objects/wine_rack/metal.png",
+      "sha256": "93784216a66b52be9c8ccc3732e50f511815291e32f34f97bd139ed7229061fa",
+      "bytes": 196878
+    },
+    {
+      "path": "turbosquid_objects/wine_rack/visual/wine_rack_planes_vis.msh",
+      "sha256": "f3daf4c20ed4b513b0d3b19d5580aa6f9c677ab6935a138f316b00852714d936",
+      "bytes": 65140
+    },
+    {
+      "path": "turbosquid_objects/wine_rack/visual/wine_rack_stand_vis.msh",
+      "sha256": "6b4cf3bd2a65f93f41563e86b55b4789965001f78473268b592e59abad9c64fd",
+      "bytes": 41488
+    },
+    {
+      "path": "turbosquid_objects/wine_rack/visual/wine_rack_stoppers_vis.msh",
+      "sha256": "8647657c858c45b6a55e507689888dffaf80d68d9395f9c7eb5a40eb64e17c62",
+      "bytes": 20752
+    },
+    {
+      "path": "turbosquid_objects/wine_rack/wine_rack.xml",
+      "sha256": "18f97cd8bb76ed18b2f11d047c5abbe0a2d9490d53ac167e0657c596dd450c3e",
+      "bytes": 4121
+    },
+    {
+      "path": "turbosquid_objects/wine_rack/wine_rack_planes.mtl",
+      "sha256": "5e2d9bf426ad5322b4600057cc8bbf81d08a08e09f65f180b94d811591f54ced",
+      "bytes": 321
+    },
+    {
+      "path": "turbosquid_objects/wine_rack/wine_rack_planes.obj",
+      "sha256": "7036695e41b2217c478947fd2255a3c0319668ff25dc36de757ce3fe60610678",
+      "bytes": 45151
+    },
+    {
+      "path": "turbosquid_objects/wine_rack/wine_rack_planes.xml",
+      "sha256": "d1e664d1aebb10264f71acae4acf5cc5f3b38a4b81d5900f0f53371e43cce3d9",
+      "bytes": 1372
+    },
+    {
+      "path": "turbosquid_objects/wine_rack/wine_rack_planes_col.obj",
+      "sha256": "882f02cbada03748eeb37570cfd7c6dd0713bd696c49767f8ecdcd0a47ab110d",
+      "bytes": 1900
+    },
+    {
+      "path": "turbosquid_objects/wine_rack/wine_rack_stand.mtl",
+      "sha256": "a0b3318177e43bec62eed04780a6b3f5bc743b4552b6c07f62356bf3962e2154",
+      "bytes": 343
+    },
+    {
+      "path": "turbosquid_objects/wine_rack/wine_rack_stand.obj",
+      "sha256": "7dc7631e3a266e808b45c57429eae08187ccff9c21232377d43ed4a0da289412",
+      "bytes": 28554
+    },
+    {
+      "path": "turbosquid_objects/wine_rack/wine_rack_stand.xml",
+      "sha256": "6d5bf2f0056fcd8867f507302d78567bec7dad28521aa2ecb9e07b313d04f53d",
+      "bytes": 2071
+    },
+    {
+      "path": "turbosquid_objects/wine_rack/wine_rack_stand_col.obj",
+      "sha256": "4baf8eb03f738303a2ac193eadb477534c953279027361b1798a0539fef470da",
+      "bytes": 4719
+    },
+    {
+      "path": "turbosquid_objects/wine_rack/wine_rack_stoppers.mtl",
+      "sha256": "4f3c4cacb1f063dfe973a772612d6c6a7ba1532010ec05c49be904c347505521",
+      "bytes": 1714
+    },
+    {
+      "path": "turbosquid_objects/wine_rack/wine_rack_stoppers.obj",
+      "sha256": "426683bd92d0782c89aab0cab2194e235f35fe9fed9cbab6f9c93fc67b167779",
+      "bytes": 17925
+    },
+    {
+      "path": "turbosquid_objects/wine_rack/wine_rack_stoppers.xml",
+      "sha256": "f3dd125a83f55535044d9e7d6b9db7b5aebf5c6a403f17e269596d2c31526a27",
+      "bytes": 1388
+    },
+    {
+      "path": "turbosquid_objects/wine_rack/wine_rack_stoppers_col.obj",
+      "sha256": "5635e8414ff7539ee310d00e274d9d0bd5906a190e711870c45d35c7706ab829",
+      "bytes": 1918
+    },
+    {
+      "path": "turbosquid_objects/wine_rack_stand/metal.png",
+      "sha256": "93784216a66b52be9c8ccc3732e50f511815291e32f34f97bd139ed7229061fa",
+      "bytes": 196878
+    },
+    {
+      "path": "turbosquid_objects/wine_rack_stand/visual/wine_rack_stand_vis.msh",
+      "sha256": "b092ad20138c3b02d7f5631a011b261d4e8ba197d225194755fdd8ebdc76644a",
+      "bytes": 41488
+    },
+    {
+      "path": "turbosquid_objects/wine_rack_stand/wine_rack_stand.mtl",
+      "sha256": "d6b74bf23e00f3bc5f09844651efa81c50b3de86e3c28405bff4c16718d4360f",
+      "bytes": 242
+    },
+    {
+      "path": "turbosquid_objects/wine_rack_stand/wine_rack_stand.obj",
+      "sha256": "fc3e55ca293586c590385430abbec4fd44a16c852e35461f3ca96e0524ff7458",
+      "bytes": 28554
+    },
+    {
+      "path": "turbosquid_objects/wine_rack_stand/wine_rack_stand.xml",
+      "sha256": "2980daf707602148bc6778f0fefe4c67bea1d4dfe7c7f97c2ee19480c0bdd6b1",
+      "bytes": 2067
+    },
+    {
+      "path": "turbosquid_objects/wine_rack_stand/wine_rack_stand_col.obj",
+      "sha256": "bbf91507361e12d5793e58ad59918b1795c1f434b819002583f792ec232d0e24",
+      "bytes": 4723
+    },
+    {
+      "path": "turbosquid_objects/wooden_cabinet_base/dark_fine_wood.png",
+      "sha256": "9aaa94ef4cd61592b566569bba3569276a38ea5ff22ed4b978b77b038b38a11f",
+      "bytes": 42358
+    },
+    {
+      "path": "turbosquid_objects/wooden_cabinet_base/visual/wooden_cabinet_base_vis.msh",
+      "sha256": "1dce8d9c37d562a2a5bfea2057eb40c562d1f9415693c8d0036b8d9e8dbb63f1",
+      "bytes": 21400
+    },
+    {
+      "path": "turbosquid_objects/wooden_cabinet_base/wooden_cabinet_base.mtl",
+      "sha256": "276b611626340b31ca08525bea7a87346d24c6cf31504fe36e62bb14f8035278",
+      "bytes": 441
+    },
+    {
+      "path": "turbosquid_objects/wooden_cabinet_base/wooden_cabinet_base.obj",
+      "sha256": "0fd52cce4d177223e4c4a725de619f05ea284ef808a7718a8cf830110d03f696",
+      "bytes": 14212
+    },
+    {
+      "path": "turbosquid_objects/wooden_cabinet_base/wooden_cabinet_base.xml",
+      "sha256": "4d4ffea0612fe4b7e8e2dd5bdd9aad753fbc50d894538d80752288b877cc20d5",
+      "bytes": 3038
+    },
+    {
+      "path": "turbosquid_objects/wooden_cabinet_base/wooden_cabinet_base_col.obj",
+      "sha256": "906e2c809519cc8912d068adf2bced8fa2147a2b18b4380eb25aedf1912ba819",
+      "bytes": 11328
+    },
+    {
+      "path": "turbosquid_objects/wooden_shelf/dark_fine_wood.png",
+      "sha256": "9aaa94ef4cd61592b566569bba3569276a38ea5ff22ed4b978b77b038b38a11f",
+      "bytes": 42358
+    },
+    {
+      "path": "turbosquid_objects/wooden_shelf/visual/wooden_shelf_vis.msh",
+      "sha256": "1dce8d9c37d562a2a5bfea2057eb40c562d1f9415693c8d0036b8d9e8dbb63f1",
+      "bytes": 21400
+    },
+    {
+      "path": "turbosquid_objects/wooden_shelf/wooden_shelf.mtl",
+      "sha256": "996dcf8718d616342a7cc4a7731a448d9dacb66c6d1c0417d7a00d5b673e7936",
+      "bytes": 486
+    },
+    {
+      "path": "turbosquid_objects/wooden_shelf/wooden_shelf.obj",
+      "sha256": "975c42c519f25ab2fbd0580bc3b073a130b97dfc6c2988bff6cc75222d563da0",
+      "bytes": 14229
+    },
+    {
+      "path": "turbosquid_objects/wooden_shelf/wooden_shelf.xml",
+      "sha256": "a5f5662d2873cacd639064bef3802d6e1e763a94c15efd351844a5d855c9c22c",
+      "bytes": 3658
+    },
+    {
+      "path": "turbosquid_objects/wooden_shelf/wooden_shelf_col.obj",
+      "sha256": "9ae191030647c326ef0106c326737f21c71ddc1a5cb68cc6e3a1713b049cb712",
+      "bytes": 11321
+    },
+    {
+      "path": "turbosquid_objects/wooden_tray/crate_mat_BaseColor.png",
+      "sha256": "3524386ee45899ff14c6e386294e2552f3fb11d4e0f478ef3e71f055f68f800a",
+      "bytes": 4988248
+    },
+    {
+      "path": "turbosquid_objects/wooden_tray/visual/wooden_tray_vis.msh",
+      "sha256": "bc839a345d399ce6f4d73dcf81e8a530adc3b0640f4668a08422c6a796e7f627",
+      "bytes": 19456
+    },
+    {
+      "path": "turbosquid_objects/wooden_tray/wooden_tray.mtl",
+      "sha256": "6086cffd68a1ae2df500836f6b9e05ec073a3c32041895ff465373b15573a4f8",
+      "bytes": 307
+    },
+    {
+      "path": "turbosquid_objects/wooden_tray/wooden_tray.obj",
+      "sha256": "d9ca21da52da07bd9cd3ca24ae7367b109f9e555911aa2996a8297b3cbbfaea4",
+      "bytes": 13536
+    },
+    {
+      "path": "turbosquid_objects/wooden_tray/wooden_tray.xml",
+      "sha256": "d275a3ac94f12c633194f79248df724fe544ac053eaca7b3ee91e75685ec5dc3",
+      "bytes": 4573
+    },
+    {
+      "path": "turbosquid_objects/wooden_tray/wooden_tray_col.obj",
+      "sha256": "c7e7dfa92d64d31d9166be62b066aca6722e71ca178eb3b9927e7e9798c95eac",
+      "bytes": 14261
+    },
+    {
+      "path": "turbosquid_objects/wooden_two_layer_shelf/dark_fine_wood.png",
+      "sha256": "9aaa94ef4cd61592b566569bba3569276a38ea5ff22ed4b978b77b038b38a11f",
+      "bytes": 42358
+    },
+    {
+      "path": "turbosquid_objects/wooden_two_layer_shelf/visual/wooden_two_layer_shelf_vis.msh",
+      "sha256": "ec0b5b2360f4c773aa17d40903f7aabb1499376e7a12813d033a54f7cec0817e",
+      "bytes": 11896
+    },
+    {
+      "path": "turbosquid_objects/wooden_two_layer_shelf/wooden_two_layer_shelf.mtl",
+      "sha256": "f1039b92ff8991b97c98144b0ddfbc9e8db1b8ceb2ce87be181cf52cf7716917",
+      "bytes": 439
+    },
+    {
+      "path": "turbosquid_objects/wooden_two_layer_shelf/wooden_two_layer_shelf.obj",
+      "sha256": "4ecb142d9ff5abf5a04ca03d3610d3b3eae269bd0ba208c656f7e97cbf5a2cba",
+      "bytes": 8385
+    },
+    {
+      "path": "turbosquid_objects/wooden_two_layer_shelf/wooden_two_layer_shelf.xml",
+      "sha256": "f05e448de7985640152d7405f8a9bca65105d065268613ede321b02cb513fb28",
+      "bytes": 2825
+    },
+    {
+      "path": "turbosquid_objects/wooden_two_layer_shelf/wooden_two_layer_shelf_col.obj",
+      "sha256": "6ecc24fe8be9ae866d7a0488cb121281b4c72a2fbb6296fdc901828b231fcb9e",
+      "bytes": 8243
+    },
+    {
+      "path": "turbosquid_objects/wooden_two_layer_shelf/wooden_two_layer_shelf_site.obj",
+      "sha256": "d8405906067cb535334eac2a69e026e3977baedada62f80b2ae12af29db60d31",
+      "bytes": 2833
+    },
+    {
+      "path": "turbosquid_objects/yellow_book/visual/yellow_book_vis.msh",
+      "sha256": "b1292bb7e96409a465a38aef94a6316b85608c9821cae0779b51082d8a777c34",
+      "bytes": 773296
+    },
+    {
+      "path": "turbosquid_objects/yellow_book/yellow_book.mtl",
+      "sha256": "35e8d4877d1630e1f21c65e8ba9af0d2912bfb9ab0c116c4bd0838799287df0f",
+      "bytes": 631
+    },
+    {
+      "path": "turbosquid_objects/yellow_book/yellow_book.obj",
+      "sha256": "44c0ce7858ee27bf831d72885c34e8f2947d7e0c4fc76504f219725226cee077",
+      "bytes": 511301
+    },
+    {
+      "path": "turbosquid_objects/yellow_book/yellow_book.png",
+      "sha256": "e73422fb9aad0cb0925954dce764dc1402bea13ab59a153e9dcfe0809850e767",
+      "bytes": 14194
+    },
+    {
+      "path": "turbosquid_objects/yellow_book/yellow_book.xml",
+      "sha256": "d50e17f35728e7ccec4dd6bfa56316f27eed3cac3f5446fad11f2f3369c73acc",
+      "bytes": 1085
+    },
+    {
+      "path": "turbosquid_objects/yellow_book/yellow_book_col.obj",
+      "sha256": "0eea9d8fb42e9ded931b120de32b2ea6732df8e90e43e7dae09a218a6b5e7585",
+      "bytes": 934
+    },
+    {
+      "path": "wall.xml",
+      "sha256": "81c5c1694f3093bb91f9632c090aa7d7722f2be53ec3d39df578f395690d81f4",
+      "bytes": 755
+    },
+    {
+      "path": "wall_frames.stl",
+      "sha256": "fa14ddb8e90326d9a14aa6124f234882e8867fa491e171c6a5a93748780e35f3",
+      "bytes": 20084
+    }
+  ]
+}

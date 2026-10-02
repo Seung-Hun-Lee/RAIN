@@ -1,0 +1,29 @@
+task_id: Compose_020
+policy: exact_instance_no_union
+bindings:
+- role: manipulated_object_1
+  kind: body_prefix
+  value: cream_cheese_1
+  color: green
+  exact_instance: true
+- role: goal_target_1
+  kind: body_prefix
+  value: flat_stove_1
+  color: yellow
+  exact_instance: true
+- role: interaction_target_2
+  kind: body_prefix
+  value: flat_stove_1_button
+  color: cyan
+  exact_instance: true
+- role: interaction_target_3
+  kind: drawer_part
+  value: wooden_cabinet_1:top
+  color: cyan
+  exact_instance: true
+runtime_requirements:
+  resolve_by_current_sim_model: true
+  allow_source_episode_json_fallback: false
+  new_instance_support: false
+  region_projection_from_current_bddl: false
+legacy_task_id: CTR_140

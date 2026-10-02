@@ -1,0 +1,16 @@
+name: Compose_017
+language: Put the tomato sauce in the basket, and then put the yellow and white mug
+  on the plate
+problem: Libero
+problem_folder: tasks/Compose/Compose_017
+bddl_file: task.bddl
+init_states_file: task.pruned_init
+category: Composition
+anchor_suite: cross_suite_compose
+metadata_file: ../../tasks/Compose/Compose_017/task_meta.yaml
+eval_rules_file: ../../tasks/Compose/Compose_017/eval_rules.yaml
+mask_bindings_file: ../../Compose/Compose_017/mask_bindings.yaml
+action_plan_file: ../../Compose/Compose_017/action_plan.yaml
+canonical_task_signature: composition|2133624895648883c24663215608e6ac4a1183e9860083f5d7b577689b8785f1|frozenset({in(tomato_sauce_1,basket_1_contain_region),on(white_yellow_mug_1,plate_1)})
+collection_category: Compose
+legacy_task_id: UCOMP_040

@@ -1,0 +1,19 @@
+task_id: Adapt_015
+policy: exact_instance_no_union
+bindings:
+- role: manipulated_object
+  kind: body_prefix
+  value: yellow_book_1_main
+  color: green
+  exact_instance: true
+- role: goal_target
+  kind: table_region
+  value: wooden_two_layer_shelf_1_feedback_roof_region
+  color: yellow
+  exact_instance: true
+runtime_requirements:
+  resolve_by_current_sim_model: true
+  allow_source_episode_json_fallback: false
+  new_instance_support: false
+  region_projection_from_current_bddl: true
+legacy_task_id: NAFR3_002

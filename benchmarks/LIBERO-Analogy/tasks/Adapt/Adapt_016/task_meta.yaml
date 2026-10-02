@@ -1,0 +1,67 @@
+task_id: Adapt_016
+task_name: Pick up the black bowl at the table center and place it on the dining-set
+  mat
+language: Pick up the black bowl at the table center and place it on the dining-set
+  mat
+primary_category: Adapt
+anchor_suite: libero_spatial
+source_prior_task_ids:
+- 3
+source_prior_task_stem: pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate
+source_prior_description: Pick the akita black bowl from table center and place it
+  on the plate
+canonical_goal_atoms:
+- on(akita_black_bowl_1, dining_set_group_1_plate_support_region)
+canonical_task_signature: adapt|F1_dishware_to_dining_set_mat|spatial_03_akita_black_bowl_1_to_dining_set_mat|on(akita_black_bowl_1,
+  dining_set_group_1_plate_support_region)
+objects_of_interest:
+- akita_black_bowl_1
+- dining_set_group_1_plate_support_region
+held_fixed:
+- source main-table, stove, cabinet, cookies, and nonblocking context poses
+- manipuland pickup pose and source relation
+- destination center and yaw
+- single exact On goal with physical parent contact
+varied:
+- replace the learned plate destination with dining_set_group at the exact plate center
+- remove akita_black_bowl_2 because it overlaps the enlarged destination footprint
+single_semantic_goal: true
+physical_group: spatial_03_akita_black_bowl_1_to_dining_set_mat
+base_bddl_template: source://pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate.bddl
+base_pruned_init: source://pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate.pruned_init
+notes:
+- Directly preserves the learned LIBERO_SPATIAL_03 pickup pose.
+- The dining set keeps the exact source plate center (0.06, 0.20) and yaw.
+- The accepted site is the physically supported exposed cloth between the utensil
+  groups, not the asset's unsafe native center_region.
+- 'On success retains LIBERO''s ordinary site test: the object root must be above
+  the declared site and the object must actually contact the dining-set parent.'
+- No installed asset XML, mesh, texture, collision geometry, or native site is edited.
+adapt_family: F1_dishware_to_dining_set_mat
+adapt_scope: dishware_to_dining_set_physical_mat
+transfer_summary: The learned Spatial-suite pickup and flat-destination release trajectory
+  is transferred from the plate to the exposed center of the dining-set mat.
+provenance_evidence:
+- task_id: LIBERO_SPATIAL_03
+  role: SPATIAL PICK-PLACE AND SCENE SOURCE
+  reason: demonstrates pickup at the table center and placement onto a flat tableware
+    destination in this layout
+critical_objects:
+- akita_black_bowl_1
+required_init_predicates:
+- - not
+  - - 'on'
+    - akita_black_bowl_1
+    - dining_set_group_1_plate_support_region
+semantic_subtask_count: 1
+raw_candidate_id: Adapt_016
+target_fixture: dining_set_group_1
+target_support_site: dining_set_group_1_plate_support_region
+target_support_description: exposed central cloth between utensil groups
+target_parent_contact_required: true
+native_center_region_used: false
+removed_initial_collision_blocker: akita_black_bowl_2
+max_steps: 520
+legacy_task_id: DSET_001
+collection_category: Adapt
+category_order: 16

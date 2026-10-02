@@ -1,0 +1,16 @@
+name: Decompose_016
+language: Put the black bowl in the bottom drawer of the cabinet
+problem: Libero
+problem_folder: tasks/Decompose/Decompose_016
+bddl_file: task.bddl
+init_states_file: task.pruned_init
+category: TD
+anchor_suite: libero_10
+metadata_file: ../../tasks/Decompose/Decompose_016/task_meta.yaml
+eval_rules_file: ../../tasks/Decompose/Decompose_016/eval_rules.yaml
+canonical_task_signature: libero_10_kitchen_scene4|frozenset({in(akita_black_bowl_1,
+  white_cabinet_1_bottom_region)})
+eval_category: Decomposition
+source_benchmark: LIBERO40DecompositionScreen
+collection_category: Decompose
+legacy_task_id: TDC40_002

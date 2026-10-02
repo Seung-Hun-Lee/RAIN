@@ -1,0 +1,16 @@
+task_id: Adapt_019
+category: Adapt
+required_goal_atoms:
+- in(akita_black_bowl_1, wooden_tray_1_contain_region)
+forbidden_goal_atoms: []
+order_sensitive: false
+continue_after_success: false
+requires_transition: false
+custom_eval_needed: true
+tray_completion_mode: full_containment_released_supported
+support_hold_control_steps: 5
+full_collision_containment_required: true
+positive_force_tray_contact_required: true
+no_gripper_contact_required: true
+target_support_site: wooden_tray_1_contain_region
+legacy_task_id: WTRAYR_004

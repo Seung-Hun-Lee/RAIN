@@ -1,0 +1,13 @@
+task_id: Decompose_002
+category: TD
+required_goal_atoms:
+- on(white_yellow_mug_1, plate_2)
+forbidden_goal_atoms:
+- on(porcelain_mug_1, plate_1)
+overshoot_policy: fail_on_forbidden_ever
+order_sensitive: false
+continue_after_success: true
+post_success_steps: 0
+requires_transition: false
+custom_eval_needed: true
+legacy_task_id: TDL10_002

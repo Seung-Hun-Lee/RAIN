@@ -1,0 +1,16 @@
+name: Decompose_002
+language: Put the yellow and white mug on the right plate
+problem: Libero
+problem_folder: tasks/Decompose/Decompose_002
+bddl_file: task.bddl
+init_states_file: task.pruned_init
+category: TD
+anchor_suite: libero_10
+metadata_file: task_meta.yaml
+eval_rules_file: eval_rules.yaml
+canonical_task_signature: libero_10_living_room_scene5|frozenset({on(white_yellow_mug_1,
+  plate_2)})
+eval_category: Task
+source_benchmark: TaskDecomposition
+legacy_task_id: TDL10_002
+collection_category: Decompose

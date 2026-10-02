@@ -1,0 +1,26 @@
+task_id: Compose_004
+category: Composition
+required_goal_atoms:
+- open(wooden_cabinet_1_top_region)
+- on(glazed_rim_porcelain_ramekin_1, plate_1)
+forbidden_goal_atoms: []
+overshoot_policy: none
+order_sensitive: true
+continue_after_success: false
+requires_transition: true
+sequence_stages:
+- - open(wooden_cabinet_1_top_region)
+- - open(wooden_cabinet_1_top_region)
+  - on(glazed_rim_porcelain_ramekin_1, plate_1)
+custom_eval_needed: true
+ordered_event_atoms:
+- open(wooden_cabinet_1_top_region)
+- on(glazed_rim_porcelain_ramekin_1, plate_1)
+strict_event_order: true
+final_success_requires_all_bddl_goals: true
+final_tc_gate: false
+loaded_relation_required: null
+intentional_close_contact_required: false
+close_contact_window_steps: 2
+drawer_close_sweep_certificates: {}
+legacy_task_id: VCN19_020

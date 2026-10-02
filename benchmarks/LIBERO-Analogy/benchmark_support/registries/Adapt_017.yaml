@@ -1,0 +1,16 @@
+name: Adapt_017
+language: Pick the alphabet soup and place it in the left compartment of the bowl
+  drainer
+problem: Libero
+problem_folder: tasks/Adapt/Adapt_017
+bddl_file: task.bddl
+init_states_file: task.pruned_init
+category: Adapt
+anchor_suite: libero_object
+metadata_file: ../../tasks/Adapt/Adapt_017/task_meta.yaml
+eval_rules_file: ../../tasks/Adapt/Adapt_017/eval_rules.yaml
+mask_bindings_file: ../../Adapt/Adapt_017/mask_bindings.yaml
+action_plan_file: ../../Adapt/Adapt_017/action_plan.yaml
+canonical_task_signature: adapt|bdrswap_alphabet_salad_xy|5cd1ecc1142b896e3aa86a91dbe15f402a94dc7c6d2bbb91efb6490a6ceb19f5
+collection_category: Adapt
+legacy_task_id: BDRSWAP_001

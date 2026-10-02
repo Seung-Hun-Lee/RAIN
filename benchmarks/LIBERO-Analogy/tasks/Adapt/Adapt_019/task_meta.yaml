@@ -1,0 +1,164 @@
+task_id: Adapt_019
+task_name: Pick up the black bowl and place it in the wooden tray
+language: Pick up the black bowl and place it in the wooden tray
+primary_category: Adapt
+anchor_suite: libero_spatial
+source_prior_task_ids:
+- 3
+source_prior_task_stem: pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate
+source_prior_description: Pick the akita black bowl from table center and place it
+  on the plate
+canonical_goal_atoms:
+- in(akita_black_bowl_1, wooden_tray_1_contain_region)
+canonical_task_signature: adapt|F2_heterogeneous_dishware_choice|F2_heterogeneous_dishware_choice_left_akita_black_bowl_1_reachable_pose_revision|in(akita_black_bowl_1,
+  wooden_tray_1_contain_region)
+objects_of_interest:
+- akita_black_bowl_1
+- wooden_tray_1_contain_region
+held_fixed:
+- task language, selected object, exact single In goal, and action plan
+- unscaled wooden_tray asset, yaw, collision geometry, and native contain_region
+- ramekin and white-bowl centers
+- all three choices visible and initially outside the tray
+varied:
+- select only the left choice (akita_black_bowl_1) from three visible objects
+- replace the learned destination with the unscaled native wooden tray
+- translate wooden_tray_1 center from (0.10,0.00) to (0.10,-0.06)
+- translate only akita_black_bowl_1 from (-0.13,-0.23) to (-0.16,-0.18)
+single_semantic_goal: true
+physical_group: F2_heterogeneous_dishware_choice_left_akita_black_bowl_1_reachable_pose_revision
+base_bddl_template: source://pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate.bddl
+base_pruned_init: source://pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate.pruned_init
+notes:
+- Direct controlled revision of WTRAY_004.
+- Tray center changes by (dx,dy)=(0.00,-0.06) m to robot-right.
+- Only the black-bowl pickup center changes by (dx,dy)=(-0.03,+0.05) m; ramekin and
+  white bowl are unchanged.
+- The native tray site and exact two-mask policy are unchanged.
+- Strict success remains native In plus full collision containment, positive tray
+  contact, release, and a five-control-step hold.
+adapt_family: F2_heterogeneous_dishware_choice
+adapt_scope: wooden_tray_reachable_pose_revision
+transfer_summary: One of three simultaneously visible objects is selected for an atomic
+  transfer into the native wooden tray.
+provenance_evidence:
+- task_id: LIBERO_SPATIAL_03
+  role: BLACK-BOWL PICK-PLACE SOURCE
+  reason: directly picks the black bowl and moves it to a tableware destination
+- task_id: NAF_031
+  role: GEOMETRY ANCHOR
+  reason: supplies the nominal tray layout
+- task_id: WTRAY_004
+  role: DIRECT PREDECESSOR
+  reason: same task with the pre-revision tray and pickup geometry
+critical_objects:
+- akita_black_bowl_1
+- glazed_rim_porcelain_ramekin_1
+- white_bowl_1
+required_init_predicates:
+- - not
+  - - in
+    - akita_black_bowl_1
+    - wooden_tray_1_contain_region
+- - not
+  - - in
+    - glazed_rim_porcelain_ramekin_1
+    - wooden_tray_1_contain_region
+- - not
+  - - in
+    - white_bowl_1
+    - wooden_tray_1_contain_region
+semantic_subtask_count: 1
+choice_object_ids:
+- akita_black_bowl_1
+- glazed_rim_porcelain_ramekin_1
+- white_bowl_1
+selected_object_id: akita_black_bowl_1
+selected_choice_position: left
+all_choice_objects_visible_required: true
+all_choice_objects_initially_outside_tray_required: true
+target_fixture: wooden_tray_1
+target_support_site: wooden_tray_1_contain_region
+tray_completion_mode: full_containment_released_supported
+support_hold_control_steps: 5
+full_collision_containment_required: true
+positive_force_tray_contact_required: true
+no_gripper_contact_required: true
+mask_policy: exact_instance_no_union
+max_steps: 520
+policy_inference_run: true
+github_upload_performed: false
+predecessor_task_id: WTRAY_004
+controlled_revision: true
+old_tray_center_xy_m:
+- 0.1
+- 0.0
+new_tray_center_xy_m:
+- 0.1
+- -0.06
+tray_translation_delta_xy_m:
+- 0.0
+- -0.06
+black_bowl_shift_applies: true
+old_black_bowl_center_xy_m:
+- -0.13
+- -0.23
+new_black_bowl_center_xy_m:
+- -0.16
+- -0.18
+black_bowl_translation_delta_xy_m:
+- -0.03
+- 0.05
+plate_centers_unchanged: true
+ramekin_center_unchanged: true
+white_bowl_center_unchanged: true
+source_state_reuse_allowed: false
+fresh_state_seed_base: 1737000
+fresh_initial_state_sha256: d314c9b39062eb5e15db225b2f27b9a75e81cfa541c006855ac47de876e78b47
+rain_five_episode_result:
+  model: RAINv2
+  successes: 2
+  episodes: 5
+  success_rate_percent: 40.0
+  physical_gpu: 7
+  episode_ids:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  success_episode_ids:
+  - 1
+  - 2
+  failure_episode_ids:
+  - 0
+  - 3
+  - 4
+  base_seed: 7
+  derived_episode_seeds:
+  - 307
+  - 308
+  - 309
+  - 310
+  - 311
+  max_steps: 520
+  strict_success_protocol: RAIN exact current masks; native tray In plus full collision
+    containment, positive-force tray contact, and no gripper contact held for five
+    actual control steps
+  action_checkpoint_sha256: 7232043efb5b6d563def9fa378cd6f16b8e4623e103327605a5203714807252f
+  progress_checkpoint_sha256: e35566c8f366b49c79fd4e029b42ccde56438bd270f895fd286482febb605eae
+  all_initial_goals_false: true
+  strict_outcomes_verified: true
+  strict_success_witnesses:
+  - episode_idx: 1
+    strict_onset_control_step: 243
+    hold_complete_control_step: 247
+  - episode_idx: 2
+    strict_onset_control_step: 259
+    hold_complete_control_step: 263
+  all_original_episode_videos_retained: true
+  raw_result_dir: source://LIBERO_EX_ICRA27/LiberoWoodenTrayObjectChoicesReachable/evaluation_5ep/raw_results/tasks/all6/WTRAYR_004
+  result_manifest: source://LIBERO_EX_ICRA27/LiberoWoodenTrayObjectChoicesReachable/evaluation_5ep/run_manifest.json
+legacy_task_id: WTRAYR_004
+collection_category: Adapt
+category_order: 19

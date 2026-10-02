@@ -1,0 +1,21 @@
+task_id: Compose_005
+steps:
+- action_type: grasp
+  primary_object_id: moka_pot_2
+  target_object_id: moka_pot_2
+  source_task_id: 105
+  source_task_description: Put the moka pot on the stove
+  source_subtask_index: 1
+- action_type: release
+  primary_object_id: moka_pot_2
+  target_object_id: flat_stove_1_cook_region
+  source_task_id: 105
+  source_task_description: Put the moka pot on the stove
+  source_subtask_index: 2
+- action_type: close
+  primary_object_id: microwave_1
+  target_object_id: microwave_1
+  source_task_id: 109
+  source_task_description: Close the microwave door
+  source_subtask_index: 1
+legacy_task_id: VCN21_001

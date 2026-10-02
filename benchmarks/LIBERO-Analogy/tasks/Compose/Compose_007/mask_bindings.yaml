@@ -1,0 +1,24 @@
+task_id: Compose_007
+policy: exact_instance_no_union
+bindings:
+- role: manipulated_object
+  kind: body_prefix
+  value: plate_1
+  color: green
+  exact_instance: true
+- role: goal_target
+  kind: table_region
+  value: main_table_stove_front_region
+  color: yellow
+  exact_instance: true
+- role: interaction_target
+  kind: drawer_part
+  value: wooden_cabinet_1:middle
+  color: green
+  exact_instance: true
+runtime_requirements:
+  resolve_by_current_sim_model: true
+  allow_source_episode_json_fallback: false
+  new_instance_support: false
+  region_projection_from_current_bddl: true
+legacy_task_id: COMP2_032

@@ -1,0 +1,44 @@
+task_id: Adapt_018
+task_name: Open the top drawer of the wooden cabinet
+language: Open the top drawer of the wooden cabinet
+primary_category: Adapt
+family: exact_vcn19_scene_single_top_drawer_open
+anchor_suite: libero_spatial
+single_semantic_goal: true
+semantic_subtask_count: 1
+action_plan_step_count: 1
+canonical_goal_atoms:
+- open(wooden_cabinet_1_top_region)
+canonical_task_signature: adapt|e0c225daf2f3563f6c1a3c0c9f2097b8e5470a561aa4fceb3f0b24481854aaeb|open(wooden_cabinet_1_top_region)
+objects_of_interest:
+- wooden_cabinet_1_top_region
+parent_task_id: Compose_004
+parent_bundle: source://LIBERO_EX_ICRA27/LiberoValidComposeNew20260905/Batch19FeedbackDrivenCompose20/benchmark/tasks/vcn19_020__open_the_top_drawer_of_the_wooden_cabinet_then_put_the_ramekin_on_the_plate
+base_bddl_template: source://LIBERO_EX_ICRA27/LiberoValidComposeNew20260905/Batch19FeedbackDrivenCompose20/benchmark/tasks/vcn19_020__open_the_top_drawer_of_the_wooden_cabinet_then_put_the_ramekin_on_the_plate/task.bddl
+base_pruned_init: source://LIBERO_EX_ICRA27/LiberoValidComposeNew20260905/Batch19FeedbackDrivenCompose20/benchmark/tasks/vcn19_020__open_the_top_drawer_of_the_wooden_cabinet_then_put_the_ramekin_on_the_plate/task.pruned_init
+physical_group: exact_vcn19_020_same_five_states
+scene_is_byte_preserved_parent_replay: true
+original_init_states_unmodified: true
+fixture_replay_required: true
+fixture_replay_file: FIXTURE_REPLAY.json
+fixture_replay_embedded_task_id: Compose_004
+source_scene_task: ANLGX_092 (LIBERO-Spatial-derived ramekin-on-cookies scene)
+learned_skill_source: 'LIBERO_GOAL_04: open the top drawer and put the bowl inside;
+  first opening action only'
+source_prior_task_ids:
+- '10'
+source_plan_provenance: Parent first action copied unchanged, including legacy source_task_id;
+  learned top-opening evidence is separately identified as LIBERO_GOAL_04.
+max_steps: 520
+notes:
+- Single atomic Open goal only. No ramekin grasp, plate placement, ordered composition
+  or final TC goal gate is added.
+- All objects, fixture roots, initial joint states and five episode identities match
+  Compose_004 exactly.
+- Exact top moving-drawer subtree GT, as in the parent; not whole-cabinet, all-drawer
+  or handle-only masking.
+- No claim that this complete altered Spatial scene appeared in original training;
+  the drawer-opening skill appeared in Goal.
+legacy_task_id: ADVCN19_001
+collection_category: Adapt
+category_order: 18

@@ -1,0 +1,39 @@
+task_id: Decompose_015
+candidate_index: 1
+task_name: Turn on the stove
+language: Turn on the stove
+primary_category: TD
+anchor_suite: libero_10
+source_prior_description: Turn on the stove and put the moka pot on it
+source_prior_task_ids:
+- 102
+new_test_task_description: Turn on the stove
+scene_family: libero_10_kitchen_scene3
+objects_of_interest:
+- flat_stove_1
+canonical_goal_atoms:
+- turnon(flat_stove_1)
+canonical_task_signature: libero_10_kitchen_scene3|frozenset({turnon(flat_stove_1)})
+held_fixed:
+- scene layout
+- fixtures
+- object set
+- init-state family
+varied:
+- requested subtask / goal subset
+why_this_category: Task Decomposition candidate
+decomposition_rule_class: strict_goal_subset_reintroduced
+strict_goal_subset_selection_eligible: true
+description_trajectory_selection_eligible: true
+semantic_decomposition_selection_eligible: true
+overlap_with_current_14: false
+legacy_decomposition_overlap: TDL10_007 (not in the current 14; historical 4/50)
+candidate_rationale: Valid strict subset of a two-goal source; reintroduces the previously
+  removed low-SR candidate.
+contextual_atoms_true_at_initialization: []
+base_bddl_template: libero://bddl_files/libero_10/KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it.bddl
+base_pruned_init: libero://init_files/libero_10/KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it.pruned_init
+max_steps: 520
+legacy_task_id: TDC40_001
+collection_category: Decompose
+category_order: 15

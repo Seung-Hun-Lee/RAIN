@@ -1,0 +1,33 @@
+task_id: Adapt_020
+category: Adapt
+required_goal_atoms:
+- on(ketchup_1, wine_rack_1_adapt_top_region)
+custom_eval_needed: true
+single_semantic_goal: true
+forbidden_goal_atoms: []
+requires_transition: false
+sequence_stages: []
+order_sensitive: false
+continue_after_success: false
+final_tc_gate: false
+initial_goal_must_be_false: true
+manipulated_object_id: ketchup_1
+destination_site_id: wine_rack_1_adapt_top_region
+success_source: wine_rack_object_support.RackPlacementProbe and RackPlacementObserver
+native_goal_required: false
+exact_original_upper_deck_support_required: true
+exact_top_deck_support_required: true
+support_normal_force_must_be_positive: true
+no_gripper_contact_required: true
+support_hold_control_steps: 5
+monitor_initial_and_every_actual_control_endpoint: true
+policy_evaluation_must_not_use_unmodified_generic_native_success_evaluator: true
+legacy_wine_region_auxiliary_only: true
+legacy_destination_site_id: wine_rack_1_top_region
+legacy_native_on_auxiliary_only: true
+annotated_goal_required: true
+body_center_over_deck_required: true
+body_center_above_deck_required: true
+body_center_over_top_deck_required: true
+native_predicates_auxiliary_not_sufficient: true
+legacy_task_id: GRACK_002

@@ -1,0 +1,15 @@
+name: Compose_014
+language: Put the moka pot on the stove, then close the bottom drawer of the cabinet
+problem: Libero
+problem_folder: tasks/Compose/Compose_014
+bddl_file: task.bddl
+init_states_file: task.pruned_init
+category: Composition
+anchor_suite: libero_10
+metadata_file: ../../tasks/Compose/Compose_014/task_meta.yaml
+eval_rules_file: ../../tasks/Compose/Compose_014/eval_rules.yaml
+mask_bindings_file: ../../Compose/Compose_014/mask_bindings.yaml
+action_plan_file: ../../Compose/Compose_014/action_plan.yaml
+canonical_task_signature: composition|606e3ea776ebb15570af0aaaf36bd8ea2e9d9031c0af1c3990db7010da049b6e|frozenset({close(white_cabinet_1_bottom_region),on(moka_pot_2,flat_stove_1_cook_region)})
+collection_category: Compose
+legacy_task_id: MKDC_001

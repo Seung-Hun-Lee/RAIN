@@ -1,0 +1,16 @@
+name: Adapt_013
+language: Pick the milk and place it in the basket
+problem: Libero
+problem_folder: tasks/Adapt/Adapt_013
+bddl_file: task.bddl
+init_states_file: task.pruned_init
+category: OG-TOU-DTSL
+anchor_suite: libero_object
+metadata_file: task_meta.yaml
+eval_rules_file: eval_rules.yaml
+canonical_task_signature: libero_object_pick_up_the_tomato_sauce_and_place_it_in_the_basket|condition=different_target_same_original_layout|goal_target=milk_1|initial_region=floor_other_object_region_0
+eval_category: Object
+source_benchmark: ObjectGroundingTargetObjectUnderstanding
+position_condition: seen_target_interaction_region
+legacy_task_id: OGDTSL_046
+collection_category: Adapt

@@ -1,0 +1,13 @@
+task_id: Adapt_003
+steps:
+- action_type: grasp
+  primary_object_id: akita_black_bowl_1
+  target_object_id: akita_black_bowl_1
+  source_task_id: 103
+  source_task_description: Put the black bowl in the middle drawer of the white cabinet.
+- action_type: release
+  primary_object_id: akita_black_bowl_1
+  target_object_id: white_cabinet_1_middle_region
+  source_task_id: 103
+  source_task_description: Put the black bowl in the middle drawer of the white cabinet.
+legacy_task_id: ANLGX_017

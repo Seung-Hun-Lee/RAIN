@@ -1,0 +1,95 @@
+; New furniture composition: feedback_fridge_goal_cabinet. Only workspace/robot frame retained.
+(define (problem libero_tabletop_manipulation)
+  (:domain robosuite)
+  (:language Put the popcorn on top of the short fridge)
+  (:regions
+      (short_fridge_1_init_region
+          (:target main_table)
+          (:ranges (
+              (0.02990000 -0.24010000 0.03010000 -0.23990000)
+            )
+          )
+          (:yaw_rotation (
+              (3.141592653590 3.141592653590)
+            )
+          )
+      )
+      (popcorn_1_init_region
+          (:target main_table)
+          (:ranges (
+              (-0.119 0.121 -0.061 0.179)
+            )
+          )
+          (:yaw_rotation (
+              (0.000000000000 0.000000000000)
+            )
+          )
+      )
+      (feedback_top_region
+          (:target short_fridge_1)
+      )
+      (tomato_sauce_1_init_region
+          (:target main_table)
+          (:ranges (
+              (-0.11900000 0.26100000 -0.06100000 0.31900000)
+            )
+          )
+          (:yaw_rotation (
+              (0.000000000000 0.000000000000)
+            )
+          )
+      )
+      (butter_1_init_region
+          (:target main_table)
+          (:ranges (
+              (-0.25400000 0.12600000 -0.20600000 0.17400000)
+            )
+          )
+          (:yaw_rotation (
+              (0.000000000000 0.000000000000)
+            )
+          )
+      )
+      (cream_cheese_1_init_region
+          (:target main_table)
+          (:ranges (
+              (-0.26400000 0.25600000 -0.19600000 0.32400000)
+            )
+          )
+          (:yaw_rotation (
+              (0.000000000000 0.000000000000)
+            )
+          )
+      )
+  )
+
+  (:fixtures
+    main_table - table
+    short_fridge_1 - short_fridge
+  )
+
+  (:objects
+    popcorn_1 - popcorn
+    tomato_sauce_1 - tomato_sauce
+    butter_1 - butter
+    cream_cheese_1 - cream_cheese
+  )
+
+  (:obj_of_interest
+    popcorn_1
+    short_fridge_1_feedback_top_region
+  )
+
+  (:init
+    (On short_fridge_1 main_table_short_fridge_1_init_region)
+    (On popcorn_1 main_table_popcorn_1_init_region)
+    (On tomato_sauce_1 main_table_tomato_sauce_1_init_region)
+    (On butter_1 main_table_butter_1_init_region)
+    (On cream_cheese_1 main_table_cream_cheese_1_init_region)
+  )
+
+  (:goal
+    (And (On popcorn_1 short_fridge_1_feedback_top_region))
+  )
+
+)

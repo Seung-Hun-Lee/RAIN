@@ -1,0 +1,21 @@
+task_id: Compose_007
+steps:
+- action_type: approach
+  primary_object_id: plate_1
+  target_object_id: plate_1
+  source_task_id: 6
+  source_task_description: Push the plate to the front of the stove
+  source_subtask_index: 1
+- action_type: push
+  primary_object_id: plate_1
+  target_object_id: main_table_stove_front_region
+  source_task_id: 6
+  source_task_description: Push the plate to the front of the stove
+  source_subtask_index: 2
+- action_type: open
+  primary_object_id: wooden_cabinet_1_middle_region
+  target_object_id: wooden_cabinet_1_middle_region
+  source_task_id: 10
+  source_task_description: Open the middle layer of the drawer
+  source_subtask_index: 1
+legacy_task_id: COMP2_032

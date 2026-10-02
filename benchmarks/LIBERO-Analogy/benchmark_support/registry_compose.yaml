@@ -1,0 +1,21 @@
+registry_entries:
+- benchmark_support/registries/Compose_001.yaml
+- benchmark_support/registries/Compose_002.yaml
+- benchmark_support/registries/Compose_003.yaml
+- benchmark_support/registries/Compose_004.yaml
+- benchmark_support/registries/Compose_005.yaml
+- benchmark_support/registries/Compose_006.yaml
+- benchmark_support/registries/Compose_007.yaml
+- benchmark_support/registries/Compose_008.yaml
+- benchmark_support/registries/Compose_009.yaml
+- benchmark_support/registries/Compose_010.yaml
+- benchmark_support/registries/Compose_011.yaml
+- benchmark_support/registries/Compose_012.yaml
+- benchmark_support/registries/Compose_013.yaml
+- benchmark_support/registries/Compose_014.yaml
+- benchmark_support/registries/Compose_015.yaml
+- benchmark_support/registries/Compose_016.yaml
+- benchmark_support/registries/Compose_017.yaml
+- benchmark_support/registries/Compose_018.yaml
+- benchmark_support/registries/Compose_019.yaml
+- benchmark_support/registries/Compose_020.yaml

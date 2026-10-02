@@ -1,0 +1,16 @@
+name: Adapt_015
+language: Put the yellow book on top of the two-layer wooden shelf
+problem: Libero
+problem_folder: tasks/Adapt/Adapt_015
+bddl_file: task.bddl
+init_states_file: task.pruned_init
+category: Adapt
+anchor_suite: novel_feedback_revision
+metadata_file: ../../tasks/Adapt/Adapt_015/task_meta.yaml
+eval_rules_file: ../../tasks/Adapt/Adapt_015/eval_rules.yaml
+mask_bindings_file: ../../Adapt/Adapt_015/mask_bindings.yaml
+action_plan_file: ../../Adapt/Adapt_015/action_plan.yaml
+canonical_task_signature: adapt|R2_naf036_side_by_side_books_v3|naf036_side_by_side_books_v3|on(yellow_book_1,
+  wooden_two_layer_shelf_1_feedback_roof_region)
+collection_category: Adapt
+legacy_task_id: NAFR3_002

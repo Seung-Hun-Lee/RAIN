@@ -1,0 +1,35 @@
+task_id: Adapt_006
+task_name: Pick up the wine bottle at the table center and place it on the plate
+language: Pick up the wine bottle at the table center and place it on the plate
+primary_category: Analogy
+analogy_family: S4_spatial_source_object_binding
+anchor_suite: libero_spatial
+source_prior_task_ids:
+- 5
+source_prior_task_stem: pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate
+source_prior_description: Pick the akita black bowl from table center and place it
+  on the plate
+canonical_goal_atoms:
+- on(wine_bottle_1, plate_1)
+canonical_task_signature: analogy|S4_spatial_source_object_binding|spatial_03_source_object_wine_bottle|on(wine_bottle_1,
+  plate_1)
+objects_of_interest:
+- wine_bottle_1
+- plate_1
+held_fixed:
+- full source layout
+- plate target pose
+- single On predicate
+varied:
+- replace the source bowl with wine bottle at the same learned Spatial relation
+single_semantic_goal: true
+physical_group: spatial_03_source_object_wine_bottle
+base_bddl_template: source://pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate.bddl
+base_pruned_init: source://pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate.pruned_init
+notes:
+- 'Reference-identity collisions are excluded: the replaced object is never the ramekin/cookies/plate
+  named by its own source relation.'
+- 'Training evidence: direct wine-bottle grasp in original LIBERO-Goal tasks.'
+legacy_task_id: ANLGX_089
+collection_category: Adapt
+category_order: 6

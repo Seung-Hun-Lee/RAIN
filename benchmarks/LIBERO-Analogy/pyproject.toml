@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "libero-analogy"
+version = "0.1.0"
+description = "The frozen 60-task LIBERO-Analogy benchmark and policy-neutral evaluator"
+requires-python = ">=3.10,<3.13"
+dependencies = ["numpy==2.2.6", "PyYAML>=6", "pillow>=9", "msgpack>=1", "websockets>=15,<16"]
+
+[project.optional-dependencies]
+sim = ["libero==0.1.1", "robosuite==1.4.0", "mujoco==3.5.0", "scipy==1.15.3", "torch>=2.6", "imageio>=2.37", "imageio-ffmpeg>=0.6", "huggingface-hub>=0.30"]
+test = ["pytest>=8"]
+
+[project.scripts]
+libero-analogy = "libero_analogy.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

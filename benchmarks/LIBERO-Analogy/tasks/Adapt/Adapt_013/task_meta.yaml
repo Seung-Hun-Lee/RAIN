@@ -1,0 +1,61 @@
+task_id: Adapt_013
+candidate_index: 46
+task_name: Pick the milk and place it in the basket
+language: Pick the milk and place it in the basket
+primary_category: OG-TOU-DTSL
+anchor_suite: libero_object
+condition: different_target_same_original_layout
+source_prior_task_ids:
+- 306
+source_prior_task_stem: pick_up_the_tomato_sauce_and_place_it_in_the_basket
+source_prior_description: Pick the tomato sauce and place it in the basket
+source_target_object: tomato_sauce_1
+source_target_object_type: tomato_sauce
+goal_target_object: milk_1
+goal_target_object_type: milk
+target_initial_region: floor_other_object_region_0
+target_region_index: 0
+target_region_ranges:
+- -0.145
+- -0.265
+- -0.095
+- -0.215
+target_region_center:
+- -0.12
+- -0.24
+source_target_region: floor_target_object_region
+source_target_region_ranges:
+- 0.025
+- -0.125
+- 0.075
+- -0.075
+source_target_region_center:
+- 0.05
+- -0.1
+position_evidence: seen_target_interaction_region
+seen_target_interaction_region: true
+objects_of_interest:
+- milk_1
+- basket_1
+canonical_goal_atoms:
+- in(milk_1, basket_1_contain_region)
+canonical_task_signature: libero_object_pick_up_the_tomato_sauce_and_place_it_in_the_basket|condition=different_target_same_original_layout|goal_target=milk_1|initial_region=floor_other_object_region_0
+current_refinal_source_goal_overlap_task_ids: []
+legacy_libero_ex_source_goal_variant_task_ids:
+- OGTOBJI_026
+exact_physical_overlap_current_refinal: false
+exact_physical_overlap_full150: false
+held_fixed:
+- original LIBERO-Object region geometry
+- original object identities and complete On(...) init mapping
+- original basket placement
+- original pruned simulator init states
+varied:
+- language target
+- obj_of_interest target
+- goal target object
+base_bddl_template: source://pick_up_the_tomato_sauce_and_place_it_in_the_basket.bddl
+base_pruned_init: source://pick_up_the_tomato_sauce_and_place_it_in_the_basket.pruned_init
+legacy_task_id: OGDTSL_046
+collection_category: Adapt
+category_order: 13

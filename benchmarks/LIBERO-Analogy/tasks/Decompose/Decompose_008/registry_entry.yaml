@@ -1,0 +1,16 @@
+name: Decompose_008
+language: Put the alphabet soup in the basket
+problem: Libero
+problem_folder: tasks/Decompose/Decompose_008
+bddl_file: task.bddl
+init_states_file: task.pruned_init
+category: TD
+anchor_suite: libero_10
+metadata_file: task_meta.yaml
+eval_rules_file: eval_rules.yaml
+canonical_task_signature: libero_10_living_room_scene1|frozenset({in(alphabet_soup_1,
+  basket_1_contain_region)})
+eval_category: Task
+source_benchmark: TaskDecomposition
+legacy_task_id: TDL10_009
+collection_category: Decompose

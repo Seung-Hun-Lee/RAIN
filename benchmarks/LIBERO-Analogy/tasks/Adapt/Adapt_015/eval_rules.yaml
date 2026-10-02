@@ -1,0 +1,10 @@
+task_id: Adapt_015
+category: Adapt
+required_goal_atoms:
+- on(yellow_book_1, wooden_two_layer_shelf_1_feedback_roof_region)
+forbidden_goal_atoms: []
+order_sensitive: false
+continue_after_success: false
+requires_transition: false
+custom_eval_needed: false
+legacy_task_id: NAFR3_002

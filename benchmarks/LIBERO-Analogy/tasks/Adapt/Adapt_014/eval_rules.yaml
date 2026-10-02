@@ -1,0 +1,10 @@
+task_id: Adapt_014
+category: Adapt
+required_goal_atoms:
+- on(popcorn_1, short_fridge_1_feedback_top_region)
+forbidden_goal_atoms: []
+order_sensitive: false
+continue_after_success: false
+requires_transition: false
+custom_eval_needed: false
+legacy_task_id: NAFR3_001

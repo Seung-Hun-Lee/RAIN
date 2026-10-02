@@ -1,0 +1,15 @@
+task_id: Adapt_006
+steps:
+- action_type: grasp
+  primary_object_id: wine_bottle_1
+  target_object_id: wine_bottle_1
+  source_task_id: 5
+  source_task_description: Pick up the wine bottle at the table center and place it
+    on the plate.
+- action_type: release
+  primary_object_id: wine_bottle_1
+  target_object_id: plate_1
+  source_task_id: 5
+  source_task_description: Pick up the wine bottle at the table center and place it
+    on the plate.
+legacy_task_id: ANLGX_089

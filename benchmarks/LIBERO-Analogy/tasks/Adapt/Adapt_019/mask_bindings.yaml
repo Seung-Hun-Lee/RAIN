@@ -1,0 +1,19 @@
+task_id: Adapt_019
+policy: exact_instance_no_union
+bindings:
+- role: manipulated_object
+  kind: body_prefix
+  value: akita_black_bowl_1_main
+  color: green
+  exact_instance: true
+- role: goal_target
+  kind: table_region
+  value: wooden_tray_1_contain_region
+  color: yellow
+  exact_instance: true
+runtime_requirements:
+  resolve_by_current_sim_model: true
+  allow_source_episode_json_fallback: false
+  new_instance_support: false
+  region_projection_from_current_bddl: true
+legacy_task_id: WTRAYR_004

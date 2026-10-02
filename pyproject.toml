@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rain-policy"
+version = "0.1.0"
+description = "Region-Aware Interaction Networks: TCE, PlanDiT, Transition Head, and RRS"
+requires-python = ">=3.10"
+dependencies = [
+  "torch==2.11.0", "torchvision==0.26.0", "numpy==2.2.6", "transformers==4.53.0",
+  "pandas==2.2.3", "pyarrow==22.0.0", "opencv-python-headless>=4.11",
+  "Pillow", "tqdm", "scipy", "PyYAML", "einops", "timm",
+]
+
+[project.optional-dependencies]
+eval = ["robosuite==1.4.0", "mujoco==3.5.0", "bddl==1.0.1", "imageio", "imageio-ffmpeg", "PyOpenGL", "h5py", "easydict"]
+test = ["pytest>=8"]
+
+[project.scripts]
+rain-train = "rain.train:main"
+rain-eval-libero = "rain.eval_libero:main"
+rain-eval-analogy = "rain.eval_analogy:main"
+
+[tool.setuptools.packages.find]
+include = ["rain", "rain.*", "rainv2", "rainv2.*", "shared", "shared.*", "eval", "final_libero_ex_eval", "final_libero_ex_eval.*", "configs"]
+
+[tool.setuptools.package-data]
+configs = ["*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

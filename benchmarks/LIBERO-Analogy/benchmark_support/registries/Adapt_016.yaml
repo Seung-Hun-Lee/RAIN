@@ -1,0 +1,17 @@
+name: Adapt_016
+language: Pick up the black bowl at the table center and place it on the dining-set
+  mat
+problem: Libero
+problem_folder: tasks/Adapt/Adapt_016
+bddl_file: task.bddl
+init_states_file: task.pruned_init
+category: Adapt
+anchor_suite: libero_spatial
+metadata_file: ../../tasks/Adapt/Adapt_016/task_meta.yaml
+eval_rules_file: ../../tasks/Adapt/Adapt_016/eval_rules.yaml
+mask_bindings_file: ../../Adapt/Adapt_016/mask_bindings.yaml
+action_plan_file: ../../Adapt/Adapt_016/action_plan.yaml
+canonical_task_signature: adapt|F1_dishware_to_dining_set_mat|spatial_03_akita_black_bowl_1_to_dining_set_mat|on(akita_black_bowl_1,
+  dining_set_group_1_plate_support_region)
+collection_category: Adapt
+legacy_task_id: DSET_001

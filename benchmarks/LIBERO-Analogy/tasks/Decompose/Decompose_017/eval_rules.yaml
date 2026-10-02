@@ -1,0 +1,14 @@
+task_id: Decompose_017
+category: TD
+required_goal_atoms:
+- on(moka_pot_2, flat_stove_1_cook_region)
+forbidden_goal_atoms:
+- on(moka_pot_1, flat_stove_1_cook_region)
+overshoot_policy: fail_on_forbidden_ever
+order_sensitive: false
+continue_after_success: true
+post_success_steps: 0
+requires_transition: false
+custom_eval_needed: true
+evaluation_scope: selection_candidate
+legacy_task_id: TDC40_003

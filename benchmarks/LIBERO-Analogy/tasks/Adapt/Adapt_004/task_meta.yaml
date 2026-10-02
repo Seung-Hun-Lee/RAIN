@@ -1,0 +1,30 @@
+task_id: Adapt_004
+task_name: Close the top drawer of the white cabinet
+language: Close the top drawer of the white cabinet
+primary_category: Analogy
+analogy_family: E2_sibling_part_or_compartment
+anchor_suite: libero_10
+source_prior_task_ids:
+- 103
+source_prior_task_stem: KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it
+source_prior_description: put the black bowl in the bottom drawer of the cabinet and
+  close it
+canonical_goal_atoms:
+- close(white_cabinet_1_top_region)
+canonical_task_signature: analogy|E2_sibling_part_or_compartment|white_close_top|close(white_cabinet_1_top_region)
+objects_of_interest:
+- white_cabinet_1_top_region
+held_fixed:
+- white cabinet pose/type
+- target initialized open
+- no movable clutter
+varied:
+- transfer learned bottom-drawer closing to the top sibling
+single_semantic_goal: true
+physical_group: white_close_top
+base_bddl_template: source://KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it.bddl
+base_pruned_init: source://KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it.pruned_init
+notes: []
+legacy_task_id: ANLGX_022
+collection_category: Adapt
+category_order: 4

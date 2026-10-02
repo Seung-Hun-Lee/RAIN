@@ -1,0 +1,53 @@
+task_id: Adapt_020
+task_name: Put the ketchup on the rack
+language: Put the ketchup on the rack
+category: Adapt
+primary_category: Adapt
+anchor_suite: libero_goal
+source_suite: libero_goal
+source_task_id: LIBERO_GOAL_10
+source_bddl: source://put_the_wine_bottle_on_the_rack.bddl
+source_init: source://put_the_wine_bottle_on_the_rack.pruned_init
+original_instruction: Put the wine bottle on the rack
+target_object_id: ketchup_1
+destination_site_id: wine_rack_1_adapt_top_region
+objects_of_interest:
+- ketchup_1
+- wine_rack_1_adapt_top_region
+canonical_goal_atoms:
+- on(ketchup_1, wine_rack_1_adapt_top_region)
+canonical_task_signature: adapt|067afa2f028e0cfbc0424f2efe1f1c19b51a4432d8e1c196d47d94925d2654ac|on(ketchup_1,
+  wine_rack_1_adapt_top_region)
+semantic_subtasks: 1
+semantic_subtask_count: 1
+single_semantic_goal: true
+action_plan_step_count: 2
+family: original_goal_wine_pickup_object_identity_replacement
+max_steps: 520
+original_asset_scale_unchanged: true
+init_states: 5
+fixture_replay_required: true
+fixture_replay_file: FIXTURE_REPLAY.json
+notes:
+- Only the wine bottle identity is replaced; target pickup XY is the exact original
+  wine XY.
+- All common robot, gripper, movable-object and fixture articulated joints are preserved.
+- Fixed fixture root poses are the original native reset seed 7+index and are replayed
+  explicitly.
+- New target uses its own reset quaternion and collision-derived tabletop support
+  height, no scaling.
+- 'Mask matches original learned rack task: manipulated object body plus entire wine-rack
+  body.'
+- This builder itself never calls the learned policy or publishes review pages.
+- Before policy evaluation, the narrow wine-specific root-coordinate site was replaced
+  with a new transparent actual-deck annotation.
+- Original wine top_region remains in the scene as diagnostic evidence; physical assets,
+  poses, masks and serialized states are unchanged.
+- Primary success is annotated deck On plus exact top-deck positive-force support,
+  center over its footprint, no gripper contact for five controls.
+legacy_destination_site_id: wine_rack_1_top_region
+legacy_wine_region_auxiliary_only: true
+fixture_overlay_required: wine_rack_object_support.install_rack_adapt_geometry
+legacy_task_id: GRACK_002
+collection_category: Adapt
+category_order: 20

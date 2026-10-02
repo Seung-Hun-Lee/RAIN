@@ -1,0 +1,17 @@
+name: Compose_018
+language: Pick the alphabet soup and place it in the left compartment of the bowl
+  drainer, then pick the tomato sauce and place it in the right compartment of the
+  bowl drainer
+problem: Libero
+problem_folder: tasks/Compose/Compose_018
+bddl_file: task.bddl
+init_states_file: task.pruned_init
+category: Composition
+anchor_suite: libero_object
+metadata_file: task_meta.yaml
+eval_rules_file: eval_rules.yaml
+mask_bindings_file: mask_bindings.yaml
+action_plan_file: action_plan.yaml
+canonical_task_signature: compose_ordered|1cf5ce672a72930d738098406de7e4b350dba094831aced5b44ae697e19bbe47
+legacy_task_id: BDRMIN_002
+collection_category: Compose

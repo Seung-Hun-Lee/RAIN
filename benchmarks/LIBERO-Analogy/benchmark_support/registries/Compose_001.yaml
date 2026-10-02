@@ -1,0 +1,16 @@
+name: Compose_001
+language: Put the chocolate pudding on the black bowl, then open the middle drawer
+  of the cabinet
+problem: Libero
+problem_folder: tasks/Compose/Compose_001
+bddl_file: task.bddl
+init_states_file: task.pruned_init
+category: Composition
+anchor_suite: libero_goal
+metadata_file: ../../tasks/Compose/Compose_001/task_meta.yaml
+eval_rules_file: ../../tasks/Compose/Compose_001/eval_rules.yaml
+mask_bindings_file: ../../Compose/Compose_001/mask_bindings.yaml
+action_plan_file: ../../Compose/Compose_001/action_plan.yaml
+canonical_task_signature: composition|9e40b8009ee329e28d5563d329d9afa28aa9e64295b78b133417791c8f0e7709|frozenset({on(chocolate_pudding_1,akita_black_bowl_1),open(wooden_cabinet_1_middle_region)})
+collection_category: Compose
+legacy_task_id: VCN8_008

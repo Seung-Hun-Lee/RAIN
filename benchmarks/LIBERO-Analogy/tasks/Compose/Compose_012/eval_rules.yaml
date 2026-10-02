@@ -1,0 +1,20 @@
+task_id: Compose_012
+category: Composition
+required_goal_atoms:
+- in(tomato_sauce_1, basket_1_contain_region)
+- on(porcelain_mug_1, plate_3)
+forbidden_goal_atoms: []
+overshoot_policy: none
+order_sensitive: true
+continue_after_success: false
+requires_transition: true
+sequence_stages:
+- - in(tomato_sauce_1, basket_1_contain_region)
+- - in(tomato_sauce_1, basket_1_contain_region)
+  - on(porcelain_mug_1, plate_3)
+custom_eval_needed: true
+ordered_event_atoms:
+- in(tomato_sauce_1, basket_1_contain_region)
+- on(porcelain_mug_1, plate_3)
+strict_event_order: true
+legacy_task_id: LBCM_003

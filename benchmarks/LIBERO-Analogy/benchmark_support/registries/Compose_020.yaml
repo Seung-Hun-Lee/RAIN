@@ -1,0 +1,17 @@
+name: Compose_020
+language: Put the cream cheese on the stove, then turn on the stove, then open the
+  top drawer of the wooden cabinet
+problem: Libero
+problem_folder: tasks/Compose/Compose_020
+bddl_file: task.bddl
+init_states_file: task.pruned_init
+category: Composition
+anchor_suite: libero_goal
+metadata_file: ../../tasks/Compose/Compose_020/task_meta.yaml
+eval_rules_file: ../../tasks/Compose/Compose_020/eval_rules.yaml
+mask_bindings_file: ../../Compose/Compose_020/mask_bindings.yaml
+action_plan_file: ../../Compose/Compose_020/action_plan.yaml
+canonical_task_signature: composition|12984512f2b344c446e8dffbe0ec0748b54d276ea8b6d537ce70c1c524640df5|('on(cream_cheese_1,
+  flat_stove_1_cook_region)', 'turnon(flat_stove_1)', 'open(wooden_cabinet_1_top_region)')
+collection_category: Compose
+legacy_task_id: CTR_140

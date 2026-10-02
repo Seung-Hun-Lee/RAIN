@@ -1,0 +1,13 @@
+task_id: Decompose_012
+category: TD
+required_goal_atoms:
+- in(cream_cheese_1, basket_1_contain_region)
+forbidden_goal_atoms:
+- in(butter_1, basket_1_contain_region)
+overshoot_policy: fail_on_forbidden_ever
+order_sensitive: false
+continue_after_success: true
+post_success_steps: 0
+requires_transition: false
+custom_eval_needed: true
+legacy_task_id: TDL10_013

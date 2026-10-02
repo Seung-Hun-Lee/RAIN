@@ -1,0 +1,21 @@
+registry_entries:
+- benchmark_support/registries/Adapt_001.yaml
+- benchmark_support/registries/Adapt_002.yaml
+- benchmark_support/registries/Adapt_003.yaml
+- benchmark_support/registries/Adapt_004.yaml
+- benchmark_support/registries/Adapt_005.yaml
+- benchmark_support/registries/Adapt_006.yaml
+- benchmark_support/registries/Adapt_007.yaml
+- benchmark_support/registries/Adapt_008.yaml
+- benchmark_support/registries/Adapt_009.yaml
+- benchmark_support/registries/Adapt_010.yaml
+- benchmark_support/registries/Adapt_011.yaml
+- benchmark_support/registries/Adapt_012.yaml
+- benchmark_support/registries/Adapt_013.yaml
+- benchmark_support/registries/Adapt_014.yaml
+- benchmark_support/registries/Adapt_015.yaml
+- benchmark_support/registries/Adapt_016.yaml
+- benchmark_support/registries/Adapt_017.yaml
+- benchmark_support/registries/Adapt_018.yaml
+- benchmark_support/registries/Adapt_019.yaml
+- benchmark_support/registries/Adapt_020.yaml

@@ -1,0 +1,9 @@
+task_id: Adapt_018
+steps:
+- action_type: open
+  primary_object_id: wooden_cabinet_1_top_region
+  target_object_id: wooden_cabinet_1_top_region
+  source_task_id: 10
+  source_task_description: Open the top drawer of the wooden cabinet
+  source_subtask_index: 1
+legacy_task_id: ADVCN19_001

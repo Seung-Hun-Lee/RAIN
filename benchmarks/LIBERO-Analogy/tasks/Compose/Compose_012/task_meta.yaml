@@ -1,0 +1,309 @@
+task_id: Compose_012
+task_name: Put the tomato sauce in the basket, then put the white mug on the plate
+language: Put the tomato sauce in the basket, then put the white mug on the plate
+primary_category: Composition
+composition_family: long_basket_cup_pudding_mix
+anchor_suite: libero_10
+source_prior_task_ids: []
+source_priors:
+- suite: libero_10
+  task_stem: LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket
+  instruction: put both the alphabet soup and the tomato sauce in the basket
+  bddl: source://LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket.bddl
+  init: source://LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket.pruned_init
+  evidence: ''
+- suite: libero_10
+  task_stem: LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate
+  instruction: put the white mug on the plate and put the chocolate pudding to the
+    right of the plate
+  bddl: source://LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate.bddl
+  init: source://LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate.pruned_init
+  evidence: ''
+component_task_instructions:
+- Put the tomato sauce in the basket
+- Put the white mug on the plate
+component_evidence:
+- 'Original basket_scene2_soup_tomato: object-specific grasp/release segments 3/4.
+  Exact original robot-frame object and destination poses; no identity transfer or
+  arbitrary XY shift.'
+- 'Original pudding: object-specific grasp/release segments 1/2. Exact original robot-frame
+  object and destination poses; no identity transfer or arbitrary XY shift.'
+semantic_subtask_count: 2
+action_plan_step_count: 4
+canonical_goal_atoms:
+- in(tomato_sauce_1, basket_1_contain_region)
+- on(porcelain_mug_1, plate_3)
+canonical_task_signature: composition|e14e944b25d879e52ab78061fb69059016fee8d29bba9d7209b97278ec36adb9|frozenset({in(tomato_sauce_1,basket_1_contain_region),on(porcelain_mug_1,plate_3)})
+objects_of_interest:
+- tomato_sauce_1
+- basket_1_contain_region
+- porcelain_mug_1
+- plate_3
+pure_composition: true
+requires_transition: true
+sequence_stages:
+- - in(tomato_sauce_1, basket_1_contain_region)
+- - in(tomato_sauce_1, basket_1_contain_region)
+  - on(porcelain_mug_1, plate_3)
+physical_group: basket_scene2_soup_tomato__basket_scene2_soup_tomato__tomato_sauce_1__cup_center
+base_bddl_template: source://LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket.bddl
+base_pruned_init: source://LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket.pruned_init
+max_steps: 1600
+notes:
+- Only original learned pickup object identities and poses, and exact corresponding
+  original target poses are combined.
+- All participating sources use the identical living_room_table workspace and robot
+  frame; no arbitrary XY/rotation/support translation.
+- Every source comparison and the new comparison use the actual evaluator10wait pose.
+- Non-required anchor distractors are removed only where their conservative collision
+  bounds overlap a required donor asset across original states0–4.
+- Exact original end-effector trajectories are not replayed; donor object/target poses
+  and recorded action semantics are the provenance claim.
+anchor_source_key: basket_scene2_soup_tomato
+required_asset_donors:
+  tomato_sauce_1:
+    source_key: basket_scene2_soup_tomato
+    source_object: tomato_sauce_1
+  basket_1:
+    source_key: basket_scene2_soup_tomato
+    source_object: basket_1
+  porcelain_mug_1:
+    source_key: pudding
+    source_object: porcelain_mug_1
+  plate_3:
+    source_key: pudding
+    source_object: plate_1
+removed_distractors:
+- alphabet_soup_1
+- butter_1
+- milk_1
+removed_distractor_evidence:
+  alphabet_soup_1:
+  - index: 0
+    phase: pre_wait
+    objects:
+    - alphabet_soup_1
+    - porcelain_mug_1
+    aabb_overlap_m:
+    - 0.06242931347664327
+    - 0.0623979100907935
+    - 0.015210000000000001
+    sources:
+    - basket_scene2_soup_tomato
+    - pudding
+  - index: 0
+    phase: post_wait
+    objects:
+    - alphabet_soup_1
+    - porcelain_mug_1
+    aabb_overlap_m:
+    - 0.06293034425242386
+    - 0.06247352476021757
+    - 0.0762134338420542
+    sources:
+    - basket_scene2_soup_tomato
+    - pudding
+  - index: 1
+    phase: pre_wait
+    objects:
+    - alphabet_soup_1
+    - porcelain_mug_1
+    aabb_overlap_m:
+    - 0.06021823801419371
+    - 0.0623979100907935
+    - 0.015210000000000001
+    sources:
+    - basket_scene2_soup_tomato
+    - pudding
+  - index: 1
+    phase: post_wait
+    objects:
+    - alphabet_soup_1
+    - porcelain_mug_1
+    aabb_overlap_m:
+    - 0.06293034425242407
+    - 0.06247352476021767
+    - 0.0762134338420542
+    sources:
+    - basket_scene2_soup_tomato
+    - pudding
+  - index: 2
+    phase: pre_wait
+    objects:
+    - alphabet_soup_1
+    - porcelain_mug_1
+    aabb_overlap_m:
+    - 0.05590366779442074
+    - 0.0623979100907935
+    - 0.015210000000000001
+    sources:
+    - basket_scene2_soup_tomato
+    - pudding
+  - index: 2
+    phase: post_wait
+    objects:
+    - alphabet_soup_1
+    - porcelain_mug_1
+    aabb_overlap_m:
+    - 0.04797392905388756
+    - 0.062473524760217475
+    - 0.07621343384205409
+    sources:
+    - basket_scene2_soup_tomato
+    - pudding
+  - index: 3
+    phase: pre_wait
+    objects:
+    - alphabet_soup_1
+    - porcelain_mug_1
+    aabb_overlap_m:
+    - 0.062429313476643294
+    - 0.06054130300103813
+    - 0.015210000000000001
+    sources:
+    - basket_scene2_soup_tomato
+    - pudding
+  - index: 3
+    phase: post_wait
+    objects:
+    - alphabet_soup_1
+    - porcelain_mug_1
+    aabb_overlap_m:
+    - 0.06293034425242358
+    - 0.06247352476021728
+    - 0.07621343384205409
+    sources:
+    - basket_scene2_soup_tomato
+    - pudding
+  - index: 4
+    phase: pre_wait
+    objects:
+    - alphabet_soup_1
+    - porcelain_mug_1
+    aabb_overlap_m:
+    - 0.04655150223788691
+    - 0.04959284454195104
+    - 0.015210000000000001
+    sources:
+    - basket_scene2_soup_tomato
+    - pudding
+  - index: 4
+    phase: post_wait
+    objects:
+    - alphabet_soup_1
+    - porcelain_mug_1
+    aabb_overlap_m:
+    - 0.03862176349735408
+    - 0.051685854763809325
+    - 0.07621343384205409
+    sources:
+    - basket_scene2_soup_tomato
+    - pudding
+  butter_1:
+  - index: 0
+    phase: post_wait
+    objects:
+    - butter_1
+    - plate_3
+    aabb_overlap_m:
+    - 0.028588167081357946
+    - 0.03954
+    - 0.01741999999999999
+    sources:
+    - basket_scene2_soup_tomato
+    - pudding
+  - index: 1
+    phase: post_wait
+    objects:
+    - butter_1
+    - plate_3
+    aabb_overlap_m:
+    - 0.0024707361646593984
+    - 0.039540000000000006
+    - 0.01741999999999999
+    sources:
+    - basket_scene2_soup_tomato
+    - pudding
+  - index: 2
+    phase: post_wait
+    objects:
+    - butter_1
+    - plate_3
+    aabb_overlap_m:
+    - 0.004354762521287858
+    - 0.039540000000000006
+    - 0.01741999999999999
+    sources:
+    - basket_scene2_soup_tomato
+    - pudding
+  - index: 3
+    phase: post_wait
+    objects:
+    - butter_1
+    - plate_3
+    aabb_overlap_m:
+    - 0.010976735316567537
+    - 0.03575520860847794
+    - 0.01741999999999999
+    sources:
+    - basket_scene2_soup_tomato
+    - pudding
+  - index: 4
+    phase: post_wait
+    objects:
+    - butter_1
+    - plate_3
+    aabb_overlap_m:
+    - 0.048617688948067866
+    - 0.039540000000000006
+    - 0.01741999999999999
+    sources:
+    - basket_scene2_soup_tomato
+    - pudding
+  milk_1:
+  - index: 4
+    phase: pre_wait
+    objects:
+    - milk_1
+    - plate_3
+    aabb_overlap_m:
+    - 0.036624846351447055
+    - 0.01476660265647467
+    - 0.01894636973086461
+    sources:
+    - basket_scene2_soup_tomato
+    - pudding
+ordered_event_atoms:
+- in(tomato_sauce_1, basket_1_contain_region)
+- on(porcelain_mug_1, plate_3)
+original_source_state_indices:
+- 0
+- 1
+- 2
+- 3
+- 4
+layout_allow_resampling: false
+source_original_atomic_keys:
+- basket_scene2_soup_tomato__tomato_sauce_1
+- cup_center
+original_pose_claim: Exact original source object/target robot-frame poses after identical
+  evaluator10wait; not identical EE trajectory
+required_init_predicates: []
+user_group: 2
+ordered_task_signature: c8b31e2d1f16bcec270af3fd875920e7dd5d85e546b3cd60f97853777c263ae5
+fixture_replay_required: true
+fixture_replay_file: FIXTURE_REPLAY.json
+layout_review_only: false
+requested_group: 2
+source_review_ids:
+- LIBERO_10_01
+- LIBERO_10_07
+source_numeric_id_scope: Policy uses the explicit original source task description
+  and original subtask index. source_task_id0 deliberately avoids mixing training
+  task_index with review numbering.
+original_pose_fidelity_max_m: 3.83026943495679e-15
+rollout_success_protocol: Strict rising-edge semantic order at every control step
+  AND native final conjunction; unchanged TC>0.7 twice, replan8
+legacy_task_id: LBCM_003
+collection_category: Compose
+category_order: 12

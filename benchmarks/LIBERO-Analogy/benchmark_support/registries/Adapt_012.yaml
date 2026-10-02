@@ -1,0 +1,16 @@
+name: Adapt_012
+language: Pick the tomato sauce and place it in the basket
+problem: Libero
+problem_folder: tasks/Adapt/Adapt_012
+bddl_file: task.bddl
+init_states_file: task.pruned_init
+category: OG-TOU-DTSL
+anchor_suite: libero_object
+metadata_file: ../../tasks/Adapt/Adapt_012/task_meta.yaml
+eval_rules_file: ../../tasks/Adapt/Adapt_012/eval_rules.yaml
+canonical_task_signature: libero_object_pick_up_the_butter_and_place_it_in_the_basket|condition=different_target_same_original_layout|goal_target=tomato_sauce_1|initial_region=floor_other_object_region_0
+eval_category: Object
+source_benchmark: ObjectGroundingTargetObjectUnderstanding
+position_condition: seen_target_interaction_region
+collection_category: Adapt
+legacy_task_id: OGDTSL_011

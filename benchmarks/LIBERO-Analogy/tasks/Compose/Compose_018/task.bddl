@@ -1,0 +1,51 @@
+(define (problem LIBERO_Floor_Manipulation)
+  (:domain robosuite)
+  (:language Pick the alphabet soup and place it in the left compartment of the bowl drainer, then pick the tomato sauce and place it in the right compartment of the bowl drainer)
+  (:regions
+      (bin_region
+          (:target floor)
+          (:ranges ((-0.01 0.24471 0.01 0.26471)))
+      )
+      (right_object_start_region
+          (:target floor)
+          (:ranges ((-0.145 -0.265 -0.095 -0.215)))
+      )
+      (left_object_start_region
+          (:target floor)
+          (:ranges ((0.025 -0.125 0.075 -0.075)))
+      )
+      (left_region
+          (:target bowl_drainer_1)
+      )
+      (right_region
+          (:target bowl_drainer_1)
+      )
+  )
+
+  (:fixtures
+    floor - floor
+    bowl_drainer_1 - bowl_drainer
+  )
+
+  (:objects
+    alphabet_soup_1 - alphabet_soup
+    tomato_sauce_1 - tomato_sauce
+  )
+
+  (:obj_of_interest
+    alphabet_soup_1
+    bowl_drainer_1_right_region
+    tomato_sauce_1
+    bowl_drainer_1_left_region
+  )
+
+  (:init
+    (On alphabet_soup_1 floor_right_object_start_region)
+    (On tomato_sauce_1 floor_left_object_start_region)
+    (On bowl_drainer_1 floor_bin_region)
+  )
+
+  (:goal
+    (And (In alphabet_soup_1 bowl_drainer_1_right_region) (In tomato_sauce_1 bowl_drainer_1_left_region))
+  )
+)

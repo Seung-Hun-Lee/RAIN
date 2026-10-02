@@ -1,0 +1,33 @@
+task_id: Adapt_005
+task_name: Close the middle drawer of the white cabinet
+language: Close the middle drawer of the white cabinet
+primary_category: Analogy
+analogy_family: E2_sibling_part_or_compartment
+anchor_suite: libero_10
+source_prior_task_ids:
+- 103
+source_prior_task_stem: KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it
+source_prior_description: put the black bowl in the bottom drawer of the cabinet and
+  close it
+canonical_goal_atoms:
+- close(white_cabinet_1_middle_region)
+canonical_task_signature: analogy|E2_sibling_part_or_compartment|white_close_middle|close(white_cabinet_1_middle_region)
+objects_of_interest:
+- white_cabinet_1_middle_region
+held_fixed:
+- white cabinet pose/type
+- target initialized open
+- bowl and wine bottle remain in their authored table regions
+varied:
+- transfer learned bottom-drawer closing to the middle sibling
+single_semantic_goal: true
+physical_group: white_close_middle
+base_bddl_template: source://KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it.bddl
+base_pruned_init: source://KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it.pruned_init
+notes:
+- Close-only scoring requires the bowl and wine bottle to remain in their authored
+  table regions and rejects either object entering the middle drawer.
+- The bowl and wine bottle remain scene context; they are not additional task steps.
+legacy_task_id: ANLGX_023
+collection_category: Adapt
+category_order: 5

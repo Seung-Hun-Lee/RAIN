@@ -1,0 +1,15 @@
+name: Compose_009
+language: Put the milk in the basket, and then put the cream cheese box in the basket
+problem: Libero
+problem_folder: tasks/Compose/Compose_009
+bddl_file: task.bddl
+init_states_file: task.pruned_init
+category: Composition
+anchor_suite: libero_object
+metadata_file: ../../tasks/Compose/Compose_009/task_meta.yaml
+eval_rules_file: ../../tasks/Compose/Compose_009/eval_rules.yaml
+mask_bindings_file: ../../Compose/Compose_009/mask_bindings.yaml
+action_plan_file: ../../Compose/Compose_009/action_plan.yaml
+canonical_task_signature: composition|7ba9d10e19350f9437b0f4a1a731b59d62e13a2cbbb5e813673656da0d2f6b1e|frozenset({in(cream_cheese_1,basket_1_contain_region),in(milk_1,basket_1_contain_region)})
+collection_category: Compose
+legacy_task_id: COMP2_303

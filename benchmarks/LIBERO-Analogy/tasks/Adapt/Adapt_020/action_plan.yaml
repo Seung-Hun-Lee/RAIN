@@ -1,0 +1,13 @@
+task_id: Adapt_020
+steps:
+- action_type: grasp
+  primary_object_id: ketchup_1
+  target_object_id: ketchup_1
+  source_task_id: null
+  source_task_description: Put the ketchup on the rack.
+- action_type: release
+  primary_object_id: ketchup_1
+  target_object_id: wine_rack_1_adapt_top_region
+  source_task_id: null
+  source_task_description: Put the ketchup on the rack.
+legacy_task_id: GRACK_002

@@ -1,0 +1,75 @@
+task_id: Adapt_011
+global_task_index: LIBERO_EX_040
+task_name: Pick the orange juice and place it in the basket
+language: Pick the orange juice and place it in the basket
+primary_category: OG-TOU-POS
+anchor_suite: libero_object
+condition: condition_2_seen_target_position_swap_same_target
+pair_role: position_swap_probe
+comparison_pair_id: OBJPAIR_010
+control_task_id: OGTC_010
+source_legacy_task_id: OGTOBJI_096
+source_prior_task_stem: pick_up_the_orange_juice_and_place_it_in_the_basket
+source_target_object: orange_juice_1
+source_target_object_type: orange_juice
+swap_partner_object: butter_1
+swap_partner_object_type: butter
+target_initial_region: floor_other_object_region_0
+swap_partner_initial_region: floor_target_object_region
+objects_of_interest:
+- orange_juice_1
+- basket_1
+canonical_goal_atoms:
+- in(orange_juice_1, basket_1_contain_region)
+canonical_task_signature: libero_object_pick_up_the_orange_juice_and_place_it_in_the_basket|target=orange_juice_1|swap_partner=butter_1|condition=seen_target_position_swap
+seen_position_evidence:
+  source_target_region_ranges:
+  - 0.025
+  - -0.125
+  - 0.075
+  - -0.075
+  source_target_region_center:
+  - 0.05
+  - -0.1
+  destination_target_region_ranges:
+  - -0.145
+  - -0.265
+  - -0.095
+  - -0.215
+  destination_target_region_center:
+  - -0.12
+  - -0.24
+  destination_seen_in_original_libero_object_tasks:
+  - pick_up_the_alphabet_soup_and_place_it_in_the_basket
+  - pick_up_the_butter_and_place_it_in_the_basket
+  - pick_up_the_chocolate_pudding_and_place_it_in_the_basket
+  - pick_up_the_ketchup_and_place_it_in_the_basket
+  - pick_up_the_milk_and_place_it_in_the_basket
+  all_original_libero_object_target_position_count: 2
+held_fixed:
+- original LIBERO-Object instruction and target identity
+- object set, region geometry, basket pose, and goal receptacle
+- all non-paired object poses
+varied:
+- swap initial pose roles of orange_juice_1 and butter_1
+- move target only to another original LIBERO-Object target-interaction region
+position_swap:
+  orange_juice_1:
+    from: floor_target_object_region
+    to: floor_other_object_region_0
+  butter_1:
+    from: floor_other_object_region_0
+    to: floor_target_object_region
+legacy_bddl_provenance: source://task.bddl
+legacy_pruned_init_provenance: source://task.pruned_init
+category_task_index: OGTOU_013
+eval_category: Object
+source_benchmark: ObjectGroundingTargetObjectUnderstanding
+recorded_successes: 26
+recorded_episodes: 50
+recorded_sr_percent: 52.0
+recorded_result_path: source://VLM_evaluation/results/rain_ms_maskaug_gt_libero_final_obj_top4_50ep_20260831/aggregate.json
+selection_status: selected_in_LiberoExReFinal
+legacy_task_id: OGTS_010
+collection_category: Adapt
+category_order: 11

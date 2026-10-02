@@ -1,0 +1,33 @@
+task_id: Decompose_004
+task_name: Put the chocolate pudding to the right of the plate
+language: Put the chocolate pudding to the right of the plate
+primary_category: TD
+anchor_suite: libero_10
+source_prior_description: Put the white mug on the plate and put the chocolate pudding
+  to the right of the plate
+new_test_task_description: Put the chocolate pudding to the right of the plate
+scene_family: libero_10_living_room_scene6
+objects_of_interest:
+- chocolate_pudding_1
+- living_room_table_plate_right_region
+canonical_goal_atoms:
+- on(chocolate_pudding_1, living_room_table_plate_right_region)
+canonical_task_signature: libero_10_living_room_scene6|frozenset({on(chocolate_pudding_1,
+  living_room_table_plate_right_region)})
+held_fixed:
+- scene layout
+- fixtures
+- object set
+- init-state family
+varied:
+- goal subset
+why_this_category: Task Decomposition
+instruction_variants:
+- Put the chocolate pudding to the right of the plate
+source_prior_task_ids:
+- 106
+base_bddl_template: libero://bddl_files/libero_10/LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate.bddl
+base_pruned_init: libero://init_files/libero_10/LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate.pruned_init
+legacy_task_id: TDL10_004
+collection_category: Decompose
+category_order: 4

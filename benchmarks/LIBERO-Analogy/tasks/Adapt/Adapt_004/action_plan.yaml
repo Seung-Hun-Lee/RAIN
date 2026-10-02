@@ -1,0 +1,8 @@
+task_id: Adapt_004
+steps:
+- action_type: close
+  primary_object_id: white_cabinet_1_top_region
+  target_object_id: white_cabinet_1_top_region
+  source_task_id: 103
+  source_task_description: Close the top drawer of the white cabinet.
+legacy_task_id: ANLGX_022

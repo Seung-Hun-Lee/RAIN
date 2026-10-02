@@ -1,0 +1,13 @@
+task_id: Adapt_002
+steps:
+- action_type: grasp
+  primary_object_id: porcelain_mug_1
+  target_object_id: porcelain_mug_1
+  source_task_id: 104
+  source_task_description: Put the white mug on the right plate.
+- action_type: release
+  primary_object_id: porcelain_mug_1
+  target_object_id: plate_2
+  source_task_id: 104
+  source_task_description: Put the white mug on the right plate.
+legacy_task_id: ANLGX_003

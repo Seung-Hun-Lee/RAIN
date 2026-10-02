@@ -1,0 +1,31 @@
+task_id: Compose_005
+category: Composition
+required_goal_atoms:
+- on(moka_pot_2,flat_stove_1_cook_region)
+- close(microwave_1)
+forbidden_goal_atoms: []
+overshoot_policy: none
+order_sensitive: true
+continue_after_success: false
+requires_transition: true
+sequence_stages:
+- - on(moka_pot_2,flat_stove_1_cook_region)
+- - on(moka_pot_2,flat_stove_1_cook_region)
+  - close(microwave_1)
+custom_eval_needed: true
+ordered_event_atoms:
+- on(moka_pot_2,flat_stove_1_cook_region)
+- close(microwave_1)
+strict_event_order: true
+final_success_requires_all_bddl_goals: true
+final_tc_gate: false
+microwave_close_direct_contact_required: true
+direct_contact_window_control_steps: 2
+runtime_contract_version: vcn21_runtime_contact_clearance_v3
+direct_contact_requires_active_constraint: true
+minimum_direct_contact_normal_force_n: 1.0e-06
+runtime_moka_door_sweep_clearance_required_at:
+- close_rising
+- final_bddl_success
+success_gate_participates_before_termination: true
+legacy_task_id: VCN21_001

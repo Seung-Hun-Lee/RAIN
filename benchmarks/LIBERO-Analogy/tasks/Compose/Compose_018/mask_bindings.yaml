@@ -1,0 +1,36 @@
+task_id: Compose_018
+policy: exact_active_stage_object_and_one_native_compartment_no_union
+bindings:
+- role: manipulated_object_1
+  kind: body_prefix
+  value: alphabet_soup_1_main
+  color: green
+  exact_instance: true
+- role: goal_target_1
+  kind: table_region
+  value: bowl_drainer_1_right_region
+  color: yellow
+  exact_instance: true
+- role: manipulated_object_2
+  kind: body_prefix
+  value: tomato_sauce_1_main
+  color: green
+  exact_instance: true
+- role: goal_target_2
+  kind: table_region
+  value: bowl_drainer_1_left_region
+  color: yellow
+  exact_instance: true
+runtime_requirements:
+  resolve_by_current_sim_model: true
+  allow_source_episode_json_fallback: false
+  new_instance_support: false
+  region_projection_from_current_bddl: true
+stage_masks:
+- stage: 1
+  object: alphabet_soup_1
+  region: bowl_drainer_1_right_region
+- stage: 2
+  object: tomato_sauce_1
+  region: bowl_drainer_1_left_region
+legacy_task_id: BDRMIN_002

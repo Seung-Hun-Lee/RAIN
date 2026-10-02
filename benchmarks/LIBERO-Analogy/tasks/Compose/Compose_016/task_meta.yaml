@@ -1,0 +1,98 @@
+task_id: Compose_016
+task_name: Put the ramekin in the basket, then put the alphabet soup on the right
+  plate
+language: Put the ramekin in the basket, then put the alphabet soup on the right plate
+primary_category: Composition
+composition_family: round_to_basket_then_cylinder_to_plate
+anchor_suite: libero_10_living_room_tabletop_cross_shape
+source_prior_task_ids:
+- '301'
+source_priors:
+- suite: living_room_tabletop_adapt_evaluated
+  task_stem: task
+  instruction: Pick up the ramekin and place it in the wooden tray.
+  bddl: source://LIBERO_EX_ICRA27/LiberoWoodenTrayObjectChoicesReachable/tasks/wtrayr_005__pick_up_the_ramekin_and_place_it_in_the_wooden_tray/task.bddl
+  init: source://LIBERO_EX_ICRA27/LiberoWoodenTrayObjectChoicesReachable/tasks/wtrayr_005__pick_up_the_ramekin_and_place_it_in_the_wooden_tray/task.pruned_init
+  evidence: WTRAYR_005 exact living-room-table ramekin pickup evaluated 1/5; ANLGX_088
+    supports identity pickup at 5/5
+- suite: libero_10_composed_evaluated
+  task_stem: task
+  instruction: Put the tomato sauce in the basket, then put the white mug on the plate.
+  bddl: source://LIBERO_EX_ICRA27/LiberoUserTasks/LongBasketCupPuddingMix20260905/tasks/lbcm_003__put_the_tomato_sauce_in_the_basket_then_put_the_white_mug_on_the_plate/task.bddl
+  init: source://LIBERO_EX_ICRA27/LiberoUserTasks/LongBasketCupPuddingMix20260905/tasks/lbcm_003__put_the_tomato_sauce_in_the_basket_then_put_the_white_mug_on_the_plate/task.pruned_init
+  evidence: Compose_012 exact tabletop basket body pose; geometry 5/5
+- suite: libero_10_adapt_evaluated
+  task_stem: task
+  instruction: Put the alphabet soup on the right front plate.
+  bddl: source://LIBERO_EX_ICRA27/LiberoAdapt/tasks/adapt_088__put_the_alphabet_soup_on_the_right_front_plate/task.bddl
+  init: source://LIBERO_EX_ICRA27/LiberoAdapt/tasks/adapt_088__put_the_alphabet_soup_on_the_right_front_plate/task.pruned_init
+  evidence: ADAPT_088 cylinder-to-right-plate evaluated 4/5
+component_task_instructions:
+- Put the ramekin in the basket
+- put the alphabet soup on the right plate
+component_evidence:
+- The identity pickup and tabletop basket target are exact evaluated/official donors;
+  their cross-target binding is new.
+- ADAPT_088 cylinder-to-right-plate evaluated 4/5
+semantic_subtask_count: 2
+action_plan_step_count: 4
+canonical_goal_atoms:
+- in(glazed_rim_porcelain_ramekin_1,basket_1_contain_region)
+- on(alphabet_soup_1,plate_2)
+canonical_task_signature: composition|c289ae2a22444d3458dbbcfcf00d6f7b7d2eadf194c1c6630198999437b72e3c|frozenset({in(glazed_rim_porcelain_ramekin_1,basket_1_contain_region),on(alphabet_soup_1,plate_2)})
+objects_of_interest:
+- glazed_rim_porcelain_ramekin_1
+- basket_1
+- alphabet_soup_1
+- plate_2
+pure_composition: false
+requires_transition: true
+sequence_stages:
+- - in(glazed_rim_porcelain_ramekin_1,basket_1_contain_region)
+- - in(glazed_rim_porcelain_ramekin_1,basket_1_contain_region)
+  - on(alphabet_soup_1,plate_2)
+physical_group: soup_right_plus_ramekin_basket
+base_bddl_template: source://LIBERO_EX_ICRA27/LiberoAdapt/tasks/adapt_088__put_the_alphabet_soup_on_the_right_front_plate/task.bddl
+base_pruned_init: source://LIBERO_EX_ICRA27/LiberoAdapt/tasks/adapt_088__put_the_alphabet_soup_on_the_right_front_plate/task.pruned_init
+max_steps: 1600
+notes:
+- WTRAYR_005 provides the exact living-room-table ramekin pickup (with ANLGX_088 identity
+  evidence); ADAPT_088 preserves the 4/5 soup pickup/right-plate binding.
+- Every interacted object keeps its identity-specific official/evaluated pickup transform;
+  basket and plate keep exact evaluated target transforms.
+- All state-i entities are copied in the robot-base frame with zero deliberate offset;
+  BDDL reset regions are not pose authority.
+- The red coffee mug is removed only in ramekin scenes because attempt1 state 0 recorded
+  0.883–5.203 mm direct MuJoCo penetration with the exact ramekin donor pose.
+- Strict two ordered native rising events and every final BDDL predicate are required;
+  Compose completion has no final TC gate.
+- A later action must preserve the earlier relation.
+validation_version: batch35_shape_cross_target_exact_same_index_v1
+runtime_contract_version: batch35_two_ordered_native_rises_final_bddl_no_tc_v1
+ordered_event_atoms:
+- in(glazed_rim_porcelain_ramekin_1,basket_1_contain_region)
+- on(alphabet_soup_1,plate_2)
+strict_event_order: true
+custom_eval_needed: true
+final_success_requires_all_bddl_goals: true
+compose_final_tc_gate: false
+final_tc_gate: false
+environment_ignore_done: true
+same_index_robot_frame_transfer: true
+arbitrary_coordinate_offsets: false
+support_only_z_correction: false
+source_state_indices:
+- 0
+- 1
+- 2
+- 3
+- 4
+distractors_removed:
+- red_coffee_mug_1
+distractor_removal_evidence: attempt1_same_index_before_blocker_removal/physical_screen/soup_right_plus_ramekin_basket/INIT_VALIDATION.json
+downstream_preservation_required: true
+physical_screen_report_sha256: 74d2777ab730293cc294b2197da4c8a25f84a24e2912d18ec59a16ec142e2431
+ordered_task_signature: 1bfbd011cfa11e8ffc7965a596afff71aaf65eab58a3f06f24a8564fe45014db
+legacy_task_id: VCN35_004
+collection_category: Compose
+category_order: 16

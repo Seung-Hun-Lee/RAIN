@@ -1,0 +1,15 @@
+name: Compose_016
+language: Put the ramekin in the basket, then put the alphabet soup on the right plate
+problem: Libero
+problem_folder: tasks/Compose/Compose_016
+bddl_file: task.bddl
+init_states_file: task.pruned_init
+category: Composition
+anchor_suite: libero_10_living_room_tabletop_cross_shape
+metadata_file: task_meta.yaml
+eval_rules_file: eval_rules.yaml
+mask_bindings_file: mask_bindings.yaml
+action_plan_file: action_plan.yaml
+canonical_task_signature: composition|c289ae2a22444d3458dbbcfcf00d6f7b7d2eadf194c1c6630198999437b72e3c|frozenset({in(glazed_rim_porcelain_ramekin_1,basket_1_contain_region),on(alphabet_soup_1,plate_2)})
+legacy_task_id: VCN35_004
+collection_category: Compose

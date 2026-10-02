@@ -1,0 +1,22 @@
+task_id: Compose_014
+steps:
+- action_type: grasp
+  primary_object_id: moka_pot_2
+  target_object_id: moka_pot_2
+  source_task_id: 0
+  source_task_description: put both moka pots on the stove
+  source_subtask_index: 1
+- action_type: release
+  primary_object_id: moka_pot_2
+  target_object_id: flat_stove_1_cook_region
+  source_task_id: 0
+  source_task_description: put both moka pots on the stove
+  source_subtask_index: 2
+- action_type: close
+  primary_object_id: white_cabinet_1_bottom_region
+  target_object_id: white_cabinet_1_bottom_region
+  source_task_id: 0
+  source_task_description: put the black bowl in the bottom drawer of the cabinet
+    and close it
+  source_subtask_index: 3
+legacy_task_id: MKDC_001

@@ -1,0 +1,15 @@
+name: Compose_004
+language: Open the top drawer of the wooden cabinet, then put the ramekin on the plate
+problem: Libero
+problem_folder: tasks/Compose/Compose_004
+bddl_file: task.bddl
+init_states_file: task.pruned_init
+category: Composition
+anchor_suite: libero_spatial
+metadata_file: task_meta.yaml
+eval_rules_file: eval_rules.yaml
+mask_bindings_file: mask_bindings.yaml
+action_plan_file: action_plan.yaml
+canonical_task_signature: composition|e0c225daf2f3563f6c1a3c0c9f2097b8e5470a561aa4fceb3f0b24481854aaeb|frozenset({on(glazed_rim_porcelain_ramekin_1,plate_1),open(wooden_cabinet_1_top_region)})
+legacy_task_id: VCN19_020
+collection_category: Compose

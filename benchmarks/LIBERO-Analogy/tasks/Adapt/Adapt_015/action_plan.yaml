@@ -1,0 +1,13 @@
+task_id: Adapt_015
+steps:
+- action_type: grasp
+  primary_object_id: yellow_book_1
+  target_object_id: yellow_book_1
+  source_task_id: null
+  source_task_description: Put the yellow book on top of the two-layer wooden shelf.
+- action_type: release
+  primary_object_id: yellow_book_1
+  target_object_id: wooden_two_layer_shelf_1_feedback_roof_region
+  source_task_id: null
+  source_task_description: Put the yellow book on top of the two-layer wooden shelf.
+legacy_task_id: NAFR3_002

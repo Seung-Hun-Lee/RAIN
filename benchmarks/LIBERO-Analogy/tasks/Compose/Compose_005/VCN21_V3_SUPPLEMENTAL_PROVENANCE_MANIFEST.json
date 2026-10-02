@@ -1,0 +1,13 @@
+{
+  "artifacts": [
+    {
+      "name": "benchmark_microwave_sweep_evidence",
+      "sha256": "d1e9e3fe61dfe43c56df2405b80eb5adfd369d3734d1a73d40479672bc2585ce",
+      "path": "MICROWAVE_SWEEP_EVIDENCE.json"
+    },
+    {
+      "name": "v3_evaluator_entrypoint",
+      "sha256": "27b6d8a54afad9802b52afde27f6032321a3847297d0a8a098f6e4dc5b52b1f0"
+    }
+  ]
+}

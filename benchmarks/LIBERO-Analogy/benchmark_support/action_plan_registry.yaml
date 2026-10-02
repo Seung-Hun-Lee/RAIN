@@ -1,0 +1,746 @@
+action_plans:
+  Decompose_015:
+  - action_type: turn_on
+    primary_object_id: flat_stove_1
+    target_object_id: flat_stove_1
+    source_task_id: 102
+    source_task_description: Turn on the stove and put the moka pot on it
+    source_subtask_index: 1
+  Decompose_016:
+  - action_type: grasp
+    primary_object_id: akita_black_bowl_1
+    target_object_id: akita_black_bowl_1
+    source_task_id: 103
+    source_task_description: Put the black bowl in the bottom drawer of the cabinet
+      and close it
+    source_subtask_index: 1
+  - action_type: release
+    primary_object_id: akita_black_bowl_1
+    target_object_id: white_cabinet_1_bottom_region
+    source_task_id: 103
+    source_task_description: Put the black bowl in the bottom drawer of the cabinet
+      and close it
+    source_subtask_index: 2
+  Decompose_017:
+  - action_type: grasp
+    primary_object_id: moka_pot_2
+    target_object_id: moka_pot_2
+    source_task_id: 105
+    source_task_description: Put both moka pots on the stove
+    source_subtask_index: 1
+  - action_type: release
+    primary_object_id: moka_pot_2
+    target_object_id: flat_stove_1_cook_region
+    source_task_id: 105
+    source_task_description: Put both moka pots on the stove
+    source_subtask_index: 2
+  Decompose_018:
+  - action_type: grasp
+    primary_object_id: moka_pot_1
+    target_object_id: moka_pot_1
+    source_task_id: 105
+    source_task_description: Put both moka pots on the stove
+    source_subtask_index: 1
+  - action_type: release
+    primary_object_id: moka_pot_1
+    target_object_id: flat_stove_1_cook_region
+    source_task_id: 105
+    source_task_description: Put both moka pots on the stove
+    source_subtask_index: 2
+  Decompose_019:
+  - action_type: open
+    primary_object_id: wooden_cabinet_1_top_region
+    target_object_id: wooden_cabinet_1_top_region
+    source_task_id: 3
+    source_task_description: Open the top layer of the drawer and put the bowl inside
+    source_subtask_index: 1
+  Decompose_020:
+  - action_type: grasp
+    primary_object_id: akita_black_bowl_1
+    target_object_id: akita_black_bowl_1
+    source_task_id: 3
+    source_task_description: Open the top layer of the drawer and put the bowl inside
+    source_subtask_index: 2
+  - action_type: release
+    primary_object_id: akita_black_bowl_1
+    target_object_id: wooden_cabinet_1_top_region
+    source_task_id: 3
+    source_task_description: Open the top layer of the drawer and put the bowl inside
+    source_subtask_index: 3
+  Adapt_001:
+  - action_type: grasp
+    primary_object_id: porcelain_mug_1
+    target_object_id: porcelain_mug_1
+    source_task_id: 104
+    source_task_description: Put the white mug on the middle plate.
+  - action_type: release
+    primary_object_id: porcelain_mug_1
+    target_object_id: plate_3
+    source_task_id: 104
+    source_task_description: Put the white mug on the middle plate.
+  Adapt_002:
+  - action_type: grasp
+    primary_object_id: porcelain_mug_1
+    target_object_id: porcelain_mug_1
+    source_task_id: 104
+    source_task_description: Put the white mug on the right plate.
+  - action_type: release
+    primary_object_id: porcelain_mug_1
+    target_object_id: plate_2
+    source_task_id: 104
+    source_task_description: Put the white mug on the right plate.
+  Adapt_003:
+  - action_type: grasp
+    primary_object_id: akita_black_bowl_1
+    target_object_id: akita_black_bowl_1
+    source_task_id: 103
+    source_task_description: Put the black bowl in the middle drawer of the white
+      cabinet.
+  - action_type: release
+    primary_object_id: akita_black_bowl_1
+    target_object_id: white_cabinet_1_middle_region
+    source_task_id: 103
+    source_task_description: Put the black bowl in the middle drawer of the white
+      cabinet.
+  Adapt_004:
+  - action_type: close
+    primary_object_id: white_cabinet_1_top_region
+    target_object_id: white_cabinet_1_top_region
+    source_task_id: 103
+    source_task_description: Close the top drawer of the white cabinet.
+  Adapt_005:
+  - action_type: close
+    primary_object_id: white_cabinet_1_middle_region
+    target_object_id: white_cabinet_1_middle_region
+    source_task_id: 103
+    source_task_description: Close the middle drawer of the white cabinet.
+  Adapt_006:
+  - action_type: grasp
+    primary_object_id: wine_bottle_1
+    target_object_id: wine_bottle_1
+    source_task_id: 5
+    source_task_description: Pick up the wine bottle at the table center and place
+      it on the plate.
+  - action_type: release
+    primary_object_id: wine_bottle_1
+    target_object_id: plate_1
+    source_task_id: 5
+    source_task_description: Pick up the wine bottle at the table center and place
+      it on the plate.
+  Adapt_007:
+  - action_type: grasp
+    primary_object_id: plate_1
+    target_object_id: plate_1
+    source_task_id: 1
+    source_task_description: Put the plate on the top of the wooden cabinet.
+  - action_type: release
+    primary_object_id: plate_1
+    target_object_id: wooden_cabinet_1_top_side
+    source_task_id: 1
+    source_task_description: Put the plate on the top of the wooden cabinet.
+  Adapt_008:
+  - action_type: grasp
+    primary_object_id: cream_cheese_1
+    target_object_id: cream_cheese_1
+    source_task_id: 4
+    source_task_description: Put the cream cheese in the top drawer of the wooden
+      cabinet.
+  - action_type: release
+    primary_object_id: cream_cheese_1
+    target_object_id: wooden_cabinet_1_top_region
+    source_task_id: 4
+    source_task_description: Put the cream cheese in the top drawer of the wooden
+      cabinet.
+  Adapt_009:
+  - action_type: grasp
+    primary_object_id: white_yellow_mug_1
+    target_object_id: white_yellow_mug_1
+    source_task_id: 104
+    source_task_description: Put the yellow and white mug in the left compartment
+      of the caddy.
+  - action_type: release
+    primary_object_id: white_yellow_mug_1
+    target_object_id: desk_caddy_1_left_contain_region
+    source_task_id: 104
+    source_task_description: Put the yellow and white mug in the left compartment
+      of the caddy.
+  Compose_001:
+  - action_type: grasp
+    primary_object_id: chocolate_pudding_1
+    target_object_id: chocolate_pudding_1
+    source_task_id: 309
+    source_task_description: Put the chocolate pudding on the black bowl.
+  - action_type: release
+    primary_object_id: chocolate_pudding_1
+    target_object_id: akita_black_bowl_1
+    source_task_id: 309
+    source_task_description: Put the chocolate pudding on the black bowl.
+  - action_type: open
+    primary_object_id: wooden_cabinet_1_middle_region
+    target_object_id: wooden_cabinet_1_middle_region
+    source_task_id: 10
+    source_task_description: Open the middle layer of the drawer
+    source_subtask_index: 1
+  Compose_002:
+  - action_type: grasp
+    primary_object_id: cream_cheese_1
+    target_object_id: cream_cheese_1
+    source_task_id: 4
+    source_task_description: Put the cream cheese on the stove.
+  - action_type: release
+    primary_object_id: cream_cheese_1
+    target_object_id: flat_stove_1_cook_region
+    source_task_id: 4
+    source_task_description: Put the cream cheese on the stove.
+  - action_type: turn_on
+    primary_object_id: flat_stove_1
+    target_object_id: flat_stove_1
+    source_task_id: 7
+    source_task_description: Turn on the stove
+    source_subtask_index: 1
+  Compose_003:
+  - action_type: grasp
+    primary_object_id: cream_cheese_1
+    target_object_id: cream_cheese_1
+    source_task_id: 4
+    source_task_description: Put the cream cheese on the stove.
+  - action_type: release
+    primary_object_id: cream_cheese_1
+    target_object_id: flat_stove_1_cook_region
+    source_task_id: 4
+    source_task_description: Put the cream cheese on the stove.
+  - action_type: approach
+    primary_object_id: plate_1
+    target_object_id: plate_1
+    source_task_id: 6
+    source_task_description: Push the plate to the front of the stove
+    source_subtask_index: 1
+  - action_type: push
+    primary_object_id: plate_1
+    target_object_id: main_table_stove_front_region
+    source_task_id: 6
+    source_task_description: Push the plate to the front of the stove
+    source_subtask_index: 2
+  Compose_004:
+  - action_type: open
+    primary_object_id: wooden_cabinet_1_top_region
+    target_object_id: wooden_cabinet_1_top_region
+    source_task_id: 10
+    source_task_description: Open the top drawer of the wooden cabinet
+    source_subtask_index: 1
+  - action_type: grasp
+    primary_object_id: glazed_rim_porcelain_ramekin_1
+    target_object_id: glazed_rim_porcelain_ramekin_1
+    source_task_id: null
+    source_task_description: Put the ramekin on the plate
+    source_subtask_index: 1
+  - action_type: release
+    primary_object_id: glazed_rim_porcelain_ramekin_1
+    target_object_id: plate_1
+    source_task_id: null
+    source_task_description: Put the ramekin on the plate
+    source_subtask_index: 2
+  Compose_005:
+  - action_type: grasp
+    primary_object_id: moka_pot_2
+    target_object_id: moka_pot_2
+    source_task_id: 105
+    source_task_description: Put the moka pot on the stove
+    source_subtask_index: 1
+  - action_type: release
+    primary_object_id: moka_pot_2
+    target_object_id: flat_stove_1_cook_region
+    source_task_id: 105
+    source_task_description: Put the moka pot on the stove
+    source_subtask_index: 2
+  - action_type: close
+    primary_object_id: microwave_1
+    target_object_id: microwave_1
+    source_task_id: 109
+    source_task_description: Close the microwave door
+    source_subtask_index: 1
+  Compose_006:
+  - action_type: grasp
+    primary_object_id: butter_1
+    target_object_id: butter_1
+    source_task_id: 307
+    source_task_description: Pick the butter and place it in the basket
+    source_subtask_index: 1
+  - action_type: release
+    primary_object_id: butter_1
+    target_object_id: basket_1_contain_region
+    source_task_id: 307
+    source_task_description: Pick the butter and place it in the basket
+    source_subtask_index: 2
+  - action_type: grasp
+    primary_object_id: tomato_sauce_1
+    target_object_id: tomato_sauce_1
+    source_task_id: 306
+    source_task_description: Pick the tomato sauce and place it in the basket
+    source_subtask_index: 1
+  - action_type: release
+    primary_object_id: tomato_sauce_1
+    target_object_id: basket_1_contain_region
+    source_task_id: 306
+    source_task_description: Pick the tomato sauce and place it in the basket
+    source_subtask_index: 2
+  Compose_007:
+  - action_type: approach
+    primary_object_id: plate_1
+    target_object_id: plate_1
+    source_task_id: 6
+    source_task_description: Push the plate to the front of the stove
+    source_subtask_index: 1
+  - action_type: push
+    primary_object_id: plate_1
+    target_object_id: main_table_stove_front_region
+    source_task_id: 6
+    source_task_description: Push the plate to the front of the stove
+    source_subtask_index: 2
+  - action_type: open
+    primary_object_id: wooden_cabinet_1_middle_region
+    target_object_id: wooden_cabinet_1_middle_region
+    source_task_id: 10
+    source_task_description: Open the middle layer of the drawer
+    source_subtask_index: 1
+  Compose_008:
+  - action_type: grasp
+    primary_object_id: alphabet_soup_1
+    target_object_id: alphabet_soup_1
+    source_task_id: 301
+    source_task_description: Pick the alphabet soup and place it in the basket
+    source_subtask_index: 1
+  - action_type: release
+    primary_object_id: alphabet_soup_1
+    target_object_id: basket_1_contain_region
+    source_task_id: 301
+    source_task_description: Pick the alphabet soup and place it in the basket
+    source_subtask_index: 2
+  - action_type: grasp
+    primary_object_id: tomato_sauce_1
+    target_object_id: tomato_sauce_1
+    source_task_id: 306
+    source_task_description: Pick the tomato sauce and place it in the basket
+    source_subtask_index: 1
+  - action_type: release
+    primary_object_id: tomato_sauce_1
+    target_object_id: basket_1_contain_region
+    source_task_id: 306
+    source_task_description: Pick the tomato sauce and place it in the basket
+    source_subtask_index: 2
+  Compose_009:
+  - action_type: grasp
+    primary_object_id: milk_1
+    target_object_id: milk_1
+    source_task_id: 308
+    source_task_description: Pick the milk and place it in the basket
+    source_subtask_index: 1
+  - action_type: release
+    primary_object_id: milk_1
+    target_object_id: basket_1_contain_region
+    source_task_id: 308
+    source_task_description: Pick the milk and place it in the basket
+    source_subtask_index: 2
+  - action_type: grasp
+    primary_object_id: cream_cheese_1
+    target_object_id: cream_cheese_1
+    source_task_id: 302
+    source_task_description: Pick the cream cheese and place it in the basket
+    source_subtask_index: 1
+  - action_type: release
+    primary_object_id: cream_cheese_1
+    target_object_id: basket_1_contain_region
+    source_task_id: 302
+    source_task_description: Pick the cream cheese and place it in the basket
+    source_subtask_index: 2
+  Compose_010:
+  - action_type: grasp
+    primary_object_id: alphabet_soup_1
+    target_object_id: alphabet_soup_1
+    source_task_id: 301
+    source_task_description: Pick the alphabet soup and place it in the basket
+    source_subtask_index: 1
+  - action_type: release
+    primary_object_id: alphabet_soup_1
+    target_object_id: basket_1_contain_region
+    source_task_id: 301
+    source_task_description: Pick the alphabet soup and place it in the basket
+    source_subtask_index: 2
+  - action_type: grasp
+    primary_object_id: butter_1
+    target_object_id: butter_1
+    source_task_id: 307
+    source_task_description: Pick the butter and place it in the basket
+    source_subtask_index: 1
+  - action_type: release
+    primary_object_id: butter_1
+    target_object_id: basket_1_contain_region
+    source_task_id: 307
+    source_task_description: Pick the butter and place it in the basket
+    source_subtask_index: 2
+  - action_type: grasp
+    primary_object_id: tomato_sauce_1
+    target_object_id: tomato_sauce_1
+    source_task_id: 306
+    source_task_description: Pick the tomato sauce and place it in the basket
+    source_subtask_index: 1
+  - action_type: release
+    primary_object_id: tomato_sauce_1
+    target_object_id: basket_1_contain_region
+    source_task_id: 306
+    source_task_description: Pick the tomato sauce and place it in the basket
+    source_subtask_index: 2
+  Compose_011:
+  - action_type: grasp
+    primary_object_id: cream_cheese_1
+    target_object_id: cream_cheese_1
+    source_task_id: 4
+    source_task_description: Put the cream cheese on the bowl
+    source_subtask_index: 1
+  - action_type: release
+    primary_object_id: cream_cheese_1
+    target_object_id: akita_black_bowl_1
+    source_task_id: 4
+    source_task_description: Put the cream cheese on the bowl
+    source_subtask_index: 2
+  - action_type: approach
+    primary_object_id: plate_1
+    target_object_id: plate_1
+    source_task_id: 6
+    source_task_description: Push the plate to the front of the stove
+    source_subtask_index: 1
+  - action_type: push
+    primary_object_id: plate_1
+    target_object_id: main_table_stove_front_region
+    source_task_id: 6
+    source_task_description: Push the plate to the front of the stove
+    source_subtask_index: 2
+  Compose_012:
+  - action_type: grasp
+    primary_object_id: tomato_sauce_1
+    target_object_id: tomato_sauce_1
+    source_task_id: 0
+    source_task_description: put both the alphabet soup and the tomato sauce in the
+      basket
+    source_subtask_index: 3
+  - action_type: release
+    primary_object_id: tomato_sauce_1
+    target_object_id: basket_1_contain_region
+    source_task_id: 0
+    source_task_description: put both the alphabet soup and the tomato sauce in the
+      basket
+    source_subtask_index: 4
+  - action_type: grasp
+    primary_object_id: porcelain_mug_1
+    target_object_id: porcelain_mug_1
+    source_task_id: 0
+    source_task_description: put the white mug on the plate and put the chocolate
+      pudding to the right of the plate
+    source_subtask_index: 1
+  - action_type: release
+    primary_object_id: porcelain_mug_1
+    target_object_id: plate_3
+    source_task_id: 0
+    source_task_description: put the white mug on the plate and put the chocolate
+      pudding to the right of the plate
+    source_subtask_index: 2
+  Compose_013:
+  - action_type: grasp
+    primary_object_id: alphabet_soup_1
+    target_object_id: alphabet_soup_1
+    source_task_id: 0
+    source_task_description: put both the alphabet soup and the cream cheese box in
+      the basket
+    source_subtask_index: 1
+  - action_type: release
+    primary_object_id: alphabet_soup_1
+    target_object_id: basket_1_contain_region
+    source_task_id: 0
+    source_task_description: put both the alphabet soup and the cream cheese box in
+      the basket
+    source_subtask_index: 2
+  - action_type: grasp
+    primary_object_id: porcelain_mug_1
+    target_object_id: porcelain_mug_1
+    source_task_id: 0
+    source_task_description: put the white mug on the left plate and put the yellow
+      and white mug on the right plate
+    source_subtask_index: 1
+  - action_type: release
+    primary_object_id: porcelain_mug_1
+    target_object_id: plate_1
+    source_task_id: 0
+    source_task_description: put the white mug on the left plate and put the yellow
+      and white mug on the right plate
+    source_subtask_index: 2
+  - action_type: grasp
+    primary_object_id: cream_cheese_1
+    target_object_id: cream_cheese_1
+    source_task_id: 0
+    source_task_description: put both the alphabet soup and the cream cheese box in
+      the basket
+    source_subtask_index: 3
+  - action_type: release
+    primary_object_id: cream_cheese_1
+    target_object_id: basket_1_contain_region
+    source_task_id: 0
+    source_task_description: put both the alphabet soup and the cream cheese box in
+      the basket
+    source_subtask_index: 4
+  Adapt_014:
+  - action_type: grasp
+    primary_object_id: popcorn_1
+    target_object_id: popcorn_1
+    source_task_id: null
+    source_task_description: Put the popcorn on top of the short fridge.
+  - action_type: release
+    primary_object_id: popcorn_1
+    target_object_id: short_fridge_1_feedback_top_region
+    source_task_id: null
+    source_task_description: Put the popcorn on top of the short fridge.
+  Adapt_015:
+  - action_type: grasp
+    primary_object_id: yellow_book_1
+    target_object_id: yellow_book_1
+    source_task_id: null
+    source_task_description: Put the yellow book on top of the two-layer wooden shelf.
+  - action_type: release
+    primary_object_id: yellow_book_1
+    target_object_id: wooden_two_layer_shelf_1_feedback_roof_region
+    source_task_id: null
+    source_task_description: Put the yellow book on top of the two-layer wooden shelf.
+  Compose_014:
+  - action_type: grasp
+    primary_object_id: moka_pot_2
+    target_object_id: moka_pot_2
+    source_task_id: 0
+    source_task_description: put both moka pots on the stove
+    source_subtask_index: 1
+  - action_type: release
+    primary_object_id: moka_pot_2
+    target_object_id: flat_stove_1_cook_region
+    source_task_id: 0
+    source_task_description: put both moka pots on the stove
+    source_subtask_index: 2
+  - action_type: close
+    primary_object_id: white_cabinet_1_bottom_region
+    target_object_id: white_cabinet_1_bottom_region
+    source_task_id: 0
+    source_task_description: put the black bowl in the bottom drawer of the cabinet
+      and close it
+    source_subtask_index: 3
+  Adapt_016:
+  - action_type: grasp
+    primary_object_id: akita_black_bowl_1
+    target_object_id: akita_black_bowl_1
+    source_task_id: 3
+    source_task_description: Pick up the black bowl at the table center and place
+      it on the dining-set mat.
+  - action_type: release
+    primary_object_id: akita_black_bowl_1
+    target_object_id: dining_set_group_1_plate_support_region
+    source_task_id: 3
+    source_task_description: Pick up the black bowl at the table center and place
+      it on the dining-set mat.
+  Adapt_017:
+  - action_type: grasp
+    primary_object_id: alphabet_soup_1
+    target_object_id: alphabet_soup_1
+    source_task_id: 1
+    source_task_description: Pick the alphabet soup and place it in the right compartment
+      of the bowl drainer.
+  - action_type: release
+    primary_object_id: alphabet_soup_1
+    target_object_id: bowl_drainer_1_right_region
+    source_task_id: 1
+    source_task_description: Pick the alphabet soup and place it in the right compartment
+      of the bowl drainer.
+  Compose_015:
+  - action_type: grasp
+    primary_object_id: butter_1
+    target_object_id: butter_1
+    source_task_id: 7
+    source_task_description: Pick the butter and place it in the left compartment
+      of the bowl drainer.
+  - action_type: release
+    primary_object_id: butter_1
+    target_object_id: bowl_drainer_1_left_region
+    source_task_id: 7
+    source_task_description: Pick the butter and place it in the left compartment
+      of the bowl drainer.
+  - action_type: grasp
+    primary_object_id: tomato_sauce_1
+    target_object_id: tomato_sauce_1
+    source_task_id: 6
+    source_task_description: Pick the tomato sauce and place it in the right compartment
+      of the bowl drainer.
+  - action_type: release
+    primary_object_id: tomato_sauce_1
+    target_object_id: bowl_drainer_1_right_region
+    source_task_id: 6
+    source_task_description: Pick the tomato sauce and place it in the right compartment
+      of the bowl drainer.
+  Adapt_018:
+  - action_type: open
+    primary_object_id: wooden_cabinet_1_top_region
+    target_object_id: wooden_cabinet_1_top_region
+    source_task_id: 10
+    source_task_description: Open the top drawer of the wooden cabinet
+    source_subtask_index: 1
+  Adapt_019:
+  - action_type: grasp
+    primary_object_id: akita_black_bowl_1
+    target_object_id: akita_black_bowl_1
+    source_task_id: 3
+    source_task_description: Pick up the black bowl and place it in the wooden tray.
+  - action_type: release
+    primary_object_id: akita_black_bowl_1
+    target_object_id: wooden_tray_1_contain_region
+    source_task_id: 3
+    source_task_description: Pick up the black bowl and place it in the wooden tray.
+  Adapt_020:
+  - action_type: grasp
+    primary_object_id: ketchup_1
+    target_object_id: ketchup_1
+    source_task_id: null
+    source_task_description: Put the ketchup on the rack.
+  - action_type: release
+    primary_object_id: ketchup_1
+    target_object_id: wine_rack_1_adapt_top_region
+    source_task_id: null
+    source_task_description: Put the ketchup on the rack.
+  Compose_016:
+  - action_type: grasp
+    primary_object_id: glazed_rim_porcelain_ramekin_1
+    target_object_id: glazed_rim_porcelain_ramekin_1
+    source_task_id: 0
+    source_task_description: Pick up the ramekin and place it in the wooden tray.
+    source_subtask_index: 1
+  - action_type: release
+    primary_object_id: glazed_rim_porcelain_ramekin_1
+    target_object_id: basket_1_contain_region
+    source_task_id: 0
+    source_task_description: Put the tomato sauce in the basket, then put the white
+      mug on the plate.
+    source_subtask_index: 2
+  - action_type: grasp
+    primary_object_id: alphabet_soup_1
+    target_object_id: alphabet_soup_1
+    source_task_id: 301
+    source_task_description: Put the alphabet soup on the right front plate.
+  - action_type: release
+    primary_object_id: alphabet_soup_1
+    target_object_id: plate_2
+    source_task_id: 301
+    source_task_description: Put the alphabet soup on the right front plate.
+  Compose_017:
+  - action_type: grasp
+    primary_object_id: tomato_sauce_1
+    target_object_id: tomato_sauce_1
+    source_task_id: 306
+    source_task_description: Pick the tomato sauce and place it in the basket
+    source_subtask_index: 1
+  - action_type: release
+    primary_object_id: tomato_sauce_1
+    target_object_id: basket_1_contain_region
+    source_task_id: 306
+    source_task_description: Pick the tomato sauce and place it in the basket
+    source_subtask_index: 2
+  - action_type: grasp
+    primary_object_id: white_yellow_mug_1
+    target_object_id: white_yellow_mug_1
+    source_task_id: 104
+    source_task_description: put the white mug on the left plate and put the yellow
+      and white mug on the right plate
+    source_subtask_index: 3
+  - action_type: release
+    primary_object_id: white_yellow_mug_1
+    target_object_id: plate_1
+    source_task_id: 104
+    source_task_description: put the white mug on the left plate and put the yellow
+      and white mug on the right plate
+    source_subtask_index: 4
+  Compose_018:
+  - action_type: grasp
+    primary_object_id: alphabet_soup_1
+    target_object_id: alphabet_soup_1
+    source_task_id: 1
+    source_task_description: Pick the alphabet soup and place it in the right compartment
+      of the bowl drainer.
+  - action_type: release
+    primary_object_id: alphabet_soup_1
+    target_object_id: bowl_drainer_1_right_region
+    source_task_id: 1
+    source_task_description: Pick the alphabet soup and place it in the right compartment
+      of the bowl drainer.
+  - action_type: grasp
+    primary_object_id: tomato_sauce_1
+    target_object_id: tomato_sauce_1
+    source_task_id: 6
+    source_task_description: Pick the tomato sauce and place it in the left compartment
+      of the bowl drainer.
+  - action_type: release
+    primary_object_id: tomato_sauce_1
+    target_object_id: bowl_drainer_1_left_region
+    source_task_id: 6
+    source_task_description: Pick the tomato sauce and place it in the left compartment
+      of the bowl drainer.
+  Compose_019:
+  - action_type: grasp
+    primary_object_id: alphabet_soup_1
+    target_object_id: alphabet_soup_1
+    source_task_id: 301
+    source_task_description: Pick the alphabet soup and place it in the basket
+    source_subtask_index: 1
+  - action_type: release
+    primary_object_id: alphabet_soup_1
+    target_object_id: basket_1_contain_region
+    source_task_id: 301
+    source_task_description: Pick the alphabet soup and place it in the basket
+    source_subtask_index: 2
+  - action_type: grasp
+    primary_object_id: butter_1
+    target_object_id: butter_1
+    source_task_id: 307
+    source_task_description: Pick the butter and place it in the basket
+    source_subtask_index: 1
+  - action_type: release
+    primary_object_id: butter_1
+    target_object_id: basket_1_contain_region
+    source_task_id: 307
+    source_task_description: Pick the butter and place it in the basket
+    source_subtask_index: 2
+  - action_type: grasp
+    primary_object_id: cream_cheese_1
+    target_object_id: cream_cheese_1
+    source_task_id: 302
+    source_task_description: Pick the cream cheese and place it in the basket
+    source_subtask_index: 1
+  - action_type: release
+    primary_object_id: cream_cheese_1
+    target_object_id: basket_1_contain_region
+    source_task_id: 302
+    source_task_description: Pick the cream cheese and place it in the basket
+    source_subtask_index: 2
+  Compose_020:
+  - action_type: grasp
+    primary_object_id: cream_cheese_1
+    target_object_id: cream_cheese_1
+    source_task_id: 4
+    source_task_description: Put the cream cheese on the stove.
+  - action_type: release
+    primary_object_id: cream_cheese_1
+    target_object_id: flat_stove_1_cook_region
+    source_task_id: 4
+    source_task_description: Put the cream cheese on the stove.
+  - action_type: turn_on
+    primary_object_id: flat_stove_1
+    target_object_id: flat_stove_1
+    source_task_id: 7
+    source_task_description: Turn on the stove
+    source_subtask_index: 1
+  - action_type: open
+    primary_object_id: wooden_cabinet_1_top_region
+    target_object_id: wooden_cabinet_1_top_region
+    source_task_id: 10
+    source_task_description: Open the top drawer of the wooden cabinet.

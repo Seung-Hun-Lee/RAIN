@@ -1,0 +1,64 @@
+task_id: Compose_007
+task_name: Push the plate to the front of the stove, and then open the middle drawer
+  of the cabinet
+language: Push the plate to the front of the stove, and then open the middle drawer
+  of the cabinet
+primary_category: Composition
+composition_family: C2_ALL_goal_compatible_pairs
+anchor_suite: libero_goal
+source_prior_task_ids:
+- '6'
+- '10'
+source_priors:
+- suite: libero_goal
+  task_stem: push_the_plate_to_the_front_of_the_stove
+  instruction: Push the plate to the front of the stove
+  bddl: source://push_the_plate_to_the_front_of_the_stove.bddl
+  init: source://push_the_plate_to_the_front_of_the_stove.pruned_init
+  evidence: ''
+- suite: libero_goal
+  task_stem: open_the_middle_drawer_of_the_cabinet
+  instruction: Open the middle layer of the drawer
+  bddl: source://open_the_middle_drawer_of_the_cabinet.bddl
+  init: source://open_the_middle_drawer_of_the_cabinet.pruned_init
+  evidence: ''
+component_task_instructions:
+- Push the plate to the front of the stove
+- Open the middle drawer of the cabinet
+component_evidence: []
+semantic_subtask_count: 2
+action_plan_step_count: 3
+canonical_goal_atoms:
+- on(plate_1, main_table_stove_front_region)
+- open(wooden_cabinet_1_middle_region)
+canonical_task_signature: composition|3f474b285ddc2e6e7e375309ab9cbd20d9a618ab3520cafd769b89fad2c6a2d1|frozenset({on(plate_1,main_table_stove_front_region),open(wooden_cabinet_1_middle_region)})
+objects_of_interest:
+- plate_1
+- main_table_stove_front_region
+- wooden_cabinet_1_middle_region
+pure_composition: true
+requires_transition: false
+sequence_stages: []
+physical_group: two_step_3f474b285ddc2e6e7e37
+base_bddl_template: source://LIBERO_EX_ICRA27/LiberoComposition/tasks/comp_013__put_the_black_bowl_on_the_plate_then_push_the_plate_to_the_front_of_the_stove_and_finally_open_the_middle_drawer_of_the_cabinet/task.bddl
+base_pruned_init: source://LIBERO_EX_ICRA27/LiberoComposition/tasks/comp_013__put_the_black_bowl_on_the_plate_then_push_the_plate_to_the_front_of_the_stove_and_finally_open_the_middle_drawer_of_the_cabinet/task.pruned_init
+max_steps: 800
+notes:
+- Enumerated from every two-component subset of the LIBERO-40-based 439-task Composition
+  pool.
+- Identity is physical scene plus unordered semantic goal pair; alternate parent triples
+  and wording orders are collapsed.
+- 'Identity status: existing_libero_ex_identity.'
+- 'All source parent occurrences: COMP_013[2,3], COMP_027[2,3], COMP_041[1,2], COMP_050[2,3],
+  COMP_058[2,3], COMP_064[1,3], COMP_065[1,2], COMP_066[1,2].'
+- 'Equivalent audited LIBERO-EX path(s): source://task.bddl | source://task.bddl |
+  source://task.bddl'
+identity_status: existing_libero_ex_identity
+source_parent_task: COMP_013
+source_parent_component_indices:
+- 2
+- 3
+prior_partial_evidence: []
+legacy_task_id: COMP2_032
+collection_category: Compose
+category_order: 7

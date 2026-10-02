@@ -1,0 +1,16 @@
+name: Compose_013
+language: Put the alphabet soup in the basket, then put the white mug on the left
+  plate, then put the cream cheese box in the basket
+problem: Libero
+problem_folder: tasks/Compose/Compose_013
+bddl_file: task.bddl
+init_states_file: task.pruned_init
+category: Composition
+anchor_suite: libero_10
+metadata_file: task_meta.yaml
+eval_rules_file: eval_rules.yaml
+mask_bindings_file: mask_bindings.yaml
+action_plan_file: action_plan.yaml
+canonical_task_signature: composition|a6a00bc9cdc4971d55d5d1e29ce694d2f7f688a8d8909688ee330eda389f2d5e|frozenset({in(alphabet_soup_1,basket_1_contain_region),in(cream_cheese_1,basket_1_contain_region),on(porcelain_mug_1,plate_1)})
+legacy_task_id: LBCM_028
+collection_category: Compose

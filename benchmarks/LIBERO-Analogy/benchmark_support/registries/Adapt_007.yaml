@@ -1,0 +1,16 @@
+name: Adapt_007
+language: Put the plate on the top of the wooden cabinet
+problem: Libero
+problem_folder: tasks/Adapt/Adapt_007
+bddl_file: task.bddl
+init_states_file: task.pruned_init
+category: Analogy
+anchor_suite: libero_goal
+metadata_file: ../../tasks/Adapt/Adapt_007/task_meta.yaml
+eval_rules_file: ../../tasks/Adapt/Adapt_007/eval_rules.yaml
+mask_bindings_file: ../../Adapt/Adapt_007/mask_bindings.yaml
+action_plan_file: ../../Adapt/Adapt_007/action_plan.yaml
+canonical_task_signature: analogy|G3_goal_object_to_cabinet_top|goal_relation_g3_goal_object_to_cabinet_top_plate|on(plate_1,
+  wooden_cabinet_1_top_side)
+collection_category: Adapt
+legacy_task_id: ANLGX_134

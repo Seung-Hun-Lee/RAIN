@@ -1,0 +1,23 @@
+# Direct dependency versions recorded in the training/rollout environment.
+# PyTorch was installed as 2.11.0+cu128 and torchvision as 0.26.0+cu128.
+torch==2.11.0
+torchvision==0.26.0
+numpy==2.2.6
+transformers==4.53.0
+pandas==2.2.3
+pyarrow==22.0.0
+opencv-python-headless==4.11.0.86
+Pillow==12.1.1
+tqdm==4.67.3
+scipy==1.15.3
+PyYAML==6.0.3
+einops==0.8.2
+timm==1.0.22
+robosuite==1.4.0
+mujoco==3.5.0
+bddl==1.0.1
+imageio==2.37.3
+imageio-ffmpeg==0.6.0
+PyOpenGL==3.1.10
+h5py==3.12.1
+easydict==1.13

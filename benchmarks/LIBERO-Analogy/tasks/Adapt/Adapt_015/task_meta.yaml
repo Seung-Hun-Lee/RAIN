@@ -1,0 +1,76 @@
+task_id: Adapt_015
+task_name: Put the yellow book on top of the two-layer wooden shelf
+language: Put the yellow book on top of the two-layer wooden shelf
+primary_category: Adapt
+anchor_suite: novel_feedback_revision
+source_prior_task_ids: []
+source_prior_task_stem: task
+source_prior_description: Put the yellow book on top of the two-layer wooden shelf.
+canonical_goal_atoms:
+- on(yellow_book_1, wooden_two_layer_shelf_1_feedback_roof_region)
+canonical_task_signature: d6bb45332f04ed4b372ba7bc3a5db64efb31dd30ce2b8e3d5d5b5d6f2b54bc73
+objects_of_interest:
+- yellow_book_1
+- wooden_two_layer_shelf_1_feedback_roof_region
+held_fixed:
+- native yellow_book target and black_book distractor
+- shelf root pose
+- original native book orientation distributions
+- single yellow-book-to-shelf On goal
+varied:
+- Place the existing light-colored yellow book and black book side by side at the
+  same robot-depth, with a clear gap; keep the black book outside the target-to-shelf
+  route.
+single_semantic_goal: true
+physical_group: naf036_side_by_side_books_v3
+base_bddl_template: source://LIBERO_EX_ICRA27/LiberoNovelAdaptFeedback/tasks/naf_036__put_the_yellow_book_on_top_of_the_two_layer_wooden_shelf/task.bddl
+base_pruned_init: source://LIBERO_EX_ICRA27/LiberoNovelAdaptFeedback/tasks/naf_036__put_the_yellow_book_on_top_of_the_two_layer_wooden_shelf/task.pruned_init
+notes:
+- Feedback parent NAF_036; third revision of NAFR_002.
+- Place the existing light-colored yellow book and black book side by side at the
+  same robot-depth, with a clear gap; keep the black book outside the target-to-shelf
+  route.
+- 'Asset identity audit: installed LIBERO book classes are yellow_book and black_book;
+  no white_book class exists. The light/beige book with white pages is the original
+  yellow_book and is not renamed or replaced.'
+- 'Book centers: yellow_book (0,.08), black_book (0,.205) m. Both have the same X
+  depth and differ only in Y; center spacing is 12.5 cm, with +/-4 mm XY variation.'
+- The native study-table sampler has ensure_object_boundary_in_range=False, so its
+  BDDL half-range remains the literal 4mm. Diagnostic minimum collision-footprint
+  gap is 45mm; the extra 10mm center spacing protects the widest native book yaw observed
+  during production validation.
+- Books remain upright in the original asset-class orientation distribution. No special
+  rotation override is added.
+- The black book is on the robot-left (+Y) of the target; the shelf lies toward -X/-Y,
+  so the new distractor is outside that straight target-to-shelf path.
+- Only the yellow book and shelf roof are action masks. Native task instruction remains
+  'Put the yellow book on top of the two-layer wooden shelf.'
+adapt_family: R2_naf036_side_by_side_books_v3
+adapt_scope: novel_scene_feedback_revision_v3
+transfer_summary: Place the existing light-colored yellow book and black book side
+  by side at the same robot-depth, with a clear gap; keep the black book outside the
+  target-to-shelf route.
+provenance_evidence:
+- task_id: LIBERO_10_06
+  role: BOOK AND SCENE SOURCE
+  reason: supplies trained book grasp experience and the study workspace
+- task_id: LIBERO_GOAL_05
+  role: PLACEMENT SKILL SOURCE
+  reason: supplies a learned object-to-fixture-top relation
+critical_objects:
+- yellow_book_1
+- black_book_1
+required_init_predicates:
+- - not
+  - - 'on'
+    - yellow_book_1
+    - wooden_two_layer_shelf_1_feedback_roof_region
+revision_version: 3
+previous_revision_id: NAFR_002
+previous_revision_version: 2
+feedback_parent_task: NAF_036
+semantic_subtask_count: 1
+max_steps: 520
+legacy_task_id: NAFR3_002
+collection_category: Adapt
+category_order: 15

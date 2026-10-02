@@ -1,0 +1,15 @@
+task_id: Adapt_005
+category: Analogy
+required_goal_atoms:
+- close(white_cabinet_1_middle_region)
+- on(akita_black_bowl_1, kitchen_table_akita_black_bowl_init_region)
+- on(wine_bottle_1, kitchen_table_wine_bottle_init_region)
+forbidden_goal_atoms:
+- in(akita_black_bowl_1, white_cabinet_1_middle_region)
+- in(wine_bottle_1, white_cabinet_1_middle_region)
+order_sensitive: false
+continue_after_success: false
+requires_transition: false
+custom_eval_needed: true
+overshoot_policy: fail_on_forbidden_ever
+legacy_task_id: ANLGX_023

@@ -1,0 +1,14 @@
+task_id: Adapt_018
+policy: exact_instance_no_union
+bindings:
+- role: interaction_target_1
+  kind: drawer_part
+  value: wooden_cabinet_1:top
+  color: cyan
+  exact_instance: true
+runtime_requirements:
+  resolve_by_current_sim_model: true
+  allow_source_episode_json_fallback: false
+  new_instance_support: false
+  region_projection_from_current_bddl: false
+legacy_task_id: ADVCN19_001

@@ -1,0 +1,29 @@
+task_id: Compose_017
+steps:
+- action_type: grasp
+  primary_object_id: tomato_sauce_1
+  target_object_id: tomato_sauce_1
+  source_task_id: 306
+  source_task_description: Pick the tomato sauce and place it in the basket
+  source_subtask_index: 1
+- action_type: release
+  primary_object_id: tomato_sauce_1
+  target_object_id: basket_1_contain_region
+  source_task_id: 306
+  source_task_description: Pick the tomato sauce and place it in the basket
+  source_subtask_index: 2
+- action_type: grasp
+  primary_object_id: white_yellow_mug_1
+  target_object_id: white_yellow_mug_1
+  source_task_id: 104
+  source_task_description: put the white mug on the left plate and put the yellow
+    and white mug on the right plate
+  source_subtask_index: 3
+- action_type: release
+  primary_object_id: white_yellow_mug_1
+  target_object_id: plate_1
+  source_task_id: 104
+  source_task_description: put the white mug on the left plate and put the yellow
+    and white mug on the right plate
+  source_subtask_index: 4
+legacy_task_id: UCOMP_040

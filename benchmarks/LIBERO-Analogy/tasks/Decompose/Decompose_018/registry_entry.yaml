@@ -1,0 +1,15 @@
+name: Decompose_018
+language: Put the right moka pot on the stove
+problem: Libero
+problem_folder: tasks/Decompose/Decompose_018
+bddl_file: task.bddl
+init_states_file: task.pruned_init
+category: TD
+anchor_suite: libero_10
+metadata_file: task_meta.yaml
+eval_rules_file: eval_rules.yaml
+canonical_task_signature: libero_10_kitchen_scene8|frozenset({on(moka_pot_1, flat_stove_1_cook_region)})
+eval_category: Decomposition
+source_benchmark: LIBERO40DecompositionScreen
+legacy_task_id: TDC40_004
+collection_category: Decompose

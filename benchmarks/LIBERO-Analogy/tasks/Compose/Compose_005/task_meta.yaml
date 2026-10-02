@@ -1,0 +1,87 @@
+task_id: Compose_005
+task_name: Put the moka pot on the stove, then close the microwave door
+language: Put the moka pot on the stove, then close the microwave door
+primary_category: Composition
+composition_family: moka_place_then_microwave_close
+anchor_suite: libero_10
+source_prior_task_ids:
+- '105'
+- '109'
+source_priors:
+- suite: libero_10
+  task_stem: KITCHEN_SCENE8_put_both_moka_pots_on_the_stove
+  instruction: put both moka pots on the stove
+  bddl: source://KITCHEN_SCENE8_put_both_moka_pots_on_the_stove.bddl
+  init: source://KITCHEN_SCENE8_put_both_moka_pots_on_the_stove.pruned_init
+  evidence: Original LIBERO-10_09 moka/stove state; moka_pot_2 is the selected exact
+    pickup and placement donor.
+- suite: libero_10
+  task_stem: KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it
+  instruction: put the yellow and white mug in the microwave and close it
+  bddl: source://KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it.bddl
+  init: source://KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it.pruned_init
+  evidence: Original LIBERO-10_10 microwave root, open articulation, insertion and
+    close donor.
+component_task_instructions:
+- Put the moka pot on the stove
+- Close the microwave door
+component_evidence:
+- Exact original LIBERO-10_09 moka_pot_2 pickup and stove placement donor; this atomic
+  decomposition scored 9/10 separately.
+- Original LIBERO-10_10 microwave-close primitive; exact door subtree mask only.
+semantic_subtask_count: 2
+action_plan_step_count: 3
+canonical_goal_atoms:
+- on(moka_pot_2,flat_stove_1_cook_region)
+- close(microwave_1)
+canonical_task_signature: composition|37612d4dd749ff8170d8c903f31ed3813776adddcd42589bffacd85d22bdfe51|frozenset({close(microwave_1),on(moka_pot_2,flat_stove_1_cook_region)})
+objects_of_interest:
+- moka_pot_2
+- flat_stove_1_cook_region
+- microwave_1
+pure_composition: true
+requires_transition: true
+sequence_stages:
+- - on(moka_pot_2,flat_stove_1_cook_region)
+- - on(moka_pot_2,flat_stove_1_cook_region)
+  - close(microwave_1)
+physical_group: pc_k8_k6
+base_bddl_template: source://KITCHEN_SCENE8_put_both_moka_pots_on_the_stove.bddl
+base_pruned_init: source://KITCHEN_SCENE8_put_both_moka_pots_on_the_stove.pruned_init
+max_steps: 1600
+notes:
+- 'Priority milestone: exact K8 moka_pot_2/stove cluster plus exact K6 microwave root/open
+  joint. K8 moka_pot_1 is removed because its pickup lies in the microwave-door neighborhood.'
+- Five same-index donor states are reconstructed by T_target_robot @ inverse(T_source_robot)
+  @ T_source_entity.
+- BDDL sampling regions are reset scaffolding only and never pose authority; arbitrary
+  repair offsets are forbidden.
+- Strict ordered native rising events plus all final BDDL predicates; no Compose final
+  TC gate. Intermediate switching remains TC>0.7 for two consecutive progress-head
+  observations.
+validation_version: vcn21_moka_microwave_robot_frame_transfer_v1
+ordered_event_atoms:
+- on(moka_pot_2,flat_stove_1_cook_region)
+- close(microwave_1)
+strict_ordered_native_rising_events: true
+final_success_requires_all_bddl_goals: true
+compose_final_tc_gate: false
+intermediate_subtask_switch_progress_threshold: 0.7
+intermediate_subtask_switch_consecutive_observations: 2
+fixture_replay_required: true
+fixture_replay_file: FIXTURE_REPLAY.json
+same_index_robot_frame_transfer: true
+arbitrary_coordinate_offsets: false
+microwave_close_direct_contact_required: true
+microwave_close_direct_contact_window_control_steps: 2
+runtime_contract_version: vcn21_runtime_contact_clearance_v3
+microwave_close_minimum_certifying_normal_force_n: 1.0e-06
+microwave_close_contact_definition: exact microdoorroot moving-subtree pair with active
+  MuJoCo constraint and normal force > 1e-6 N
+moka_door_sweep_runtime_clearance_times:
+- close_rising
+- final_bddl_success
+runtime_success_gate_applied_before_video_success_overlay: true
+legacy_task_id: VCN21_001
+collection_category: Compose
+category_order: 5

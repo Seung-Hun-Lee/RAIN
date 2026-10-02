@@ -1,0 +1,71 @@
+task_id: Compose_001
+task_name: Put the chocolate pudding on the black bowl, then open the middle drawer
+  of the cabinet
+language: Put the chocolate pudding on the black bowl, then open the middle drawer
+  of the cabinet
+primary_category: Composition
+composition_family: placement_then_open_transition
+anchor_suite: libero_goal
+source_prior_task_ids:
+- '309'
+- '10'
+source_priors:
+- suite: libero_goal
+  task_stem: put_the_cream_cheese_in_the_bowl
+  instruction: Put the cream cheese on the bowl
+  bddl: source://put_the_cream_cheese_in_the_bowl.bddl
+  init: source://put_the_cream_cheese_in_the_bowl.pruned_init
+  evidence: ''
+- suite: libero_goal
+  task_stem: open_the_middle_drawer_of_the_cabinet
+  instruction: Open the middle layer of the drawer
+  bddl: source://open_the_middle_drawer_of_the_cabinet.bddl
+  init: source://open_the_middle_drawer_of_the_cabinet.pruned_init
+  evidence: ''
+component_task_instructions:
+- Put the chocolate pudding on the black bowl
+- Open the middle drawer of the cabinet
+component_evidence:
+- Exact ANLGX_139 donor placement; independent atomic SR 5/5.
+- Original Goal middle-drawer open primitive; placement-to-open transition previously
+  succeeded 2/5.
+semantic_subtask_count: 2
+action_plan_step_count: 3
+canonical_goal_atoms:
+- on(chocolate_pudding_1, akita_black_bowl_1)
+- open(wooden_cabinet_1_middle_region)
+canonical_task_signature: composition|9e40b8009ee329e28d5563d329d9afa28aa9e64295b78b133417791c8f0e7709|frozenset({on(chocolate_pudding_1,akita_black_bowl_1),open(wooden_cabinet_1_middle_region)})
+objects_of_interest:
+- chocolate_pudding_1
+- akita_black_bowl_1
+- wooden_cabinet_1_middle_region
+pure_composition: true
+requires_transition: true
+sequence_stages:
+- - on(chocolate_pudding_1, akita_black_bowl_1)
+- - on(chocolate_pudding_1, akita_black_bowl_1)
+  - open(wooden_cabinet_1_middle_region)
+physical_group: anlgx_139__put_the_chocolate_pudding_on_the_black_bowl
+base_bddl_template: source://LIBERO_EX_ICRA27/LiberoAnalogyExpanded/tasks/anlgx_139__put_the_chocolate_pudding_on_the_black_bowl/task.bddl
+base_pruned_init: source://LIBERO_EX_ICRA27/LiberoAnalogyExpanded/tasks/anlgx_139__put_the_chocolate_pudding_on_the_black_bowl/task.pruned_init
+max_steps: 1600
+notes:
+- The placement atom retains the exact pudding_bowl donor object pose and five state
+  variations.
+- Only a drawer explicitly requested to close is opened at initialization; existing
+  bottom-drawer openings are preserved.
+- Trajectory continuity is a soft empirical prior, not an exclusion rule.
+- Strict ordered native events and final BDDL determine success; Compose final completion
+  has no TC threshold.
+ordered_event_atoms:
+- on(chocolate_pudding_1, akita_black_bowl_1)
+- open(wooden_cabinet_1_middle_region)
+ordered_task_signature: 05865bc1efb39d5ce2216f715d372f18d04dbf8c456c1f69c8dbbe0093ff0c0f
+fixture_replay_required: true
+fixture_replay_file: FIXTURE_REPLAY.json
+required_init_predicates: []
+compose_final_termination: ordered_native_goals_without_tc
+trajectory_alignment_policy: soft_prior_not_exclusion
+legacy_task_id: VCN8_008
+collection_category: Compose
+category_order: 1

@@ -1,0 +1,36 @@
+task_id: Adapt_002
+task_name: Put the white mug on the right plate
+language: Put the white mug on the right plate
+primary_category: Analogy
+analogy_family: E1_clean_exact_instance_three_targets
+anchor_suite: libero_10
+source_prior_task_ids:
+- 104
+source_prior_task_stem: LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate
+source_prior_description: put the white mug on the left plate and put the yellow and
+  white mug on the right plate
+canonical_goal_atoms:
+- on(porcelain_mug_1, plate_2)
+canonical_task_signature: analogy|E1_clean_exact_instance_three_targets|context_three_plates_porcelain_mug_blocker_removed_right|on(porcelain_mug_1,
+  plate_2)
+objects_of_interest:
+- porcelain_mug_1
+- plate_2
+held_fixed:
+- mug identity
+- single On predicate
+- three target plate poses
+varied:
+- bind the learned mug-to-plate relation to the exact right instance among three plates
+single_semantic_goal: true
+physical_group: context_three_plates_porcelain_mug_blocker_removed_right
+base_bddl_template: source://LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate.bddl
+base_pruned_init: source://LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate.pruned_init
+notes:
+- Nonblocking source-scene mugs remain; repeated plates remain because exact-instance
+  selection is the analogy variable.
+- The yellow-and-white mug is removed because it lies in the white-mug-to-right-plate
+  corridor (the ANLG_012 collision).
+legacy_task_id: ANLGX_003
+collection_category: Adapt
+category_order: 2

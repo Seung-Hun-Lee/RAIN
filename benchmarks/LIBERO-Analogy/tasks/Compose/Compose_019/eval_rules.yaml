@@ -1,0 +1,34 @@
+task_id: Compose_019
+category: Composition
+required_goal_atoms:
+- in(alphabet_soup_1, basket_1_contain_region)
+- in(butter_1, basket_1_contain_region)
+- in(cream_cheese_1, basket_1_contain_region)
+forbidden_goal_atoms: []
+overshoot_policy: none
+order_sensitive: true
+continue_after_success: false
+requires_transition: true
+sequence_stages: []
+custom_eval_needed: true
+ordered_event_atoms:
+- in(alphabet_soup_1, basket_1_contain_region)
+- in(butter_1, basket_1_contain_region)
+- in(cream_cheese_1, basket_1_contain_region)
+strict_event_order: true
+final_success_requires_all_bddl_goals: true
+final_tc_gate: false
+compose_final_tc_gate: false
+environment_ignore_done: true
+downstream_preservation_required: true
+basket_completion_mode: ordered_native_and_released_supported_settled_v1
+support_hold_control_steps: 5
+basket_support_graph_mode: required_targets_to_exact_basket_base
+settle_linear_speed_max_m_s: 0.02
+settle_angular_speed_max_rad_s: 0.5
+future_only_terminal_contract: true
+parent_terminal_protocol_different: true
+parent_native_successes_not_reclassified: true
+policy_action_generation_modified: false
+policy_tc_switching_modified: false
+legacy_task_id: CTR_176

@@ -1,0 +1,63 @@
+task_id: Compose_009
+task_name: Put the milk in the basket, and then put the cream cheese box in the basket
+language: Put the milk in the basket, and then put the cream cheese box in the basket
+primary_category: Composition
+composition_family: C2_ALL_object_layout_basket_pairs
+anchor_suite: libero_object
+source_prior_task_ids:
+- '308'
+- '302'
+source_priors:
+- suite: libero_object
+  task_stem: pick_up_the_milk_and_place_it_in_the_basket
+  instruction: Pick the milk and place it in the basket
+  bddl: source://pick_up_the_milk_and_place_it_in_the_basket.bddl
+  init: source://pick_up_the_milk_and_place_it_in_the_basket.pruned_init
+  evidence: ''
+- suite: libero_object
+  task_stem: pick_up_the_cream_cheese_and_place_it_in_the_basket
+  instruction: Pick the cream cheese and place it in the basket
+  bddl: source://pick_up_the_cream_cheese_and_place_it_in_the_basket.bddl
+  init: source://pick_up_the_cream_cheese_and_place_it_in_the_basket.pruned_init
+  evidence: ''
+component_task_instructions:
+- Put the milk in the basket
+- Put the cream cheese box in the basket
+component_evidence:
+- Object identity has its own original LIBERO-Object pick-to-basket trajectory; its
+  pose in the composite scene may differ.
+- Object identity has its own original LIBERO-Object pick-to-basket trajectory; its
+  pose in the composite scene may differ.
+semantic_subtask_count: 2
+action_plan_step_count: 4
+canonical_goal_atoms:
+- in(milk_1, basket_1_contain_region)
+- in(cream_cheese_1, basket_1_contain_region)
+canonical_task_signature: composition|7ba9d10e19350f9437b0f4a1a731b59d62e13a2cbbb5e813673656da0d2f6b1e|frozenset({in(cream_cheese_1,basket_1_contain_region),in(milk_1,basket_1_contain_region)})
+objects_of_interest:
+- milk_1
+- basket_1
+- cream_cheese_1
+pure_composition: true
+requires_transition: false
+sequence_stages: []
+physical_group: two_step_7ba9d10e19350f9437b0
+base_bddl_template: source://LIBERO_EX_ICRA27/LiberoComposition/tasks/comp_360__put_the_milk_the_cream_cheese_box_and_the_tomato_sauce_in_the_basket_one_after_another/task.bddl
+base_pruned_init: source://LIBERO_EX_ICRA27/LiberoComposition/tasks/comp_360__put_the_milk_the_cream_cheese_box_and_the_tomato_sauce_in_the_basket_one_after_another/task.pruned_init
+max_steps: 800
+notes:
+- Enumerated from every two-component subset of the LIBERO-40-based 439-task Composition
+  pool.
+- Identity is physical scene plus unordered semantic goal pair; alternate parent triples
+  and wording orders are collapsed.
+- 'Identity status: novel_identity.'
+- 'All source parent occurrences: COMP_360[1,2], COMP_361[1,2], COMP_362[1,2], COMP_363[1,2].'
+identity_status: novel_identity
+source_parent_task: COMP_360
+source_parent_component_indices:
+- 1
+- 2
+prior_partial_evidence: []
+legacy_task_id: COMP2_303
+collection_category: Compose
+category_order: 9

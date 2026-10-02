@@ -1,0 +1,18 @@
+name: Decompose_020
+language: Put the black bowl inside the top drawer of the cabinet
+problem: Libero
+problem_folder: tasks/Decompose/Decompose_020
+bddl_file: task.bddl
+init_states_file: task.pruned_init
+category: TD
+anchor_suite: libero_goal
+metadata_file: ../../tasks/Decompose/Decompose_020/task_meta.yaml
+eval_rules_file: ../../tasks/Decompose/Decompose_020/eval_rules.yaml
+canonical_task_signature: libero_goal_shared_tabletop|frozenset({in(akita_black_bowl_1,
+  wooden_cabinet_1_top_region)})
+semantic_task_signature: libero_goal_shared_tabletop|init(open(wooden_cabinet_1_top_region))|goal(in(akita_black_bowl_1,
+  wooden_cabinet_1_top_region))
+eval_category: Decomposition
+source_benchmark: LIBERO40SemanticDecompositionScreen
+collection_category: Decompose
+legacy_task_id: TDC40_006

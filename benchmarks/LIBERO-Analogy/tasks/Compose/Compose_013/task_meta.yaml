@@ -1,0 +1,153 @@
+task_id: Compose_013
+task_name: Put the alphabet soup in the basket, then put the white mug on the left
+  plate, then put the cream cheese box in the basket
+language: Put the alphabet soup in the basket, then put the white mug on the left
+  plate, then put the cream cheese box in the basket
+primary_category: Composition
+composition_family: long_basket_cup_pudding_mix
+anchor_suite: libero_10
+source_prior_task_ids: []
+source_priors:
+- suite: libero_10
+  task_stem: LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket
+  instruction: put both the alphabet soup and the cream cheese box in the basket
+  bddl: source://LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket.bddl
+  init: source://LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket.pruned_init
+  evidence: ''
+- suite: libero_10
+  task_stem: LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate
+  instruction: put the white mug on the left plate and put the yellow and white mug
+    on the right plate
+  bddl: source://LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate.bddl
+  init: source://LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate.pruned_init
+  evidence: ''
+component_task_instructions:
+- Put the alphabet soup in the basket
+- Put the white mug on the left plate
+- Put the cream cheese box in the basket
+component_evidence:
+- 'Original basket_scene1_soup_cheese: object-specific grasp/release segments 1/2.
+  Exact original robot-frame object and destination poses; no identity transfer or
+  arbitrary XY shift.'
+- 'Original cups: object-specific grasp/release segments 1/2. Exact original robot-frame
+  object and destination poses; no identity transfer or arbitrary XY shift.'
+- 'Original basket_scene1_soup_cheese: object-specific grasp/release segments 3/4.
+  Exact original robot-frame object and destination poses; no identity transfer or
+  arbitrary XY shift.'
+semantic_subtask_count: 3
+action_plan_step_count: 6
+canonical_goal_atoms:
+- in(alphabet_soup_1, basket_1_contain_region)
+- on(porcelain_mug_1, plate_1)
+- in(cream_cheese_1, basket_1_contain_region)
+canonical_task_signature: composition|a6a00bc9cdc4971d55d5d1e29ce694d2f7f688a8d8909688ee330eda389f2d5e|frozenset({in(alphabet_soup_1,basket_1_contain_region),in(cream_cheese_1,basket_1_contain_region),on(porcelain_mug_1,plate_1)})
+objects_of_interest:
+- alphabet_soup_1
+- basket_1_contain_region
+- porcelain_mug_1
+- plate_1
+- cream_cheese_1
+pure_composition: true
+requires_transition: true
+sequence_stages:
+- - in(alphabet_soup_1, basket_1_contain_region)
+- - in(alphabet_soup_1, basket_1_contain_region)
+  - on(porcelain_mug_1, plate_1)
+- - in(alphabet_soup_1, basket_1_contain_region)
+  - on(porcelain_mug_1, plate_1)
+  - in(cream_cheese_1, basket_1_contain_region)
+physical_group: basket_scene1_soup_cheese__basket_scene1_soup_cheese__alphabet_soup_1__basket_scene1_soup_cheese__cream_cheese_1__cup_left
+base_bddl_template: source://LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket.bddl
+base_pruned_init: source://LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket.pruned_init
+max_steps: 1600
+notes:
+- Only original learned pickup object identities and poses, and exact corresponding
+  original target poses are combined.
+- All participating sources use the identical living_room_table workspace and robot
+  frame; no arbitrary XY/rotation/support translation.
+- Every source comparison and the new comparison use the actual evaluator10wait pose.
+- Non-required anchor distractors are removed only where their conservative collision
+  bounds overlap a required donor asset across original states0–4.
+- Exact original end-effector trajectories are not replayed; donor object/target poses
+  and recorded action semantics are the provenance claim.
+anchor_source_key: basket_scene1_soup_cheese
+required_asset_donors:
+  alphabet_soup_1:
+    source_key: basket_scene1_soup_cheese
+    source_object: alphabet_soup_1
+  basket_1:
+    source_key: basket_scene1_soup_cheese
+    source_object: basket_1
+  porcelain_mug_1:
+    source_key: cups
+    source_object: porcelain_mug_1
+  plate_1:
+    source_key: cups
+    source_object: plate_1
+  cream_cheese_1:
+    source_key: basket_scene1_soup_cheese
+    source_object: cream_cheese_1
+removed_distractors:
+- tomato_sauce_1
+removed_distractor_evidence:
+  tomato_sauce_1:
+  - index: 3
+    phase: pre_wait
+    objects:
+    - tomato_sauce_1
+    - plate_1
+    aabb_overlap_m:
+    - 0.03490851294240086
+    - 0.0073424532179600654
+    - 0.01894636973086461
+    sources:
+    - basket_scene1_soup_cheese
+    - cups
+  - index: 3
+    phase: post_wait
+    objects:
+    - tomato_sauce_1
+    - plate_1
+    aabb_overlap_m:
+    - 0.03491318923515591
+    - 0.007332072859316696
+    - 0.018946337129002067
+    sources:
+    - basket_scene1_soup_cheese
+    - cups
+ordered_event_atoms:
+- in(alphabet_soup_1, basket_1_contain_region)
+- on(porcelain_mug_1, plate_1)
+- in(cream_cheese_1, basket_1_contain_region)
+original_source_state_indices:
+- 0
+- 1
+- 2
+- 3
+- 4
+layout_allow_resampling: false
+source_original_atomic_keys:
+- basket_scene1_soup_cheese__alphabet_soup_1
+- cup_left
+- basket_scene1_soup_cheese__cream_cheese_1
+original_pose_claim: Exact original source object/target robot-frame poses after identical
+  evaluator10wait; not identical EE trajectory
+required_init_predicates: []
+user_group: 3
+ordered_task_signature: 3485ee26bac2687de3aac98802a0148a29d3ebfcc58162aad4e381d4581784ab
+fixture_replay_required: true
+fixture_replay_file: FIXTURE_REPLAY.json
+layout_review_only: false
+requested_group: 3
+source_review_ids:
+- LIBERO_10_08
+- LIBERO_10_05
+source_numeric_id_scope: Policy uses the explicit original source task description
+  and original subtask index. source_task_id0 deliberately avoids mixing training
+  task_index with review numbering.
+original_pose_fidelity_max_m: 1.2989609388114332e-14
+rollout_success_protocol: Strict rising-edge semantic order at every control step
+  AND native final conjunction; unchanged TC>0.7 twice, replan8
+legacy_task_id: LBCM_028
+collection_category: Compose
+category_order: 13

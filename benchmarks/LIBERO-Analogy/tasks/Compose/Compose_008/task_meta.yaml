@@ -1,0 +1,65 @@
+task_id: Compose_008
+task_name: Put the alphabet soup in the basket, and then put the tomato sauce in the
+  basket
+language: Put the alphabet soup in the basket, and then put the tomato sauce in the
+  basket
+primary_category: Composition
+composition_family: C2_ALL_object_layout_basket_pairs
+anchor_suite: libero_object
+source_prior_task_ids:
+- '301'
+- '306'
+source_priors:
+- suite: libero_object
+  task_stem: pick_up_the_alphabet_soup_and_place_it_in_the_basket
+  instruction: Pick the alphabet soup and place it in the basket
+  bddl: source://pick_up_the_alphabet_soup_and_place_it_in_the_basket.bddl
+  init: source://pick_up_the_alphabet_soup_and_place_it_in_the_basket.pruned_init
+  evidence: ''
+- suite: libero_object
+  task_stem: pick_up_the_tomato_sauce_and_place_it_in_the_basket
+  instruction: Pick the tomato sauce and place it in the basket
+  bddl: source://pick_up_the_tomato_sauce_and_place_it_in_the_basket.bddl
+  init: source://pick_up_the_tomato_sauce_and_place_it_in_the_basket.pruned_init
+  evidence: ''
+component_task_instructions:
+- Put the alphabet soup in the basket
+- Put the tomato sauce in the basket
+component_evidence:
+- Object identity has its own original LIBERO-Object pick-to-basket trajectory; its
+  pose in the composite scene may differ.
+- Object identity has its own original LIBERO-Object pick-to-basket trajectory; its
+  pose in the composite scene may differ.
+semantic_subtask_count: 2
+action_plan_step_count: 4
+canonical_goal_atoms:
+- in(alphabet_soup_1, basket_1_contain_region)
+- in(tomato_sauce_1, basket_1_contain_region)
+canonical_task_signature: composition|6f539a70682318de1f02e5e48d0094b8430bdd78cbc718ac1e7c89a9f51197fb|frozenset({in(alphabet_soup_1,basket_1_contain_region),in(tomato_sauce_1,basket_1_contain_region)})
+objects_of_interest:
+- alphabet_soup_1
+- basket_1
+- tomato_sauce_1
+pure_composition: true
+requires_transition: false
+sequence_stages: []
+physical_group: two_step_6f539a70682318de1f02
+base_bddl_template: source://LIBERO_EX_ICRA27/LiberoComposition/tasks/comp_242__put_the_alphabet_soup_the_salad_dressing_and_the_tomato_sauce_in_the_basket_one_after_another/task.bddl
+base_pruned_init: source://LIBERO_EX_ICRA27/LiberoComposition/tasks/comp_242__put_the_alphabet_soup_the_salad_dressing_and_the_tomato_sauce_in_the_basket_one_after_another/task.pruned_init
+max_steps: 800
+notes:
+- Enumerated from every two-component subset of the LIBERO-40-based 439-task Composition
+  pool.
+- Identity is physical scene plus unordered semantic goal pair; alternate parent triples
+  and wording orders are collapsed.
+- 'Identity status: novel_identity.'
+- 'All source parent occurrences: COMP_242[1,3], COMP_245[1,3], COMP_247[1,3], COMP_249[1,2].'
+identity_status: novel_identity
+source_parent_task: COMP_242
+source_parent_component_indices:
+- 1
+- 3
+prior_partial_evidence: []
+legacy_task_id: COMP2_222
+collection_category: Compose
+category_order: 8

@@ -1,0 +1,26 @@
+task_id: Compose_016
+steps:
+- action_type: grasp
+  primary_object_id: glazed_rim_porcelain_ramekin_1
+  target_object_id: glazed_rim_porcelain_ramekin_1
+  source_task_id: 0
+  source_task_description: Pick up the ramekin and place it in the wooden tray.
+  source_subtask_index: 1
+- action_type: release
+  primary_object_id: glazed_rim_porcelain_ramekin_1
+  target_object_id: basket_1_contain_region
+  source_task_id: 0
+  source_task_description: Put the tomato sauce in the basket, then put the white
+    mug on the plate.
+  source_subtask_index: 2
+- action_type: grasp
+  primary_object_id: alphabet_soup_1
+  target_object_id: alphabet_soup_1
+  source_task_id: 301
+  source_task_description: Put the alphabet soup on the right front plate.
+- action_type: release
+  primary_object_id: alphabet_soup_1
+  target_object_id: plate_2
+  source_task_id: 301
+  source_task_description: Put the alphabet soup on the right front plate.
+legacy_task_id: VCN35_004

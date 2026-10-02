@@ -1,0 +1,17 @@
+name: Compose_015
+language: Pick the butter and place it in the right compartment of the bowl drainer,
+  then pick the tomato sauce and place it in the left compartment of the bowl drainer
+problem: Libero
+problem_folder: tasks/Compose/Compose_015
+bddl_file: task.bddl
+init_states_file: task.pruned_init
+category: Composition
+anchor_suite: libero_object
+metadata_file: ../../tasks/Compose/Compose_015/task_meta.yaml
+eval_rules_file: ../../tasks/Compose/Compose_015/eval_rules.yaml
+mask_bindings_file: ../../Compose/Compose_015/mask_bindings.yaml
+action_plan_file: ../../Compose/Compose_015/action_plan.yaml
+canonical_task_signature: composition|f82348d1e7e61b4467d1b082fdcb52372506db5a4cbf8eb2568f761261893982|('in(butter_1,
+  bowl_drainer_1_left_region)', 'in(tomato_sauce_1, bowl_drainer_1_right_region)')
+collection_category: Compose
+legacy_task_id: CTR_103

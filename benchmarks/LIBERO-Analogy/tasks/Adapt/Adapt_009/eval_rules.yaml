@@ -1,0 +1,10 @@
+task_id: Adapt_009
+category: Analogy
+required_goal_atoms:
+- in(white_yellow_mug_1, desk_caddy_1_left_contain_region)
+forbidden_goal_atoms: []
+order_sensitive: false
+continue_after_success: false
+requires_transition: false
+custom_eval_needed: false
+legacy_task_id: ANLGX_178

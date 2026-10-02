@@ -1,0 +1,12 @@
+task_id: Adapt_016
+category: Adapt
+required_goal_atoms:
+- on(akita_black_bowl_1, dining_set_group_1_plate_support_region)
+forbidden_goal_atoms: []
+order_sensitive: false
+continue_after_success: false
+requires_transition: false
+custom_eval_needed: false
+target_parent_contact_required: true
+native_center_region_used: false
+legacy_task_id: DSET_001

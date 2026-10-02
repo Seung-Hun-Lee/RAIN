@@ -1,0 +1,12 @@
+task_id: Adapt_017
+category: Adapt
+required_goal_atoms:
+- in(alphabet_soup_1, bowl_drainer_1_right_region)
+forbidden_goal_atoms: []
+order_sensitive: false
+continue_after_success: false
+requires_transition: false
+custom_eval_needed: false
+single_compartment_success: true
+either_compartment_success: false
+legacy_task_id: BDRSWAP_001

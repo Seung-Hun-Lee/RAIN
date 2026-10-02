@@ -1,0 +1,19 @@
+task_id: Compose_001
+steps:
+- action_type: grasp
+  primary_object_id: chocolate_pudding_1
+  target_object_id: chocolate_pudding_1
+  source_task_id: 309
+  source_task_description: Put the chocolate pudding on the black bowl.
+- action_type: release
+  primary_object_id: chocolate_pudding_1
+  target_object_id: akita_black_bowl_1
+  source_task_id: 309
+  source_task_description: Put the chocolate pudding on the black bowl.
+- action_type: open
+  primary_object_id: wooden_cabinet_1_middle_region
+  target_object_id: wooden_cabinet_1_middle_region
+  source_task_id: 10
+  source_task_description: Open the middle layer of the drawer
+  source_subtask_index: 1
+legacy_task_id: VCN8_008

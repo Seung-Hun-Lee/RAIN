@@ -1,0 +1,15 @@
+name: Decompose_014
+language: Close the bottom drawer of the cabinet
+problem: Libero
+problem_folder: tasks/Decompose/Decompose_014
+bddl_file: task.bddl
+init_states_file: task.pruned_init
+category: TD
+anchor_suite: libero_10
+metadata_file: ../../tasks/Decompose/Decompose_014/task_meta.yaml
+eval_rules_file: ../../tasks/Decompose/Decompose_014/eval_rules.yaml
+canonical_task_signature: libero_10_kitchen_scene4|frozenset({close(white_cabinet_1_bottom_region)})
+eval_category: Task
+source_benchmark: TaskDecomposition
+collection_category: Decompose
+legacy_task_id: TDL10_016

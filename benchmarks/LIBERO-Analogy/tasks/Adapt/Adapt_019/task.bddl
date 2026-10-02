@@ -1,0 +1,58 @@
+; Reachable wooden-tray revision: F2_heterogeneous_dishware_choice.
+(define (problem libero_living_room_tabletop_manipulation)
+  (:domain robosuite)
+  (:language Pick up the black bowl and place it in the wooden tray)
+  (:regions
+      (wooden_tray_1_init_region
+          (:target living_room_table)
+          (:ranges ((0.099000 -0.061000 0.101000 -0.059000)))
+          (:yaw_rotation ((0.0 0.0)))
+      )
+      (choice_left_init_region
+          (:target living_room_table)
+          (:ranges ((-0.163000 -0.183000 -0.157000 -0.177000)))
+          (:yaw_rotation ((0.0 0.0)))
+      )
+      (choice_middle_init_region
+          (:target living_room_table)
+          (:ranges ((-0.133000 -0.003000 -0.127000 0.003000)))
+          (:yaw_rotation ((0.0 0.0)))
+      )
+      (choice_right_init_region
+          (:target living_room_table)
+          (:ranges ((-0.133000 0.227000 -0.127000 0.233000)))
+          (:yaw_rotation ((0.0 0.0)))
+      )
+      (contain_region
+          (:target wooden_tray_1)
+      )
+  )
+
+  (:fixtures
+    living_room_table - living_room_table
+  )
+
+  (:objects
+    wooden_tray_1 - wooden_tray
+    akita_black_bowl_1 - akita_black_bowl
+    glazed_rim_porcelain_ramekin_1 - glazed_rim_porcelain_ramekin
+    white_bowl_1 - white_bowl
+  )
+
+  (:obj_of_interest
+    akita_black_bowl_1
+    wooden_tray_1_contain_region
+  )
+
+  (:init
+    (On wooden_tray_1 living_room_table_wooden_tray_1_init_region)
+    (On akita_black_bowl_1 living_room_table_choice_left_init_region)
+    (On glazed_rim_porcelain_ramekin_1 living_room_table_choice_middle_init_region)
+    (On white_bowl_1 living_room_table_choice_right_init_region)
+  )
+
+  (:goal
+    (And (In akita_black_bowl_1 wooden_tray_1_contain_region))
+  )
+
+)

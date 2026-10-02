@@ -1,0 +1,32 @@
+task_id: Decompose_010
+task_name: Put the alphabet soup in the basket
+language: Put the alphabet soup in the basket
+primary_category: TD
+anchor_suite: libero_10
+source_prior_description: Put both the alphabet soup and the tomato sauce in the basket
+new_test_task_description: Put the alphabet soup in the basket
+scene_family: libero_10_living_room_scene2
+objects_of_interest:
+- alphabet_soup_1
+- basket_1_contain_region
+canonical_goal_atoms:
+- in(alphabet_soup_1, basket_1_contain_region)
+canonical_task_signature: libero_10_living_room_scene2|frozenset({in(alphabet_soup_1,
+  basket_1_contain_region)})
+held_fixed:
+- scene layout
+- fixtures
+- object set
+- init-state family
+varied:
+- goal subset
+why_this_category: Task Decomposition
+instruction_variants:
+- Put the alphabet soup in the basket
+source_prior_task_ids:
+- 100
+base_bddl_template: libero://bddl_files/libero_10/LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket.bddl
+base_pruned_init: libero://init_files/libero_10/LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket.pruned_init
+legacy_task_id: TDL10_011
+collection_category: Decompose
+category_order: 10

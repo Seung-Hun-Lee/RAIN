@@ -1,0 +1,16 @@
+name: Adapt_006
+language: Pick up the wine bottle at the table center and place it on the plate
+problem: Libero
+problem_folder: tasks/Adapt/Adapt_006
+bddl_file: task.bddl
+init_states_file: task.pruned_init
+category: Analogy
+anchor_suite: libero_spatial
+metadata_file: ../../tasks/Adapt/Adapt_006/task_meta.yaml
+eval_rules_file: ../../tasks/Adapt/Adapt_006/eval_rules.yaml
+mask_bindings_file: ../../Adapt/Adapt_006/mask_bindings.yaml
+action_plan_file: ../../Adapt/Adapt_006/action_plan.yaml
+canonical_task_signature: analogy|S4_spatial_source_object_binding|spatial_03_source_object_wine_bottle|on(wine_bottle_1,
+  plate_1)
+collection_category: Adapt
+legacy_task_id: ANLGX_089

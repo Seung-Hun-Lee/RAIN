@@ -1,0 +1,137 @@
+task_id: Compose_015
+task_name: Pick the butter and place it in the right compartment of the bowl drainer,
+  then pick the tomato sauce and place it in the left compartment of the bowl drainer
+language: Pick the butter and place it in the right compartment of the bowl drainer,
+  then pick the tomato sauce and place it in the left compartment of the bowl drainer
+primary_category: Composition
+anchor_suite: libero_object
+source_prior_task_ids:
+- 7
+source_prior_task_stem: pick_up_the_butter_and_place_it_in_the_basket
+source_prior_description: Pick the butter and place it in the basket
+canonical_goal_atoms:
+- in(butter_1, bowl_drainer_1_left_region)
+- in(tomato_sauce_1, bowl_drainer_1_right_region)
+canonical_task_signature: composition|f82348d1e7e61b4467d1b082fdcb52372506db5a4cbf8eb2568f761261893982|('in(butter_1,
+  bowl_drainer_1_left_region)', 'in(tomato_sauce_1, bowl_drainer_1_right_region)')
+objects_of_interest:
+- butter_1
+- bowl_drainer_1_left_region
+- tomato_sauce_1
+- bowl_drainer_1_right_region
+held_fixed:
+- all original six food identities and pickup regions
+- native object geometry and orientation sampling
+- native drainer geometry and yaw 0
+- one unchanged drainer pose throughout both stages
+varied:
+- replace basket by a fixed two-compartment drainer
+- two different objects, left placement followed by right placement
+single_semantic_goal: false
+physical_group: ctr_103
+base_bddl_template: source://pick_up_the_butter_and_place_it_in_the_basket.bddl
+base_pruned_init: source://pick_up_the_butter_and_place_it_in_the_basket.pruned_init
+notes: []
+transfer_summary: Complete the left placement, then the right; retain both objects
+  in their own compartments.
+provenance_evidence:
+- task_id: LIBERO_OBJECT_07
+  role: ORIGINAL SCENE SOURCE
+  reason: same six foods and original pickup regions; basket replaced by one fixed
+    drainer
+- task_id: LIBERO_OBJECT_07
+  role: LEFT OBJECT GRASP SOURCE
+  reason: object-class grasp provenance; not a claim that this distractor pickup was
+    demonstrated in the same scene
+- task_id: LIBERO_OBJECT_06
+  role: RIGHT OBJECT GRASP SOURCE
+  reason: object-class grasp provenance; not a claim that this distractor pickup was
+    demonstrated in the same scene
+critical_objects:
+- butter_1
+- tomato_sauce_1
+- orange_juice_1
+- chocolate_pudding_1
+- bbq_sauce_1
+- ketchup_1
+required_init_predicates:
+- - not
+  - - in
+    - butter_1
+    - bowl_drainer_1_left_region
+- - not
+  - - in
+    - butter_1
+    - bowl_drainer_1_right_region
+- - not
+  - - in
+    - tomato_sauce_1
+    - bowl_drainer_1_left_region
+- - not
+  - - in
+    - tomato_sauce_1
+    - bowl_drainer_1_right_region
+composition_family: F1_left_then_right_anchor20
+census_candidate_id: BDRCENS_181
+pilot_batch: anchor20
+left_object: butter_1
+right_object: tomato_sauce_1
+semantic_subtask_count: 2
+max_steps: 1040
+drainer_completion_mode: released_supported
+support_hold_control_steps: 5
+native_success_is_auxiliary: true
+order: left_then_right
+drainer_root_xy:
+- 0.0
+- 0.25471
+expected_drainer_root_z: 0.00602
+physical_floor_support_correction: true
+either_compartment_success: false
+accepted_native_regions:
+- bowl_drainer_1_left_region
+- bowl_drainer_1_right_region
+divider_region_accepted: false
+all_source_food_pickup_regions_unchanged: true
+comparison_reference: masked original source scene / step 1 exact masks / step 2 exact
+  masks
+grasp_provenance:
+  left:
+    task_id: LIBERO_OBJECT_07
+    exact_source_scene_target: true
+  right:
+    task_id: LIBERO_OBJECT_06
+    exact_source_scene_target: false
+validation_version: trajectory_repair_five_state_screen_v2_fixture_snapshot
+selected: false
+final_tc_gate: false
+globally_novel_additive_candidate: false
+new_semantic_family: false
+compose_final_tc_gate: false
+trajectory_guided_repair: true
+parent_task_id: BDRCOMP_013
+parent_bundle: source://LIBERO_EX_ICRA27/LiberoComposeTrajRepair20260911/drainer_parent_snapshots/BDRCOMP_013
+repair_definition:
+  task_id: Compose_015
+  parent_task_id: BDRCOMP_013
+  parent_bundle: LiberoComposeTrajRepair20260911/drainer_parent_snapshots/BDRCOMP_013
+  pose_changes:
+    tomato_sauce_1:
+      delta_xyz:
+      - -0.045
+      - 0.07
+      - 0
+  evidence: Parent butter first placement5/5; ep000 second pickup closes at[+.006,-.026,.018]
+    vs tomato[+.050,-.100,.038], then empty hand goes to drainer and stalls. Video
+    reviewed at every fourth recorded frame. Shift second can toward empty closure;
+    all5newstates static screened and5ep freshly rolled out, strict release/support
+    gate retained.
+arbitrary_coordinate_offsets: true
+same_index_parent_states: true
+same_index_robot_frame_transfer: false
+downstream_preservation_required: true
+environment_ignore_done: true
+parent_canonical_task_signature: compose|8a082785c99f7b7c8eaac3c2a27099cf37923dc146d40318c1ae49657dbf730d
+legacy_task_id: CTR_103
+collection_category: Compose
+category_order: 15

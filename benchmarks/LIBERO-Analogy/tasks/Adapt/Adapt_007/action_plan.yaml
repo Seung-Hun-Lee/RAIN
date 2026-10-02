@@ -1,0 +1,13 @@
+task_id: Adapt_007
+steps:
+- action_type: grasp
+  primary_object_id: plate_1
+  target_object_id: plate_1
+  source_task_id: 1
+  source_task_description: Put the plate on the top of the wooden cabinet.
+- action_type: release
+  primary_object_id: plate_1
+  target_object_id: wooden_cabinet_1_top_side
+  source_task_id: 1
+  source_task_description: Put the plate on the top of the wooden cabinet.
+legacy_task_id: ANLGX_134

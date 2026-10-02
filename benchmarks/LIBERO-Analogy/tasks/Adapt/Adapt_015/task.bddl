@@ -1,0 +1,69 @@
+; New furniture composition: feedback_two_layer_roof_study. Only workspace/robot frame retained.
+(define (problem libero_study_tabletop_manipulation)
+  (:domain robosuite)
+  (:language Put the yellow book on top of the two-layer wooden shelf)
+  (:regions
+      (wooden_two_layer_shelf_1_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.20010000 -0.14010000 -0.19990000 -0.13990000)
+            )
+          )
+          (:yaw_rotation (
+              (3.141592653590 3.141592653590)
+            )
+          )
+      )
+      (yellow_book_1_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.004 0.076 0.004 0.084)
+            )
+          )
+          (:yaw_rotation (
+              (-1.178097245096 -1.178097245096)
+            )
+          )
+      )
+      (feedback_roof_region
+          (:target wooden_two_layer_shelf_1)
+      )
+      (black_book_1_init_region
+          (:target study_table)
+          (:ranges (
+              (-0.00400000 0.20100000 0.00400000 0.20900000)
+            )
+          )
+          (:yaw_rotation (
+              (-1.178097245096 -1.178097245096)
+            )
+          )
+      )
+  )
+
+  (:fixtures
+    study_table - study_table
+    wooden_two_layer_shelf_1 - wooden_two_layer_shelf
+  )
+
+  (:objects
+    yellow_book_1 - yellow_book
+    black_book_1 - black_book
+  )
+
+  (:obj_of_interest
+    yellow_book_1
+    wooden_two_layer_shelf_1_feedback_roof_region
+  )
+
+  (:init
+    (On wooden_two_layer_shelf_1 study_table_wooden_two_layer_shelf_1_init_region)
+    (On yellow_book_1 study_table_yellow_book_1_init_region)
+    (On black_book_1 study_table_black_book_1_init_region)
+  )
+
+  (:goal
+    (And (On yellow_book_1 wooden_two_layer_shelf_1_feedback_roof_region))
+  )
+
+)

@@ -1,0 +1,10 @@
+task_id: Adapt_007
+category: Analogy
+required_goal_atoms:
+- on(plate_1, wooden_cabinet_1_top_side)
+forbidden_goal_atoms: []
+order_sensitive: false
+continue_after_success: false
+requires_transition: false
+custom_eval_needed: false
+legacy_task_id: ANLGX_134

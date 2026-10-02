@@ -1,0 +1,13 @@
+task_id: Compose_009
+category: Composition
+required_goal_atoms:
+- in(milk_1, basket_1_contain_region)
+- in(cream_cheese_1, basket_1_contain_region)
+forbidden_goal_atoms: []
+overshoot_policy: none
+order_sensitive: false
+continue_after_success: false
+requires_transition: false
+sequence_stages: []
+custom_eval_needed: false
+legacy_task_id: COMP2_303

@@ -1,0 +1,16 @@
+name: Adapt_014
+language: Put the popcorn on top of the short fridge
+problem: Libero
+problem_folder: tasks/Adapt/Adapt_014
+bddl_file: task.bddl
+init_states_file: task.pruned_init
+category: Adapt
+anchor_suite: novel_feedback_revision
+metadata_file: task_meta.yaml
+eval_rules_file: eval_rules.yaml
+mask_bindings_file: mask_bindings.yaml
+action_plan_file: action_plan.yaml
+canonical_task_signature: adapt|R1_naf017_compact_package_cluster_v3|naf017_compact_package_cluster_v3|on(popcorn_1,
+  short_fridge_1_feedback_top_region)
+legacy_task_id: NAFR3_001
+collection_category: Adapt

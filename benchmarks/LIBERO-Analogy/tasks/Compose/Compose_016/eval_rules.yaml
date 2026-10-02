@@ -1,0 +1,25 @@
+task_id: Compose_016
+category: Composition
+required_goal_atoms:
+- in(glazed_rim_porcelain_ramekin_1,basket_1_contain_region)
+- on(alphabet_soup_1,plate_2)
+forbidden_goal_atoms: []
+overshoot_policy: none
+order_sensitive: true
+continue_after_success: false
+requires_transition: true
+sequence_stages:
+- - in(glazed_rim_porcelain_ramekin_1,basket_1_contain_region)
+- - in(glazed_rim_porcelain_ramekin_1,basket_1_contain_region)
+  - on(alphabet_soup_1,plate_2)
+custom_eval_needed: true
+strict_event_order: true
+ordered_event_atoms:
+- in(glazed_rim_porcelain_ramekin_1,basket_1_contain_region)
+- on(alphabet_soup_1,plate_2)
+final_success_requires_all_bddl_goals: true
+final_tc_gate: false
+compose_final_tc_gate: false
+environment_ignore_done: true
+downstream_preservation_required: true
+legacy_task_id: VCN35_004

@@ -1,0 +1,25 @@
+{
+  "asset": "rain_overview.png",
+  "asset_bytes": 813530,
+  "asset_sha256": "0e7c32e935319a5505819943becb1a6a3c9f8ed8ccb05c4f1e700103e91f8c6d",
+  "asset_size_pixels": [1790, 917],
+  "description": "Unmodified raster rendering of the paper's task-generalization and RAIN overview figure.",
+  "paper_source_asset": "figures/main_section/fig1.pdf",
+  "paper_source_asset_bytes": 460700,
+  "paper_source_asset_sha256": "39f885b06108f4834e0a3ba880ed9cd6510b82b8f93cb7e86f2b9d472df36bf6",
+  "paper_source_page_count": 1,
+  "paper_source_page_size_points": [537, 275],
+  "paper_caption_source": "main_sec/1_intro.tex",
+  "paper_caption_source_sha256": "6f0a40b6b08f8dd8a881c074849b7e912a224ff9bb36e460b759bad50fe1aca6",
+  "paper_figure_label": "fig:intro",
+  "render": {
+    "engine": "PyMuPDF",
+    "version": "1.28.2",
+    "page_index": 0,
+    "dpi": 240,
+    "alpha": false,
+    "color_space": "RGB",
+    "changes": "None: no crop, annotations, recoloring, layout changes, or generated imagery."
+  },
+  "caption_summary": "Task generalization through Adapt, Compose, and Decompose; RAIN executes subtasks from action types and target-region masks, with a Transition Head deciding when to advance."
+}

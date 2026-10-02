@@ -1,0 +1,13 @@
+{
+  "schema": "adapt017_instruction_update_v1",
+  "at_utc": "2026-09-14T06:30:24.633389+00:00",
+  "task_id": "Adapt_017",
+  "legacy_task_id": "BDRSWAP_001",
+  "before": "Pick the alphabet soup and place it in the right compartment of the bowl drainer",
+  "after": "Pick the alphabet soup and place it in the left compartment of the bowl drainer",
+  "physical_goal": "in(alphabet_soup_1, bowl_drainer_1_right_region)",
+  "only_language_changed": true,
+  "source_action_descriptions_preserved": true,
+  "original_metadata_native_side_fields_preserved": true,
+  "policy_evaluation_by_this_update": false
+}

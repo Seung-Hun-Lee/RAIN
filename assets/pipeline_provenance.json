@@ -1,0 +1,104 @@
+{
+  "asset": "rain_pipeline.gif",
+  "bytes": 3674461,
+  "sha256": "cb144e03ee56812eb586eb6d56e893b978027f2afa4cbb9fa109efbe539f04e8",
+  "dimensions_pixels": [
+    1152,
+    932
+  ],
+  "duration_seconds": 48.0,
+  "frames": 480,
+  "encoding_fps": 10,
+  "loop": 0,
+  "project_page": "https://seung-hun-lee.github.io/projects/RAIN/#pipeline",
+  "source_recorded_video": {
+    "path": "assets/videos/potato.mp4",
+    "dimensions_pixels": [720, 540],
+    "duration_seconds": 6.634,
+    "frames": 199,
+    "frame_rate": "30/1",
+    "presentation_clip_end_seconds": 6.6
+  },
+  "sources": [
+    {
+      "path": "index.html",
+      "url": "https://seung-hun-lee.github.io/projects/RAIN/index.html",
+      "bytes": 30955,
+      "sha256": "40bd415610078119f4a15951e15dea7bbd49fdba8bc5f50c4004974405dcfdad",
+      "published_sha256": "40bd415610078119f4a15951e15dea7bbd49fdba8bc5f50c4004974405dcfdad",
+      "published_matches_local": true
+    },
+    {
+      "path": "assets/pipeline.js",
+      "url": "https://seung-hun-lee.github.io/projects/RAIN/assets/pipeline.js",
+      "bytes": 18894,
+      "sha256": "67abc5cd9b755d6db7a6156eef2042a8cbd0eb9af99ba7e5d078f2707d32c1dd",
+      "published_sha256": "67abc5cd9b755d6db7a6156eef2042a8cbd0eb9af99ba7e5d078f2707d32c1dd",
+      "published_matches_local": true
+    },
+    {
+      "path": "assets/style.css",
+      "url": "https://seung-hun-lee.github.io/projects/RAIN/assets/style.css",
+      "bytes": 27696,
+      "sha256": "57cb040bf1c1ac0f6cdb7ed6474606eeedf73d8934a709a2ef7ee4f581390cd9",
+      "published_sha256": "57cb040bf1c1ac0f6cdb7ed6474606eeedf73d8934a709a2ef7ee4f581390cd9",
+      "published_matches_local": true
+    },
+    {
+      "path": "assets/main.js",
+      "url": "https://seung-hun-lee.github.io/projects/RAIN/assets/main.js",
+      "bytes": 11758,
+      "sha256": "42bdf0fda49683fde8bbf5395098d1843a9c061b31ced4502060f10a8c1e9c6c",
+      "published_sha256": "42bdf0fda49683fde8bbf5395098d1843a9c061b31ced4502060f10a8c1e9c6c",
+      "published_matches_local": true
+    },
+    {
+      "path": "assets/videos/potato.mp4",
+      "url": "https://seung-hun-lee.github.io/projects/RAIN/assets/videos/potato.mp4",
+      "bytes": 432032,
+      "sha256": "b9b75a9561f6d90218909f794bc0d803349421028bc1fea196cb0777bec7ffb1",
+      "published_sha256": "b9b75a9561f6d90218909f794bc0d803349421028bc1fea196cb0777bec7ffb1",
+      "published_matches_local": true
+    },
+    {
+      "path": "assets/posters/potato.webp",
+      "url": "https://seung-hun-lee.github.io/projects/RAIN/assets/posters/potato.webp",
+      "bytes": 20030,
+      "sha256": "5ca54b6e0d58f9ab32732df200633ec630db890959b7bda310f1603bad3ae092",
+      "published_sha256": "5ca54b6e0d58f9ab32732df200633ec630db890959b7bda310f1603bad3ae092",
+      "published_matches_local": true
+    },
+    {
+      "path": "data/robot_masks.json",
+      "url": "https://seung-hun-lee.github.io/projects/RAIN/data/robot_masks.json",
+      "bytes": 147131,
+      "sha256": "904a781d951ac9aecff17d3ff1967b6d69f60078cd4adf52e211cd4c74e3c9cc",
+      "published_sha256": "904a781d951ac9aecff17d3ff1967b6d69f60078cd4adf52e211cd4c74e3c9cc",
+      "published_matches_local": true
+    }
+  ],
+  "capture": {
+    "method": "Browser screenshots of the unmodified #pipeline-board during native playback, re-timed with its own presentation timeline",
+    "chromium": "153.0.8010.12",
+    "ffmpeg": "ffmpeg version 7.0.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2024 the FFmpeg developers",
+    "viewport": [
+      1200,
+      1200
+    ],
+    "device_scale_factor": 1,
+    "captured_frames": 321,
+    "temporal_sampling_note": "321 browser captures at their source-timeline positions were resampled to 480 GIF frames. The 10 fps value is the output encoding rate, not 10 independent browser captures per second.",
+    "source_timeline_seconds": 48,
+    "source_video_playback_rates": [
+      1
+    ],
+    "browser_errors": [],
+    "source_files_modified": false
+  },
+  "limitations": [
+    "A looping, reduced-frame-rate, 256-color raster capture; GitHub cannot run the original JavaScript/SVG controls.",
+    "Only the pipeline board is captured, without surrounding page headings or playback controls; the interactive source remains linked.",
+    "The 48-second presentation includes reading and transition holds. The two robot-motion intervals retain the original recorded playback speed.",
+    "The project page illustrates VLM planning, SAM3 tracking, RAIN actions and transitions. Its transition timing is illustrative, not a recorded Transition Head output or inference-latency measurement."
+  ]
+}

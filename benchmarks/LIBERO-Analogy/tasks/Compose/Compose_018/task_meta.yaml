@@ -1,0 +1,85 @@
+task_id: Compose_018
+task_name: Pick the alphabet soup and place it in the left compartment of the bowl
+  drainer, then pick the tomato sauce and place it in the right compartment of the
+  bowl drainer
+language: Pick the alphabet soup and place it in the left compartment of the bowl
+  drainer, then pick the tomato sauce and place it in the right compartment of the
+  bowl drainer
+primary_category: Composition
+anchor_suite: libero_object
+source_prior_task_ids:
+- 1
+- 6
+source_prior_task_stem: two_original_object_pickup_skills
+source_prior_description: Each goal object uses its own original LIBERO-Object target
+  pickup slot.
+canonical_goal_atoms:
+- in(alphabet_soup_1, bowl_drainer_1_right_region)
+- in(tomato_sauce_1, bowl_drainer_1_left_region)
+canonical_task_signature: compose_ordered|1cf5ce672a72930d738098406de7e4b350dba094831aced5b44ae697e19bbe47
+objects_of_interest:
+- alphabet_soup_1
+- bowl_drainer_1_right_region
+- tomato_sauce_1
+- bowl_drainer_1_left_region
+held_fixed:
+- native food geometry and orientation sampler
+- native drainer geometry and yaw 0
+- one unchanged drainer pose throughout both stages
+- each object's original LIBERO-Object target pickup-slot family
+varied:
+- remove non-interacting distractors
+- right placement followed by left placement
+single_semantic_goal: false
+physical_group: Compose_018_two_object_learned_slots
+base_bddl_template: source://LIBERO_EX_ICRA27/LiberoBowlDrainerCompose/validated40/tasks/bdrcomp_002__pick_the_cream_cheese_and_place_it_in_the_left_compartment_of_the_bowl_drainer_then_pick_the_alphabet_soup_and_place_it_in_the_right_compartment_of_the_bowl_drainer/task.bddl
+base_pruned_init: source://pick_up_the_alphabet_soup_and_place_it_in_the_basket.pruned_init
+notes:
+- Robot-left is world +Y and robot-right is -Y; the review camera may show the reverse.
+- Distractors are removed to isolate whether second-stage reach/visibility caused
+  the prior failures.
+transfer_summary: Complete the right placement, then the left; retain both objects.
+critical_objects:
+- alphabet_soup_1
+- tomato_sauce_1
+required_init_predicates:
+- - not
+  - - in
+    - alphabet_soup_1
+    - bowl_drainer_1_left_region
+- - not
+  - - in
+    - alphabet_soup_1
+    - bowl_drainer_1_right_region
+- - not
+  - - in
+    - tomato_sauce_1
+    - bowl_drainer_1_left_region
+- - not
+  - - in
+    - tomato_sauce_1
+    - bowl_drainer_1_right_region
+composition_family: F2_right_then_left_two_object_learned_slots
+left_object: tomato_sauce_1
+right_object: alphabet_soup_1
+semantic_subtask_count: 2
+max_steps: 1040
+drainer_completion_mode: released_supported
+support_hold_control_steps: 5
+native_success_is_auxiliary: true
+order: right_then_left
+drainer_root_xy:
+- 0.0
+- 0.25471
+expected_drainer_root_z: 0.00602
+physical_floor_support_correction: true
+either_compartment_success: false
+accepted_native_regions:
+- bowl_drainer_1_left_region
+- bowl_drainer_1_right_region
+divider_region_accepted: false
+all_source_food_pickup_regions_unchanged: false
+comparison_reference: two original pickup sources / exact current candidate masks
+legacy_task_id: BDRMIN_002
+collection_category: Compose
+category_order: 18

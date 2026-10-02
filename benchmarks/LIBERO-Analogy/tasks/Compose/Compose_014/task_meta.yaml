@@ -1,0 +1,105 @@
+task_id: Compose_014
+task_name: Put the moka pot on the stove, then close the bottom drawer of the cabinet
+language: Put the moka pot on the stove, then close the bottom drawer of the cabinet
+primary_category: Composition
+composition_family: moka_then_bottom_drawer_close
+anchor_suite: libero_10
+source_prior_task_ids: []
+source_priors:
+- suite: libero_10
+  task_stem: KITCHEN_SCENE8_put_both_moka_pots_on_the_stove
+  instruction: put both moka pots on the stove
+  bddl: source://KITCHEN_SCENE8_put_both_moka_pots_on_the_stove.bddl
+  init: source://KITCHEN_SCENE8_put_both_moka_pots_on_the_stove.pruned_init
+  evidence: ''
+- suite: libero_10
+  task_stem: KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it
+  instruction: put the black bowl in the bottom drawer of the cabinet and close it
+  bddl: source://KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it.bddl
+  init: source://KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it.pruned_init
+  evidence: ''
+component_task_instructions:
+- Put the moka pot on the stove
+- Close the bottom drawer of the cabinet
+component_evidence:
+- Verified original training segments 1,2 for moka_pot_2; original pickup and stove
+  root poses preserved in states 0-4.
+- Original LIBERO_10_04 close segment 3. Cabinet root unchanged; initial drawer travel
+  shortened to 7cm for clearance, not an unchanged handle trajectory.
+semantic_subtask_count: 2
+action_plan_step_count: 3
+canonical_goal_atoms:
+- on(moka_pot_2, flat_stove_1_cook_region)
+- close(white_cabinet_1_bottom_region)
+canonical_task_signature: composition|606e3ea776ebb15570af0aaaf36bd8ea2e9d9031c0af1c3990db7010da049b6e|frozenset({close(white_cabinet_1_bottom_region),on(moka_pot_2,flat_stove_1_cook_region)})
+objects_of_interest:
+- moka_pot_2
+- flat_stove_1_cook_region
+- white_cabinet_1_bottom_region
+pure_composition: true
+requires_transition: true
+sequence_stages:
+- - on(moka_pot_2, flat_stove_1_cook_region)
+- - on(moka_pot_2, flat_stove_1_cook_region)
+  - close(white_cabinet_1_bottom_region)
+physical_group: moka_2_drawer_open70mm
+base_bddl_template: source://KITCHEN_SCENE8_put_both_moka_pots_on_the_stove.bddl
+base_pruned_init: source://KITCHEN_SCENE8_put_both_moka_pots_on_the_stove.pruned_init
+max_steps: 1600
+notes:
+- LIBERO_10_09 supplies moka_pot_2 and flat_stove_1; original position AND orientation
+  retained for all five donor states.
+- LIBERO_10_04 supplies white_cabinet_1 at its original fixture root position and
+  orientation.
+- The inactive moka_pot_1 is removed because it overlaps the cabinet. Required object
+  and fixture roots are not translated.
+- 'Only required-state adjustment: bottom drawer starts 7cm open (joint=-0.07), rather
+  than the original approximately 14-16cm. Full opening collides with the pot.'
+- This is NOT an unchanged original full layout or a claim that the shortened drawer-handle
+  starting pose has a verified matching demonstration trajectory.
+- The frozen task.pruned_init plus FIXTURE_REPLAY.json are authoritative. BDDL-only
+  resampling is not the evaluation protocol. Native Close is false initially; native
+  fully-Open need not be true.
+- The stove starts On as in LIBERO_10_09. This is context only, not an instructed
+  action or an earned event.
+- Success requires moka placement BEFORE drawer close, plus both native final goals.
+  Live exact-instance masks target the pot, burner surface, and moving bottom drawer
+  (not whole cabinet).
+ordered_event_atoms:
+- on(moka_pot_2, flat_stove_1_cook_region)
+- close(white_cabinet_1_bottom_region)
+ordered_task_signature: 4ab4e16832e8cf9d5c80a1a07dcc81bc3ef974dbf379dd76a5bc08d629283466
+fixture_replay_required: true
+fixture_replay_file: FIXTURE_REPLAY.json
+required_init_predicates: []
+initial_context_predicates:
+- turnon(flat_stove_1)
+exact_original_layout: false
+all_object_fixture_root_poses_original: true
+original_pickup_position_and_orientation_preserved: true
+initial_drawer_opening_m: 0.07
+required_asset_donors:
+  flat_stove_1:
+  - k8
+  - flat_stove_1
+  white_cabinet_1:
+  - k4
+  - white_cabinet_1
+  moka_pot_2:
+  - k8
+  - moka_pot_2
+removed_distractors:
+- moka_pot_1
+original_source_state_indices:
+- 0
+- 1
+- 2
+- 3
+- 4
+requested_group: 2
+geometry_validation_source: source://LIBERO_EX_ICRA27/LiberoUserTasks/MokaThenDrawerClose20260905/physical_scenes/moka_2_drawer__opening070mm/GEOMETRY_VALIDATION.json
+composition_scope: Original pickup/target fixture poses; drawer-opening state adjusted
+  for collision clearance
+legacy_task_id: MKDC_001
+collection_category: Compose
+category_order: 14

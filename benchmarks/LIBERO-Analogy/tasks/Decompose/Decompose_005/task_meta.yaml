@@ -1,0 +1,33 @@
+task_id: Decompose_005
+task_name: Put the yellow and white mug in the microwave
+language: Put the yellow and white mug in the microwave
+primary_category: TD
+anchor_suite: libero_10
+source_prior_description: Put the yellow and white mug in the microwave and close
+  it
+new_test_task_description: Put the yellow and white mug in the microwave
+scene_family: libero_10_kitchen_scene6
+objects_of_interest:
+- white_yellow_mug_1
+- microwave_1_heating_region
+canonical_goal_atoms:
+- in(white_yellow_mug_1, microwave_1_heating_region)
+canonical_task_signature: libero_10_kitchen_scene6|frozenset({in(white_yellow_mug_1,
+  microwave_1_heating_region)})
+held_fixed:
+- scene layout
+- fixtures
+- object set
+- init-state family
+varied:
+- goal subset
+why_this_category: Task Decomposition
+instruction_variants:
+- Put the yellow and white mug in the microwave
+source_prior_task_ids:
+- 109
+base_bddl_template: libero://bddl_files/libero_10/KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it.bddl
+base_pruned_init: libero://init_files/libero_10/KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it.pruned_init
+legacy_task_id: TDL10_005
+collection_category: Decompose
+category_order: 5

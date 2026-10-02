@@ -1,0 +1,119 @@
+task_id: Compose_020
+task_name: Put the cream cheese on the stove, then turn on the stove, then open the
+  top drawer of the wooden cabinet
+language: Put the cream cheese on the stove, then turn on the stove, then open the
+  top drawer of the wooden cabinet
+primary_category: Composition
+composition_family: stove_place_control_then_top_open
+anchor_suite: libero_goal
+source_prior_task_ids:
+- '4'
+- '7'
+- '10'
+source_priors: []
+component_task_instructions:
+- Put the cream cheese on the stove
+- Turn on the stove
+- Open the top drawer of the wooden cabinet
+component_evidence:
+- Byte-identical ordered prefix action copied from strict-success donor Compose_002.
+- Byte-identical ordered prefix action copied from strict-success donor Compose_002.
+- Atomic action copied from ANLGX_020 at source-aligned fixture geometry.
+semantic_subtask_count: 3
+action_plan_step_count: 4
+canonical_goal_atoms:
+- on(cream_cheese_1, flat_stove_1_cook_region)
+- turnon(flat_stove_1)
+- open(wooden_cabinet_1_top_region)
+canonical_task_signature: composition|12984512f2b344c446e8dffbe0ec0748b54d276ea8b6d537ce70c1c524640df5|('on(cream_cheese_1,
+  flat_stove_1_cook_region)', 'turnon(flat_stove_1)', 'open(wooden_cabinet_1_top_region)')
+objects_of_interest:
+- cream_cheese_1
+- flat_stove_1_cook_region
+- flat_stove_1
+- wooden_cabinet_1_top_region
+pure_composition: true
+requires_transition: true
+sequence_stages:
+- - on(cream_cheese_1, flat_stove_1_cook_region)
+- - on(cream_cheese_1, flat_stove_1_cook_region)
+  - turnon(flat_stove_1)
+- - on(cream_cheese_1, flat_stove_1_cook_region)
+  - turnon(flat_stove_1)
+  - open(wooden_cabinet_1_top_region)
+physical_group: ctr_140
+base_bddl_template: source://LIBERO_EX_ICRA27/LiberoValidComposeNew20260905/Batch9DependentPlacementControls/tasks/vcn9_010__put_the_cream_cheese_on_the_stove_then_turn_on_the_stove/task.bddl
+base_pruned_init: source://LIBERO_EX_ICRA27/LiberoValidComposeNew20260905/Batch9DependentPlacementControls/tasks/vcn9_010__put_the_cream_cheese_on_the_stove_then_turn_on_the_stove/task.pruned_init
+max_steps: 1600
+notes: []
+design_rank: 1
+ordered_event_atoms:
+- on(cream_cheese_1, flat_stove_1_cook_region)
+- turnon(flat_stove_1)
+- open(wooden_cabinet_1_top_region)
+fixture_replay_required: true
+fixture_replay_file: FIXTURE_REPLAY.json
+compose_final_termination: ordered_native_goals_without_tc
+compose_final_tc_gate: false
+donor_bundle: source://LIBERO_EX_ICRA27/LiberoValidComposeNew20260905/Batch9DependentPlacementControls/tasks/vcn9_010__put_the_cream_cheese_on_the_stove_then_turn_on_the_stove
+donor_states_byte_identical: true
+scene_derivation: single_exact_evaluated_donor_no_pose_changes
+complete_strict_success_prefix: true
+added_action: open(wooden_cabinet_1_top_region)
+added_action_pose_proof:
+  claim: added action retains source object/fixture root support geometry
+  source_bddl: source://open_the_top_drawer_and_put_the_bowl_inside.bddl
+  source_bddl_sha256: 3056e4dc72ee590432cfb18c610fd077a572c8b8f256e45328031005dd0b6757
+  entities:
+  - entity: wooden_cabinet_1
+    donor_type: wooden_cabinet
+    source_type: wooden_cabinet
+    type_exact: true
+    donor_init_support: main_table_cabinet_region
+    source_init_support: main_table_cabinet_region
+    support_numeric_geometry_exact: true
+  source_aligned: true
+trajectory_alignment_policy: soft_prior_not_exclusion
+validation_version: trajectory_repair_five_state_screen_v2_fixture_snapshot
+selected: false
+final_tc_gate: false
+globally_novel_additive_candidate: false
+new_semantic_family: false
+trajectory_guided_repair: true
+parent_task_id: VCN16_001
+parent_bundle: source://LIBERO_EX_ICRA27/LiberoValidComposeNew20260905/Batch16DiverseExactDonorExtensions/tasks/vcn16_001__put_the_cream_cheese_on_the_stove_then_turn_on_the_stove_then_open_the_top_drawer_of_the_wooden_cabinet
+repair_definition:
+  task_id: Compose_020
+  parent_task_id: VCN16_001
+  parent_bundle: LiberoValidComposeNew20260905/Batch16DiverseExactDonorExtensions/tasks/vcn16_001__put_the_cream_cheese_on_the_stove_then_turn_on_the_stove_then_open_the_top_drawer_of_the_wooden_cabinet
+  pose_changes:
+    flat_stove_1:
+      delta_xyz:
+      - 0.1
+      - 0
+      - 0
+  evidence: 'Historical three-step VCN16_001 cheese onto stove -> turn on same stove
+    -> open wooden top drawer was0/5. First cheese native placement reached in all5
+    episodes at152/162/169/164/160 controls; the stove turned on only inep004 at368
+    after action-stage transition, and no top-drawer goal completed. Actual recorded
+    turn-on stage is short: ep000 controls161–177 endsEEF[-.301,.201,.957], ep001169–209
+    ends[-.287,.225,.973], ep004169–177 ends[-.284,.196,.969]. Exact frozen stove/knob
+    root begins[-.415,.211,.905], while burner is+.15m X away, so robot remains near
+    burner-side corridor and misses knob. Test coherent whole-stove +10/+12cm X shift,
+    retaining yaw, OFF control joint, cheese object, fully closed top drawer and all
+    original40 source action descriptions. This also moves the first placement target
+    and must be re-evaluated rather than claiming fixed policy replay. Initial collision/stability/nativefalse/fixture
+    replay all5required. New control trace/manual review must prove actual knob interaction
+    and preserve placed cheese and stoveON before deliberate top opening.'
+  source_result: source://VLM_evaluation/results/rain_ms_maskaug_gt_valid_compose_new_batch16_diverse_exact_donor18_5ep_20260905/tasks/all18/VCN16_001/results.json
+arbitrary_coordinate_offsets: true
+same_index_parent_states: true
+same_index_robot_frame_transfer: false
+custom_eval_needed: true
+order_sensitive: true
+downstream_preservation_required: true
+environment_ignore_done: true
+parent_canonical_task_signature: composition|0af938f4765f82990112c3148b8e928a155e30fa31d1e827e881b8b47b00e199|frozenset({on(cream_cheese_1,flat_stove_1_cook_region),open(wooden_cabinet_1_top_region),turnon(flat_stove_1)})
+legacy_task_id: CTR_140
+collection_category: Compose
+category_order: 20

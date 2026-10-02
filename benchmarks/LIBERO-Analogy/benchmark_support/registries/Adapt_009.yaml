@@ -1,0 +1,16 @@
+name: Adapt_009
+language: Put the yellow and white mug in the right compartment of the caddy
+problem: Libero
+problem_folder: tasks/Adapt/Adapt_009
+bddl_file: task.bddl
+init_states_file: task.pruned_init
+category: Analogy
+anchor_suite: libero_10
+metadata_file: ../../tasks/Adapt/Adapt_009/task_meta.yaml
+eval_rules_file: ../../tasks/Adapt/Adapt_009/eval_rules.yaml
+mask_bindings_file: ../../Adapt/Adapt_009/mask_bindings.yaml
+action_plan_file: ../../Adapt/Adapt_009/action_plan.yaml
+canonical_task_signature: analogy|L3_libero10_caddy_object_compartment|libero10_study1_mug_caddy_context|in(white_yellow_mug_1,
+  desk_caddy_1_left_contain_region)
+collection_category: Adapt
+legacy_task_id: ANLGX_178

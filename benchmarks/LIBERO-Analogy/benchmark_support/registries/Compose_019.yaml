@@ -1,0 +1,18 @@
+name: Compose_019
+language: Put the alphabet soup in the basket, then put the butter in the basket,
+  then put the cream cheese box in the basket
+problem: Libero
+problem_folder: tasks/Compose/Compose_019
+bddl_file: task.bddl
+init_states_file: task.pruned_init
+category: Composition
+anchor_suite: libero_10
+metadata_file: ../../tasks/Compose/Compose_019/task_meta.yaml
+eval_rules_file: ../../tasks/Compose/Compose_019/eval_rules.yaml
+mask_bindings_file: ../../Compose/Compose_019/mask_bindings.yaml
+action_plan_file: ../../Compose/Compose_019/action_plan.yaml
+canonical_task_signature: composition|cd8550b7448f4107b5a16092ce392315c33988449b91ac0259db3535803529f8|('in(alphabet_soup_1,
+  basket_1_contain_region)', 'in(butter_1, basket_1_contain_region)', 'in(cream_cheese_1,
+  basket_1_contain_region)')
+collection_category: Compose
+legacy_task_id: CTR_176

@@ -1,0 +1,16 @@
+name: Adapt_002
+language: Put the white mug on the right plate
+problem: Libero
+problem_folder: tasks/Adapt/Adapt_002
+bddl_file: task.bddl
+init_states_file: task.pruned_init
+category: Analogy
+anchor_suite: libero_10
+metadata_file: task_meta.yaml
+eval_rules_file: eval_rules.yaml
+mask_bindings_file: mask_bindings.yaml
+action_plan_file: action_plan.yaml
+canonical_task_signature: analogy|E1_clean_exact_instance_three_targets|context_three_plates_porcelain_mug_blocker_removed_right|on(porcelain_mug_1,
+  plate_2)
+legacy_task_id: ANLGX_003
+collection_category: Adapt

@@ -1,0 +1,16 @@
+name: Compose_003
+language: Put the cream cheese on the stove, then push the plate to the front of the
+  stove
+problem: Libero
+problem_folder: tasks/Compose/Compose_003
+bddl_file: task.bddl
+init_states_file: task.pruned_init
+category: Composition
+anchor_suite: libero_goal
+metadata_file: task_meta.yaml
+eval_rules_file: eval_rules.yaml
+mask_bindings_file: mask_bindings.yaml
+action_plan_file: action_plan.yaml
+canonical_task_signature: composition|0af938f4765f82990112c3148b8e928a155e30fa31d1e827e881b8b47b00e199|frozenset({on(cream_cheese_1,flat_stove_1_cook_region),on(plate_1,main_table_stove_front_region)})
+legacy_task_id: VCN10_001
+collection_category: Compose

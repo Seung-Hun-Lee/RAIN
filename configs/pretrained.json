@@ -1,0 +1,60 @@
+{
+  "schema": "rain_pretrained_identity_v1",
+  "dinov2": {
+    "hub_model": "dinov2_vitl14_reg",
+    "weight_name": "dinov2_vitl14_reg4_pretrain.pth",
+    "register_tokens": 4,
+    "pretraining_dataset": "LVD142M",
+    "url": "https://dl.fbaipublicfiles.com/dinov2/dinov2_vitl14/dinov2_vitl14_reg4_pretrain.pth",
+    "sha256": "36e4deffbaef061a2576705b0c36f93621e2ae20bf6274694821b0b492551b51",
+    "bytes": 1217607321,
+    "source_git_commit": null,
+    "source_evidence": "Source-file hashes identify the DINOv2 code used by this implementation; its Git revision is unavailable.",
+    "source_files": {
+      "dinov2/layers/attention.py": "79c7be7a452b3aad96698ec38d5d5150b9f4d8ac084fa93324510dc9f624775d",
+      "dinov2/layers/drop_path.py": "b9f8236e86054b9d9a71275efcad2a9ecaa1f86b529d4b8d6109ddb5e806f67a",
+      "dinov2/layers/dino_head.py": "9fdb1fa61c0609dc0876f711f9d0d828c33bf9fd972aab3d9c968d44e16b98d1",
+      "dinov2/layers/patch_embed.py": "40da6add3d811198ea3e17cb99cdd4e5cda59e369efbbe3d18d89308618cf142",
+      "dinov2/layers/block.py": "60c0ac7dfa4474be313fabfa5a23d82faf6f0cecd4e720a88be35de9788cb636",
+      "dinov2/layers/__init__.py": "1b55deed39d5ab0b589bef421bbfe06f24a10cd590a0f8403234c9ee4e34109d",
+      "dinov2/layers/mlp.py": "255825c73b60a916dd00eb1e38aacbcdbf316e40d6a005efb46e245b7edb43aa",
+      "dinov2/layers/layer_scale.py": "dadd5aafe178f1bf72a205a02a6645c7e635cacbad585d4a7369c200c6e89135",
+      "dinov2/layers/swiglu_ffn.py": "e46d2948fb97e497cf991ff82ce30cb59b59fdf2e12a19568417113716b4f119",
+      "dinov2/hub/__init__.py": "2932e94a2d67be87b717c49468214c1127be7864aedf37f5891d26be7bc1437f",
+      "dinov2/hub/depthers.py": "55e47611dccc5d000574f9837accdb0babd02abe4eba998bd3bf01361143f0a6",
+      "dinov2/hub/backbones.py": "9f5557d6480d99f8edf75544e1eccaf797f32c9f87484d75f41827dc37ac2a77",
+      "dinov2/models/__init__.py": "b93329ce676f3eb0c9a7790d1b3b2b114a0855ea8dc76e32e262d1a7dc6c55ae",
+      "dinov2/models/vision_transformer.py": "7799a260f2d7d0fe197331d08502fb8c542f9b7424723650f6a39b64fa2639ea",
+      "dinov2/hub/utils.py": "c0533919016531b320bf9aef7cd7001249bc8ef8957cdb29246c15b67d5abdf8",
+      "dinov2/hub/classifiers.py": "e9a178f9f3be659e4b463885453d2d5f9af0c068ac71fb3890d24796e659fd4b",
+      "dinov2/hub/dinotxt.py": "318452ea1ff0e34fa811b0fbb1f7281dfe73d2f9a481dc7b4a73fe211828ebb6",
+      "dinov2/hub/cell_dino/backbones.py": "ca335e59e9dd0eed145933a5021d46a5e6c85eaa3cad72639463b75d940da13d",
+      "dinov2/hub/depth/ops.py": "85d58e303eff9a0a306d97101c8b35c24196bfe55e8da019df1e4817411a4dc7",
+      "dinov2/hub/text/dinov2_wrapper.py": "834423f869038ce7c2b1794564018e0d3ca8194faa6d4c17f0d208b1625d0c64",
+      "dinov2/hub/text/tokenizer.py": "85078188841107932343123f29104288615b41ca4e5d1eb2d8623e02a8ac749a",
+      "dinov2/hub/text/text_transformer.py": "7138271bc95251d33a172cead1392434b9f8f7b1401fe1e0b4c37e64ff2bf354",
+      "dinov2/hub/text/dinotxt_model.py": "7ef7bfceaacfd1566a3984038a691edeaf9b9f42910583e5de62a00e3cf852d0",
+      "dinov2/hub/text/text_tower.py": "fa591e45ad0e7400290e716ff0ddca102fd646edc2da448807c1006a5b94744f",
+      "dinov2/hub/text/vision_tower.py": "2496418c885c01ba7b7b9172d72906911ad950211c08a6e085ef2ee574405ebb",
+      "dinov2/hub/depth/decode_heads.py": "04eb9639a4441409b80651c3d019a6e850c32b7e709236ceb6dbbaeb9fa17713",
+      "dinov2/hub/depth/__init__.py": "de8f3fbecabae6552ebb8f3d7dee27987b1dbc11e94143c95137c438e86a9123",
+      "dinov2/hub/depth/encoder_decoder.py": "1baf6f59269fb99faf274900f12910a22e038a3bb6d81c6fc712c0c482041a57",
+      "dinov2/hub/xray_dino/backbones.py": "23c4513ac900815772d6076d2dd8c6e8564cd85ec11873c8ebe62e5de0647d03",
+      "hubconf.py": "c1f5090e78ff940b72c076d2bf9c0310d1707c946b3d10e2d6f2b0bdf56a6f64"
+    }
+  },
+  "clip": {
+    "model": "openai/clip-vit-large-patch14",
+    "cached_revision": "32bd64288804d66eefd0ccbe215aa642df71cc41",
+    "action_type_prompts": [
+      "grasp",
+      "release",
+      "push",
+      "turn on",
+      "close",
+      "open",
+      "approach"
+    ],
+    "inference": "Action-type features are restored exactly from the action checkpoint."
+  }
+}
