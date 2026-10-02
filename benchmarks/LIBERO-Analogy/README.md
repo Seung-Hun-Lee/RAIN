@@ -106,7 +106,7 @@ env.close()
 
 ## Frozen task semantics
 
-[TASKS.md](TASKS.md) lists all task IDs, instructions, step caps and initial-state counts. Adapt_017's instruction says "left compartment", while its native target is `bowl_drainer_1_right_region`. Use the supplied instruction and target unchanged; region identifiers do not determine the wording of a task instruction.
+[TASKS.md](TASKS.md) lists all task IDs, instructions, and videos. Step caps and initial-state counts are recorded in [TASK_INDEX.json](TASK_INDEX.json). Adapt_017's instruction says "left compartment", while its native target is `bowl_drainer_1_right_region`. Use the supplied instruction and target unchanged; region identifiers do not determine the wording of a task instruction.
 
 The baseline protocol uses 50 episodes per task. Twenty-four tasks have 50 initial states; 36 have five states repeated by `episode % state_count`. Seed is `7 + (task_order - 1) * 100 + episode`. Each task's step cap is fixed in the task index. Ten warmup controls precede inference; native-only unsuccessful tasks receive a 20-control passive cooldown. Scoring includes Decompose's continue/forbidden rules, strict rising-event order, released/support checks, and Compose_005's direct-contact/door-clearance check. Learned RAIN TC-based termination is model-specific and is not applied to baseline policies.
 
