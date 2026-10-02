@@ -8,8 +8,8 @@
     "url": "https://dl.fbaipublicfiles.com/dinov2/dinov2_vitl14/dinov2_vitl14_reg4_pretrain.pth",
     "sha256": "36e4deffbaef061a2576705b0c36f93621e2ae20bf6274694821b0b492551b51",
     "bytes": 1217607321,
-    "source_git_commit": null,
-    "source_evidence": "Source-file hashes identify the DINOv2 code used by this implementation; its Git revision is unavailable.",
+    "source_git_commit": "7b187bd4df8efce2cbcbbb67bd01532c19bf4c9c",
+    "source_evidence": "All 30 recorded source-file hashes match this public DINOv2 commit.",
     "source_files": {
       "dinov2/layers/attention.py": "79c7be7a452b3aad96698ec38d5d5150b9f4d8ac084fa93324510dc9f624775d",
       "dinov2/layers/drop_path.py": "b9f8236e86054b9d9a71275efcad2a9ecaa1f86b529d4b8d6109ddb5e806f67a",

@@ -6,6 +6,8 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
+from shared.dinov2 import load_dinov2
+
 
 IMAGENET_MEAN = (0.485, 0.456, 0.406)
 IMAGENET_STD = (0.229, 0.224, 0.225)
@@ -27,9 +29,7 @@ class FrozenDINOv2LargeMultiScale(nn.Module):
                 f"RAIN multi-scale features require 224px input, got {input_size}"
             )
         self.input_size = int(input_size)
-        self.backbone = torch.hub.load(
-            "facebookresearch/dinov2", "dinov2_vitl14_reg", verbose=False
-        )
+        self.backbone = load_dinov2()
         self.backbone.requires_grad_(False)
         self.backbone.eval()
         self.register_buffer(

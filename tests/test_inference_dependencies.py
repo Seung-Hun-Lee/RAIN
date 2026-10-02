@@ -1,8 +1,8 @@
 """Inference cache isolation, action conditioning, and rendering failures."""
 
 import ast
+import importlib
 import json
-import os
 from pathlib import Path
 from types import SimpleNamespace
 from unittest.mock import Mock
@@ -12,6 +12,7 @@ import pytest
 import torch
 
 from rain.models.model import RAINModel
+from shared.dinov2 import DINO_REPOSITORY, DINO_REVISION, load_dinov2
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -31,37 +32,68 @@ def isolated_function(path, name, namespace):
     return namespace[name]
 
 
-@pytest.mark.parametrize("path", RUNTIMES)
-def test_dino_uses_configured_torch_cache(path, tmp_path, monkeypatch):
+def test_dino_uses_pinned_revision_in_configured_torch_cache(tmp_path, monkeypatch):
     monkeypatch.setenv("TORCH_HOME", str(tmp_path / "torch"))
     monkeypatch.setattr(torch.hub, "_hub_dir", None)
-    local_repo = Path(torch.hub.get_dir()) / "facebookresearch_dinov2_main"
-    local_repo.mkdir(parents=True)
+    for revision in ("main", DINO_REVISION):
+        cached_repo = Path(torch.hub.get_dir()) / f"facebookresearch_dinov2_{revision}"
+        cached_repo.mkdir(parents=True)
+        (cached_repo / "hubconf.py").write_text(
+            f"def dinov2_vitl14_reg():\n    return {revision!r}\n"
+        )
+    download = Mock(side_effect=AssertionError("cached source should not be downloaded"))
+    monkeypatch.setattr(torch.hub, "download_url_to_file", download)
+    assert load_dinov2() == DINO_REVISION
+    download.assert_not_called()
+
+
+def test_dino_cache_miss_requests_recorded_public_revision(monkeypatch):
     original = Mock(return_value=object())
-    load = isolated_function(path, "_patched_hub_load", {
-        "torch": torch, "os": os, "_original_hub_load": original,
-    })
-    result = load("facebookresearch/dinov2", "dinov2_vitl14_reg", pretrained=True)
+    monkeypatch.setattr(torch.hub, "load", original)
+    result = load_dinov2("dinov2_vits14_reg")
     original.assert_called_once_with(
-        str(local_repo), "dinov2_vitl14_reg", pretrained=True, source="local",
+        DINO_REPOSITORY, "dinov2_vits14_reg", verbose=False,
+        trust_repo=True, skip_validation=True,
     )
     assert result is original.return_value
 
 
 @pytest.mark.parametrize("path", RUNTIMES)
-@pytest.mark.parametrize("repo,kwargs", [
-    ("facebookresearch/dinov2", {}),
-    ("another/repository", {}),
-    ("/local/dinov2", {"source": "local"}),
-])
-def test_dino_cache_miss_and_other_sources_are_forwarded(path, repo, kwargs, tmp_path, monkeypatch):
-    monkeypatch.setattr(torch.hub, "get_dir", lambda: str(tmp_path))
-    original = Mock()
-    load = isolated_function(path, "_patched_hub_load", {
-        "torch": torch, "os": os, "_original_hub_load": original,
-    })
-    load(repo, "model", **kwargs)
-    original.assert_called_once_with(repo, "model", **kwargs)
+def test_evaluator_import_does_not_replace_torch_hub(path):
+    original = torch.hub.load
+    module = importlib.import_module(path[:-3].replace("/", "."))
+    importlib.reload(module)
+    assert torch.hub.load is original
+
+
+def test_dino_manifest_and_all_loaders_share_one_source():
+    identity = json.loads((ROOT / "configs/pretrained.json").read_text())["dinov2"]
+    assert identity["source_git_commit"] == DINO_REVISION
+    for module_name in ("rain.prepare_data", "rain.models.multiscale_vision", "shared.components"):
+        module = importlib.import_module(module_name)
+        assert module.load_dinov2 is load_dinov2
+        source = Path(module.__file__).read_text()
+        assert "torch.hub.load(" not in source
+        assert "facebookresearch_dinov2_main" not in source
+
+
+@pytest.mark.parametrize("multiscale", (False, True))
+def test_online_dino_loaders_keep_backbone_frozen(multiscale, monkeypatch):
+    from rain.models.multiscale_vision import FrozenDINOv2LargeMultiScale
+    from shared.components import FrozenDINOv2
+
+    backbone = torch.nn.Linear(3, 3)
+    original = Mock(return_value=backbone)
+    monkeypatch.setattr(torch.hub, "load", original)
+    model = FrozenDINOv2LargeMultiScale() if multiscale else FrozenDINOv2()
+    assert model.backbone is backbone
+    original.assert_called_once_with(
+        DINO_REPOSITORY, "dinov2_vitl14_reg", verbose=False,
+        trust_repo=True, skip_validation=True,
+    )
+    model.train()
+    assert not backbone.training
+    assert all(not parameter.requires_grad for parameter in backbone.parameters())
 
 
 @pytest.mark.parametrize("config", ("action.json", "transition.json"))

@@ -4,13 +4,12 @@ FrozenDINOv2, timestep embeddings, attention blocks, state/text encoders.
 """
 
 import math
-import os
-import sys
-from pathlib import Path
 
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
+
+from shared.dinov2 import load_dinov2
 
 DINO_MEAN = (0.485, 0.456, 0.406)
 DINO_STD = (0.229, 0.224, 0.225)
@@ -26,52 +25,24 @@ class FrozenDINOv2(nn.Module):
     Input:  (B, 3, H, W) float [0, 1]
     Output: (B, 1 + patches, 1024) = CLS + patch tokens.
 
-    Prefers the local `sam-3d-objects` wrapper when present. If unavailable,
-    falls back to torch.hub, using its local DINOv2 cache when available.
+    Uses the recorded public DINOv2 source and the configured Torch Hub cache.
     """
 
     def __init__(self, input_size: int = 448, dino_model: str = "dinov2_vitl14_reg"):
         super().__init__()
         self.input_size = int(input_size)
         self.dino_model = str(dino_model)
-        self._backend = "sam3d"
-
-        sam3d_root = str(Path(__file__).resolve().parents[1] / "sam-3d-objects")
-        if sam3d_root not in sys.path:
-            sys.path.insert(0, sam3d_root)
-
-        try:
-            os.environ.setdefault("LIDRA_SKIP_INIT", "true")
-            from sam3d_objects.model.backbone.dit.embedder.dino import Dino
-
-            self.backbone = Dino(
-                dino_model=self.dino_model,
-                input_size=self.input_size,
-                normalize_images=True,
-                freeze_backbone=True,
-            )
-        except ModuleNotFoundError:
-            self._backend = "hub"
-            local_path = os.path.expanduser("~/.cache/torch/hub/facebookresearch_dinov2_main")
-            if os.path.isdir(local_path):
-                self.backbone = torch.hub.load(
-                    local_path, self.dino_model, source="local", verbose=False,
-                )
-            else:
-                self.backbone = torch.hub.load(
-                    "facebookresearch/dinov2", self.dino_model, verbose=False,
-                )
-
-            self.register_buffer(
-                "_pixel_mean",
-                torch.tensor(DINO_MEAN, dtype=torch.float32).view(1, 3, 1, 1),
-                persistent=False,
-            )
-            self.register_buffer(
-                "_pixel_std",
-                torch.tensor(DINO_STD, dtype=torch.float32).view(1, 3, 1, 1),
-                persistent=False,
-            )
+        self.backbone = load_dinov2(self.dino_model)
+        self.register_buffer(
+            "_pixel_mean",
+            torch.tensor(DINO_MEAN, dtype=torch.float32).view(1, 3, 1, 1),
+            persistent=False,
+        )
+        self.register_buffer(
+            "_pixel_std",
+            torch.tensor(DINO_STD, dtype=torch.float32).view(1, 3, 1, 1),
+            persistent=False,
+        )
 
         for p in self.backbone.parameters():
             p.requires_grad = False
@@ -79,9 +50,6 @@ class FrozenDINOv2(nn.Module):
 
     @torch.no_grad()
     def forward(self, x: torch.Tensor) -> torch.Tensor:
-        if self._backend == "sam3d":
-            return self.backbone(x)
-
         x = x.float()
         if x.shape[-2:] != (self.input_size, self.input_size):
             x = F.interpolate(

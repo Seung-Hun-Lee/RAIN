@@ -14,21 +14,7 @@ from typing import Dict, List, Optional, Tuple
 
 import numpy as np
 
-# ---------------------------------------------------------------------------
-# Use the local DINO torch.hub cache when available.
-# ---------------------------------------------------------------------------
 import torch
-_original_hub_load = torch.hub.load
-
-def _patched_hub_load(repo_or_dir, model, *args, **kwargs):
-    if repo_or_dir == "facebookresearch/dinov2" and kwargs.get("source", "github") == "github":
-        local_path = os.path.join(torch.hub.get_dir(), "facebookresearch_dinov2_main")
-        if os.path.isdir(local_path):
-            kwargs["source"] = "local"
-            return _original_hub_load(local_path, model, *args, **kwargs)
-    return _original_hub_load(repo_or_dir, model, *args, **kwargs)
-
-torch.hub.load = _patched_hub_load
 
 LIBERO_ENV_RESOLUTION = 256
 NUM_STEPS_WAIT = 10

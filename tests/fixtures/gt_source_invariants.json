@@ -2,7 +2,6 @@
   "source": "Reference source signatures for model and evaluation regression tests.",
   "functions": {
     "eval/eval_libero.py": {
-      "_patched_hub_load": "76cf478d545110c2615e4abd1b0fbdfb90858d3b7c100d5ee0d7e4d7919057c6",
       "action_type_to_id": "eab00c395a4850ec0d6c773e34726a2521733d6c5c94e6f897c99c8f98e8329f",
       "infer_action_type_from_language": "d019c0cd97a35d90d0138a1aecfba052faac801647725ba93611e99d5e16738d",
       "_quat2axisangle": "56bcc2a5230c392c1849e0f4069dc745a22991a3c6025194e9c713a38badcd5d",
@@ -42,7 +41,6 @@
       "run_single_episode_mask_sequence": "9a90e2bb9cf4c4e940648ec992a86f690849cf75655693feb16c1681a08c746d"
     },
     "final_libero_ex_eval/impl/runtime.py": {
-      "_patched_hub_load": "76cf478d545110c2615e4abd1b0fbdfb90858d3b7c100d5ee0d7e4d7919057c6",
       "action_type_to_id": "eab00c395a4850ec0d6c773e34726a2521733d6c5c94e6f897c99c8f98e8329f",
       "infer_action_type_from_language": "d019c0cd97a35d90d0138a1aecfba052faac801647725ba93611e99d5e16738d",
       "_quat2axisangle": "56bcc2a5230c392c1849e0f4069dc745a22991a3c6025194e9c713a38badcd5d",
@@ -106,7 +104,7 @@
     "shared/data/mask_augmentation.py": "142688ed86b04ccea99a29333010fd081c9b1be9152fb65c35e713cc5decb25e",
     "rain/training/action.py": "c5f0759fb5165edd3406b12069341d9da0e9b2d9706f1eeeca4f35f6aa40fa3a",
     "rain/training/transition.py": "0ff42c0fefc112a8a4662b943e8a04ded7528be6b1d005c55d631d6aa97f3733",
-    "rain/model.py": "e82e25e0c24a8f1e502689ca69ed9babb2518440190c67da15cd297c96d00b94",
+    "rain/model.py": "4afad26d9b3659de9d942e811702d44f3dbcb91ab8c16d7cbdf921978dfb9efd",
     "rain/transition_head.py": "adb1e52ee4ac167fa907794042964d056520fce7b5a2a7d55727457e243a33f9",
     "rain/models/model.py": "991c75f1b4bc896481b25f734f7ee3a05b3180c064c9d022ca7c2c45628bdd18",
     "rain/models/vision_encoder.py": "006e652b2bb9483c7e886e06a145cf342d8d14d6c82ae4eab36231631f279b37",

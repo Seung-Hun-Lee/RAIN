@@ -37,6 +37,8 @@ import torch
 import torchvision.transforms as T
 from PIL import Image
 
+from shared.dinov2 import load_dinov2
+
 # ---------------------------------------------------------------------------
 DINO_MEAN = (0.485, 0.456, 0.406)
 DINO_STD = (0.229, 0.224, 0.225)
@@ -147,7 +149,7 @@ def run_worker(args):
 
     hub_name = VARIANTS[args.variant][0]
     print(f"{tag} Loading DINOv2 {args.variant} ({hub_name})...", flush=True)
-    model = torch.hub.load("facebookresearch/dinov2", hub_name, verbose=False)
+    model = load_dinov2(hub_name)
     model = model.to(device).eval()
     print(f"{tag} DINOv2 loaded. Scale layers: {scale_layers}", flush=True)
 

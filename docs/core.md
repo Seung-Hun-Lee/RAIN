@@ -64,20 +64,22 @@ python -m rain.precompute_text \
 Training initializes seven CLIP action-type features. Inference restores
 those features from the checkpoint without
 downloading CLIP again. Feature extraction/online RGB inference still require
-DINOv2 code and pretrained weights, obtained by `torch.hub` or its local cache.
+DINOv2 code and pretrained weights, obtained through Torch Hub.
 The actual backbone is `dinov2_vitl14_reg`, with **four register tokens** in the
 backbone; the stored features contain only the 256 patch tokens, not registers.
 `configs/pretrained.json` records weight URLs, checksums, source-file hashes,
-and the CLIP revision. Verify your local DINOv2 installation with:
+and the CLIP revision. Extraction and online inference both pin DINOv2 to
+commit `7b187bd4df8efce2cbcbbb67bd01532c19bf4c9c` and respect `TORCH_HOME`.
+After the first backbone load, verify the cached source and weights with:
 
 ```bash
-python -m rain.verify_backbones --dino-repo PATH_TO_DINOV2_SOURCE \
-  --dino-weights PATH_TO_DINOV2_VITL14_REG4_PRETRAIN_PTH
+DINO_HUB_ROOT="$(python -c 'import torch; print(torch.hub.get_dir())')"
+python -m rain.verify_backbones \
+  --dino-repo "$DINO_HUB_ROOT/facebookresearch_dinov2_7b187bd4df8efce2cbcbbb67bd01532c19bf4c9c" \
+  --dino-weights "$DINO_HUB_ROOT/checkpoints/dinov2_vitl14_reg4_pretrain.pth"
 ```
 
-The extractor uses the Torch Hub cache. The evaluator prefers the standard
-`~/.cache/torch/hub/facebookresearch_dinov2_main` checkout when it exists.
-Verification records identity but does not itself redirect either loader.
+The loader does not reuse an unpinned `main` checkout.
 
 ## Training and ablations
 

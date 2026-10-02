@@ -89,7 +89,7 @@ class PoolingModel(RAINModel):
             third_patches, wrist_patches, mask_third, mask_wrist, cond_text,
         )
         losses: Dict[str, torch.Tensor] = {}
-        if self.training and gt_distance is not None:
+        if gt_distance is not None:
             progress_losses = tc_loss(
                 progress_preds["task_comp_logit"], gt_distance,
                 gt_task_completion, action_type, self.config.progress,
