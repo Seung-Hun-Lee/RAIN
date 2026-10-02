@@ -2,7 +2,7 @@
 
 LIBERO-Analogy contains 60 tasks: 20 Decompose, 20 Adapt, and 20 Compose tasks. This package includes task definitions, initial states, evaluation rules, simulator support, and a policy-neutral evaluator.
 
-[Explore all 60 tasks](https://seung-hun-lee.github.io/projects/RAIN/gallery.html) with task descriptions and videos.
+[Browse all 60 tasks](TASKS.md) with a direct video link for each task, or explore the [video gallery](https://seung-hun-lee.github.io/projects/RAIN/gallery.html).
 
 This benchmark is bundled under `benchmarks/LIBERO-Analogy` in the RAIN
 repository and remains an independently installable package. The commands below
