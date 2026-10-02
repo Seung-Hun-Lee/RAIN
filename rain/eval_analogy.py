@@ -79,7 +79,7 @@ def main():
     rollout.sim_region_mask_for_object_id = exact_region_mask
     # Must precede EGL simulator construction.
     # One checkpoint supplies both action and Transition Head weights.
-    worker = runtime.GPUInferenceWorker(args.checkpoint, args.checkpoint, "rainv2", gpu_id=args.gpu, dino_input_size=224)
+    worker = runtime.GPUInferenceWorker(args.checkpoint, args.checkpoint, "rain", gpu_id=args.gpu, dino_input_size=224)
     from libero_analogy.runtime import load_task, prepared_env
     output = Path(args.save_dir)
     output.mkdir(parents=True, exist_ok=True)

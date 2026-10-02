@@ -97,7 +97,7 @@ def test_private_cli_options_rejected_before_execution(option, monkeypatch, caps
     assert not torch.cuda.is_initialized()
 
 
-@pytest.mark.parametrize("model_type", ["base", "base_plus"])
+@pytest.mark.parametrize("model_type", ["base", "base_plus", "rainv2"])
 def test_unavailable_models_rejected(model_type, monkeypatch, capsys):
     from eval.eval_libero import main
     monkeypatch.setattr(sys, "argv", ["eval", "--model-type", model_type, "--checkpoint", "missing.pt"])

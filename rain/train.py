@@ -9,7 +9,7 @@ import shlex
 import subprocess
 import sys
 
-from rainv2.configs.config import TrainingConfig
+from rain.configs.config import TrainingConfig
 from .transition_head import VARIANTS
 
 CONFIG_ROOT = Path(__file__).resolve().parents[1] / "configs"
@@ -79,7 +79,7 @@ def build_recipe(args):
     if args.stage == "transition":
         config["experiment_name"] += "_" + args.head_variant
     output = Path(config["output_dir"]) / config["experiment_name"]
-    module = "rainv2.train_action" if args.stage == "action" else "rain.train_transition"
+    module = "rain.training.action" if args.stage == "action" else "rain.train_transition"
     command = [sys.executable, "-m", "torch.distributed.run", "--standalone", "--nnodes=1", f"--nproc_per_node={args.nproc}", "-m", module]
     data = config["data"]
     fields = {

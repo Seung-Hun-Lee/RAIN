@@ -18,7 +18,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-from rainv2.configs.config import ThirdEncoderConfig, WristEncoderConfig
+from rain.configs.config import ThirdEncoderConfig, WristEncoderConfig
 
 
 # ---------------------------------------------------------------------------

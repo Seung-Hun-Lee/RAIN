@@ -23,7 +23,7 @@ rain-eval-libero = "rain.eval_libero:main"
 rain-eval-analogy = "rain.eval_analogy:main"
 
 [tool.setuptools.packages.find]
-include = ["rain", "rain.*", "rainv2", "rainv2.*", "shared", "shared.*", "eval", "final_libero_ex_eval", "final_libero_ex_eval.*", "configs"]
+include = ["rain", "rain.*", "shared", "shared.*", "eval", "final_libero_ex_eval", "final_libero_ex_eval.*", "configs"]
 
 [tool.setuptools.package-data]
 configs = ["*.json"]

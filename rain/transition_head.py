@@ -7,7 +7,7 @@ import torch
 from torch import nn
 from torch.nn import functional as F
 
-from rainv2.models.progress_heads import ACTION_TYPE_MAP
+from rain.models.progress_heads import ACTION_TYPE_MAP
 
 
 VARIANTS = (

@@ -4,7 +4,7 @@ import os
 
 import torch
 
-from rainv2.models.model import RAINModel
+from rain.models.model import RAINModel
 from .transition_head import PoolingTCHead, tc_loss
 from .checkpoints import load_exact_action, load_exact_transition
 

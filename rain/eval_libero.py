@@ -5,7 +5,7 @@ import sys
 
 
 def install_model():
-    import rainv2.models.model as implementation
+    import rain.models.model as implementation
     from .model import PoolingModel
     implementation.RAINModel = PoolingModel
 
@@ -28,7 +28,7 @@ def main():
     os.environ.setdefault("MUJOCO_GL", "egl")
     os.environ.setdefault("PYOPENGL_PLATFORM", "egl")
     install_model()
-    command = [sys.argv[0], "--model-type", "rainv2", "--use-sim-seg", "--num-parallel", "1", "--dino-input-size", "224", "--replan-steps", "8", "--num-inference-steps", "4"]
+    command = [sys.argv[0], "--model-type", "rain", "--use-sim-seg", "--num-parallel", "1", "--dino-input-size", "224", "--replan-steps", "8", "--num-inference-steps", "4"]
     # One checkpoint contains both action and Transition Head tensors.
     command.extend(["--progress-checkpoint", args.checkpoint])
     for key, value in vars(args).items():

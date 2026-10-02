@@ -145,7 +145,7 @@ def extract_state(obs, state_dim=8):
 
 
 
-def load_rainv2_model(checkpoint_path, progress_checkpoint, device):
+def load_rain_model(checkpoint_path, progress_checkpoint, device):
     """Restore every model tensor and require an adjacent configuration file."""
     from rain.inference import load_policy
     path = Path(checkpoint_path)
@@ -228,9 +228,9 @@ def _gpu_inference_loop(
 
     try:
         print(f"  [GPU{gpu_id}] CUDA worker: starting model load", flush=True)
-        if model_type not in ("rain", "rainv2"):
+        if model_type != "rain":
             raise ValueError(f"Unsupported public model type: {model_type}")
-        model, config = load_rainv2_model(checkpoint, progress_checkpoint, device)
+        model, config = load_rain_model(checkpoint, progress_checkpoint, device)
         print(f"  [GPU{gpu_id}] CUDA worker: model ready on device", flush=True)
 
         dino_model_name = _infer_dino_hub_name(config)
@@ -252,7 +252,7 @@ def _gpu_inference_loop(
                     "RAIN multi-scale eval requires DINOv2-L at 224px, got "
                     f"model={dino_model_name} input={dino_input_size}"
                 )
-            from rainv2.models.multiscale_vision import FrozenDINOv2LargeMultiScale
+            from rain.models.multiscale_vision import FrozenDINOv2LargeMultiScale
             dino = FrozenDINOv2LargeMultiScale(
                 input_size=dino_input_size,
             ).to(device).eval()
@@ -2087,7 +2087,7 @@ def _gpu_worker_process(
 
 def main():
     parser = argparse.ArgumentParser(description='LIBERO evaluation')
-    parser.add_argument('--model-type', type=str, required=True, choices=['rain', 'rainv2'])
+    parser.add_argument('--model-type', type=str, required=True, choices=['rain'])
     parser.add_argument('--checkpoint', type=str, required=True)
     parser.add_argument('--progress-checkpoint', type=str, default=None)
     parser.add_argument('--checkpoint-type', type=str, choices=['best', 'latest'], default='latest')
@@ -2118,8 +2118,8 @@ def main():
         parser.error('Public evaluation requires --use-sim-seg; use python -m rain.eval_libero')
     if args.num_parallel != 1:
         parser.error('Public GT evaluation requires --num-parallel 1')
-    if args.model_type in ('rain', 'rainv2') and args.progress_checkpoint is None:
-        parser.error('--progress-checkpoint is required for --model-type rain/rainv2')
+    if args.progress_checkpoint is None:
+        parser.error('--progress-checkpoint is required for --model-type rain')
     gpu_ids = [int(g) for g in args.gpus.split(',')]
     resolved_ckpt = str(_resolve_checkpoint_path(args.checkpoint, args.checkpoint_type))
     resolved_progress = None
@@ -2134,8 +2134,7 @@ def main():
             episodes_json_path = cfg.get('data', {}).get('episodes_json', '')
         if not episodes_json_path:
             parser.error('--episodes-json required for --use-sim-seg (could not auto-resolve from config.json)')
-    model_labels = {'rain': 'RAIN', 'rainv2': 'RAIN'}
-    model_label = model_labels[args.model_type]
+    model_label = 'RAIN'
     from libero.libero import benchmark as libero_benchmark
     benchmark_dict = libero_benchmark.get_benchmark_dict()
     task_suite = benchmark_dict[args.benchmark]()

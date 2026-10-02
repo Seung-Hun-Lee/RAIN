@@ -15,11 +15,11 @@ from typing import Dict, Optional
 import torch
 import torch.nn as nn
 
-from rainv2.configs.config import TrainingConfig
-from rainv2.models.vision_encoder import TargetAdaptiveCrossViewEncoder
-from rainv2.models.multiscale_vision import FrozenDINOv2LargeMultiScale
+from rain.configs.config import TrainingConfig
+from rain.models.vision_encoder import TargetAdaptiveCrossViewEncoder
+from rain.models.multiscale_vision import FrozenDINOv2LargeMultiScale
 from shared.plan_dit import PlanDiT
-from rainv2.models.progress_heads import (
+from rain.models.progress_heads import (
     ACTION_TYPE_MAP,
     GatedFusionBranch,
     SingleViewProgressHead,

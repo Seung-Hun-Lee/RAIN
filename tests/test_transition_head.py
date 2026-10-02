@@ -11,9 +11,9 @@ import unittest
 import torch
 from torch import nn
 
-from rainv2.configs.config import ProgressConfig
-from rainv2.models.model import RAINModel
-from rainv2.models.progress_heads import SingleViewProgressHead
+from rain.configs.config import ProgressConfig
+from rain.models.model import RAINModel
+from rain.models.progress_heads import SingleViewProgressHead
 
 from rain.transition_head import PoolingTCHead, VARIANTS, region_mean, tc_loss
 from rain.model import PoolingModel

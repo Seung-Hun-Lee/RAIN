@@ -125,7 +125,7 @@ def extract_state(obs, state_dim=8):
 # ---------------------------------------------------------------------------
 
 
-def load_rainv2_model(checkpoint_path, progress_checkpoint, device):
+def load_rain_model(checkpoint_path, progress_checkpoint, device):
     """Restore every model tensor and require an adjacent configuration file."""
     from rain.inference import load_policy
     path = Path(checkpoint_path)
@@ -208,9 +208,9 @@ def _gpu_inference_loop(
 
     try:
         print(f"  [GPU{gpu_id}] CUDA worker: starting model load", flush=True)
-        if model_type != "rainv2":
-            raise ValueError(f"Unsupported model_type={model_type!r}; expected 'rainv2'")
-        model, config = load_rainv2_model(checkpoint, progress_checkpoint, device)
+        if model_type != "rain":
+            raise ValueError(f"Unsupported model_type={model_type!r}; expected 'rain'")
+        model, config = load_rain_model(checkpoint, progress_checkpoint, device)
         print(f"  [GPU{gpu_id}] CUDA worker: model ready on device", flush=True)
 
         dino_model_name = _infer_dino_hub_name(config)
@@ -232,7 +232,7 @@ def _gpu_inference_loop(
                     "RAIN multi-scale eval requires DINOv2-L at 224px, got "
                     f"model={dino_model_name} input={dino_input_size}"
                 )
-            from rainv2.models.multiscale_vision import FrozenDINOv2LargeMultiScale
+            from rain.models.multiscale_vision import FrozenDINOv2LargeMultiScale
 
             dino = FrozenDINOv2LargeMultiScale(
                 input_size=dino_input_size,
