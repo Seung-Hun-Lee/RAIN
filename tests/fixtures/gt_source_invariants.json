@@ -2,7 +2,7 @@
   "source": "Reference source signatures for model and evaluation regression tests.",
   "functions": {
     "eval/eval_libero.py": {
-      "_patched_hub_load": "a5b27720c7e594cec22808ed0223e664656d867e82703bdbd21790ec7057e158",
+      "_patched_hub_load": "76cf478d545110c2615e4abd1b0fbdfb90858d3b7c100d5ee0d7e4d7919057c6",
       "action_type_to_id": "eab00c395a4850ec0d6c773e34726a2521733d6c5c94e6f897c99c8f98e8329f",
       "infer_action_type_from_language": "d019c0cd97a35d90d0138a1aecfba052faac801647725ba93611e99d5e16738d",
       "_quat2axisangle": "56bcc2a5230c392c1849e0f4069dc745a22991a3c6025194e9c713a38badcd5d",
@@ -29,7 +29,7 @@
       "sim_region_mask_for_object_id": "e6bfbacf61315cd5c005fd7d85580610e5cb66b6ce39739144598abf2b45df39",
       "_get_task_specific_geom_ids": "cda48e4c1d18bcab0ca81a80d069fd16ef0f7c9d779a8c5cfc7bdd6d62861ced",
       "verify_and_correct_body_ids": "5002541474a88453762c4620f4bd749b905d5f49007368660726dafab7036233",
-      "sim_mask_for_object_id": "7c14103ec98af159b01798ffd6037a8181ab168f0fdb5c4eed00280d55c86676",
+      "sim_mask_for_object_id": "6097ea8b4d918103a7964b5a3e25ab874c70fcad9f6b4163378c14cd05fc6aa7",
       "_make_prompt_mask": "c20d274ed25340f69e348aaf61c6f988f47f7bbb648dce0d3f00d97ea7fa7c3f",
       "load_subtask_mask": "b74da79cbfd67f8faf74bb04ede965e5e22d10725264dc45e157d332c888a138",
       "_find_episode": "4a55d19c8feebb90e328683de5e91947221461b51832865e5db1656ef51cbc17",
@@ -42,7 +42,7 @@
       "run_single_episode_mask_sequence": "9a90e2bb9cf4c4e940648ec992a86f690849cf75655693feb16c1681a08c746d"
     },
     "final_libero_ex_eval/impl/runtime.py": {
-      "_patched_hub_load": "a5b27720c7e594cec22808ed0223e664656d867e82703bdbd21790ec7057e158",
+      "_patched_hub_load": "76cf478d545110c2615e4abd1b0fbdfb90858d3b7c100d5ee0d7e4d7919057c6",
       "action_type_to_id": "eab00c395a4850ec0d6c773e34726a2521733d6c5c94e6f897c99c8f98e8329f",
       "infer_action_type_from_language": "d019c0cd97a35d90d0138a1aecfba052faac801647725ba93611e99d5e16738d",
       "_quat2axisangle": "56bcc2a5230c392c1849e0f4069dc745a22991a3c6025194e9c713a38badcd5d",
@@ -71,7 +71,7 @@
       "sim_region_mask_for_object_id": "25d55b2116a57e12d3c15d3e785716592412971e39231e94c1a65fcdebcda63d",
       "_get_task_specific_geom_ids": "6b8494f5c937773bbe15b98bc873f8a2b271222b7aafc58f8a43a0822c1a6d5c",
       "verify_and_correct_body_ids": "5002541474a88453762c4620f4bd749b905d5f49007368660726dafab7036233",
-      "sim_mask_for_object_id": "0add4e0ce97361bc5e3e08b46d493f44fbf54c3863b311528b656865af19b6b4",
+      "sim_mask_for_object_id": "f372df27429d7f7fc73679deea6dfb088904ac698f015829d45d0d85f9f5e39d",
       "_make_prompt_mask": "c20d274ed25340f69e348aaf61c6f988f47f7bbb648dce0d3f00d97ea7fa7c3f",
       "load_subtask_mask": "b74da79cbfd67f8faf74bb04ede965e5e22d10725264dc45e157d332c888a138",
       "_find_episode": "4a55d19c8feebb90e328683de5e91947221461b51832865e5db1656ef51cbc17",

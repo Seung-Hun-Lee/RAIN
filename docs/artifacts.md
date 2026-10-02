@@ -61,5 +61,73 @@ Parquet RGB using the [feature preparation guide](core.md#data-and-feature-prepa
 The cache is excluded from the download and is not needed for inference.
 
 LIBERO-Analogy task definitions and initial states are included in GitHub.
-Follow the [benchmark setup guide](../benchmarks/LIBERO-Analogy/README.md#install)
-for shared simulator assets; standard LIBERO uses its own asset paths.
+
+## Simulator setup
+
+After installing both packages from the root README, download and verify the
+shared LIBERO meshes and textures. Run these commands from the RAIN root:
+
+```bash
+export LIBERO_ANALOGY_ASSETS=/absolute/path/to/libero-assets
+hf download jadechoghari/libero-assets \
+  --revision 90001343cb134b7e26e18fde0fa2416f3ed6e6a3 \
+  --local-dir "$LIBERO_ANALOGY_ASSETS"
+libero-analogy --benchmark-root benchmarks/LIBERO-Analogy verify-assets
+export MUJOCO_GL=egl
+export PYOPENGL_PLATFORM=egl
+```
+
+EGL requires a working NVIDIA/OpenGL driver. LIBERO-Analogy configures its own
+process-local asset paths. You can check the simulator before loading RAIN:
+
+```bash
+MUJOCO_EGL_DEVICE_ID=0 libero-analogy \
+  --benchmark-root benchmarks/LIBERO-Analogy smoke --task-id Decompose_001
+```
+
+### Standard LIBERO
+
+Standard LIBERO needs its own configuration before the first import. In the
+dedicated virtual environment, with `RAIN_DATA_ROOT` and
+`LIBERO_ANALOGY_ASSETS` set above, run:
+
+```bash
+export LIBERO_CONFIG_PATH="$VIRTUAL_ENV/libero-config"
+python - <<'PY'
+import os
+from importlib.metadata import distribution
+from pathlib import Path
+import yaml
+
+root = Path(distribution("libero").locate_file("libero/libero")).resolve()
+assets = Path(os.environ["LIBERO_ANALOGY_ASSETS"]).resolve(strict=True)
+config_dir = Path(os.environ["LIBERO_CONFIG_PATH"])
+config = {
+    "benchmark_root": str(root),
+    "bddl_files": str(root / "bddl_files"),
+    "init_states": str(root / "init_files"),
+    "datasets": str(Path(os.environ["RAIN_DATA_ROOT"]).resolve()),
+    "assets": str(assets),
+}
+link = root / "assets"
+if link.exists() or link.is_symlink():
+    if link.resolve() != assets:
+        raise RuntimeError(f"Existing asset path differs: {link}")
+else:
+    link.symlink_to(assets, target_is_directory=True)
+config_dir.mkdir(parents=True, exist_ok=True)
+config_file = config_dir / "config.yaml"
+if config_file.exists():
+    if yaml.safe_load(config_file.read_text()) != config:
+        raise RuntimeError(f"Existing configuration differs: {config_file}")
+else:
+    config_file.write_text(yaml.safe_dump(config))
+print(config_file)
+PY
+```
+
+`libero==0.1.1` includes task definitions and initial states, but resolves meshes
+through its package's `assets/` directory rather than the YAML assets entry.
+The link above uses the verified download without copying it or modifying
+simulator source. Keep `LIBERO_CONFIG_PATH`, `LIBERO_ANALOGY_ASSETS`, and the EGL
+settings exported in each evaluation shell.

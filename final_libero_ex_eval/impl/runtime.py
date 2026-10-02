@@ -22,7 +22,7 @@ _original_hub_load = torch.hub.load
 
 def _patched_hub_load(repo_or_dir, model, *args, **kwargs):
     if repo_or_dir == "facebookresearch/dinov2" and kwargs.get("source", "github") == "github":
-        local_path = os.path.expanduser("~/.cache/torch/hub/facebookresearch_dinov2_main")
+        local_path = os.path.join(torch.hub.get_dir(), "facebookresearch_dinov2_main")
         if os.path.isdir(local_path):
             kwargs["source"] = "local"
             return _original_hub_load(local_path, model, *args, **kwargs)
@@ -1091,11 +1091,14 @@ def sim_mask_for_object_id(
             camera_name=camera_name, width=image_size, height=image_size,
             segmentation=True,
         )
-    except Exception:
-        return None
+    except Exception as exc:
+        raise RuntimeError(
+            f"Segmentation rendering failed for camera {camera_name!r} "
+            f"and object {object_id!r}"
+        ) from exc
     seg_np = np.asarray(seg)
     if seg_np.ndim != 3 or seg_np.shape[-1] < 2:
-        return None
+        raise ValueError(f"Expected segmentation shape (H, W, 2), got {seg_np.shape}")
 
     # Prefer explicit geom_ids (e.g. drawer handle) over body_ids
     explicit_geom_ids = _get_task_specific_geom_ids(

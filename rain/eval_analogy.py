@@ -86,6 +86,7 @@ def main():
     results = []
     episode_ids = args.episode_ids if args.episode_ids is not None else list(range(args.episodes_per_task))
     try:
+        runtime._patch_robosuite_egl()
         for row in rows:
             task = load_task(row["task_id"], args.benchmark_root)
             episode_data, conditions = plans[row["task_id"]]

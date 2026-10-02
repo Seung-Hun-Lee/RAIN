@@ -78,6 +78,56 @@ def test_analogy_forwards_one_checkpoint_to_both_loader_slots(monkeypatch):
     )]
 
 
+@pytest.mark.parametrize("setup_fails", [False, True])
+def test_analogy_initializes_renderer_before_environment(monkeypatch, tmp_path, setup_fails):
+    cli = load_cli("eval_analogy")
+    events = []
+    row = {"task_id": "Decompose_001", "category": "Decompose"}
+
+    class SetupError(Exception):
+        pass
+
+    class Worker:
+        def __init__(self, *args, **kwargs):
+            events.append("worker")
+
+        def close(self):
+            events.append("close")
+
+    def setup():
+        events.append("renderer")
+        if setup_fails:
+            raise SetupError
+
+    def load_task(*args):
+        assert events == ["worker", "renderer"]
+        events.append("load_task")
+        return row
+
+    fake_module(monkeypatch, "libero_analogy", __path__=[])
+    fake_module(monkeypatch, "libero_analogy.tasks", validate=lambda root: None,
+                load_index=lambda root: [row])
+    fake_module(monkeypatch, "libero_analogy.runtime", load_task=load_task,
+                prepared_env=lambda *args: pytest.fail("No episodes requested"))
+    fake_module(monkeypatch, "final_libero_ex_eval", __path__=[])
+    fake_module(monkeypatch, "final_libero_ex_eval.impl",
+                runtime=SimpleNamespace(GPUInferenceWorker=Worker, _patch_robosuite_egl=setup),
+                rollout=SimpleNamespace())
+    monkeypatch.setattr(cli, "build_conditions", lambda *args: ({}, []))
+    monkeypatch.setattr(sys, "argv", [
+        "rain-eval-analogy", "--benchmark-root", "benchmark",
+        "--checkpoint", "model/checkpoint.pt", "--episodes-per-task", "0",
+        "--save-dir", str(tmp_path),
+    ])
+    if setup_fails:
+        with pytest.raises(SetupError):
+            cli.main()
+        assert events == ["worker", "renderer", "close"]
+    else:
+        cli.main()
+        assert events == ["worker", "renderer", "load_task", "close"]
+
+
 @pytest.mark.parametrize("name,arguments", [
     ("eval_libero", ["--checkpoint", "model.pt", "--episodes-json", "episodes.json",
                      "--save-dir", "results"]),

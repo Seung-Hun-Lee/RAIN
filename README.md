@@ -46,13 +46,12 @@ Use a dedicated Python 3.10 environment on Linux. From this repository root:
 python3.10 -m venv .venv
 source .venv/bin/activate
 python -m pip install -e '.[eval,test]'
-python -m pip install -e './benchmarks/LIBERO-Analogy[sim,test]'
+CMAKE_POLICY_VERSION_MINIMUM=3.5 python -m pip install -e './benchmarks/LIBERO-Analogy[sim,test]'
 python -m pytest -q
 ```
 
-Configure CUDA/EGL and the simulator assets using the
-[benchmark setup guide](benchmarks/LIBERO-Analogy/README.md#install).
-Standard LIBERO requires its own asset paths.
+The CMake setting is needed to build `egl_probe` with CMake 4.
+Follow [simulator setup](docs/artifacts.md#simulator-setup) before inference.
 
 Set the roots of your unpacked data and downloaded model:
 
@@ -65,7 +64,7 @@ export RAIN_MODEL_ROOT=/absolute/path/to/rain-model
 
 Run one episode with simulator/GT masks. `checkpoint.pt` contains the action
 policy and Transition Head. This simulation setup uses third-person and wrist
-camera observations.
+camera observations. Add `--record-video` to save a rollout video.
 
 **LIBERO**
 

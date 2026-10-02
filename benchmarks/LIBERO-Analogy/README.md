@@ -19,8 +19,10 @@ Use a separate Python 3.10 environment on Linux. Simulation and policy inference
 python3.10 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
-python -m pip install -e '.[sim,test]'
+CMAKE_POLICY_VERSION_MINIMUM=3.5 python -m pip install -e '.[sim,test]'
 ```
+
+The CMake setting allows the `egl_probe` dependency to build with CMake 4.
 
 The simulator environment does not need `openpi-client` or the model's JAX/PyTorch inference stack. Two unmodified official OpenPI helpers, the NumPy msgpack codec and image preprocessing, are included with source hashes and license notices. Optional tests compare their wire bytes and image outputs against an independently installed OpenPI client. See [VALIDATION.md](VALIDATION.md) for dependency checks and simulator installation limitations.
 
@@ -35,6 +37,9 @@ libero-analogy verify-assets
 `ASSET_MANIFEST.json` records the required asset hashes. If verification fails, check that the asset directory matches the pinned revision; do not change task predicates or geometry to bypass the check. These assets have separate upstream licensing terms.
 
 The evaluator creates a temporary process-local LIBERO configuration. It does not rewrite `~/.libero/config.yaml`, installed packages, meshes, or task bundles. The `task.pruned_init` files are PyTorch/pickle artifacts: load them only from a trusted source and verify their hashes.
+
+For the original LIBERO suites, complete the separate
+[standard LIBERO setup](../../docs/artifacts.md#standard-libero) in the RAIN guide.
 
 ## Inspect and smoke-test
 

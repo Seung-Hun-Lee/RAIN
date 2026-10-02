@@ -34,7 +34,7 @@ _original_hub_load = torch.hub.load
 
 def _patched_hub_load(repo_or_dir, model, *args, **kwargs):
     if repo_or_dir == "facebookresearch/dinov2" and kwargs.get("source", "github") == "github":
-        local_path = os.path.expanduser("~/.cache/torch/hub/facebookresearch_dinov2_main")
+        local_path = os.path.join(torch.hub.get_dir(), "facebookresearch_dinov2_main")
         if os.path.isdir(local_path):
             kwargs["source"] = "local"
             return _original_hub_load(local_path, model, *args, **kwargs)
@@ -988,11 +988,14 @@ def sim_mask_for_object_id(
             camera_name=camera_name, width=image_size, height=image_size,
             segmentation=True,
         )
-    except Exception:
-        return None
+    except Exception as exc:
+        raise RuntimeError(
+            f"Segmentation rendering failed for camera {camera_name!r} "
+            f"and object {object_id!r}"
+        ) from exc
     seg_np = np.asarray(seg)
     if seg_np.ndim != 3 or seg_np.shape[-1] < 2:
-        return None
+        raise ValueError(f"Expected segmentation shape (H, W, 2), got {seg_np.shape}")
 
     # Prefer explicit geom_ids (e.g. drawer handle) over body_ids
     explicit_geom_ids = _get_task_specific_geom_ids(
@@ -1991,7 +1994,6 @@ def _gpu_worker_process(
     _patch_robosuite_egl()
     from libero.libero import benchmark, get_libero_path
     from libero.libero.envs import OffScreenRenderEnv
-    from shared.data.packed_features import TextFeatureCache
     max_steps = int(max_steps_override) if max_steps_override is not None else MAX_STEPS_MAP.get(benchmark_name, 520)
     benchmark_dict = benchmark.get_benchmark_dict()
     task_suite = benchmark_dict[benchmark_name]()
@@ -2002,9 +2004,9 @@ def _gpu_worker_process(
             cfg = json.load(f)
         state_dim = cfg.get('dit', {}).get('state_dim', 8)
     print(f'{prefix} state_dim={state_dim}', flush=True)
-    text_cache = TextFeatureCache()
-    descs = [task_suite.get_task(tid).language for tid in task_ids]
-    text_cache.precompute(descs)
+    # RAIN conditions on action-type embeddings restored from its checkpoint.
+    # Keep the worker request shape without loading unused task-description CLIP.
+    text_feat = np.zeros(768, dtype=np.float32)
     all_episodes = None
     if use_sim_seg and episodes_json_path:
         all_episodes = load_episode_records(episodes_json_path)
@@ -2024,7 +2026,6 @@ def _gpu_worker_process(
         task_description = task.language
         initial_states = task_suite.get_task_init_states(tid)
         eval_episode_ids = list(episode_ids) if episode_ids is not None else list(range(episodes_per_task))
-        text_feat = text_cache.get(task_description)
         bddl_file = str(Path(get_libero_path('bddl_files')) / task.problem_folder / task.bddl_file)
         if use_sim_seg and all_episodes is not None:
             (ep_key, episode) = _find_episode(all_episodes, task_description.strip(), benchmark_name)
